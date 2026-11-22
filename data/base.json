@@ -1,0 +1,20 @@
+{
+  "atualizado_em": "2026-11-22",
+  "periodo": {"inicio": "2026-10-28", "fim": "2026-11-22"},
+  "lead": "Tudo que rolou desde 28 de outubro, separado por família: química, espaço, games, tecnologia, mistérios, rock, Brasil e mundo. Cada notícia tem link pra fonte original, pra você conferir.",
+  "mensagem": "Montado pelo seu irmão pra você não ficar por fora de nada. Força aí, que tem muita coisa te esperando aqui fora.",
+  "metodo": "Como foi feito: cada notícia foi pesquisada na web e tem pelo menos uma fonte com link. Os resumos são em português e simplificam; se algo parecer estranho, clica na fonte e confere. A gente vai atualizando.",
+  "resumo_ids": [],
+  "categorias": [
+    {"id": "quimica", "nome": "Química", "simbolo": "Cm", "z": 96, "massa": "(247)", "elemento_nome": "Cúrio", "elemento": "Cm, cúrio (96): batizado em homenagem a Marie e Pierre Curie.", "descricao": "A sua área: materiais, catálise, energia e indústria química."},
+    {"id": "espaco", "nome": "Espaço", "simbolo": "Es", "z": 99, "massa": "(252)", "elemento_nome": "Einstênio", "elemento": "Es, einstênio (99): achado nos destroços do primeiro teste de bomba de hidrogênio, em 1952.", "descricao": "Missões, planetas, luas, asteroides e o que o céu aprontou."},
+    {"id": "games", "nome": "Games", "simbolo": "Ga", "z": 31, "massa": "69,723", "elemento_nome": "Gálio", "elemento": "Ga, gálio (31): derrete a 29,8 °C, ou seja, na palma da mão.", "descricao": "Lançamentos, notas, polêmicas e o que vem por aí."},
+    {"id": "tecnologia", "nome": "Tecnologia", "simbolo": "Tc", "z": 43, "massa": "(98)", "elemento_nome": "Tecnécio", "elemento": "Tc, tecnécio (43): o primeiro elemento produzido artificialmente, em 1937.", "descricao": "IA, chips, hardware e as big techs."},
+    {"id": "misterios", "nome": "Mistérios", "simbolo": "Xe", "z": 54, "massa": "131,29", "elemento_nome": "Xenônio", "elemento": "Xe, xenônio (54): vem do grego xénos, 'estranho'. Nada mais justo.", "descricao": "OVNIs, arquivos secretos e teorias, com a teoria e o que se sabe lado a lado."},
+    {"id": "rock", "nome": "Rock", "simbolo": "Rn", "z": 86, "massa": "(222)", "elemento_nome": "Radônio", "elemento": "Rn, radônio (86): gás nobre radioativo que escapa das rochas. Rock, sacou?", "descricao": "Discos, turnês, shows e o que rolou no rock."},
+    {"id": "brasil", "nome": "Brasil", "simbolo": "Br", "z": 35, "massa": "79,904", "elemento_nome": "Bromo", "elemento": "Br, bromo (35): um dos dois únicos elementos líquidos em temperatura ambiente.", "descricao": "O que mudou por aqui."},
+    {"id": "mundo", "nome": "Mundo", "simbolo": "Mo", "z": 42, "massa": "95,95", "elemento_nome": "Molibdênio", "elemento": "Mo, molibdênio (42): a resposta para a vida, o universo e tudo mais.", "descricao": "Os fatos grandes lá fora."}
+  ],
+  "itens": [],
+  "agenda": []
+}

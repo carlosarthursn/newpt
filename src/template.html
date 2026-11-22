@@ -1,0 +1,525 @@
+<title>Tabela Periódica das Notícias</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Retrospectiva de notícias organizada como tabela periódica: química, espaço, games, tecnologia, mistérios, rock, Brasil e mundo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Unbounded:wght@500;700&display=swap">
+<style>
+/* Layout: masthead -> periodic-table hero (one column per news family) -> 2-minute digest -> filterable feed of element cards -> agenda -> footer. */
+:root {
+  --bg: #F1F4F6;
+  --surface: #FFFFFF;
+  --ink: #141A22;
+  --muted: #586374;
+  --line: #D3DAE2;
+  --focus: #1C6FCC;
+  --sun: #E39A1E;
+  --c-quimica: #0B8A79;
+  --c-espaco: #5350CC;
+  --c-games: #B3307C;
+  --c-tecnologia: #1B6BC4;
+  --c-misterios: #657712;
+  --c-rock: #C2382A;
+  --c-brasil: #9E6D00;
+  --c-mundo: #46617B;
+  --tint: 11%;
+  --f-display: "Unbounded", "Arial Black", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0B101A; --surface: #131A28; --ink: #E6EBF3; --muted: #98A4B8; --line: #253045; --focus: #6AAEFF; --sun: #F4B648;
+    --c-quimica: #35C9B1; --c-espaco: #9597FF; --c-games: #F06CB9; --c-tecnologia: #64A9FF;
+    --c-misterios: #B8CF4A; --c-rock: #FF7059; --c-brasil: #F0B53A; --c-mundo: #95B5D5;
+    --tint: 15%;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0B101A; --surface: #131A28; --ink: #E6EBF3; --muted: #98A4B8; --line: #253045; --focus: #6AAEFF; --sun: #F4B648;
+  --c-quimica: #35C9B1; --c-espaco: #9597FF; --c-games: #F06CB9; --c-tecnologia: #64A9FF;
+  --c-misterios: #B8CF4A; --c-rock: #FF7059; --c-brasil: #F0B53A; --c-mundo: #95B5D5;
+  --tint: 15%;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: 16px;
+  line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  -webkit-font-smoothing: antialiased;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.wrap { max-width: 1180px; margin: 0 auto; }
+
+[data-cat="quimica"] { --c: var(--c-quimica); }
+[data-cat="espaco"] { --c: var(--c-espaco); }
+[data-cat="games"] { --c: var(--c-games); }
+[data-cat="tecnologia"] { --c: var(--c-tecnologia); }
+[data-cat="misterios"] { --c: var(--c-misterios); }
+[data-cat="rock"] { --c: var(--c-rock); }
+[data-cat="brasil"] { --c: var(--c-brasil); }
+[data-cat="mundo"] { --c: var(--c-mundo); }
+
+.label { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+
+/* Masthead */
+.masthead { padding-block: 40px 28px; display: grid; gap: 14px; }
+.masthead h1 { font-family: var(--f-display); font-weight: 700; font-size: clamp(30px, 5.4vw, 56px); line-height: 1.04; letter-spacing: -0.015em; margin: 0; text-wrap: balance; max-width: 16ch; }
+.masthead .lead { margin: 0; max-width: 62ch; font-size: 17px; }
+.stats { display: flex; flex-wrap: wrap; gap: 10px 28px; margin-top: 6px; }
+.stat { display: grid; }
+.stat b { font-family: var(--f-display); font-weight: 500; font-size: 26px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.stat span { font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+
+/* Periodic table */
+.ptable { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 18px 8px; }
+@media (max-width: 900px) { .ptable { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.group { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.group-h { display: flex; align-items: baseline; justify-content: space-between; gap: 4px; padding-bottom: 4px; border-bottom: 2px solid var(--c); font-family: var(--f-mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); min-width: 0; }
+.group-h strong { color: var(--ink); font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.el {
+  position: relative; display: grid; grid-template-rows: auto 1fr auto; aspect-ratio: 1 / 1.06;
+  padding: 6px 7px; min-width: 0;
+  background: color-mix(in srgb, var(--c) var(--tint), var(--surface));
+  border: 1px solid color-mix(in srgb, var(--c) 32%, transparent);
+  border-radius: 2px; color: var(--ink); text-decoration: none; cursor: pointer;
+  transition: transform .15s ease, background-color .15s ease;
+}
+.el:hover { background: color-mix(in srgb, var(--c) calc(var(--tint) + 12%), var(--surface)); transform: translateY(-2px); }
+.el-top { display: flex; justify-content: space-between; font-family: var(--f-mono); font-size: 11px; line-height: 1; color: var(--muted); font-variant-numeric: tabular-nums; }
+.el-s { align-self: center; justify-self: center; font-family: var(--f-display); font-weight: 700; font-size: clamp(22px, 2.7vw, 34px); line-height: 1; color: var(--c); }
+.el-name { font-size: 11px; line-height: 1.2; text-align: center; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.el.is-head { background: var(--surface); border-style: dashed; cursor: default; }
+.el.is-head:hover { transform: none; background: var(--surface); }
+.el.is-read .el-s { opacity: .45; }
+.legend { margin: 14px 0 0; font-size: 13px; color: var(--muted); max-width: 80ch; }
+
+/* Digest */
+.digest { margin-top: 44px; display: grid; gap: 12px; }
+.digest h2, .feed-title, .agenda h2 { font-family: var(--f-display); font-weight: 500; font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+.digest ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10px 24px; }
+.digest li { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 12px; align-items: start; padding-block: 10px; border-top: 1px solid var(--line); }
+.digest a { text-decoration: none; font-weight: 500; }
+.digest a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.digest small { display: block; font-family: var(--f-mono); font-size: 12px; color: var(--muted); margin-top: 2px; }
+.mini { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 2px; font-family: var(--f-display); font-weight: 700; font-size: 14px; color: var(--c); background: color-mix(in srgb, var(--c) var(--tint), var(--surface)); border: 1px solid color-mix(in srgb, var(--c) 32%, transparent); }
+
+/* Controls */
+.feed { margin-top: 52px; }
+.controls { display: grid; gap: 10px; padding-block: 12px; background: var(--bg); border-bottom: 1px solid var(--line); z-index: 5; }
+@media (min-width: 760px) { .controls { position: sticky; top: env(safe-area-inset-top, 0px); } }
+.controls-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip {
+  display: inline-flex; align-items: center; gap: 7px; padding: 6px 11px; border-radius: 2px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  font: 500 13px/1.2 var(--f-body); cursor: pointer;
+}
+.chip::before { content: ""; width: 9px; height: 9px; border-radius: 1px; background: var(--c, var(--muted)); }
+.chip[aria-pressed="true"] { border-color: var(--c, var(--ink)); background: color-mix(in srgb, var(--c, var(--ink)) 16%, var(--surface)); }
+.chip .n { font-family: var(--f-mono); font-size: 11px; color: var(--muted); }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 2px; overflow: hidden; }
+.seg button { border: 0; background: var(--surface); color: var(--ink); padding: 7px 12px; font: 500 13px/1.2 var(--f-body); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.search { flex: 1 1 200px; min-width: 0; padding: 7px 11px; border: 1px solid var(--line); border-radius: 2px; background: var(--surface); color: var(--ink); font: 400 14px/1.3 var(--f-body); }
+.toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); cursor: pointer; }
+.progress { font-family: var(--f-mono); font-size: 12px; color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; }
+
+/* Feed sections */
+.sec { margin-top: 36px; }
+.sec-h { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 16px; align-items: center; padding-bottom: 12px; }
+.sec-el { display: grid; grid-template-rows: auto 1fr; width: 64px; height: 68px; padding: 5px 6px; border-radius: 2px; background: color-mix(in srgb, var(--c) var(--tint), var(--surface)); border: 1px solid color-mix(in srgb, var(--c) 40%, transparent); }
+.sec-el small { font-family: var(--f-mono); font-size: 10px; color: var(--muted); }
+.sec-el b { place-self: center; font-family: var(--f-display); font-weight: 700; font-size: 24px; color: var(--c); line-height: 1; }
+.sec-h h2 { font-family: var(--f-display); font-weight: 500; font-size: clamp(20px, 2.6vw, 26px); margin: 0; letter-spacing: -0.01em; }
+.sec-h p { margin: 2px 0 0; color: var(--muted); font-size: 14px; max-width: 70ch; }
+.sec-h p em { font-style: normal; color: var(--ink); }
+.day-h { margin: 32px 0 4px; padding-bottom: 6px; border-bottom: 2px solid var(--ink); font-family: var(--f-mono); font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+
+.card { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 16px; padding-block: 20px; border-top: 1px solid var(--line); scroll-margin-top: 150px; }
+.card-el { display: grid; grid-template-rows: auto 1fr; width: 52px; height: 56px; padding: 4px 5px; border-radius: 2px; background: color-mix(in srgb, var(--c) var(--tint), var(--surface)); border: 1px solid color-mix(in srgb, var(--c) 32%, transparent); }
+.card-el small { font-family: var(--f-mono); font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.card-el b { place-self: center; font-family: var(--f-display); font-weight: 700; font-size: 19px; color: var(--c); line-height: 1; }
+.card-body { min-width: 0; display: grid; gap: 8px; max-width: 74ch; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+.meta .cat { color: var(--c); font-weight: 500; text-transform: uppercase; letter-spacing: .06em; }
+.meta .tag { padding: 0 6px; border: 1px solid var(--line); border-radius: 2px; }
+.card h3 { margin: 0; font-size: 19px; line-height: 1.3; font-weight: 600; text-wrap: balance; }
+.card p { margin: 0; }
+.tf { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.tf div { padding: 10px 12px; border: 1px solid var(--line); border-radius: 2px; background: var(--surface); font-size: 15px; }
+.tf .label { display: block; margin-bottom: 4px; font-size: 11px; }
+.chem { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 10px; padding: 10px 12px; border-radius: 2px; font-size: 15px; background: color-mix(in srgb, var(--c-quimica) 7%, var(--surface)); border: 1px solid color-mix(in srgb, var(--c-quimica) 30%, transparent); }
+.chem svg { width: 18px; height: 18px; margin-top: 3px; color: var(--c-quimica); }
+.chem .label { display: block; color: var(--c-quimica); font-size: 11px; margin-bottom: 2px; }
+.listen { font-size: 15px; }
+.listen b { font-family: var(--f-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--c-rock); margin-right: 6px; font-weight: 500; }
+.card-foot { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; font-size: 13px; color: var(--muted); }
+.card-foot a { color: var(--ink); text-underline-offset: 3px; }
+.card-foot .read { margin-left: auto; display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.card.is-read h3, .card.is-read .card-body > p { color: var(--muted); }
+.card.is-read .card-el b { opacity: .45; }
+.card.flash { animation: flash 1.6s ease-out; }
+@keyframes flash { 0% { background: color-mix(in srgb, var(--c) 22%, transparent); } 100% { background: transparent; } }
+.empty { padding: 40px 0; color: var(--muted); }
+
+/* Solar map */
+.orrery { margin: 4px 0 8px; overflow-x: auto; }
+.orrery svg { display: block; width: 100%; min-width: 620px; height: auto; }
+.orrery .axis { stroke: var(--line); stroke-width: 1; }
+.orrery .sun { fill: var(--sun); }
+.orrery .pl { fill: color-mix(in srgb, var(--muted) 35%, var(--surface)); stroke: var(--line); }
+.orrery .on .pl { fill: var(--c-espaco); stroke: var(--c-espaco); }
+.orrery .sel .pl { stroke: var(--ink); stroke-width: 2.5; }
+.orrery .ring { fill: none; stroke: color-mix(in srgb, var(--muted) 50%, transparent); stroke-width: 1.5; }
+.orrery .on .ring { stroke: var(--c-espaco); }
+.orrery .belt { fill: var(--muted); opacity: .5; }
+.orrery .on .belt { fill: var(--c-espaco); opacity: 1; }
+.orrery text { font-family: var(--f-mono); font-size: 11px; fill: var(--muted); }
+.orrery .on text { fill: var(--ink); }
+.orrery .cnt { font-size: 10px; fill: var(--c-espaco); font-weight: 500; }
+.orrery g[role="button"] { cursor: pointer; }
+.orrery g[role="button"]:focus-visible { outline: none; }
+.orrery g[role="button"]:focus-visible .pl { stroke: var(--focus); stroke-width: 3; }
+.orrery-note { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
+
+/* Agenda */
+.agenda { margin-top: 64px; display: grid; gap: 12px; }
+.agenda ol { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0 24px; }
+.agenda li { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 14px; padding-block: 14px; border-top: 1px solid var(--line); }
+.date-block { display: grid; justify-items: center; align-content: start; padding-top: 2px; font-family: var(--f-mono); color: var(--c); }
+.date-block b { font-family: var(--f-display); font-weight: 500; font-size: 24px; line-height: 1; font-variant-numeric: tabular-nums; }
+.date-block span { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; }
+.agenda h3 { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.3; }
+.agenda p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+.agenda a { font-size: 13px; color: var(--ink); text-underline-offset: 3px; }
+
+/* Footer */
+.foot { margin-top: 72px; padding-block: 28px 48px; border-top: 2px solid var(--ink); display: grid; gap: 10px; }
+.foot .msg { font-family: var(--f-display); font-weight: 500; font-size: clamp(18px, 2.4vw, 24px); line-height: 1.3; margin: 0; max-width: 34ch; text-wrap: balance; }
+.foot p { margin: 0; color: var(--muted); font-size: 14px; max-width: 70ch; }
+</style>
+<!--/HEAD-->
+<div class="wrap">
+  <header class="masthead">
+    <div class="label" id="kicker"></div>
+    <h1>Tabela Periódica das Notícias</h1>
+    <p class="lead" id="lead"></p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <section aria-labelledby="t-tabela">
+    <h2 id="t-tabela" class="label" style="margin:0 0 12px">Destaques, por família</h2>
+    <div class="ptable" id="ptable"></div>
+    <p class="legend">Como ler: cada coluna é uma família. O primeiro bloco traz o elemento real que dá nome à família, com o número atômico. Nos outros, o canto esquerdo é a data e o símbolo é o apelido da notícia. Toque num bloco pra ir direto nela.</p>
+  </section>
+
+  <section class="digest" aria-labelledby="t-digest">
+    <h2 id="t-digest">Se der pra ler só 6 coisas</h2>
+    <ul id="digest"></ul>
+  </section>
+
+  <section class="feed" aria-labelledby="t-feed">
+    <h2 id="t-feed" class="feed-title">Tudo que rolou</h2>
+    <div class="controls" id="controls">
+      <div class="controls-row" id="chips" role="group" aria-label="Filtrar por família"></div>
+      <div class="controls-row">
+        <div class="seg" role="group" aria-label="Organizar">
+          <button type="button" id="v-tema" aria-pressed="true">Por tema</button>
+          <button type="button" id="v-data" aria-pressed="false">Linha do tempo</button>
+        </div>
+        <input class="search" id="q" type="search" placeholder="Buscar (ex: Mercúrio, GTA, bateria)" aria-label="Buscar notícias">
+        <label class="toggle"><input type="checkbox" id="hide-read"> Esconder lidas</label>
+        <span class="progress" id="progress"></span>
+      </div>
+    </div>
+    <div id="list"></div>
+  </section>
+
+  <section class="agenda" aria-labelledby="t-agenda">
+    <h2 id="t-agenda">O que vem por aí</h2>
+    <ol id="agenda"></ol>
+  </section>
+
+  <footer class="foot">
+    <p class="msg" id="msg"></p>
+    <p id="method"></p>
+  </footer>
+</div>
+
+<script type="application/json" id="dados">__DADOS__</script>
+<script>
+(function () {
+  "use strict";
+  var D = JSON.parse(document.getElementById("dados").textContent);
+  var CATS = D.categorias;
+  var ORDER = CATS.map(function (c) { return c.id; });
+  var CAT = {};
+  CATS.forEach(function (c) { CAT[c.id] = c; });
+  var MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+  var DIAS = ["dom", "seg", "ter", "qua", "qui", "sex", "sáb"];
+  var STORE = "tpn:lidas";
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (ch) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch];
+    });
+  }
+  function parts(iso) { var p = iso.split("-"); return { y: +p[0], m: +p[1], d: +p[2] }; }
+  function dm(iso) { var p = parts(iso); return (p.d < 10 ? "0" : "") + p.d + "." + (p.m < 10 ? "0" : "") + p.m; }
+  function longDate(iso) { var p = parts(iso); var wd = new Date(Date.UTC(p.y, p.m - 1, p.d)).getUTCDay(); return DIAS[wd] + " · " + p.d + " " + MESES[p.m - 1]; }
+  function shortDate(iso) { var p = parts(iso); return p.d + " " + MESES[p.m - 1]; }
+  function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+  function daysBetween(a, b) { var x = parts(a), y = parts(b); return Math.round((Date.UTC(y.y, y.m - 1, y.d) - Date.UTC(x.y, x.m - 1, x.d)) / 864e5) + 1; }
+  function shortName(it) {
+    if (it.nome) return it.nome;
+    var t = it.titulo.split(/[:,;—–(]| - /)[0].trim();
+    var w = t.split(/\s+/);
+    return w.length > 4 ? w.slice(0, 4).join(" ") + "…" : t;
+  }
+
+  var read = {};
+  try { (JSON.parse(localStorage.getItem(STORE) || "[]") || []).forEach(function (id) { read[id] = true; }); } catch (e) {}
+  function saveRead() { try { localStorage.setItem(STORE, JSON.stringify(Object.keys(read))); } catch (e) {} }
+
+  var items = D.itens.filter(function (it) { return CAT[it.categoria]; }).slice().sort(function (a, b) {
+    return ORDER.indexOf(a.categoria) - ORDER.indexOf(b.categoria) || (b.relevancia || 0) - (a.relevancia || 0) || b.data.localeCompare(a.data);
+  });
+  var byId = {};
+  items.forEach(function (it) { byId[it.id] = it; });
+
+  var state = { cat: "todas", view: "tema", q: "", hideRead: false, corpo: null };
+  try { var sv = localStorage.getItem("tpn:view"); if (sv === "data" || sv === "tema") state.view = sv; } catch (e) {}
+  var h = (location.hash || "").slice(1);
+  if (CAT[h]) state.cat = h;
+
+  /* Masthead */
+  var ini = D.periodo.inicio, fim = D.periodo.fim;
+  document.getElementById("kicker").textContent = "Boletim de " + shortDate(ini) + " a " + shortDate(fim) + " de " + parts(fim).y + " · atualizado em " + shortDate(D.atualizado_em);
+  document.getElementById("lead").textContent = D.lead;
+  document.getElementById("stats").innerHTML = [
+    [items.length, "notícias com fonte"],
+    [CATS.length, "famílias"],
+    [daysBetween(ini, fim), "dias cobertos"],
+    [(D.agenda || []).length, "datas na agenda"]
+  ].map(function (s) { return '<div class="stat"><b>' + s[0] + "</b><span>" + esc(s[1]) + "</span></div>"; }).join("");
+  document.getElementById("msg").textContent = D.mensagem || "";
+  document.getElementById("method").textContent = D.metodo || "";
+
+  /* Periodic table */
+  function topOf(cat, n) {
+    return items.filter(function (it) { return it.categoria === cat; }).slice(0, n);
+  }
+  document.getElementById("ptable").innerHTML = CATS.map(function (c) {
+    var head = '<div class="el is-head" data-cat="' + c.id + '" title="' + esc(c.elemento) + '"><span class="el-top"><span>' + c.z + '</span><span>' + esc(c.massa) + '</span></span><span class="el-s">' + esc(c.simbolo) + '</span><span class="el-name">' + esc(c.elemento_nome) + "</span></div>";
+    var tiles = topOf(c.id, 3).map(function (it) {
+      return '<a class="el' + (read[it.id] ? " is-read" : "") + '" data-cat="' + c.id + '" data-go="' + esc(it.id) + '" href="#n-' + esc(it.id) + '" title="' + esc(it.titulo) + '"><span class="el-top"><span>' + dm(it.data) + '</span><span></span></span><span class="el-s">' + esc(it.simbolo) + '</span><span class="el-name">' + esc(shortName(it)) + "</span></a>";
+    }).join("");
+    return '<div class="group" data-cat="' + c.id + '"><div class="group-h"><strong>' + esc(c.nome) + "</strong><span>" + topOf(c.id, 999).length + "</span></div>" + head + tiles + "</div>";
+  }).join("");
+
+  /* Digest */
+  var digest = items.slice().sort(function (a, b) {
+    return (b.relevancia || 0) - (a.relevancia || 0) || (b.destaque_ordem ? 1 : 0) - (a.destaque_ordem ? 1 : 0);
+  });
+  var picks = (D.resumo_ids || []).map(function (id) { return byId[id]; }).filter(Boolean);
+  if (!picks.length) {
+    var seen = {};
+    digest.forEach(function (it) { if (picks.length < 6 && !seen[it.categoria]) { seen[it.categoria] = 1; picks.push(it); } });
+  }
+  document.getElementById("digest").innerHTML = picks.slice(0, 6).map(function (it) {
+    return '<li data-cat="' + it.categoria + '"><span class="mini">' + esc(it.simbolo) + '</span><div><a href="#n-' + esc(it.id) + '" data-go="' + esc(it.id) + '">' + esc(it.titulo) + "</a><small>" + esc(CAT[it.categoria].nome) + " · " + shortDate(it.data) + "</small></div></li>";
+  }).join("");
+
+  /* Chips */
+  function countCat(id) { return items.filter(function (it) { return it.categoria === id; }).length; }
+  var chipsEl = document.getElementById("chips");
+  chipsEl.innerHTML = '<button type="button" class="chip" data-chip="todas">Todas <span class="n">' + items.length + "</span></button>" +
+    CATS.map(function (c) { return '<button type="button" class="chip" data-cat="' + c.id + '" data-chip="' + c.id + '">' + esc(c.nome) + ' <span class="n">' + countCat(c.id) + "</span></button>"; }).join("");
+
+  /* Solar map */
+  var SLOTS = [
+    { k: "mercurio", nome: "Mercúrio", x: 92, r: 4.5 },
+    { k: "venus", nome: "Vênus", x: 140, r: 7.5 },
+    { k: "terra", nome: "Terra e Lua", x: 196, r: 8 },
+    { k: "marte", nome: "Marte", x: 250, r: 6 },
+    { k: "cinturao", nome: "Asteroides", x: 306, r: 0 },
+    { k: "jupiter", nome: "Júpiter", x: 376, r: 21 },
+    { k: "saturno", nome: "Saturno", x: 458, r: 16 },
+    { k: "urano", nome: "Urano", x: 534, r: 11 },
+    { k: "netuno", nome: "Netuno", x: 596, r: 11 },
+    { k: "alem", nome: "Além", x: 662, r: 0 }
+  ];
+  function slotOf(corpo) {
+    if (!corpo) return null;
+    var c = " " + norm(corpo).replace(/[^a-z0-9]+/g, " ") + " ";
+    var has = function (w) { return c.indexOf(" " + w) !== -1; };
+    if (has("sol ") || has("solar ") || has("coroa") || has("vento solar")) return "sol";
+    if (has("mercur")) return "mercurio";
+    if (has("venus")) return "venus";
+    if (has("terra") || has("lua ") || has("lunar") || has("orbita") || has("iss ")) return "terra";
+    if (has("marte") || has("fobos") || has("deimos") || has("marcian")) return "marte";
+    if (has("jupiter") || has("europa") || has("ganimedes") || has("io ") || has("calisto")) return "jupiter";
+    if (has("saturno") || has("tita") || has("encelado")) return "saturno";
+    if (has("urano")) return "urano";
+    if (has("netuno") || has("tritao")) return "netuno";
+    if (has("asteroide") || has("didymos") || has("dimorphos") || has("psyche") || has("bennu") || has("ryugu") || has("apophis") || has("ceres") || has("vesta") || has("kamo")) return "cinturao";
+    return "alem";
+  }
+  items.forEach(function (it) { it._slot = slotOf(it.corpo); });
+  function orreryHTML() {
+    var cnt = {};
+    items.forEach(function (it) { if (it._slot) cnt[it._slot] = (cnt[it._slot] || 0) + 1; });
+    if (!Object.keys(cnt).length) return "";
+    var g = [];
+    function cls(k) { return (cnt[k] ? " on" : "") + (state.corpo === k ? " sel" : ""); }
+    function aria(k, nome) { return cnt[k] ? ' role="button" tabindex="0" data-slot="' + k + '" aria-pressed="' + (state.corpo === k) + '" aria-label="' + esc(nome) + ": " + cnt[k] + ' notícia(s)"' : ""; }
+    g.push('<line class="axis" x1="0" y1="66" x2="720" y2="66"/>');
+    g.push('<g class="' + cls("sol") + '"' + aria("sol", "Sol") + '><circle class="sun" cx="-12" cy="66" r="56"/><text x="8" y="140">Sol' + (cnt.sol ? " ×" + cnt.sol : "") + "</text></g>");
+    SLOTS.forEach(function (s) {
+      var inner;
+      if (s.k === "cinturao") {
+        var dots = "";
+        for (var i = 0; i < 16; i++) { var dx = ((i * 37) % 30) - 15, dy = ((i * 53) % 44) - 22; dots += '<circle class="belt" cx="' + (s.x + dx) + '" cy="' + (66 + dy) + '" r="' + (1 + (i % 3) * 0.6) + '"/>'; }
+        inner = '<rect x="' + (s.x - 20) + '" y="38" width="40" height="56" fill="transparent"/>' + dots;
+      } else if (s.k === "alem") {
+        inner = '<circle class="pl" cx="' + s.x + '" cy="66" r="9" stroke-dasharray="2 3" fill-opacity=".3"/><circle class="pl" cx="' + s.x + '" cy="66" r="2.5"/>';
+      } else {
+        inner = '<circle class="pl" cx="' + s.x + '" cy="66" r="' + s.r + '"/>';
+        if (s.k === "saturno") inner = '<ellipse class="ring" cx="' + s.x + '" cy="66" rx="' + (s.r + 11) + '" ry="5"/>' + inner;
+      }
+      var label = '<text x="' + s.x + '" y="140" text-anchor="middle">' + esc(s.nome) + "</text>";
+      var badge = cnt[s.k] ? '<text class="cnt" x="' + s.x + '" y="' + (66 - Math.max(s.r, 14) - 8) + '" text-anchor="middle">×' + cnt[s.k] + "</text>" : "";
+      g.push('<g class="' + cls(s.k) + '"' + aria(s.k, s.nome) + ">" + inner + badge + label + "</g>");
+    });
+    return '<p class="orrery-note">Onde as notícias do espaço aconteceram. Toque num corpo celeste pra filtrar (fora de escala, claro).</p><div class="orrery"><svg viewBox="0 0 720 152" role="img" aria-label="Mapa do sistema solar com as notícias por corpo celeste">' + g.join("") + "</svg></div>";
+  }
+
+  /* Cards */
+  var FLASK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6.5L4.8 18.2A2 2 0 0 0 6.5 21h11a2 2 0 0 0 1.7-2.8L14 9.5V3"/><path d="M7.5 15h9"/></svg>';
+  function card(it) {
+    var c = CAT[it.categoria];
+    var meta = '<span class="cat">' + esc(c.nome) + "</span><time datetime=\"" + esc(it.data) + '">' + longDate(it.data) + "</time>";
+    if (it.corpo) meta += '<span class="tag">' + esc(it.corpo) + "</span>";
+    var body = "<h3>" + esc(it.titulo) + "</h3>";
+    if (it.resumo) body += "<p>" + esc(it.resumo) + "</p>";
+    if (it.teoria || it.fatos) {
+      body += '<div class="tf">' + (it.teoria ? '<div><span class="label">A teoria</span>' + esc(it.teoria) + "</div>" : "") + (it.fatos ? '<div><span class="label">O que se sabe</span>' + esc(it.fatos) + "</div>" : "") + "</div>";
+    }
+    if (it.angulo_quimico) body += '<div class="chem">' + FLASK + '<div><span class="label">Ângulo químico</span>' + esc(it.angulo_quimico) + "</div></div>";
+    if (it.ouvir) body += '<p class="listen"><b>Pra ouvir</b>' + esc(it.ouvir) + "</p>";
+    var fontes = (it.fontes || []).map(function (f) { return '<a href="' + esc(f.url) + '" target="_blank" rel="noopener noreferrer">' + esc(f.nome) + "</a>"; }).join(" · ");
+    body += '<div class="card-foot"><span>Fonte: ' + fontes + '</span><label class="read"><input type="checkbox" data-read="' + esc(it.id) + '"' + (read[it.id] ? " checked" : "") + "> Lida</label></div>";
+    return '<article class="card' + (read[it.id] ? " is-read" : "") + '" id="n-' + esc(it.id) + '" data-cat="' + it.categoria + '"><div class="card-el"><small>' + dm(it.data) + "</small><b>" + esc(it.simbolo) + '</b></div><div class="card-body"><div class="meta">' + meta + "</div>" + body + "</div></article>";
+  }
+
+  function visible(it) {
+    if (state.cat !== "todas" && it.categoria !== state.cat) return false;
+    if (state.hideRead && read[it.id]) return false;
+    if (state.corpo && it._slot !== state.corpo) return false;
+    if (state.q) {
+      var hay = norm([it.titulo, it.resumo, it.teoria, it.fatos, it.angulo_quimico, it.corpo, it.ouvir, CAT[it.categoria].nome].join(" "));
+      var terms = norm(state.q).split(/\s+/).filter(Boolean);
+      for (var i = 0; i < terms.length; i++) if (hay.indexOf(terms[i]) === -1) return false;
+    }
+    return true;
+  }
+
+  var listEl = document.getElementById("list");
+  function renderList() {
+    var vis = items.filter(visible);
+    var html = "";
+    if (state.view === "tema") {
+      CATS.forEach(function (c) {
+        if (state.cat !== "todas" && state.cat !== c.id) return;
+        var its = vis.filter(function (it) { return it.categoria === c.id; });
+        var showMap = c.id === "espaco";
+        if (!its.length && !(showMap && state.corpo)) return;
+        html += '<section class="sec" data-cat="' + c.id + '"><header class="sec-h"><div class="sec-el"><small>' + c.z + "</small><b>" + esc(c.simbolo) + "</b></div><div><h2>" + esc(c.nome) + "</h2><p>" + esc(c.descricao) + " <em>" + esc(c.elemento) + "</em></p></div></header>";
+        if (showMap) html += orreryHTML();
+        html += its.map(card).join("") + "</section>";
+      });
+    } else {
+      var byDay = {};
+      vis.forEach(function (it) { (byDay[it.data] = byDay[it.data] || []).push(it); });
+      Object.keys(byDay).sort().reverse().forEach(function (d) {
+        html += '<h3 class="day-h">' + longDate(d) + "</h3>" + byDay[d].map(card).join("");
+      });
+    }
+    listEl.innerHTML = html || '<p class="empty">Nada com esses filtros. Tente limpar a busca ou escolher "Todas".</p>';
+    updateProgress();
+  }
+
+  function updateProgress() {
+    var n = items.filter(function (it) { return read[it.id]; }).length;
+    document.getElementById("progress").textContent = n + "/" + items.length + " lidas";
+  }
+  function syncControls() {
+    Array.prototype.forEach.call(chipsEl.querySelectorAll(".chip"), function (b) { b.setAttribute("aria-pressed", String(b.getAttribute("data-chip") === state.cat)); });
+    document.getElementById("v-tema").setAttribute("aria-pressed", String(state.view === "tema"));
+    document.getElementById("v-data").setAttribute("aria-pressed", String(state.view === "data"));
+  }
+  function setHash(v) { try { history.replaceState(null, "", v ? "#" + v : location.pathname + location.search); } catch (e) {} }
+
+  chipsEl.addEventListener("click", function (e) {
+    var b = e.target.closest(".chip"); if (!b) return;
+    state.cat = b.getAttribute("data-chip");
+    if (state.cat !== "espaco" && state.cat !== "todas") state.corpo = null;
+    setHash(state.cat === "todas" ? "" : state.cat);
+    syncControls(); renderList();
+  });
+  document.getElementById("v-tema").addEventListener("click", function () { state.view = "tema"; try { localStorage.setItem("tpn:view", "tema"); } catch (e) {} syncControls(); renderList(); });
+  document.getElementById("v-data").addEventListener("click", function () { state.view = "data"; try { localStorage.setItem("tpn:view", "data"); } catch (e) {} syncControls(); renderList(); });
+  document.getElementById("q").addEventListener("input", function (e) { state.q = e.target.value; renderList(); });
+  document.getElementById("hide-read").addEventListener("change", function (e) { state.hideRead = e.target.checked; renderList(); });
+
+  listEl.addEventListener("change", function (e) {
+    var id = e.target.getAttribute && e.target.getAttribute("data-read"); if (!id) return;
+    if (e.target.checked) read[id] = true; else delete read[id];
+    saveRead();
+    var art = document.getElementById("n-" + id); if (art) art.classList.toggle("is-read", !!read[id]);
+    var tile = document.querySelector('.el[data-go="' + id.replace(/"/g, "") + '"]'); if (tile) tile.classList.toggle("is-read", !!read[id]);
+    updateProgress();
+  });
+  function toggleSlot(k) { state.corpo = state.corpo === k ? null : k; renderList(); var o = listEl.querySelector('[data-slot="' + k + '"]'); if (o) o.focus(); }
+  listEl.addEventListener("click", function (e) { var g = e.target.closest("[data-slot]"); if (g) toggleSlot(g.getAttribute("data-slot")); });
+  listEl.addEventListener("keydown", function (e) { var g = e.target.closest && e.target.closest("[data-slot]"); if (g && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); toggleSlot(g.getAttribute("data-slot")); } });
+
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest("[data-go]"); if (!a) return;
+    e.preventDefault();
+    var it = byId[a.getAttribute("data-go")]; if (!it) return;
+    if (!visible(it)) { state.cat = "todas"; state.q = ""; state.corpo = null; state.hideRead = false; document.getElementById("q").value = ""; document.getElementById("hide-read").checked = false; setHash(""); syncControls(); renderList(); }
+    var art = document.getElementById("n-" + it.id); if (!art) return;
+    art.scrollIntoView({ block: "start" });
+    art.classList.remove("flash"); void art.offsetWidth; art.classList.add("flash");
+  });
+  window.addEventListener("hashchange", function () { var v = location.hash.slice(1); if (CAT[v] && v !== state.cat) { state.cat = v; syncControls(); renderList(); } });
+
+  /* Agenda */
+  var ag = (D.agenda || []).slice().sort(function (a, b) { return a.data.localeCompare(b.data); });
+  document.getElementById("agenda").innerHTML = ag.map(function (a) {
+    var p = parts(a.data);
+    var src = a.fonte && a.fonte.url ? '<a href="' + esc(a.fonte.url) + '" target="_blank" rel="noopener noreferrer">' + esc(a.fonte.nome) + "</a>" : "";
+    return '<li data-cat="' + esc(a.categoria) + '"><div class="date-block"><b>' + p.d + "</b><span>" + MESES[p.m - 1] + "</span></div><div><h3>" + esc(a.titulo) + "</h3><p>" + esc(a.descricao) + "</p>" + src + "</div></li>";
+  }).join("");
+
+  syncControls();
+  renderList();
+})();
+</script>
