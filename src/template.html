@@ -159,6 +159,9 @@ a { color: inherit; }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
 .meta .cat { color: var(--c); font-weight: 500; text-transform: uppercase; letter-spacing: .06em; }
 .meta .tag { padding: 0 6px; border: 1px solid var(--line); border-radius: 2px; }
+.meta .tag-new, .chip-new { --c: var(--focus); }
+.meta .tag-new { color: var(--focus); border-color: var(--focus); text-transform: uppercase; letter-spacing: .06em; }
+.new-mark { color: var(--focus); text-transform: uppercase; letter-spacing: .04em; }
 .card h3 { margin: 0; font-size: 19px; line-height: 1.3; font-weight: 600; text-wrap: balance; }
 .card p { margin: 0; }
 .tf { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
@@ -302,15 +305,17 @@ a { color: inherit; }
   });
   var byId = {};
   items.forEach(function (it) { byId[it.id] = it; });
+  function isNew(it) { return !!it.adicionado_em && it.adicionado_em === D.atualizado_em; }
+  var newCount = items.filter(isNew).length;
 
   var state = { cat: "todas", view: "tema", q: "", hideRead: false, corpo: null };
   try { var sv = localStorage.getItem("tpn:view"); if (sv === "data" || sv === "tema") state.view = sv; } catch (e) {}
   var h = (location.hash || "").slice(1);
-  if (CAT[h]) state.cat = h;
+  if (CAT[h] || (h === "novas" && newCount)) state.cat = h;
 
   /* Masthead */
   var ini = D.periodo.inicio, fim = D.periodo.fim;
-  document.getElementById("kicker").textContent = "Boletim de " + shortDate(ini) + " a " + shortDate(fim) + " de " + parts(fim).y + " · atualizado em " + shortDate(D.atualizado_em);
+  document.getElementById("kicker").textContent = "Boletim de " + shortDate(ini) + " a " + shortDate(fim) + " de " + parts(fim).y + " · atualizado em " + shortDate(D.atualizado_em) + (newCount ? " · " + newCount + " novas" : "");
   document.getElementById("lead").textContent = D.lead;
   document.getElementById("stats").innerHTML = [
     [items.length, "notícias com fonte"],
@@ -328,7 +333,7 @@ a { color: inherit; }
   document.getElementById("ptable").innerHTML = CATS.map(function (c) {
     var head = '<div class="el is-head" data-cat="' + c.id + '" title="' + esc(c.elemento) + '"><span class="el-top"><span>' + c.z + '</span><span>' + esc(c.massa) + '</span></span><span class="el-s">' + esc(c.simbolo) + '</span><span class="el-name">' + esc(c.elemento_nome) + "</span></div>";
     var tiles = topOf(c.id, 3).map(function (it) {
-      return '<a class="el' + (read[it.id] ? " is-read" : "") + '" data-cat="' + c.id + '" data-go="' + esc(it.id) + '" href="#n-' + esc(it.id) + '" title="' + esc(it.titulo) + '"><span class="el-top"><span>' + dm(it.data) + '</span><span></span></span><span class="el-s">' + esc(it.simbolo) + '</span><span class="el-name">' + esc(shortName(it)) + "</span></a>";
+      return '<a class="el' + (read[it.id] ? " is-read" : "") + '" data-cat="' + c.id + '" data-go="' + esc(it.id) + '" href="#n-' + esc(it.id) + '" title="' + esc(it.titulo) + '"><span class="el-top"><span>' + dm(it.data) + '</span><span class="new-mark">' + (isNew(it) ? "novo" : "") + '</span></span><span class="el-s">' + esc(it.simbolo) + '</span><span class="el-name">' + esc(shortName(it)) + "</span></a>";
     }).join("");
     return '<div class="group" data-cat="' + c.id + '"><div class="group-h"><strong>' + esc(c.nome) + "</strong><span>" + topOf(c.id, 999).length + "</span></div>" + head + tiles + "</div>";
   }).join("");
@@ -350,6 +355,7 @@ a { color: inherit; }
   function countCat(id) { return items.filter(function (it) { return it.categoria === id; }).length; }
   var chipsEl = document.getElementById("chips");
   chipsEl.innerHTML = '<button type="button" class="chip" data-chip="todas">Todas <span class="n">' + items.length + "</span></button>" +
+    (newCount ? '<button type="button" class="chip chip-new" data-chip="novas">Novas <span class="n">' + newCount + "</span></button>" : "") +
     CATS.map(function (c) { return '<button type="button" class="chip" data-cat="' + c.id + '" data-chip="' + c.id + '">' + esc(c.nome) + ' <span class="n">' + countCat(c.id) + "</span></button>"; }).join("");
 
   /* Solar map */
@@ -416,6 +422,7 @@ a { color: inherit; }
     var c = CAT[it.categoria];
     var meta = '<span class="cat">' + esc(c.nome) + "</span><time datetime=\"" + esc(it.data) + '">' + longDate(it.data) + "</time>";
     if (it.corpo) meta += '<span class="tag">' + esc(it.corpo) + "</span>";
+    if (isNew(it)) meta += '<span class="tag tag-new">novo</span>';
     var body = "<h3>" + esc(it.titulo) + "</h3>";
     if (it.resumo) body += "<p>" + esc(it.resumo) + "</p>";
     if (it.teoria || it.fatos) {
@@ -429,7 +436,8 @@ a { color: inherit; }
   }
 
   function visible(it) {
-    if (state.cat !== "todas" && it.categoria !== state.cat) return false;
+    if (state.cat === "novas") { if (!isNew(it)) return false; }
+    else if (state.cat !== "todas" && it.categoria !== state.cat) return false;
     if (state.hideRead && read[it.id]) return false;
     if (state.corpo && it._slot !== state.corpo) return false;
     if (state.q) {
@@ -446,7 +454,7 @@ a { color: inherit; }
     var html = "";
     if (state.view === "tema") {
       CATS.forEach(function (c) {
-        if (state.cat !== "todas" && state.cat !== c.id) return;
+        if (CAT[state.cat] && state.cat !== c.id) return;
         var its = vis.filter(function (it) { return it.categoria === c.id; });
         var showMap = c.id === "espaco";
         if (!its.length && !(showMap && state.corpo)) return;
@@ -479,7 +487,7 @@ a { color: inherit; }
   chipsEl.addEventListener("click", function (e) {
     var b = e.target.closest(".chip"); if (!b) return;
     state.cat = b.getAttribute("data-chip");
-    if (state.cat !== "espaco" && state.cat !== "todas") state.corpo = null;
+    if (CAT[state.cat] && state.cat !== "espaco") state.corpo = null;
     setHash(state.cat === "todas" ? "" : state.cat);
     syncControls(); renderList();
   });
@@ -509,7 +517,7 @@ a { color: inherit; }
     art.scrollIntoView({ block: "start" });
     art.classList.remove("flash"); void art.offsetWidth; art.classList.add("flash");
   });
-  window.addEventListener("hashchange", function () { var v = location.hash.slice(1); if (CAT[v] && v !== state.cat) { state.cat = v; syncControls(); renderList(); } });
+  window.addEventListener("hashchange", function () { var v = location.hash.slice(1); if ((CAT[v] || (v === "novas" && newCount)) && v !== state.cat) { state.cat = v; syncControls(); renderList(); } });
 
   /* Agenda */
   var ag = (D.agenda || []).slice().sort(function (a, b) { return a.data.localeCompare(b.data); });

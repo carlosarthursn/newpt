@@ -28,7 +28,8 @@ dist/artifact.html   versão para publicar no claude.ai (gerada)
 
 1. Edite `data/noticias.json`:
    - adicione itens em `itens` (campos: `id`, `categoria`, `data`, `simbolo`, `titulo`, `resumo`, `fontes`;
-     opcionais: `nome`, `angulo_quimico`, `relevancia` 1-5, `corpo` (espaço), `teoria`/`fatos` (mistérios), `ouvir` (rock));
+     opcionais: `nome`, `angulo_quimico`, `relevancia` 1-5, `corpo` (espaço), `teoria`/`fatos` (mistérios), `ouvir` (rock),
+     `adicionado_em` (AAAA-MM-DD; itens com a mesma data de `atualizado_em` ganham a marca "novo"));
    - ajuste `periodo.fim` e `atualizado_em`;
    - `resumo_ids` define os 6 itens do "Se der pra ler só 6 coisas".
 2. Rode `python3 build.py` (ele avisa sobre campos faltando, ids repetidos, datas fora do período e agenda vencida).
