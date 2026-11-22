@@ -1,0 +1,2330 @@
+{
+ "atualizado_em": "2026-11-22",
+ "periodo": {
+  "inicio": "2026-10-28",
+  "fim": "2026-11-22"
+ },
+ "lead": "Tudo que rolou desde 28 de outubro, separado por família: química, espaço, games, tecnologia, mistérios, rock, Brasil e mundo. Cada notícia tem link pra fonte original, pra você conferir.",
+ "mensagem": "Montado pelo seu irmão pra você não ficar por fora de nada. Força aí: tem GTA VI, sonda nova em Mercúrio e muito rock te esperando aqui fora.",
+ "metodo": "Como foi feito: cada notícia foi pesquisada na web e tem pelo menos uma fonte com link. Os resumos são em português e simplificam; se algo parecer estranho, clica na fonte e confere. A gente vai atualizando.",
+ "resumo_ids": [
+  "membrana-pan-fraciona-petroleo",
+  "bepicolombo-orbita-mercurio",
+  "gta-vi-chegou",
+  "huang-renuncia-nvidia",
+  "pentagono-ufo-lote-8",
+  "sepultura-ultimo-show"
+ ],
+ "categorias": [
+  {
+   "id": "quimica",
+   "nome": "Química",
+   "simbolo": "Cm",
+   "z": 96,
+   "massa": "(247)",
+   "elemento_nome": "Cúrio",
+   "elemento": "Cm, cúrio (96): batizado em homenagem a Marie e Pierre Curie.",
+   "descricao": "A sua área: materiais, catálise, energia e indústria química."
+  },
+  {
+   "id": "espaco",
+   "nome": "Espaço",
+   "simbolo": "Es",
+   "z": 99,
+   "massa": "(252)",
+   "elemento_nome": "Einstênio",
+   "elemento": "Es, einstênio (99): achado nos destroços do primeiro teste de bomba de hidrogênio, em 1952.",
+   "descricao": "Missões, planetas, luas, asteroides e o que o céu aprontou."
+  },
+  {
+   "id": "games",
+   "nome": "Games",
+   "simbolo": "Ga",
+   "z": 31,
+   "massa": "69,723",
+   "elemento_nome": "Gálio",
+   "elemento": "Ga, gálio (31): derrete a 29,8 °C, ou seja, na palma da mão.",
+   "descricao": "Lançamentos, notas, polêmicas e o que vem por aí."
+  },
+  {
+   "id": "tecnologia",
+   "nome": "Tecnologia",
+   "simbolo": "Tc",
+   "z": 43,
+   "massa": "(98)",
+   "elemento_nome": "Tecnécio",
+   "elemento": "Tc, tecnécio (43): o primeiro elemento produzido artificialmente, em 1937.",
+   "descricao": "IA, chips, hardware e as big techs."
+  },
+  {
+   "id": "misterios",
+   "nome": "Mistérios",
+   "simbolo": "Xe",
+   "z": 54,
+   "massa": "131,29",
+   "elemento_nome": "Xenônio",
+   "elemento": "Xe, xenônio (54): vem do grego xénos, 'estranho'. Nada mais justo.",
+   "descricao": "OVNIs, arquivos secretos e teorias, com a teoria e o que se sabe lado a lado."
+  },
+  {
+   "id": "rock",
+   "nome": "Rock",
+   "simbolo": "Rn",
+   "z": 86,
+   "massa": "(222)",
+   "elemento_nome": "Radônio",
+   "elemento": "Rn, radônio (86): gás nobre radioativo que escapa das rochas. Rock, sacou?",
+   "descricao": "Discos, turnês, shows e o que rolou no rock."
+  },
+  {
+   "id": "brasil",
+   "nome": "Brasil",
+   "simbolo": "Br",
+   "z": 35,
+   "massa": "79,904",
+   "elemento_nome": "Bromo",
+   "elemento": "Br, bromo (35): um dos dois únicos elementos líquidos em temperatura ambiente.",
+   "descricao": "O que mudou por aqui."
+  },
+  {
+   "id": "mundo",
+   "nome": "Mundo",
+   "simbolo": "Mo",
+   "z": 42,
+   "massa": "95,95",
+   "elemento_nome": "Molibdênio",
+   "elemento": "Mo, molibdênio (42): a resposta para a vida, o universo e tudo mais.",
+   "descricao": "Os fatos grandes lá fora."
+  }
+ ],
+ "itens": [
+  {
+   "id": "morre-george-whitesides",
+   "categoria": "quimica",
+   "data": "2026-11-20",
+   "simbolo": "Wh",
+   "titulo": "Morre George Whitesides, gigante da química de superfícies, aos 87 anos",
+   "resumo": "George M. Whitesides, um dos químicos mais influentes e mais citados da era moderna, morreu em 19 de novembro, aos 87 anos. Foram mais de quatro décadas pesquisando, dando aula e orientando em Harvard, com impacto em química de materiais e de superfícies, síntese orgânica, nanotecnologia e diagnósticos de baixo custo. Também cofundou várias startups. Entre os prêmios: Priestley Medal, National Medal of Science e Kavli Prize em nanociência.",
+   "angulo_quimico": "É a linhagem de onde saíram ferramentas que viraram rotina de laboratório, como a litografia macia em PDMS, as monocamadas automontadas (SAMs) de tióis sobre ouro e a microfluídica em papel para diagnóstico barato.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "C&EN (ACS)",
+     "url": "https://cen.acs.org/people/obituaries/george-whitesides-materials-chemist-nanoscientist/104/web/2026/11"
+    }
+   ],
+   "nome": "Whitesides"
+  },
+  {
+   "id": "oxoboranos-estaveis",
+   "categoria": "quimica",
+   "data": "2026-11-06",
+   "simbolo": "Ob",
+   "titulo": "Depois de 60 anos de tentativas, químicos isolam oxoboranos estáveis com tripla B≡O",
+   "resumo": "O grupo de Holger Braunschweig (Universidade de Würzburg) publicou na Nature Chemistry a síntese e o isolamento de três oxoboranos estáveis, moléculas com ligação tripla boro–oxigênio. Químicos correm atrás delas desde o começo dos anos 1960, e até agora elas só tinham sido detectadas ou capturadas em condições extremas, ou deduzidas por evidência indireta. Veio meio sem querer: dois doutorandos, cada um estudando uma reação diferente, viram aparecer sólidos laranja e amarelos.",
+   "angulo_quimico": "A rota é diboracumuleno + cetonas comuns, com o oxoborano saindo como produto principal. É o mesmo laboratório que fez a primeira tripla B≡B (2012) e a primeira tripla B≡C neutra (2025). Os cálculos são do grupo de Ashwini Phukan (Tezpur, Índia).",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261103003205.htm"
+    }
+   ],
+   "nome": "Tripla B≡O"
+  },
+  {
+   "id": "tecido-molecular-benzeno-ciclohexano",
+   "categoria": "quimica",
+   "data": "2026-11-12",
+   "simbolo": "Tx",
+   "titulo": "Tecido molecular, com Stoddart como coautor póstumo, separa benzeno de ciclohexano",
+   "resumo": "Times da UT Austin (Jonathan Sessler) e da Universidade de Zhejiang (Feihe Huang e Guangfeng Li) publicaram na Nature um 'tecido molecularmente tecido' 2D triaxial. São quatro redes moleculares que se entrelaçam por cima e por baixo, automontadas, em camadas quirais empilhadas com orientação alternada. Sir Fraser Stoddart, Nobel de 2016, é coautor, mas morreu antes de o estudo ser concluído. O material funciona como filtro reutilizável para uma das separações mais chatas da indústria.",
+   "angulo_quimico": "Benzeno (Teb 80,1 °C) e ciclohexano (80,7 °C) quase não se separam por destilação sem aditivos. Numa mistura 50/50, o tecido absorveu 97,9% do benzeno. Basta aquecer para o benzeno vaporizar, e o tecido pode ser usado de novo. Zhejiang diz já ter testado o material em escala industrial.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-reusable-molecular-fabric-energy-industrial.html"
+    }
+   ],
+   "nome": "Tecido molecular"
+  },
+  {
+   "id": "membrana-pan-fraciona-petroleo",
+   "categoria": "quimica",
+   "data": "2026-11-05",
+   "simbolo": "Mb",
+   "titulo": "Membrana que 'entope' do jeito certo fraciona petróleo cru em temperatura ambiente",
+   "resumo": "KAIST e Georgia Tech publicaram na Nature uma membrana de poliacrilonitrila (PAN) mesoporosa, sem revestimento, que fraciona petróleo cru real (fornecido pela HD Hyundai Oilbank) em temperatura ambiente. A destilação convencional esquenta o cru acima de 350 °C. A membrana rodou 28 dias seguidos, com permeação cerca de 23 vezes maior que a das melhores membranas anteriores para cru. Simulações de processo, ainda sem teste em refinaria, apontam cerca de 31,6% menos energia, 37,6% menos CO2 e 36% menos custo operacional.",
+   "angulo_quimico": "O truque é o próprio fouling. Hidrocarbonetos pesados se acumulam nas paredes dos poros e estreitam os canais para menos de 2 nm, formando uma peneira que deixa passar nafta, gasolina e querosene e segura os pesados. Para comparar, a destilação de cru no mundo gasta cerca de 1.100 TWh por ano.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261103003207.htm"
+    }
+   ],
+   "nome": "Membrana x petróleo"
+  },
+  {
+   "id": "braskem-crise-3t26",
+   "categoria": "quimica",
+   "data": "2026-11-13",
+   "simbolo": "Bm",
+   "titulo": "Braskem: prejuízo de R$ 1,1 bi, calote em debêntures e corrida contra o prazo dos credores",
+   "resumo": "A Braskem está em recuperação extrajudicial desde agosto, com cerca de US$ 10,9 bi de dívida em reestruturação. No 3º trimestre de 2026, teve prejuízo de cerca de R$ 1,1 bilhão, e o Ebitda recorrente caiu 63%, para R$ 1,96 bi. A empresa não pagou juros e amortização da 18ª emissão de debêntures (cerca de R$ 1,2 bi), que venciam em 9/11, e a B3 classificou os papéis como inadimplentes. Petrobras e IG4 propõem um aporte de cerca de US$ 5 bi e os credores, de US$ 4 bi. O prazo citado para fechar acordo era 22/11, e a recuperação judicial está no radar se não houver consenso.",
+   "angulo_quimico": "É ciclo petroquímico na veia. O spread do polietileno americano sobre a nafta caiu 57% do 2º para o 3º trimestre, e o preço médio das resinas vendidas no Brasil caiu 42%. No 2º trimestre a empresa tinha lucrado R$ 3,3 bi com margens infladas pelo conflito no Oriente Médio e por Ormuz. Agora a diretoria prevê 2027 abaixo da média histórica, por causa da sobrecapacidade asiática, e estuda fechar plantas menos rentáveis.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Jornal do Comércio",
+     "url": "https://www.jornaldocomercio.com/economia/2026/11/1270435-braskem-ve-margens-menores-em-2027-e-segue-engajada-em-acordo-com-credores-diz-diretoria.html"
+    },
+    {
+     "nome": "Status Invest",
+     "url": "https://statusinvest.com.br/noticias/braskem-brkm5-b3-debentures-impagas/amp/"
+    },
+    {
+     "nome": "InvestNews",
+     "url": "https://investnews.com.br/negocios/braskem-deixa-de-pagar-debentures-de-r-12-bilhao-e-cita-recuperacao-extrajudicial/amp/"
+    }
+   ],
+   "nome": "Crise Braskem"
+  },
+  {
+   "id": "h2o2-sem-metal-precioso",
+   "categoria": "quimica",
+   "data": "2026-11-19",
+   "simbolo": "Hp",
+   "titulo": "H2O2 sem metal precioso: catalisador orgânico passa de 99% de eficiência faradaica",
+   "resumo": "Químicos da Rutgers–Newark e da Universidade de Bonn publicaram na Nature Communications um eletrocatalisador molecular puramente orgânico, baseado em moléculas CpN3 ricas em nitrogênio. Ele reduz O2 a H2O2 usando corrente elétrica e uma fonte de prótons, sem metal precioso e sem H2 gasoso. Mais de 99% da carga aplicada vira produto, com frequências de turnover muito altas. Ainda faltam estabilidade, escalonamento e operação em água.",
+   "angulo_quimico": "O mecanismo é de 'radical rebound': um H sai de uma ligação C–H fraca do ligante e forma HO2•, que se religa ao catalisador antes de liberar H2O2. Até agora esse caminho tinha sido visto basicamente em complexos de metais de transição. A comparação óbvia é com o processo da antraquinona, que depende de H2 e paládio.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-qa-hydrogen-peroxide-precious-metals.html"
+    },
+    {
+     "nome": "C&EN (ACS)",
+     "url": "https://cen.acs.org/synthesis/catalysis/metal-free-electrocatalyst-hydrogen-peroxide/104/web/2026/11"
+    }
+   ],
+   "nome": "H₂O₂ sem Pd"
+  },
+  {
+   "id": "rutenio-1nm-amonia",
+   "categoria": "quimica",
+   "data": "2026-11-18",
+   "simbolo": "Ru",
+   "titulo": "Rutênio de 1 nm acelera a síntese de amônia em até 57 vezes",
+   "resumo": "Um time do KAIST liderado por Minkee Choi mostrou no JACS que reduzir nanopartículas de Ru promovidas com BaO de 10 nm para 1 nm aumenta a produção de NH3 em até 57 vezes, com a mesma massa de rutênio. Não é só ganho de área: cada sítio do catalisador de 1 nm foi 4,4 vezes mais ativo. O alvo é a amônia como vetor de hidrogênio e combustível sem carbono, gastando menos metal raro.",
+   "angulo_quimico": "O título do paper resume bem: 'Beyond Geometric Effects'. Em partículas menores, os elétrons passam do BaO para a superfície do Ru com mais eficiência, e essa densidade eletrônica extra facilita quebrar a tripla N≡N, que é a etapa difícil da síntese.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-ruthenium-catalysts-boosts-ammonia-production.html"
+    }
+   ],
+   "nome": "Ru de 1 nm"
+  },
+  {
+   "id": "fenazinas-hidrogenacao-interface",
+   "categoria": "quimica",
+   "data": "2026-11-17",
+   "simbolo": "Fz",
+   "titulo": "Moléculas de bateria de fluxo fazem hidrogenação sem H2 na interface óleo-água",
+   "resumo": "Em Harvard, os grupos de Richard Liu e Michael Aziz publicaram na Nature Catalysis um jeito de hidrogenar sem H2 gasoso e sem metal. Fenazinas solúveis em água, criadas para baterias de fluxo, são carregadas eletroquimicamente com prótons e elétrons e bombeadas para um reator bifásico. Lá elas reduzem grupos nitro a aminas primárias na fase orgânica. Em fluxo contínuo, o rendimento chegou a 91%, e a spinoff Adiabatic Materials já trabalha na comercialização.",
+   "angulo_quimico": "A transferência é por PCET na interface, com próton e elétron acoplados na etapa determinante. A velocidade depende de quanto a fenazina adsorve na interface, e não do poder redutor dela. A fenazina fica na água e o produto na fase orgânica, o que simplifica a separação. O método também preserva duplas, triplas e anéis halogenados, que catalisadores tradicionais costumam atacar.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-repurposed-battery-molecules-key-chemical.html"
+    }
+   ],
+   "nome": "Hidrogenação sem H₂"
+  },
+  {
+   "id": "mofs-co2-umido-so2f2",
+   "categoria": "quimica",
+   "data": "2026-11-17",
+   "simbolo": "Mf",
+   "titulo": "Semana dos MOFs: um captura CO2 em gás úmido, outro transforma SO2F2 em sólido",
+   "resumo": "Na Oregon State, o grupo de Kyriakos Stylianou, com Berkeley e o centro de P&D da Aramco, publicou na Angewandte o BVR-X. É um MOF redox-ativo que continua capturando CO2 de uma corrente muito úmida com só 4% de CO2, ao longo de dezenas de ciclos, sem perder desempenho. Na mesma semana, a C&EN (19/11) mostrou um MOF que sequestra fluoreto de sulfurila, transformando um gás tóxico num reagente sólido para click chemistry e para fazer candidatos a fármacos covalentes.",
+   "angulo_quimico": "A água costuma ser o calcanhar de aquiles dos adsorventes de CO2, porque compete pelos mesmos sítios. No BVR-X, os poros separam CO2 e H2O em compartimentos diferentes, e o material se ajusta à presença de água, o que dispensa secar o gás. No caso do SO2F2, o ganho é dosar com segurança o reagente da química SuFEx.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261116023405.htm"
+    },
+    {
+     "nome": "C&EN (ACS)",
+     "url": "https://cen.acs.org/materials/metal-organic-frameworks/mof-sequesters-sulfuryl-fluoride-safer/104/web/2026/11"
+    }
+   ],
+   "nome": "MOFs"
+  },
+  {
+   "id": "cutinase-liquido-ionico-pet",
+   "categoria": "quimica",
+   "data": "2026-11-10",
+   "simbolo": "Pe",
+   "titulo": "Enzima 'blindada' em líquido iônico despolimeriza PET cerca de 10 vezes mais rápido",
+   "resumo": "King's College London e Rutgers (ACS Sustainable Chem. Eng.) modificaram quimicamente a superfície de uma cutinase natural para ela aguentar calor e um líquido iônico que afrouxa o empacotamento das cadeias de PET. A velocidade de quebra das ligações subiu 9,2 vezes, com cerca de 10 vezes menos enzima, e a taxa ficou estável por 7 dias. A enzima sem modificação, em água, perde boa parte da atividade em cerca de 36 h. Funcionou em flocos de garrafa usada sem pré-tratamento e entregou ácido tereftálico puro.",
+   "angulo_quimico": "97,1% do líquido iônico foi recuperado para reuso. O gargalo é que a enzima perde atividade nessa recuperação. Os autores estimam que, com enzimas engenheiradas de ponta, a despolimerização quase completa cairia de cerca de 2 dias para cerca de 5 h, mas isso ainda não foi testado.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-approach-boosts-plastic-enzyme-tenfold.html"
+    }
+   ],
+   "nome": "Enzima x PET"
+  },
+  {
+   "id": "pfas-lignina-e-esponjas",
+   "categoria": "quimica",
+   "data": "2026-11-20",
+   "simbolo": "Pf",
+   "titulo": "PFAS: lignina pode substituir revestimento 'eterno', e as 'esponjas' duram menos",
+   "resumo": "Foram duas notícias no mesmo dia. A C&EN reportou nanopartículas biodegradáveis de lignina com ácido esteárico que dão acabamento hidrofóbico e podem substituir certos revestimentos com PFAS. E um estudo da Universidade de Maryland (Environmental Science & Technology) indicou que o carvão ativado coloidal injetado no subsolo para imobilizar PFAS pode segurar os compostos por menos de 20 anos, e não pelos até 100 anos que alguns estimavam. O motivo é o 'envelhecimento biológico' do adsorvente.",
+   "angulo_quimico": "Adsorção imobiliza o PFAS mas não quebra a ligação C–F, então quando o sorvente envelhece o contaminante volta a migrar. A alternativa bioinspirada troca a cadeia fluorada por hidrofobicidade de cadeia C18 (ácido esteárico) combinada à lignina, sem nenhum flúor.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "C&EN (ACS)",
+     "url": "https://cen.acs.org/materials/biobased-materials/pfas-coatings-biodegradable-nanoparticles-lignin-stearic-acid/104/web/2026/11"
+    },
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-chemicals-dont.html"
+    }
+   ],
+   "nome": "PFAS"
+  },
+  {
+   "id": "baterias-b12-zinco-ar-cloro",
+   "categoria": "quimica",
+   "data": "2026-11-18",
+   "simbolo": "Bt",
+   "titulo": "Baterias: vitamina B12 em zinco-ar e cloro armazenando carga no cátodo",
+   "resumo": "A Universidade de Córdoba (J. Mater. Chem. A) fez o eletrodo de ar de uma bateria zinco-ar recarregável com vitamina B12 ancorada em nanotubos de carbono de parede simples, e o protótipo aguentou até 250 ciclos. Em Taiwan, o grupo de Ru-Shi Liu (revista Small) mostrou o cloro participando do redox no cátodo de cloreto Li2FeCl4, numa célula totalmente de estado sólido. No lado do mercado, a C&EN destacou um acordo de US$ 1 bilhão da Sila como sinal de fôlego para anodos de silício, mesmo com o carro elétrico crescendo menos.",
+   "angulo_quimico": "Na B12, o centro de Co(III) é bifuncional: catalisa a redução de O2 (ORR) na descarga e a evolução de O2 (OER) na recarga. No Li2FeCl4, com eletrólito Li3InCl6, aparecem duas etapas de oxidação. Perto de 3,8 V ocorre Fe2+/Fe3+, e perto de 4,2 V vs Li+/Li orbitais não ligantes do Cl entram na compensação de carga. Essa etapa do cloro é só parcialmente reversível, e não dá para descartar liberação de Cl2.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261117033909.htm"
+    },
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-role-chlorine-uncovering-anion-redox.html"
+    },
+    {
+     "nome": "C&EN (ACS)",
+     "url": "https://cen.acs.org/energy/energy-storage/sila-nanotechnologies-panasonic-energy-silicon-anode-battery/104/web/2026/11"
+    }
+   ],
+   "nome": "Baterias"
+  },
+  {
+   "id": "basf-desiste-evonik",
+   "categoria": "quimica",
+   "data": "2026-11-18",
+   "simbolo": "Ev",
+   "titulo": "BASF desiste de comprar a Evonik depois de duas ofertas recusadas",
+   "resumo": "A BASF encerrou a tentativa de comprar a Evonik depois que a diretoria da rival recusou duas ofertas não vinculantes, ambas em dinheiro. A última foi de € 24 por ação, cerca de € 11,2 bi em valor de equity. A BASF disse que as perspectivas e os riscos da Evonik não justificavam pagar mais e que, na estratégia dela, aquisições são um 'pode fazer', não um 'precisa fazer'. O governo da Renânia do Norte-Vestfália, onde a Evonik tem cerca de 11 mil funcionários, era contra o negócio.",
+   "angulo_quimico": "Tem um detalhe de engenharia de processo na mesma semana: a Evonik reportou corte de 6% no consumo de vapor em plantas químicas usando IA para otimizar a operação (C&EN, 20/11). A própria empresa admite que a economia total ainda é incerta.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "BASF",
+     "url": "https://www.basf.com/global/en/media/news-releases/2026/11/p-26-202"
+    },
+    {
+     "nome": "CHEManager",
+     "url": "https://chemanager-online.com/en/news/basf-backtracks-no-takeover-of-evonik"
+    },
+    {
+     "nome": "C&EN (ACS)",
+     "url": "https://cen.acs.org/business/petrochemicals/evonik-ai-energy-consumption-chemical-plants-germany-belgium/104/web/2026/11"
+    }
+   ],
+   "nome": "BASF x Evonik"
+  },
+  {
+   "id": "isomorphic-labs-5-bilhoes",
+   "categoria": "quimica",
+   "data": "2026-11-17",
+   "simbolo": "Ia",
+   "titulo": "Isomorphic Labs, da DeepMind, levanta US$ 5 bi para desenhar fármacos com IA",
+   "resumo": "A spinout da Google DeepMind comandada por Demis Hassabis fechou em 17/11 uma Série C de US$ 5 bilhões, liderada por Greenoaks e Sequoia. Foi poucos meses depois de uma rodada de US$ 2,1 bi em maio, e o total captado desde 2021 passa de US$ 7,7 bi. O dinheiro vai para os modelos fundacionais de simulação, para o pipeline próprio e com parceiros (J&J, Novartis, Eli Lilly) e para infraestrutura. Mas nenhum candidato entrou em ensaio clínico até agora.",
+   "angulo_quimico": "A plataforma, chamada IsoDDE, prevê estruturas 3D de proteínas e interações fármaco–alvo. A empresa fala em 'resultados pré-clínicos positivos' em oncologia e imunologia, mas não divulgou dado clínico nem números de economia de tempo ou custo. Por enquanto, a promessa ainda está na frente da química medicinal.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "pharmaphorum",
+     "url": "https://pharmaphorum.com/news/isomorphic-labs-raises-5bn-massive-third-round"
+    },
+    {
+     "nome": "C&EN (ACS)",
+     "url": "https://cen.acs.org/business/investment/isomorphic-labs-ai-drug-discovery/104/web/2026/11"
+    }
+   ],
+   "nome": "Isomorphic Labs"
+  },
+  {
+   "id": "levedura-etanol-de-milho",
+   "categoria": "quimica",
+   "data": "2026-11-18",
+   "simbolo": "Et",
+   "titulo": "Levedura brasileira feita para etanol de milho vai para escala piloto",
+   "resumo": "A startup Bioinfood, de Campinas, apoiada pela FAPESP (PIPE) e com um projeto de R$ 8 milhões aprovado pela Finep, desenvolveu uma cepa 100% brasileira de Saccharomyces cerevisiae para etanol de milho. A meta é tirar mais etanol da mesma quantidade de grão, e a cepa agora sai do laboratório para a escala piloto. O momento ajuda: o milho já responde por 10,17 bi de litros, pouco mais de 27% dos 37,5 bi de litros de etanol da safra 2025/26. A gasolina está em E32 desde agosto, e os testes de E35 começam em janeiro de 2027.",
+   "angulo_quimico": "Uma única usina grande consome até 50 toneladas de levedura por mês. O próximo passo é uma cepa que fermente em temperatura um pouco mais alta, para economizar no resfriamento das dornas.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Agência FAPESP",
+     "url": "https://agencia.fapesp.br/brazilian-startup-develops-yeast-for-corn-based-ethanol-and-prepares-for-pilot-scale-production/59625"
+    },
+    {
+     "nome": "Movimento Econômico",
+     "url": "https://movimentoeconomico.com.br/economia/combustivel/2026/10/27/testes-da-gasolina-com-35-de-etanol-ficam-para-2027-e-portaria-sai-ate-novembro/"
+    }
+   ],
+   "nome": "Levedura de etanol"
+  },
+  {
+   "id": "sirius-perovskita-in-situ",
+   "categoria": "quimica",
+   "data": "2026-11-04",
+   "simbolo": "Sx",
+   "titulo": "Sirius ganha porta-amostra para ver célula de perovskita funcionando",
+   "resumo": "O LNLS/CNPEM, em Campinas, abriu a pesquisadores de fora um porta-amostra in situ na estação Tarumã da linha Carnaúba do Sirius. Com ele dá para fazer nanoscopia de raios X em células solares completas enquanto elas operam, com luz, temperatura e atmosfera controladas. O alvo principal são as perovskitas, mas o sistema também serve para células orgânicas, de pontos quânticos e LEDs. O trabalho saiu na Photon Science, com Rodrigo Szostak como primeiro autor.",
+   "angulo_quimico": "O feixe de cerca de 200 nm combina difração, fluorescência e absorção de raios X. Na demonstração, a equipe mapeou a distribuição de iodo e chumbo, resolveu grãos de perovskita de cerca de 2 µm e viu a rede expandir entre 40 e 65 °C. A temperatura vai de 30 a 150 °C, com flutuação abaixo de 0,1 °C.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Agência FAPESP",
+     "url": "https://agencia.fapesp.br/a-new-instrument-at-brazils-sirius-accelerator-enables-researchers-to-observe-solar-cells-in-operation/59529"
+    }
+   ],
+   "nome": "Sirius"
+  },
+  {
+   "id": "chama-hidrogenio-laranja-sodio",
+   "categoria": "quimica",
+   "data": "2026-11-19",
+   "simbolo": "Na",
+   "titulo": "Curiosidade: por que a chama de hidrogênio às vezes fica laranja (culpa do sal marinho)",
+   "resumo": "Pesquisadores da Adelaide University e da UNSW (revista Next Energy) mostraram que o tom laranja da chama de hidrogênio em fogões depende do sódio presente no ar, e o sal marinho trazido pelo vento é uma fonte importante. Em duas semanas, com o queimador sempre na mesma regulagem, o sinal ligado ao sódio variou mais de 28 vezes. Sem sódio, a chama fica quase invisível e emite menos luz que a de gás natural, o que é um problema de segurança para casas abastecidas com H2.",
+   "angulo_quimico": "É o velho teste de chama do sódio decidindo se você enxerga o fogo ou não. O ar que passou sobre o oceano deixava a chama mais laranja. Os autores recomendam detectores UV/IR e sensores de temperatura em vez de confiar na cor.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261118065509.htm"
+    }
+   ],
+   "nome": "Chama laranja"
+  },
+  {
+   "id": "carbono-hexacoordenado-ouro",
+   "categoria": "quimica",
+   "data": "2026-11-17",
+   "simbolo": "Au",
+   "titulo": "Curiosidade: carbono com seis vizinhos de ouro, e como a ligação deixa de ser 'normal'",
+   "resumo": "Um estudo no JACS Au, do Institute for Molecular Science, da Tokyo University of Science e da Universidade de Fuzhou, usou DFT e AdNDP para entender clusters de ouro(I) centrados em carbono. Neles o C central se liga a 4, 5 ou 6 átomos de Au, contra os 4 vizinhos do metano. O trabalho mostra como a ligação passa de localizada a deslocalizada conforme entram mais átomos de ouro, e como os ligantes (NHC ou PPh3) mudam a simetria e a quiralidade do núcleo.",
+   "angulo_quimico": "No CAu4 há quatro ligações 2c-2e clássicas. No CAu6, o carbono faz três ligações deslocalizadas 3c-2e, cada par de elétrons dividido num Au–C–Au, e o CAu5 fica no meio do caminho. Ligantes volumosos distorcem o núcleo: um CAu6 assimétrico saiu 7,5 kcal/mol mais estável que o simétrico. O primeiro cluster hexaouro centrado em carbono foi descrito em 1988.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-unraveling-bonding-evolution-carbon-centered.html"
+    }
+   ],
+   "nome": "Carbono + 6 Au"
+  },
+  {
+   "id": "bepicolombo-orbita-mercurio",
+   "categoria": "espaco",
+   "data": "2026-11-21",
+   "simbolo": "Bc",
+   "corpo": "Mercúrio",
+   "titulo": "BepiColombo finalmente entra na órbita de Mercúrio",
+   "resumo": "Depois de quase oito anos de viagem e nove sobrevoos (1 da Terra, 2 de Vênus e 6 do próprio Mercúrio), a missão conjunta ESA/JAXA entrou em órbita de Mercúrio no dia 21, ainda com os dois orbitadores (o europeu MPO e o japonês Mio) acoplados, numa órbita elíptica. A queima de inserção estava prevista para durar uns 37 minutos. É só a segunda nave a orbitar Mercúrio, depois da MESSENGER da NASA (2011–2015). Em 9–10 de dezembro o MPO e o Mio se separam, e a ciência começa pra valer em abril de 2027.",
+   "angulo_quimico": "O MPO vai medir a composição e a temperatura da superfície e estudar a exosfera (a 'atmosfera' finíssima de Mercúrio) e sua interação com o plasma solar, além de investigar o enorme núcleo de ferro do planeta.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival"
+    },
+    {
+     "nome": "AeroTime",
+     "url": "https://www.aerotime.aero/articles/bepicolombo-reaches-mercury-orbit-after-nearly-eight-years-in-space"
+    },
+    {
+     "nome": "Eos",
+     "url": "https://eos.org/research-and-developments/bepicolombo-arrives-at-mercury"
+    }
+   ],
+   "nome": "Bepi em Mercúrio"
+  },
+  {
+   "id": "hera-chega-didymos",
+   "categoria": "espaco",
+   "data": "2026-11-04",
+   "simbolo": "He",
+   "corpo": "Didymos",
+   "titulo": "Hera chega ao asteroide que a NASA atropelou de propósito",
+   "resumo": "A sonda europeia de defesa planetária chegou ao sistema binário Didymos–Dimorphos no dia 4, cerca de um mês antes do previsto. É a 'perícia' do impacto da DART em 2022, que encurtou a órbita de Dimorphos em 33 minutos. As primeiras imagens mostram Didymos cheio de pedregulhos e crateras, com uma crista no equador surpreendentemente afiada; Dimorphos ainda aparece quase todo escondido na sombra do irmão maior. A Hera agora faz 'órbitas retangulares' a 25–30 km, a uns 12 cm/s, chega mais perto em dezembro e, no começo de 2027, solta dois CubeSats — um deles, o Juventas, vai tentar pousar em Dimorphos.",
+   "angulo_quimico": "Os CubeSats levam radar e instrumentos espectrais para estudar superfície e interior dos asteroides, e a câmera térmica (fornecida pela JAXA) deve mostrar se Didymos é rocha sólida ou um amontoado poroso, já que rocha sólida libera calor mais devagar.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Smithsonian Magazine",
+     "url": "https://www.smithsonianmag.com/smart-news/europes-hera-spacecraft-has-begun-its-close-up-investigation-of-the-asteroid-system-nasa-intentionally-hit-in-2022-180989871/"
+    },
+    {
+     "nome": "ESA",
+     "url": "https://www.esa.int/articles/hera-spacecraft-in-rectangular-orbit-around-target-asteroids"
+    },
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/space-exploration/asteroid-comet-missions/dimorphos-in-sight-europes-hera-probe-gets-its-1st-look-at-battered-space-rock-photo"
+    }
+   ],
+   "nome": "Hera em Didymos"
+  },
+  {
+   "id": "voyager1-um-dia-luz",
+   "categoria": "espaco",
+   "data": "2026-11-18",
+   "simbolo": "Vg",
+   "titulo": "Voyager 1 chega a um dia-luz da Terra — e fica muda bem na hora",
+   "resumo": "No dia 18, às 7h16 de Brasília, a Voyager 1 virou o primeiro objeto feito por humanos a 1 dia-luz da Terra: uns 25,9 bilhões de km. Agora um comando leva 24 horas pra chegar e mais 24 pra resposta voltar. O plot twist: desde o dia 14 a sonda manda só o sinal portador, sem dados científicos nem de engenharia, e a NASA suspeita do computador de bordo que junta e formata os dados. Foi justamente esse sinal 'vazio', somado aos cálculos de trajetória, que permitiu confirmar o marco; a equipe diz estar confiante de que os dados voltam.",
+   "angulo_quimico": "A sonda vive de três geradores termoelétricos de radioisótopos (RTGs), alimentados pelo calor do decaimento do plutônio-238, hoje a cerca de dois terços da potência original. Por isso a NASA vem desligando equipamentos, e o fim da missão é esperado nos anos 2030.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://space.com/space-exploration/voyager/1-light-day-from-earth-nasas-voyager-1-probe-hits-huge-milestone-in-interstellar-space"
+    },
+    {
+     "nome": "IFLScience",
+     "url": "https://www.iflscience.com/as-voyager-1-hit-one-light-day-from-earth-it-stopped-sending-scientific-data-to-nasa-85232"
+    },
+    {
+     "nome": "Popular Science",
+     "url": "https://www.popsci.com/science/voyager-1-one-light-day-away-from-earth-nasa-estimate/"
+    }
+   ],
+   "nome": "Voyager 1"
+  },
+  {
+   "id": "starship-voo15-captura-nave",
+   "categoria": "espaco",
+   "data": "2026-11-14",
+   "simbolo": "Sh",
+   "titulo": "SpaceX agarra a nave Starship com os braços da torre pela 1ª vez",
+   "resumo": "No voo 15, lançado no dia 13 de Starbase (Texas), a nave Ship 42 passou cerca de 22 horas em órbita, deu 14 voltas na Terra, soltou 26 satélites Starlink V3 e, no dia 14, voltou ao local de lançamento pra ser agarrada pela torre 'Mechazilla'. É a primeira vez que o estágio superior é recuperado inteiro depois de um voo orbital, passo-chave para a reutilização total que a SpaceX promete. O booster Super Heavy, por outro lado, abortou a captura após um alerta de pouco combustível e caiu no Golfo do México.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Spaceflight Now",
+     "url": "https://spaceflightnow.com/2026/11/13/live-coverage-starship-flight-15-attempts-to-recover-full-vehicle-in-double-launch-pad-catch/"
+    },
+    {
+     "nome": "Interesting Engineering",
+     "url": "https://interestingengineering.com/space/spacex-starship-ship-42-first-upper-stage-catch"
+    },
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/relive-starships-historic-flight-15-with-our-best-photos-from-launch-and-mechazilla-tower-catch"
+    }
+   ],
+   "nome": "Starship"
+  },
+  {
+   "id": "perseverance-odyssey-pane",
+   "categoria": "espaco",
+   "data": "2026-11-19",
+   "simbolo": "Pv",
+   "corpo": "Marte",
+   "titulo": "Pane dupla em Marte: Perseverance e Odyssey param a ciência",
+   "resumo": "Semanas depois de bater o recorde de distância rodada fora da Terra (passou dos 45,16 km da Opportunity em 11/10), o Perseverance perdeu o rádio UHF principal, entrou em modo de segurança e descobriu que o rádio reserva transmite com só metade da potência. Agora fala direto com a Terra pela antena de alto ganho, em taxa mais baixa, e a NASA espera retomar a ciência até o fim de novembro. Já a Odyssey, em órbita desde 2001 (a veterana de Marte), perdeu uma de suas rodas de reação; se ela não voltar, a sonda vai depender dos propulsores, e o combustível restante dura só um ou dois meses.",
+   "angulo_quimico": "A Odyssey fez os primeiros mapas globais da composição da superfície marciana e ajudou a localizar depósitos de gelo de água. E o 'relógio' dela agora é químico: depende da hidrazina que sobrou no tanque.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/astronomy/mars/trouble-at-mars-nasas-perseverance-rover-odyssey-orbiter-halt-science-work-due-to-glitches"
+    }
+   ],
+   "nome": "Pane em Marte"
+  },
+  {
+   "id": "hayabusa2-muda-plano",
+   "categoria": "espaco",
+   "data": "2026-11-17",
+   "simbolo": "Hy",
+   "corpo": "Asteroide 2015 BM510",
+   "titulo": "Hayabusa2 perde o último motor iônico e desiste de pousar em asteroide",
+   "resumo": "A sonda japonesa que trouxe amostras do asteroide Ryugu em 2020 teve pane no último dos seus quatro propulsores iônicos em agosto, e um sensor ainda detectou erosão inesperada na superfície da nave. No dia 17 a JAXA anunciou: acabou o plano de encontrar e pousar no minúsculo 1998 KY26 (uns 11 m) em 2031. No lugar, ela fará um sobrevoo rápido do asteroide 2015 BM510 em abril de 2028, sem pouso. Em julho ela ainda tinha passado pelo asteroide de 'duas cabeças' Torifune.",
+   "angulo_quimico": "O 2015 BM510 é um asteroide do tipo D, considerado rico em compostos orgânicos e parecido com cometas — um alvo interessante mesmo só de passagem.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/space-exploration/asteroid-comet-missions/no-more-asteroid-landing-engine-trouble-forces-japans-hayabusa2-probe-to-change-plans"
+    }
+   ],
+   "nome": "Hayabusa2"
+  },
+  {
+   "id": "marte-vulcao-alba-mons",
+   "categoria": "espaco",
+   "data": "2026-11-04",
+   "simbolo": "Am",
+   "corpo": "Marte",
+   "titulo": "Marte não morreu: o vulcão Alba Mons ainda solta gás",
+   "resumo": "Estudo publicado no dia 4 na Science Advances, com dados do orbitador europeu ExoMars TGO, detectou cloreto de hidrogênio saindo de fissuras recentes nos flancos do Alba Mons, o maior vulcão de Marte em área. Os picos aparecem no começo do verão, quando o gás nem deveria estar lá — a hipótese é que ele se acumula sob o gelo no inverno e escapa quando o gelo sublima. Para os autores, os vulcões marcianos estão dormentes, não extintos, e pode haver uma câmara magmática adormecida lá embaixo.",
+   "angulo_quimico": "A evidência é química: HCl é um gás de origem vulcânica, e flagrá-lo vazando de fissuras frescas, com variação sazonal, é o que sustenta a ideia de que Marte ainda guarda calor interno.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/astronomy/mars/mars-isnt-dead-recent-volcanic-activity-reveals-its-just-sleeping"
+    }
+   ],
+   "nome": "Vulcão marciano"
+  },
+  {
+   "id": "nasa-psra-amostras-marte",
+   "categoria": "espaco",
+   "data": "2026-11-09",
+   "simbolo": "Sr",
+   "corpo": "Marte",
+   "titulo": "NASA recomeça do zero o plano de trazer as amostras de Marte",
+   "resumo": "No dia 9, a diretora do Programa de Exploração de Marte, Tiffany Morgan, apresentou a PSRA (Perseverance Sample Retrieval Architecture), novo esforço para ressuscitar o enrolado Mars Sample Return. Uma revisão anterior chegou a estimar uns US$ 11 bilhões com as amostras voltando só em 2040, caro e lento demais. A equipe começa em janeiro de 2027 e entrega o relatório no inverno 2027–28. Enquanto isso, a China planeja lançar a Tianwen-3 por volta de 2028 e trazer cerca de 500 g de Marte em 2031.",
+   "angulo_quimico": "Um dos argumentos para estudar as amostras antes de mandar gente é química pura: o solo marciano tem compostos perigosos como percloratos e clorometanos, risco para astronautas e equipamentos.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/astronomy/mars/nasa-kick-starts-a-fresh-push-to-bring-mars-samples-home"
+    }
+   ]
+  },
+  {
+   "id": "escapade-estilingue-terra",
+   "categoria": "espaco",
+   "data": "2026-11-09",
+   "simbolo": "Ec",
+   "corpo": "Marte",
+   "titulo": "Sondas gêmeas ESCAPADE dão estilingue inédito na Terra rumo a Marte",
+   "resumo": "As duas sondas da NASA fizeram sobrevoos propulsados da Terra nos dias 7 e 9, a primeira vez que a agência usa essa manobra para mandar uma nave a Marte. Elas perderam a janela de lançamento de 2024 por atrasos do foguete New Glenn e ficaram numa órbita de 'espera' em formato de feijão até voltar à Terra agora. Chegada prevista em setembro de 2027, para estudar o ambiente magnético de Marte, gerado pela interação de partículas solares com a atmosfera e por regiões magnetizadas da crosta.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/astronomy/mars/nasas-escapade-twin-mars-probes-execute-a-1st-of-its-kind-gravity-slingshot-around-earth"
+    }
+   ]
+  },
+  {
+   "id": "minilua-2026-qq8",
+   "categoria": "espaco",
+   "data": "2026-10-29",
+   "simbolo": "Qq",
+   "corpo": "Terra",
+   "titulo": "A Terra ganhou uma 'minilua' de 2 metros (por pouco tempo)",
+   "resumo": "O Minor Planet Center anunciou no dia 29 o objeto 2026 QQ8, uma rocha de uns 2 metros que foi capturada pela gravidade da Terra em abril e só foi avistada em agosto. Ela fica por aqui até dezembro e deve escapar no começo de 2027. Miniluas assim são sempre temporárias: a estadia média é de uns nove meses.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/astronomy/earth/earth-has-captured-a-new-mini-moon-but-it-wont-stick-around-for-long"
+    }
+   ]
+  },
+  {
+   "id": "urano-campo-magnetico",
+   "categoria": "espaco",
+   "data": "2026-11-03",
+   "simbolo": "Ur",
+   "corpo": "Urano",
+   "titulo": "Por que o campo magnético de Urano é tão torto? Talvez agora a gente saiba",
+   "resumo": "A Voyager 2 mostrou nos anos 80 que os campos de Urano e Netuno são bizarros: o de Urano é inclinado uns 59° em relação ao eixo de rotação e deslocado do centro do planeta (o da Terra tem uns 11°). Simulações lideradas por Chi Yan (Universidade do Texas), publicadas na Communications Physics, reproduziram esses campos tortos com um dínamo num 'oceano' de voláteis que fica mais condutor quanto mais fundo. Bônus: o campo pode mudar bastante em poucas décadas, algo que dá pra testar com auroras observadas pelo James Webb e com a futura missão a Urano.",
+   "angulo_quimico": "O fluido do dínamo seria uma mistura de água, amônia, metano, hidrogênio e hélio; sob pressão e temperatura extremas, as moléculas de água se quebram em íons e o material vira condutor elétrico.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/astronomy/uranus/scientists-may-finally-understand-the-weird-magnetic-fields-of-uranus-and-neptune"
+    }
+   ]
+  },
+  {
+   "id": "cometa-220p-explosao",
+   "categoria": "espaco",
+   "data": "2026-11-03",
+   "simbolo": "Mc",
+   "corpo": "Cometa 220P/McNaught",
+   "titulo": "Gás preso rasgou um cometa e o deixou milhares de vezes mais brilhante",
+   "resumo": "Estudo publicado no dia 3 na Monthly Notices of the Royal Astronomical Society explica os surtos do cometa 220P/McNaught em 2026: perto do periélio, em junho, ele pulou da magnitude +17,4 para +8,2 em poucos dias (deu pra ver de binóculo em céu escuro) e teve outro surto entre julho e agosto. O modelo, liderado por Josep M. Trigo-Rodríguez (Espanha), mostra que gelos aquecidos sob a superfície viram gás, a pressão rasga a crosta e uma nuvem de poeira enche a coma, refletindo a luz do Sol.",
+   "angulo_quimico": "Os gelos envolvidos são de água, dióxido de carbono e nitrogênio: ao sublimarem sob a crosta, geram a pressão que 'estoura' o cometa e lança poeira de cerca de 1 micrômetro a uns 390 m/s.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/astronomy/comets/how-escaping-gases-ripped-apart-a-comet-and-caused-it-to-become-thousands-of-times-brighter"
+    }
+   ]
+  },
+  {
+   "id": "cometas-ingredientes-vida",
+   "categoria": "espaco",
+   "data": "2026-10-28",
+   "simbolo": "Hc",
+   "corpo": "Terra",
+   "titulo": "Cometas trouxeram os ingredientes da vida? Provavelmente não",
+   "resumo": "Simulações publicadas no dia 28 na Scientific Reports, lideradas por Richard Anslow (Cambridge), acompanharam cometas da origem até a entrada na atmosfera e o impacto. Conclusão: moléculas orgânicas só sobrevivem a impactos abaixo de uns 15 km/s, e cometas costumam chegar rápidos e inclinados demais, vaporizando quase tudo. A entrega cometária de ingredientes prebióticos seria, no máximo, um 'acaso raro'; em Marte as chances seriam um pouco melhores, pela atmosfera fina e gravidade menor.",
+   "angulo_quimico": "O estudo usou o cianeto de hidrogênio (HCN), muito comum em cometas e detectado até no cometa interestelar 3I/ATLAS, como representante das moléculas orgânicas complexas.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/astronomy/comets/did-comets-bring-building-blocks-of-life-to-earth-scientists-arent-so-sure-anymore"
+    }
+   ]
+  },
+  {
+   "id": "euclid-primeiro-cometa",
+   "categoria": "espaco",
+   "data": "2026-11-16",
+   "simbolo": "Eu",
+   "corpo": "Cometa C/2026 S1 (Euclid)",
+   "titulo": "Telescópio de matéria escura acha um cometa sem querer",
+   "resumo": "O Euclid, da ESA, foi feito pra mapear matéria e energia escuras, mas Mikko Pöntinen, da Universidade de Helsinque, achou nas imagens de setembro o 'risco' de um objeto rápido envolto numa nuvem difusa: um cometa ativo e inédito, batizado C/2026 S1 (Euclid). Ele estava a cerca de 1,3 bilhão de km, entre as órbitas de Júpiter e Saturno. A descoberta foi destaque no dia 16.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/astronomy/comets/euclid-discovers-its-1st-comet-space-photo-of-the-day-for-nov-16-2026"
+    }
+   ]
+  },
+  {
+   "id": "nasa-base-lunar-promise",
+   "categoria": "espaco",
+   "data": "2026-11-07",
+   "simbolo": "Pr",
+   "corpo": "Lua",
+   "titulo": "NASA abre a carteira para a base lunar — e encomenda um rover nuclear",
+   "resumo": "No evento 'Max Power', no Centro Espacial Kennedy, a NASA anunciou no dia 7 o CLPS 2: um contrato-quadro de 10 anos que pode chegar a US$ 10 bilhões, com oito empresas (entre elas SpaceX, Blue Origin, Firefly e Intuitive Machines) disputando entregas na Lua. A meta é ter uma base para astronautas até 2032. A estrela do pacote é o PROMISE, um rover autônomo movido a energia nuclear, baseado no projeto do Curiosity/Perseverance, que deve começar a explorar o polo sul lunar no fim de 2028, levado pelo módulo Blue Moon da Blue Origin.",
+   "angulo_quimico": "O PROMISE leva broca e instrumentos para procurar voláteis e gelo de água no polo sul, recurso essencial para uma base permanente.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/space-exploration/artemis/nasa-unveils-usd10-billion-in-moon-base-contracts-new-lunar-missions-and-the-promise-of-a-nuclear-powered-rover"
+    }
+   ],
+   "nome": "Base lunar"
+  },
+  {
+   "id": "china-roteiro-lua-2030",
+   "categoria": "espaco",
+   "data": "2026-11-01",
+   "simbolo": "Ly",
+   "corpo": "Lua",
+   "titulo": "China detalha o roteiro para pôr astronautas na Lua antes de 2030",
+   "resumo": "No 7º Simpósio de Voos Tripulados, em Pequim (31/10 e 1/11), a China apresentou quatro etapas: teste da cápsula Mengzhou em órbita baixa com o foguete Long March 10A em 2027, voo do módulo lunar Lanyue em 2028, ensaio de acoplamento em órbita lunar em 2029 e, antes de 2030, o pouso tripulado — segundo o CNSpaceflight, três astronautas lançados e dois na superfície por três dias. Do lado americano, a Artemis III (teste em órbita da Terra) está prevista para meados de 2027 e o pouso da Artemis IV para o início de 2028. A corrida tá apertada.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/astronomy/moon/china-lays-out-plans-to-land-astronauts-on-the-moon-before-2030-can-nasa-still-win-this-race"
+    }
+   ],
+   "nome": "China na Lua"
+  },
+  {
+   "id": "conjuncao-jupiter-marte",
+   "categoria": "espaco",
+   "data": "2026-11-15",
+   "simbolo": "Jm",
+   "corpo": "Júpiter",
+   "titulo": "Júpiter e Marte quase se encostaram no céu",
+   "resumo": "Na madrugada de 15 para 16/11, Júpiter e Marte ficaram a pouco mais de 1° um do outro na constelação de Leão, com a estrela Regulus logo abaixo — tudo visível a olho nu antes do amanhecer. Um encontro tão apertado entre os dois só se repete em julho de 2029. Marte continua pertinho de Regulus até o fim do mês.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/stargazing/see-jupiter-and-mars-make-a-spectacular-close-approach-overnight-nov-15-16"
+    },
+    {
+     "nome": "Astronomy",
+     "url": "https://www.astronomy.com/observing/sky-this-month-november-2026/"
+    }
+   ]
+  },
+  {
+   "id": "leonidas-2026",
+   "categoria": "espaco",
+   "data": "2026-11-17",
+   "simbolo": "Le",
+   "corpo": "Cometa 55P/Tempel-Tuttle",
+   "titulo": "Leônidas: a chuva de meteoros que você perdeu (sem grandes dramas)",
+   "resumo": "O pico foi na noite de 17 para 18/11, com estimativa de até 15 meteoros por hora em céu perfeito (a NASA falava em menos de 3). A Lua crescente se pôs antes da madrugada e deixou o céu escuro. As Leônidas são poeira do cometa 55P/Tempel-Tuttle, que dá a volta no Sol a cada ~33 anos. Consolo: não havia previsão de tempestade de meteoros este ano.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/stargazing/meteor-showers/the-leonid-meteor-shower-peaks-nov-17-18-heres-what-you-need-to-know"
+    },
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm"
+    }
+   ]
+  },
+  {
+   "id": "gta-vi-chegou",
+   "categoria": "games",
+   "data": "2026-11-19",
+   "simbolo": "Gt",
+   "titulo": "GTA VI finalmente saiu, e a crítica deu praticamente nota máxima",
+   "resumo": "Depois de 13 anos e dois adiamentos, GTA VI saiu em 19/11 para PS5 e Xbox Series X|S, com Jason e Lucia no estado fictício de Leonida (sim, Vice City está de volta). Fechou com 99 no Metacritic com base em mais de 150 análises, e o IGN chamou de 'o videogame mais impressionante que já joguei'. Versão de PC ainda não tem data. No Brasil custa R$ 449,90 (Standard) e R$ 549,90 (Ultimate), e a 'mídia física' é uma caixa com código de download, sem disco.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait"
+    },
+    {
+     "nome": "Legião dos Heróis",
+     "url": "https://www.legiaodosherois.com.br/2026/gta-6-jogo-chega-custando-ate-r-550-no-brasil-veja-precos-das-edicoes.html"
+    }
+   ],
+   "nome": "GTA VI chegou"
+  },
+  {
+   "id": "gta-vi-bilhoes",
+   "categoria": "games",
+   "data": "2026-11-19",
+   "simbolo": "Bn",
+   "titulo": "US$ 1,84 bi até o dia do lançamento: GTA VI dobrou o recorde do GTA V",
+   "resumo": "Pela estimativa da Sensor Tower, GTA VI já tinha vendido cerca de 19 milhões de cópias e faturado uns US$ 1,84 bilhão até a manhã do lançamento, contando a pré-venda. Pra comparar, o GTA V fez US$ 815,7 milhões e 11,21 milhões de cópias nas primeiras 24 horas. Cerca de 75% das vendas foram no PlayStation. A Take-Two ainda não divulgou número oficial: no balanço do começo de novembro, o CEO Strauss Zelnick só disse que a pré-venda estava 'muito acima' do esperado, e a empresa subiu a previsão de receita do ano fiscal para US$ 7,98 a 8,18 bilhões.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "FOX 5 New York",
+     "url": "https://www.fox5ny.com/news/gta-vi-pulls-estimated-1-84-billion-release-day-more-than-double-gta-vs-launch-record"
+    },
+    {
+     "nome": "Stocktwits",
+     "url": "https://stocktwits.com/news-articles/markets/equity/gta-vi-preorders-far-in-excess-of-expectations-numbers-will-speak-soon-ceo-boosts-expectations-as-ttwo-lifts-annual-forecasts/cNGuacWR978"
+    }
+   ],
+   "nome": "US$ 1,84 bi"
+  },
+  {
+   "id": "tga-2026-indicados",
+   "categoria": "games",
+   "data": "2026-11-17",
+   "simbolo": "Tg",
+   "titulo": "Game Awards 2026: GTA VI lidera com 8 indicações",
+   "resumo": "Saíram os indicados do The Game Awards, que acontece em 10/12 no Peacock Theater, em Los Angeles. GTA VI lidera com 8 indicações, seguido por Control Resonant e Resident Evil Requiem, com 6 cada. Os indicados a Jogo do Ano são 007 First Light, Control Resonant, GTA VI, o remake de Zelda: Ocarina of Time, Phantom Blade Zero e Resident Evil Requiem. Em Melhor RPG estão The Blood of Dawnwalker, Final Fantasy Resonance, Fire Emblem: Fortune's Weave, Monster Hunter Stories 3 e Trails in the Sky 2nd Chapter. A brasileira LOUD (Valorant) concorre a Melhor Time de eSports.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Gematsu",
+     "url": "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced"
+    },
+    {
+     "nome": "GosuGamers",
+     "url": "https://www.gosugamers.net/entertainment/news/79505-the-game-awards-2026-nominees-revealed-gta-vi-leads-with-eight-nominations"
+    }
+   ],
+   "nome": "Game Awards"
+  },
+  {
+   "id": "worlds-2026-blg",
+   "categoria": "games",
+   "data": "2026-11-14",
+   "simbolo": "Bl",
+   "titulo": "Mundial de LoL: BLG passa por cima da Coreia e leva o primeiro título",
+   "resumo": "A Bilibili Gaming venceu a Gen.G por 3 a 1 na final do Worlds, no Barclays Center, em Nova York, e o mid Knight foi o MVP da final. É o primeiro título mundial de um time chinês desde a EDG em 2021, e acabou com a sequência de quatro títulos seguidos da LCK. A BLG derrubou todos os quatro times coreanos que enfrentou, inclusive o T1 do Faker na semi (3 a 1). O Viper chegou ao segundo título da carreira, e o Bin finalmente ganhou o troféu que faltava.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Inven Global",
+     "url": "https://www.invenglobal.com/articles/28661/bilibili-gaming-win-worlds-2026-beating-geng-3-1-in-the-final"
+    },
+    {
+     "nome": "KeenGamer",
+     "url": "https://www.keengamer.com/articles/features/reportages/bilibili-gaming-beat-gen-g-3-1-to-win-worlds-2026/"
+    },
+    {
+     "nome": "GosuGamers",
+     "url": "https://www.gosugamers.net/lol/news/79501-bilibili-gaming-defeat-gen-g-to-be-crowned-worlds-2026-champions"
+    }
+   ],
+   "nome": "Mundial de LoL"
+  },
+  {
+   "id": "zelda-ocarina-remake",
+   "categoria": "games",
+   "data": "2026-11-05",
+   "simbolo": "Ze",
+   "titulo": "Remake de Ocarina of Time foi o jogo mais bem avaliado do ano (até o GTA chegar)",
+   "resumo": "O remake de Zelda: Ocarina of Time saiu em 5/11, exclusivo do Switch 2, com 96 no Metacritic em mais de 80 análises, todas positivas. Foi a maior nota de 2026 até o GTA VI aparecer. Mesmo assim não supera o original de 1998, que continua com 99, a maior nota do site. A crítica elogiou a fidelidade, e a ressalva mais comum é que as dungeons ficaram mais simplificadas (o IGN deu 9/10 e reclamou justamente disso).",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "GG Recon",
+     "url": "https://www.ggrecon.com/articles/ocarina-of-time-remake-reviews-metacritic/"
+    },
+    {
+     "nome": "GamesRadar+",
+     "url": "https://www.gamesradar.com/games/the-legend-of-zelda/the-legend-of-zelda-ocarina-of-time-remakes-metacritic-score-makes-it-the-highest-rated-game-of-2026-but-even-it-cant-reach-the-originals-near-perfect-score/"
+    }
+   ],
+   "nome": "Ocarina remake"
+  },
+  {
+   "id": "gta-vi-30fps",
+   "categoria": "games",
+   "data": "2026-11-11",
+   "simbolo": "Fp",
+   "titulo": "30 fps até no PS5 Pro: a treta do frame rate do GTA VI",
+   "resumo": "A Rockstar confirmou que GTA VI roda travado em 30 quadros por segundo em todos os consoles, inclusive no PS5 Pro, sem modo performance no lançamento, mas sem descartar um modo 60 fps no futuro. Teve gente pedindo reembolso do PS5 Pro e comparando com a polêmica do Starfield, que depois ganhou modo 60 fps. Outros argumentaram que, num jogo-vitrine desses, a fluidez pesa menos. O próprio Kotaku duvida que a falta de 60 fps estrague a experiência.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Kotaku",
+     "url": "https://kotaku.com/some-players-are-crashing-out-about-gta-6-only-being-30-fps-starfield-got-assaulted-for-being-locked-to-30-fps-2000755892"
+    }
+   ]
+  },
+  {
+   "id": "psn-caiu-vespera-gta",
+   "categoria": "games",
+   "data": "2026-11-18",
+   "simbolo": "Ps",
+   "titulo": "A PSN caiu horas antes de o GTA VI liberar. Coincidência?",
+   "resumo": "Na tarde de 18/11, horas antes de o jogo destravar nos EUA, milhares de jogadores ficaram presos no login da PlayStation Network, e o Downdetector passou de 4 mil reclamações. A Sony confirmou a instabilidade e normalizou em poucas horas, mas não disse a causa, e oficialmente nada liga uma coisa à outra. O Notebookcheck atribuiu o problema ao tráfego de milhões de consoles baixando um jogo de cerca de 212 GB ao mesmo tempo. Usuários de Xbox também relataram quedas.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Newsweek",
+     "url": "https://newsweek.com/playstation-users-report-access-issues-hours-before-gta-vi-launch-12736310"
+    },
+    {
+     "nome": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/GTA-6-causes-PlayStation-Network-outages.1453653.0.html"
+    }
+   ]
+  },
+  {
+   "id": "wow-forever",
+   "categoria": "games",
+   "data": "2026-11-04",
+   "simbolo": "Wo",
+   "titulo": "WoW: Forever reinventa a Azeroth clássica e traz raça nova",
+   "resumo": "A Blizzard lançou World of Warcraft: Forever em 4/11, uma versão nova e permanente do WoW numa Azeroth original reimaginada. A história se passa antes de Molten Core e o nível máximo é 60, o famoso 'Classic+' que a comunidade pedia havia anos. Tem uma raça jogável inédita, os Skyborne, e mais de mil quests novas. Já vem incluso na assinatura do WoW, sem custo extra.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Blizzard",
+     "url": "https://worldofwarcraft.blizzard.com/en-us/news/24302093"
+    },
+    {
+     "nome": "TechSpot",
+     "url": "https://www.techspot.com/news/113832-world-warcraft-forever-launches-november-4-new-race.html"
+    }
+   ]
+  },
+  {
+   "id": "balanco-nintendo-sony",
+   "categoria": "games",
+   "data": "2026-11-05",
+   "simbolo": "Lc",
+   "titulo": "Nintendo e Sony vendem menos console, mas lucram mais",
+   "resumo": "No trimestre até setembro, o Switch 2 vendeu cerca de 2,67 milhões de unidades e chegou a 26,35 milhões no total. No semestre o hardware caiu 37,4%, mas o lucro operacional da Nintendo subiu, puxado por software, e o console segue mais de 6 milhões à frente do Switch 1 no mesmo ponto de vida. A Sony vendeu 2,6 milhões de PS5, contra 4 milhões um ano antes, e chegou a 97,9 milhões, mas o lucro operacional da divisão de games subiu 83% (Wolverine passou de 2,4 milhões de cópias). A Sony também disse que já garantiu a memória de que precisa para o próximo ano fiscal, em plena crise de preço de RAM.",
+   "angulo_quimico": "A crise de memória que encareceu os consoles é, no fundo, falta de capacidade nas fábricas de semicondutores. Esse processo é engenharia química pura: reagentes e gases ultrapuros, deposição e gravação de camadas em escala nanométrica.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Video Games Chronicle",
+     "url": "https://www.videogameschronicle.com/news/nintendo-switch-2-sales-have-dropped-37-but-its-still-comfortably-beating-the-original-console"
+    },
+    {
+     "nome": "Shacknews",
+     "url": "https://shacknews.com/article/151284/nintendo-switch-2-sells-2-67-million-units-q2-fy27"
+    },
+    {
+     "nome": "Gaming.net",
+     "url": "https://gaming.net/nintendo-reports-switch-2-hardware-decline-and-higher-profit"
+    },
+    {
+     "nome": "PlayDay",
+     "url": "https://playday.one/2026/11/05/sony-financial-results-ps5-approaches-100-million-console-sold/"
+    }
+   ]
+  },
+  {
+   "id": "consoles-vendas-despencam",
+   "categoria": "games",
+   "data": "2026-11-19",
+   "simbolo": "Hw",
+   "titulo": "Vendas de consoles caem 36,5%, e o preço é o vilão",
+   "resumo": "Dados da S&P Global, repercutidos pelo GamesIndustry.biz, mostram vendas de consoles 36,5% menores no 3º trimestre de 2026, com 6,4 milhões de unidades. O Switch 2 caiu 59% (a base de comparação é o pico do lançamento), o PS5 caiu 35,3% depois de subir para US$ 649,99 em abril e o Xbox Series caiu 14,2%. O analista Neil Barbour diz que as margens apertadas impedem bundles agressivos com GTA VI e prevê vendas anuais estáveis. Aqui no Brasil, o PS5 com disco tem preço sugerido de R$ 5.099,90 desde o reajuste de abril.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Canaltech",
+     "url": "https://canaltech.com.br/games/nem-gta-6-e-zelda-salvaram-vendas-de-consoles-caem-e-acende-alerta/"
+    },
+    {
+     "nome": "Tecnoblog",
+     "url": "https://tecnoblog.net/noticias/sony-aumenta-precos-do-ps5-e-ps5-pro-em-varios-paises/"
+    }
+   ]
+  },
+  {
+   "id": "firaxis-demissoes",
+   "categoria": "games",
+   "data": "2026-11-17",
+   "simbolo": "Fx",
+   "titulo": "Firaxis, de Civilization e XCOM, demite um terço da equipe",
+   "resumo": "Dois dias antes de o GTA VI faturar bilhões, outro estúdio da mesma dona, a Take-Two, cortou cerca de 60 pessoas na Firaxis, mais ou menos um terço do time. O estúdio falou em 'reestruturação' para se concentrar no que faz de melhor. Segundo a Bloomberg, um novo XCOM está em desenvolvimento. É o contraste da indústria em 2026: recorde de faturamento de um lado, demissão do outro.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Insider Gaming",
+     "url": "https://insider-gaming.com/civilization-and-xcom-studio-firaxis-lays-off-a-third-of-staff/"
+    }
+   ]
+  },
+  {
+   "id": "xbox-25-anos",
+   "categoria": "games",
+   "data": "2026-11-13",
+   "simbolo": "Xb",
+   "titulo": "Xbox faz 25 anos com foco no PC e RPGs clássicos de volta",
+   "resumo": "Para os 25 anos da marca, completados em 15/11, a Microsoft lançou o Xbox Playback, uma retrospectiva da sua história na plataforma. Também trouxe 25 jogos do Xbox original para PC, entre eles Knights of the Old Republic 1 e 2 e Morrowind, alguns ganhando conquistas pela primeira vez. Mostrou ainda gameplay de Fable e anunciou um modo Firefight gratuito para Halo: Campaign Evolved. Na avaliação da NoobFeed, quem joga no console ficou meio a ver navios, porque quase tudo foi pensado para o PC.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "NoobFeed",
+     "url": "https://www.noobfeed.com/news/xbox-25th-anniversary-highlights-console"
+    },
+    {
+     "nome": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/08/24/xbox-anniversary-x25-fanfest-gear-community-designs/"
+    }
+   ]
+  },
+  {
+   "id": "pikmin-day",
+   "categoria": "games",
+   "data": "2026-10-31",
+   "simbolo": "Pk",
+   "titulo": "Nintendo cria o Dia do Pikmin e lança Pikmin 4 turbinado no Switch 2",
+   "resumo": "Num Nintendo Direct curtinho, a Nintendo oficializou 1º de novembro como o Pikmin Day. O destaque foi a Pikmin 4 Nintendo Switch 2 Edition + Dandori Academy, lançada em 12/11, que teve demo gratuita antes, com os dois primeiros estágios e progresso aproveitado no jogo completo. Também estreou uma série de vídeos de Pikmin feita com a Nintendo Pictures, com episódios mensais. Jogo inédito não apareceu.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "Nintendo World Report",
+     "url": "https://nintendoworldreport.com/news/77969/nintendo-declares-november-1-pikmin-day-airs-dedicated-direct"
+    }
+   ]
+  },
+  {
+   "id": "huang-renuncia-nvidia",
+   "categoria": "tecnologia",
+   "data": "2026-11-12",
+   "simbolo": "Hu",
+   "titulo": "Jensen Huang cai: CEO da Nvidia renuncia em meio a suspeita de espionagem",
+   "resumo": "O cara da jaqueta de couro saiu. O New York Times noticiou que a inteligência americana suspeitava que Alice Huang, executiva da Megaspeed com quem ele tinha um caso, teria sido recrutada pelo serviço secreto chinês para espioná-lo; depois apareceu um segundo relacionamento, com uma diretora da própria Nvidia, e ele admitiu a infidelidade num memorando aos funcionários. O conselho abriu investigação em 8/11 e Huang renunciou em 12/11, após 33 anos no comando: a CFO Colette Kress virou CEO interina e a empresa perdeu cerca de US$ 600 bilhões em valor desde o início da investigação. A China chamou as acusações de infundadas, e o comunicado do conselho nem cita o caso. Teoria da conspiração da vida real, com documento na SEC e tudo.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "The Next Web",
+     "url": "https://thenextweb.com/news/jensen-huang-resigns-as-nvidia-ceo-after-33-years-effective-immediately"
+    },
+    {
+     "nome": "SEC (Form 8-K da Nvidia)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    },
+    {
+     "nome": "Al Jazeera",
+     "url": "https://aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal"
+    }
+   ],
+   "nome": "Huang sai"
+  },
+  {
+   "id": "anthropic-ipo-recorde",
+   "categoria": "tecnologia",
+   "data": "2026-11-19",
+   "simbolo": "An",
+   "titulo": "Anthropic estreia na Nasdaq com o maior IPO da história",
+   "resumo": "A dona do Claude abriu capital em 19/11 com o ticker ANT: vendeu 980 milhões de ações a US$ 83 (acima da faixa prevista de US$ 70 a 78) e levantou cerca de US$ 81,3 bilhões, passando o IPO da SpaceX de junho como o maior já feito. A ação abriu a US$ 111,50 (+34%) e fechou o dia a US$ 97,17 (+17%), com a empresa chegando a valer cerca de US$ 2 trilhões durante o pregão. Tudo isso numa semana em que as ações de IA estavam apanhando feio.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo"
+    },
+    {
+     "nome": "Anchorage Daily News (AP)",
+     "url": "https://www.adn.com/business-economy/2026/11/19/anthropic-begins-trading-as-a-15-trillion-company-in-the-biggest-ipo-on-record/"
+    },
+    {
+     "nome": "Anthropic",
+     "url": "https://anthropic.com/news/roadshow-launch"
+    }
+   ],
+   "nome": "IPO Anthropic"
+  },
+  {
+   "id": "nvidia-resultado-q3",
+   "categoria": "tecnologia",
+   "data": "2026-11-17",
+   "simbolo": "Nv",
+   "titulo": "Nvidia fatura US$ 115,8 bi no primeiro balanço sem Huang",
+   "resumo": "Mesmo no meio do caos, a máquina não parou: receita de US$ 115,8 bilhões no trimestre (+103% em um ano), sendo US$ 107,6 bi só de data centers, e previsão de US$ 130 bi para o próximo trimestre, sem contar nenhuma venda de chips de data center para a China. A nova plataforma Vera Rubin começou a ser entregue no ramp de produção mais rápido da história da empresa e já roda em Google Cloud, Azure, Oracle e CoreWeave. No comunicado, quem assina como CEO é Colette Kress: o Vera Rubin começou explosivo, disse ela.",
+   "angulo_quimico": "Por trás desse número está a cadeia de semicondutores mais avançada do planeta: fotolitografia, deposição de filmes finos e reagentes de pureza extrema. A demanda por IA é, no fundo, demanda por processo químico de altíssimo nível.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Nvidia (comunicado oficial)",
+     "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+     "nome": "Guru3D",
+     "url": "https://www.guru3d.com/story/nvidia-q3-fy2027-usd-1158-billion-revenue-data-center-usd-1076-billion-usd-130-billion-q4/"
+    }
+   ],
+   "nome": "Nvidia US$ 115 bi"
+  },
+  {
+   "id": "gpt-6-2-astra-sol",
+   "categoria": "tecnologia",
+   "data": "2026-11-17",
+   "simbolo": "Gp",
+   "titulo": "OpenAI lança GPT-6.2 Astra e Sol, e acende o alerta de autoaperfeiçoamento",
+   "resumo": "A OpenAI soltou o GPT-6.2 Astra (topo de linha, para pesquisa científica e código pesado) e o GPT-6.2 Sol (o eficiente do dia a dia), já no ChatGPT e na API. Segundo a ARC Prize, o Astra é o primeiro modelo a cravar 100% no ARC-AGI-3, e pelo próprio system card é o primeiro modelo público da OpenAI a atingir o nível High de risco de autoaperfeiçoamento de IA, frase que parece saída de roteiro de ficção científica. Veio cerca de sete semanas depois de a empresa engavetar o 6.1 Astra, e parte dos usuários achou o salto na prática menor do que os benchmarks sugerem.",
+   "angulo_quimico": "Os dois modelos bateram o limiar High de risco biológico e químico do framework de segurança da OpenAI, ou seja, a empresa avalia que eles já poderiam dar ajuda relevante nessa área sensível e por isso saem com travas extras.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "OpenAI",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+     "nome": "TestingCatalog",
+     "url": "https://www.testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis/"
+    },
+    {
+     "nome": "Wccftech",
+     "url": "https://wccftech.com/openais-gpt-6-2-astra-becomes-the-first-model-to-achieve-a-100-score-on-arc-agi-3-while-being-8x-cheaper-than-anthropics-fable-5-2-but-actual-users-are-not-impressed/"
+    }
+   ],
+   "nome": "GPT-6.2"
+  },
+  {
+   "id": "eua-chips-ia-brasil",
+   "categoria": "tecnologia",
+   "data": "2026-11-16",
+   "simbolo": "Ci",
+   "titulo": "EUA passam a exigir licença para vender chips de IA a data centers no Brasil",
+   "resumo": "O Departamento de Comércio americano colocou o Brasil, junto com Singapura, Malásia, Indonésia e Tailândia, numa lista de países com risco de desvio de tecnologia: exportar chips avançados de IA para data centers daqui agora exige licença extra. O alvo é a China, que usa acesso remoto a data centers em outros países para driblar o embargo; quem fornece muito poder computacional a empresas chinesas tem 90 dias para conseguir a licença. Não é proibição, os pedidos são analisados caso a caso, mas a Abes alerta para desvantagem dos data centers de capital nacional e dificuldade para atrair investimento.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Teletime",
+     "url": "https://teletime.com.br/16/11/2026/eua-chips-ia-data-centers-brasil/"
+    },
+    {
+     "nome": "Al Jazeera",
+     "url": "https://aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal"
+    }
+   ]
+  },
+  {
+   "id": "bolha-ia-selloff",
+   "categoria": "tecnologia",
+   "data": "2026-11-05",
+   "simbolo": "Bo",
+   "titulo": "Bolha? Ações de IA derretem e S&P 500 tem o pior dia desde abril de 2025",
+   "resumo": "Logo depois das eleições de meio de mandato nos EUA, o S&P 500 caiu 4,4% em 5/11 (pior dia desde o tarifaço de abril de 2025), a Nasdaq 5,5% e a Nvidia 9,3%. Os medos: juros altos encarecendo a construção de data centers, avaliações infladas e a chance de vitórias democratas levarem governos a frear novos data centers por causa da conta de luz. A pressão continuou nas semanas seguintes, turbinada pelo caso Huang, e a Nasdaq entrou em correção.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "AJC (AP)",
+     "url": "https://www.ajc.com/news/2026/11/a-wipeout-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-more-than-35/"
+    },
+    {
+     "nome": "Wealth Professional",
+     "url": "https://www.wealthprofessional.ca/investments/equity-markets/nasdaq-slides-into-correction-as-ai-selloff-hits-third-day/394028"
+    },
+    {
+     "nome": "KPTV (AP)",
+     "url": "https://www.kptv.com/2026/11/17/another-wipeout-hits-wall-street-nvidia-other-jittery-ai-stocks-swing-lower/?outputType=amp"
+    }
+   ]
+  },
+  {
+   "id": "google-exploit-agent",
+   "categoria": "tecnologia",
+   "data": "2026-11-16",
+   "simbolo": "Ex",
+   "titulo": "Google flagra a primeira IA hacker que acha e explora falhas sozinha",
+   "resumo": "O grupo de inteligência de ameaças do Google, junto com a Mandiant, revelou o exploit_agent: um sistema multiagente, ligado a vários LLMs, que lê patches de segurança recém-publicados, descobre qual falha foi corrigida, escreve o exploit e o executa sem humano no meio. Foi encontrado num servidor exposto e mirava sites franceses de mídia, entretenimento e educação (o Google não conseguiu confirmar se os dados roubados achados lá vieram das operações autônomas). A previsão do Google é de ataques com pouca ou nenhuma interação humana em questão de meses: a corrida entre o patch e o ataque ficou bem mais curta.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "CSO Online",
+     "url": "https://www.csoonline.com/article/4249595/google-spots-the-first-hacker-ai-system-that-finds-and-exploits-flaws-autonomously.html"
+    },
+    {
+     "nome": "Unite.AI",
+     "url": "https://unite.ai/google-finds-attackers-using-fully-autonomous-exploit-pipelines"
+    }
+   ]
+  },
+  {
+   "id": "claude-fable-mythos-5-2",
+   "categoria": "tecnologia",
+   "data": "2026-11-09",
+   "simbolo": "Fa",
+   "titulo": "Anthropic solta Claude Fable 5.2 e Mythos 5.2 às vésperas da bolsa",
+   "resumo": "A Anthropic lançou o Claude Fable 5.2, focado em programação, raciocínio e agentes, e o Mythos 5.2, voltado a cibersegurança e pesquisa em ciências da vida, este com acesso restrito a organizações aprovadas. Segundo a Reuters, os dois geram respostas até 30% mais rápido que a geração 5.1 e saem a US$ 8 por milhão de tokens de entrada e US$ 40 de saída, mais baratos que os antecessores. Foi a cartada de produto dez dias antes da estreia na Nasdaq, e oito dias antes de a OpenAI responder com o GPT-6.2.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "The Star (Reuters)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/10/anthropic-unveils-new-fable-mythos-models-as-competition-heats-up-ahead-of-ipo"
+    },
+    {
+     "nome": "Bloomberg Tax",
+     "url": "https://news.bloombergtax.com/private-equity/anthropic-unveils-new-fable-mythos-ai-models-ahead-of-ipo"
+    }
+   ]
+  },
+  {
+   "id": "macbook-pro-oled-touch",
+   "categoria": "tecnologia",
+   "data": "2026-10-28",
+   "simbolo": "Ol",
+   "titulo": "Apple se rende: primeiro MacBook Pro com tela OLED sensível ao toque",
+   "resumo": "A Apple anunciou o MacBook Pro com tela PROLED XDR: OLED tandem com até 2.000 nits, touch embutido no painel e Dynamic Island no lugar do notch, num corpo mais fino e leve. Vem com M5 Pro ou M5 Max, custa a partir de US$ 2.899 (14 polegadas) ou US$ 3.399 (16 polegadas) e chegou às lojas em 6/11. Depois de anos resistindo, a Apple finalmente colocou tela touch num Mac.",
+   "angulo_quimico": "OLED tandem empilha duas camadas emissoras de semicondutores orgânicos, o que dá mais brilho e vida útil ao painel: química orgânica de materiais virando produto de consumo.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "MacRumors",
+     "url": "https://macrumors.com/2026/10/28/apple-new-macbook-pro/"
+    },
+    {
+     "nome": "PetaPixel",
+     "url": "https://petapixel.com/2026/10/28/apple-unveils-its-first-ever-macbook-pro-with-a-touchscreen-oled/"
+    }
+   ]
+  },
+  {
+   "id": "apagoes-microsoft-365",
+   "categoria": "tecnologia",
+   "data": "2026-11-12",
+   "simbolo": "Ms",
+   "titulo": "Semana dos apagões: Microsoft 365 fica fora do ar por quase um dia",
+   "resumo": "Outlook, Teams, SharePoint e Copilot caíram no mundo todo em 12/11; a Microsoft culpou um problema de uma atualização anterior de capacidade de rede, descartou ataque hacker e passou de 23 horas sem normalizar tudo. Na mesma semana, a FAA parou voos nos EUA por pane em equipamento de telecom (13/11), a AWS teve falhas na região US-East (15/11) e iCloud e Apple Pay caíram por causa de uma atualização interna (17/11). Lembrete de que a nuvem é só o computador de outra pessoa, e às vezes ele trava.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "BleepingComputer",
+     "url": "https://bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide"
+    },
+    {
+     "nome": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/us-businesses-hit-cyber-incidents-outages-1832974"
+    }
+   ]
+  },
+  {
+   "id": "ibm-quantum-nighthawk",
+   "categoria": "tecnologia",
+   "data": "2026-11-06",
+   "simbolo": "Qb",
+   "titulo": "IBM liga computador quântico em Chicago e mira sistema de 1.040 qubits",
+   "resumo": "A IBM inaugurou um Quantum System Two na Universidade de Chicago, com o processador Nighthawk r2 de 120 qubits, seu primeiro computador quântico em Illinois. Na conferência de desenvolvedores, em meados de novembro, mostrou o Nighthawk r3 para 2027 (mais de 520 qubits) e o plano de ligar dois deles num sistema de 1.040 qubits, rumo ao Starling, máquina tolerante a falhas com 200 qubits lógicos prevista para 2029. A estratégia agora é modular: juntar chips menores em vez de construir um monstro único.",
+   "angulo_quimico": "Simular moléculas e reações é uma das aplicações mais esperadas da computação quântica; e o Nighthawk r3 vai ser fabricado na fundição de wafers supercondutores de 300 mm da IBM em Albany.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Quantum Zeitgeist",
+     "url": "https://www.quantumzeitgeist.com/ibm-quantum-system-two-chicago-computer/"
+    },
+    {
+     "nome": "The Next Platform",
+     "url": "https://www.nextplatform.com/compute/2026/11/17/ibm-links-two-nighthawk-r3-chips-to-make-a-1040-qubit-quantum-system/5310545"
+    }
+   ]
+  },
+  {
+   "id": "gemini-controla-mac",
+   "categoria": "tecnologia",
+   "data": "2026-11-19",
+   "simbolo": "Ge",
+   "titulo": "Gemini agora mexe no seu Mac por você",
+   "resumo": "O Google liberou o computer use no app do Gemini para Mac: você escreve @Computer use, descreve a tarefa e ele clica, digita, navega em menus e preenche formulários em apps e sites, numa janela isolada em segundo plano enquanto você continua usando a máquina. Por enquanto só nos EUA, em inglês, para assinantes AI Plus, Pro e Ultra com Mac Apple Silicon. É a corrida dos agentes saindo da caixa de chat e indo para o desktop.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Google (blog oficial)",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+    },
+    {
+     "nome": "MacRumors",
+     "url": "https://macrumors.com/2026/11/19/google-gemini-mac-app-control"
+    }
+   ]
+  },
+  {
+   "id": "apple-recorde-ternus",
+   "categoria": "tecnologia",
+   "data": "2026-11-02",
+   "simbolo": "Ap",
+   "titulo": "Apple bate recorde no primeiro balanço de John Ternus como CEO",
+   "resumo": "A Apple reportou receita de US$ 114,5 bilhões no trimestre de setembro (+12%), com iPhone a US$ 57,6 bi (+17%, recorde para o período), Mac subindo 24% e serviços em recorde de US$ 31,6 bi. Foi a estreia de Ternus, que substituiu Tim Cook em setembro, na divulgação de resultados; ele chamou o iPhone Duo, o dobrável lançado em outubro, de o iPhone mais transformador desde o original.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "iPhone in Canada",
+     "url": "https://www.iphoneincanada.ca/2026/11/02/apple-record-revenue-john-ternus-first-report-ceo/"
+    },
+    {
+     "nome": "iDrop News",
+     "url": "https://idropnews.com/news/apple-q4-2026-financial-results-iphone-mac-growth/270514/"
+    }
+   ]
+  },
+  {
+   "id": "microsoft-ignite-agentes",
+   "categoria": "tecnologia",
+   "data": "2026-11-17",
+   "simbolo": "Ig",
+   "titulo": "Microsoft Ignite: a nova aposta é dar crachá e chefe para agentes de IA",
+   "resumo": "Na Ignite, aberta em 17/11 em San Francisco, a Microsoft lançou o Agent 365, para gerenciar e controlar os agentes de IA dentro das empresas, e liberou o Entra Agent Identity, que dá identidade própria a cada agente. Também anunciou máquinas virtuais com o chip Cobalt 200 (até 50% mais desempenho de CPU, segundo ela) e o banco de dados HorizonDB. A mensagem: agentes vão trabalhar ao lado das equipes, e alguém precisa fazer o papel de RH deles.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "TechRepublic",
+     "url": "https://www.techrepublic.com/article/news-microsoft-ignite-2026-announcements/"
+    },
+    {
+     "nome": "Redmond Channel Partner",
+     "url": "https://rcpmag.com/articles/2026/11/17/microsoft-ignite-2026-nadella-makes-the-case.aspx"
+    }
+   ]
+  },
+  {
+   "id": "tesla-robotaxi-san-antonio",
+   "categoria": "tecnologia",
+   "data": "2026-11-09",
+   "simbolo": "Rt",
+   "titulo": "Robotáxi da Tesla sem ninguém ao volante chega à 8ª cidade",
+   "resumo": "A Tesla começou corridas sem supervisão em San Antonio, seu oitavo mercado nos EUA (cinco cidades no Texas e três na Flórida), e ampliou a área atendida em Austin para cerca de 443 milhas quadradas. O porém de sempre: a frota não é divulgada, e rastreadores estimaram só uns sete carros na cidade no primeiro dia, enquanto a Waymo, que abriu serviço em San Antonio em outubro, segue bem à frente em escala.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "GCN",
+     "url": "https://gcn.com/?p=23199"
+    },
+    {
+     "nome": "GCN (expansão da Waymo)",
+     "url": "https://gcn.com/waymo-expands-driverless-service-five-cities/22846/"
+    }
+   ]
+  },
+  {
+   "id": "pentagono-ufo-lote-8",
+   "categoria": "misterios",
+   "data": "2026-11-20",
+   "simbolo": "Ua",
+   "titulo": "Pentágono solta o 8º lote de arquivos de OVNI, com direito a plano de 'cofre' para tecido",
+   "resumo": "O Departamento de Guerra (o novo nome do Pentágono) publicou o oitavo lote do PURSUE, o programa de liberação de arquivos de UAP: dezenas de documentos, imagens e vídeos. Os destaques são um clipe infravermelho de 20 segundos, gravado por um navio no Oriente Médio em 2020, em que uma luz circular passa pelo navio; um relatório de 1953 do lendário engenheiro da Lockheed Kelly Johnson sobre um disco azul-escuro; e o plano de uma instalação subterrânea para guardar 'material exótico ou tecido'.",
+   "teoria": "Pra turma da divulgação, um projeto de bunker pra guardar 'tecido' é a prova de que o governo tem (ou esperava ter) material biológico não humano. O conta-gotas mensal de arquivos seria uma 'aclimatação' do público antes da grande revelação.",
+   "fatos": "Não existe registro de que a instalação tenha sido construída. O Pentágono disse que 'não vai fazer nenhum comentário ou avaliação sobre os arquivos' e deixou o público tirar as próprias conclusões, mas repete que muitos avistamentos têm explicação banal, como aeronave confundida ou artefato de câmera. O porta-voz Sean Parnell disse que mais arquivos vão sair 'de forma contínua'.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Euronews",
+     "url": "https://www.euronews.com/video/2026/11/21/pentagon-declassifies-new-ufo-footage-filmed-by-us-military"
+    },
+    {
+     "nome": "UNILAD",
+     "url": "https://www.unilad.com/news/us-news/pentagon-new-ufo-footage-477389-20261121"
+    },
+    {
+     "nome": "iHeart",
+     "url": "https://www.iheart.com/content/2026-11-20-pentagon-publishes-more-ufo-files-amid-growing-public-curiosity/"
+    }
+   ],
+   "nome": "Arquivos OVNI"
+  },
+  {
+   "id": "ky26-sonda-sovietica",
+   "categoria": "misterios",
+   "data": "2026-11-15",
+   "simbolo": "Ph",
+   "titulo": "Avi Loeb x chefe da NASA: a 'rocha' 1998 KY26 seria uma sonda soviética perdida?",
+   "resumo": "O 1998 KY26 é um objeto próximo da Terra com uns 11 metros, e ele acelera de um jeito que a gravidade sozinha não explica. Avi Loeb e colegas testaram a hipótese de que ele seja a Phobos 1, sonda soviética que perdeu contato a caminho de Marte em 1988. O administrador da NASA, Jared Isaacman, rebateu na TV.",
+   "teoria": "Pra Loeb, o objeto 'não é um asteroide'. A trajetória bate com a da missão, ele é muito refletivo, gira uma vez a cada uns 5 minutos, e a luz do Sol batendo num casco de nave explicaria o empurrão extra. Ou seja: lixo espacial humano disfarçado de rocha.",
+   "fatos": "Isaacman disse que não viu nenhuma evidência de que seja outra coisa além de um asteroide. A NASA citou um estudo de 2025 do seu centro de objetos próximos da Terra que explica a trajetória pela radiação solar agindo num corpo de formato irregular, sem atividade de cometa escondida. O próprio Loeb admite que é hipótese não comprovada: a sonda japonesa Hayabusa2 chega ao KY26 em 2031, e se for rocha ou gelo, ele mesmo diz que a teoria acabou. Plot twist: dois dias depois, a JAXA anunciou que a Hayabusa2 não vai mais ao KY26 (veja em Espaço), então o teste definitivo ficou sem data.",
+   "angulo_quimico": "A alternativa do 'cometa escuro' (gelo sublimando sem cauda visível) também balança: uma pesquisa da Georgia Tech questiona se o objeto conseguiria reter gelo suficiente pra gerar esse empurrão.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Fox News",
+     "url": "https://www.foxnews.com/us/harvard-scientist-pushes-back-nasa-chief-mystery-space-object-not-asteroid.print"
+    }
+   ],
+   "nome": "KY26: sonda?"
+  },
+  {
+   "id": "drones-lakenheath",
+   "categoria": "misterios",
+   "data": "2026-11-13",
+   "simbolo": "Dr",
+   "titulo": "Sirenes e ordem de abrigo: drones não identificados sobre base dos EUA na Inglaterra",
+   "resumo": "Na noite de 13/11, um alarme soou na RAF Lakenheath, a maior base da Força Aérea dos EUA no Reino Unido, e o pessoal recebeu ordem de se abrigar. A USAF confirmou que a segurança da base respondeu a 'suspeita de atividade não autorizada de drones'.",
+   "teoria": "Nas redes, virou reprise da onda de 'drones misteriosos' de 2024, que também passou por Lakenheath: objetos que ninguém derruba, ninguém identifica e ninguém explica. Logo, UAP.",
+   "fatos": "Número, tipo e operadores dos drones não foram divulgados. A USAF disse que nenhuma pessoa, aeronave ou estrutura foi afetada, e o Ministério da Defesa britânico deu o caso por resolvido. O contexto aponta pra uma ameaça bem terrestre: dias antes, as bases tinham subido o alerta para FPCON Charlie e tirado aviões-tanque de Mildenhall, e o Wall Street Journal ligou essas mudanças a uma ameaça iraniana (segundo a Newsweek). Quanto a 2024, registros policiais obtidos via lei de acesso mostram patrulhas anotando que não conseguiram localizar os drones 'nem saber se eram drones'.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "The Aviationist",
+     "url": "https://theaviationist.com/2026/11/13/raf-lakenheath-sounds-alarm-drone-activity/"
+    },
+    {
+     "nome": "Newsweek",
+     "url": "https://newsweek.com/us-air-force-responds-to-drone-activity-at-base-in-uk-after-iran-threat-12713848"
+    },
+    {
+     "nome": "sUAS News",
+     "url": "https://www.suasnews.com/2026/11/seven-drones-five-drones-and-not-one-confirmed-the-lakenheath-drone-panic/"
+    }
+   ],
+   "nome": "Drones na base"
+  },
+  {
+   "id": "apagao-17-novembro",
+   "categoria": "misterios",
+   "data": "2026-11-17",
+   "simbolo": "Ap",
+   "titulo": "O 'apagão mundial de 90 dias' de 17/11 que nunca veio",
+   "resumo": "Viralizou no mundo todo, Brasil incluso, que em 17 de novembro o planeta ia ficar sem luz, internet e bancos por até 90 dias. Teve até 'previsão' dos Simpsons e vídeo do Trump anunciando o apagão.",
+   "teoria": "Um teste de alerta nos EUA seria o ensaio de um ciberataque planejado contra os bancos (contas de cripto aproveitaram pra mandar todo mundo sacar a poupança e comprar moeda digital). A 'profecia' estaria num episódio de 2023 dos Simpsons em que Springfield fica no escuro num 17 de novembro.",
+   "fatos": "A data veio de um teste nacional de rotina do Sistema de Alerta de Emergência (FEMA/FCC), às 14h20 no horário de Nova York, com cerca de 1 minuto de interrupção só em TV e rádio. Os '90 dias' são uma distorção do programa FORTRESS America, do Pentágono, que quer que as bases militares consigam funcionar 90 dias fora da rede elétrica civil. O blecaute dos Simpsons é causado por uma tempestade e não cita 2026. O PolitiFact classificou o boato como falso, e o vídeo do Trump é manipulado: o original, de 9 de novembro, não tinha anúncio nenhum.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "France 24",
+     "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261116-november-17-blackout-hoax-how-a-conspiracy-theory-went-viral-around-the-world"
+    },
+    {
+     "nome": "Spotmedia",
+     "url": "https://spotmedia.ro/en/news/news/november-17-blackout-the-viral-conspiracy-the-real-story-and-how-the-rumor-began"
+    },
+    {
+     "nome": "The American Bazaar",
+     "url": "https://americanbazaaronline.com/2026/11/17/digital-apocalypse-november-17-us-blackout-rumors-492530/"
+    },
+    {
+     "nome": "Concursos no Brasil",
+     "url": "https://concursosnobrasil.com/noticia/2026/11/14/apagao-mundial-do-dia-17-11-veja-o-que-a-ciencia-diz-sobre-o-boato/"
+    }
+   ],
+   "nome": "Apagão fake"
+  },
+  {
+   "id": "epstein-relatorio-camara",
+   "categoria": "misterios",
+   "data": "2026-11-10",
+   "simbolo": "Ep",
+   "titulo": "Caso Epstein: comissão republicana diz que governo escondeu nomes de supostos cúmplices",
+   "resumo": "A Comissão de Supervisão da Câmara dos EUA, de maioria republicana, soltou um relatório de 137 páginas criticando duramente o governo Trump e o Departamento de Justiça pelo jeito como liberaram milhões de páginas dos arquivos de Jeffrey Epstein.",
+   "teoria": "É o combustível perfeito pra tese do acobertamento: se até os aliados do governo admitem que nomes de supostos cúmplices foram tarjados, a tal 'lista' de poderosos estaria sendo protegida.",
+   "fatos": "O relatório diz que o governo perdeu prazos de divulgação, escondeu nomes de supostos cúmplices e errou nas duas pontas: algumas tarjas falharam e expuseram dados das vítimas, outras foram exageradas e ocultaram gente do círculo de Epstein. O mesmo documento afirma que depoimentos confirmaram que Trump não se envolveu na condução das investigações criminais. Os democratas acusam os republicanos de blindar gente bem conectada, e o tema virou munição nas campanhas das eleições de meio de mandato.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Associated Press (via MyNorthwest)",
+     "url": "https://mynorthwest.com/?p=4297879"
+    }
+   ]
+  },
+  {
+   "id": "semana-das-panes",
+   "categoria": "misterios",
+   "data": "2026-11-13",
+   "simbolo": "Pn",
+   "titulo": "Microsoft, FAA e bancos caem na mesma semana: ataque coordenado?",
+   "resumo": "Em poucos dias caíram serviços do Microsoft 365 (12/11), a FAA parou o tráfego aéreo dos EUA por problemas de telecomunicação (13/11), e clientes de JPMorgan Chase, Bank of America, Wells Fargo e U.S. Bank tiveram problemas no banco online (16/11).",
+   "teoria": "Pra muita gente era o 'aquecimento' do apagão de 17/11: um ciberataque coordenado, talvez feito com IA, testando a infraestrutura antes do grande desligamento.",
+   "fatos": "A FAA disse que 17 dos 22 centros regionais de controle de tráfego foram afetados, e cerca de 12.462 voos foram cancelados (nem todos por causa da parada). A pane foi atribuída a problemas em equipamentos legados de telecomunicação e a uma atualização tecnológica que falhou, não a um ataque. O JPMorgan culpou um bug de software e disse não ver sinal de ciberataque. Até o secretário de Segurança Interna especulou que a IA pode ter contribuído, mas admitiu que não sabia a causa e que não via evidência de ataque coordenado.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "The American Bazaar",
+     "url": "https://americanbazaaronline.com/2026/11/17/digital-apocalypse-november-17-us-blackout-rumors-492530/"
+    },
+    {
+     "nome": "France 24",
+     "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261116-november-17-blackout-hoax-how-a-conspiracy-theory-went-viral-around-the-world"
+    }
+   ]
+  },
+  {
+   "id": "tribunal-secreto-702",
+   "categoria": "misterios",
+   "data": "2026-10-29",
+   "simbolo": "Fi",
+   "titulo": "A decisão secreta sobre espionagem de americanos que o governo não publica",
+   "resumo": "Os senadores Ron Wyden e Adam Schiff acusam o governo de segurar ilegalmente uma decisão de 17/3/2026 do tribunal secreto de vigilância (FISC) sobre buscas em dados coletados pela Seção 702. O prazo legal de 180 dias pra liberar uma versão pública venceu em 13/9, e eles deram até 6/11 pra o governo se explicar.",
+   "teoria": "Aqui a 'teoria' de que as agências vasculham comunicações de cidadãos sem o devido controle não é tão teoria assim. E o sigilo alimenta a suspeita de que tem coisa pior escondida.",
+   "fatos": "Segundo a WIRED (citada pelo YourNews), a corte concluiu que ferramentas usadas pra achar comunicações de americanos, como um 'filtro de participantes' do FBI, violavam as regras, porque essas buscas podiam nem ser registradas como buscas. Um relato no Just Security diz que consultas do FBI, da CIA e da NSA escaparam de auditoria. A Seção 702 expirou em junho, mas a coleta continua até março de 2027 com base numa autorização da própria corte. Não achei registro de que a decisão tenha sido publicada depois do prazo de 6/11.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "YourNews",
+     "url": "https://yournews.com/2026/10/29/7243660/senators-accuse-trump-administration-of-illegally-withholding-fisa-court-ruling/"
+    },
+    {
+     "nome": "State of Surveillance",
+     "url": "https://stateofsurveillance.org/news/2026-11-01-weekly-surveillance-roundup/"
+    }
+   ]
+  },
+  {
+   "id": "gchq-pendrives-sumidos",
+   "categoria": "misterios",
+   "data": "2026-10-30",
+   "simbolo": "Gc",
+   "titulo": "Espiões britânicos não sabem onde foram parar 'milhares' de pendrives e HDs",
+   "resumo": "O relatório anual do IPCO, órgão que fiscaliza os poderes de investigação no Reino Unido, revelou que o GCHQ (a 'NSA britânica') não consegue localizar até 'milhares' de mídias removíveis: pendrives, HDs externos, CDs e cartões de memória.",
+   "teoria": "Material ultrassecreto circulando por aí na mão de sabe-se lá quem, ou um sumiço conveniente de provas.",
+   "fatos": "O número é a estimativa do máximo de itens que não puderam ser localizados de imediato, não uma contagem confirmada de perdas, e o GCHQ admite que o sistema de controle dessas mídias 'não era robusto o suficiente'. O IPCO se disse 'muito preocupado' com a demora da investigação. O GCHQ diz que fez uma auditoria completa, mas se recusou a dizer se alguém não autorizado acessou o material.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "The Record",
+     "url": "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices"
+    }
+   ]
+  },
+  {
+   "id": "stonehenge-pedra-do-altar",
+   "categoria": "misterios",
+   "data": "2026-11-18",
+   "simbolo": "St",
+   "titulo": "Stonehenge: a pedra de 6 toneladas continua sem endereço",
+   "resumo": "Um novo estudo no Journal of the Geological Society (Universidade de Aberystwyth e Universidade de South Wales) descartou mais alguns candidatos a lugar de origem da Pedra do Altar, o bloco de arenito de umas 6 toneladas e 4,9 m no centro de Stonehenge.",
+   "teoria": "Se ela não é do País de Gales e veio de algum canto da Escócia ainda mais longe, como diabos o pessoal do Neolítico arrastou isso? Prato cheio pra 'tecnologia perdida' (e, claro, pros alienígenas).",
+   "fatos": "Pesquisas anteriores já tinham derrubado a origem galesa e apontado o nordeste da Escócia, com a bacia Orcadiana como favorita. O novo trabalho comparou a pedra com fragmentos guardados em museus, e nenhuma das localidades examinadas até agora tem a mesma combinação de características. A Escócia continua no páreo; o ponto exato e o método de transporte é que seguem em aberto.",
+   "angulo_quimico": "A 'impressão digital' da rocha saiu de composição mineral, química e assinaturas isotópicas: geoquímica de proveniência das boas.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261117033914.htm"
+    }
+   ]
+  },
+  {
+   "id": "naledi-so-mulheres",
+   "categoria": "misterios",
+   "data": "2026-11-11",
+   "simbolo": "Hn",
+   "titulo": "Homo naledi: um 'cemitério' só de mulheres há mais de 240 mil anos?",
+   "resumo": "Um estudo na revista Cell analisou proteínas antigas de 23 dentes de pelo menos 20 indivíduos de Homo naledi da caverna Rising Star, na África do Sul, e não achou sinal da amelogenina-Y, uma proteína ligada ao cromossomo Y.",
+   "teoria": "Um hominídeo de cérebro pequeno teria mantido uma área de deposição dos mortos só de mulheres, o espaço restrito por sexo mais antigo já atribuído a um parente não sapiens.",
+   "fatos": "Ausência de evidência não é prova. Os próprios autores dizem que, numa população isolada, o gene da amelogenina-Y pode ter sofrido mutação ou se perdido, então alguns desses indivíduos poderiam ser homens. E a ideia de que o H. naledi enterrava seus mortos de propósito já é contestada por outros pesquisadores.",
+   "angulo_quimico": "Paleoproteômica na veia: peptídeos extraídos do esmalte com um ataque ácido suave, e análise de aminoácidos no laboratório de química de York pra garantir que as proteínas eram antigas e não contaminação moderna.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm"
+    }
+   ]
+  },
+  {
+   "id": "sinal-k2-155",
+   "categoria": "misterios",
+   "data": "2026-11-02",
+   "simbolo": "Rf",
+   "titulo": "O sinal de rádio 'alienígena' de uma super-Terra que quase passou em todos os testes",
+   "resumo": "Um time chinês liderado por Zi-Qi Li reanalisou dados do radiotelescópio FAST de 33 sistemas planetários. Um sinal estreitíssimo, batizado de NBS 260108, em 1.148,4167 MHz, sobreviveu aos filtros iniciais, e vinha da anã vermelha K2-155, a 238 anos-luz. O paper saiu em agosto, mas a história voltou a bombar entre outubro e novembro.",
+   "teoria": "Banda estreitíssima, aparecendo só no feixe central apontado pra estrela, e vindo de um sistema com uma super-Terra (K2-155 d): é o que todo caçador de tecnoassinaturas sonha em ver.",
+   "fatos": "Os próprios autores escrevem que o sinal 'não está confirmado como tecnoassinatura'. A resposta num só canal e sinais parecidos perto de outras três estrelas na mesma noite apontam pra interferência local, de origem terrestre.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "ECOnews",
+     "url": "https://www.ecoticias.com/en/?p=53502"
+    }
+   ]
+  },
+  {
+   "id": "abydos-sacrificio",
+   "categoria": "misterios",
+   "data": "2026-11-13",
+   "simbolo": "Eg",
+   "titulo": "Os primeiros reis do Egito levavam os servos junto? Crânios reforçam a suspeita",
+   "resumo": "Uma pesquisadora da Universidade Purdue reexaminou 46 crânios escavados por Flinders Petrie nos anos 1920 em Abidos, de pessoas enterradas em volta das tumbas dos reis da 1ª Dinastia. Dezoito deles (cerca de 39%) têm fraturas ocorridas por volta da hora da morte.",
+   "teoria": "Há mais de um século os arqueólogos suspeitam de 'sacrifício de servos': quando o rei morria, seus assistentes eram mortos e enterrados junto. Petrie tinha atribuído as rachaduras a processos naturais.",
+   "fatos": "O estudo, na Frontiers in Environmental Archaeology, reforça a hipótese, e um dos indivíduos tem até um golpe cortante perto do olho. Mas o caso não está fechado: as fraturas lineares não batem com golpes de maça, quedas não podem ser totalmente descartadas, e só os crânios foram examinados, porque os esqueletos foram reenterrados há mais de 100 anos.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm"
+    }
+   ]
+  },
+  {
+   "id": "rock-hall-2026",
+   "categoria": "rock",
+   "data": "2026-11-14",
+   "simbolo": "Hf",
+   "titulo": "Iron Maiden finalmente no Rock Hall (e quem tocou foi um supergrupo)",
+   "resumo": "A cerimônia do Rock & Roll Hall of Fame rolou em 14/11 em Los Angeles e o Iron Maiden enfim entrou, só que a banda nem foi porque estava em turnê. Quem fez a indução foi o Jack Black, e um supergrupo com Kirk Hammett e Rob Trujillo (Metallica), John 5, Brad Wilk (Rage Against the Machine) e St. Vincent mandou 'The Trooper'. O Phil Collins subiu ao palco de bengala, brincou que 'não está tão mal quanto parece' e disse que ainda dá pra voltar a fazer shows. O Oasis também não apareceu, e o Rick Rubin fez um discurso de uma frase só: 'You can't kill rock 'n' roll'.",
+   "ouvir": "The Trooper (Iron Maiden)",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/iron-maiden-are-inducted-into-the-rock-and-roll-hall-of-fame-and-a-wild-supergroup-paid-tribute-to-them"
+    },
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/phil-collins-rock-roll-hall-fame-induction-2026"
+    },
+    {
+     "nome": "AP (via Boston 25 News)",
+     "url": "https://www.boston25news.com/entertainment/look-rock-roll-hall/QO2ABRE65M6JZHJXGFPSCSHA4I/"
+    }
+   ],
+   "nome": "Maiden no Hall"
+  },
+  {
+   "id": "grammy-2027-rock",
+   "categoria": "rock",
+   "data": "2026-11-16",
+   "simbolo": "Gr",
+   "titulo": "Grammy 2027: Foo Fighters, Stones, Muse e Megadeth na briga",
+   "resumo": "Saíram as indicações do Grammy 2027. Concorrem a Melhor Álbum de Rock o Foo Fighters ('Your Favorite Toy'), os Rolling Stones ('Foreign Tongues'), o Muse ('The Wow! Signal'), o Jack White ('Frozen Charlotte') e o Angine de Poitrine ('Vol. II'). No metal disputam Megadeth ('Let There Be Shred'), Mastodon, Anthrax, Knocked Loose com Denzel Curry e o trio Poppy, Amy Lee e Courtney LaPlante. Teve até Robert Smith (The Cure) indicado em parceria com a Olivia Rodrigo. A cerimônia é em 7 de fevereiro de 2027, em Los Angeles.",
+   "ouvir": "The Wow! Signal (Muse)",
+   "angulo_quimico": "O nome do disco do Muse é o mesmo do famoso sinal Wow!, captado em 1977 por um radiotelescópio de Ohio. Ele veio pertinho de 1420 MHz, a 'linha do hidrogênio': a frequência que o átomo de hidrogênio neutro emite quando o spin do elétron se inverte em relação ao do próton. Como o hidrogênio é o elemento mais abundante do universo, os caçadores de ETs apostavam justamente nessa frequência.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/music-industry/award-shows/2027-grammy-nominations-rock-metal"
+    },
+    {
+     "nome": "Metal Injection",
+     "url": "https://metalinjection.net/news/2027-grammy-nominees-rock-metal-alternative"
+    },
+    {
+     "nome": "Loudwire",
+     "url": "https://loudwire.com/fans-react-2027-rock-metal-alternative-grammy-nominees/"
+    }
+   ],
+   "nome": "Grammy 2027"
+  },
+  {
+   "id": "sepultura-ultimo-show",
+   "categoria": "rock",
+   "data": "2026-11-07",
+   "simbolo": "Sp",
+   "titulo": "Fim de uma era: o Sepultura fez seu último show, em São Paulo",
+   "resumo": "Em 7/11 o Sepultura se despediu no Suhai Music Hall, em SP, para umas 9 mil pessoas. O show tinha sido marcado para o Pacaembu (cerca de 26 mil lugares), mas foi transferido em setembro. Foram 30 músicas em quase três horas, com raridades e convidados como Jairo Guedz, João Gordo e o Ratos de Porão, Moyses Kolesne (Krisiun) e Yohan, filho do Andreas Kisser. Max e Iggor Cavalera recusaram o convite, e o bis fechou com 'Ratamahatta' e 'Roots Bloody Roots'.",
+   "ouvir": "Roots Bloody Roots (Sepultura)",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/this-is-the-epic-setlist-from-sepulturas-emotional-fina-show"
+    },
+    {
+     "nome": "Blabbermouth",
+     "url": "https://blabbermouth.net/news/watch-sepultura-plays-final-concert-in-sao-paulo-brazil"
+    },
+    {
+     "nome": "Loudwire",
+     "url": "https://loudwire.com/sepultura-final-show-setlist-video/"
+    }
+   ],
+   "nome": "Adeus, Sepultura"
+  },
+  {
+   "id": "u2-carnaval-de-luz",
+   "categoria": "rock",
+   "data": "2026-11-13",
+   "simbolo": "Cl",
+   "titulo": "U2 lança 'Carnaval De Luz' e a crítica fala em clima de Achtung Baby",
+   "resumo": "O U2 lançou em 13/11 o 16º álbum, 'Carnaval De Luz', que fecha uma trilogia iniciada com dois EPs lançados em 2026. A Riff deu 9/10 e comparou o disco a 'Achtung Baby', e a NPR disse que é o álbum que deixa o U2 admirável de novo, mesmo que não exatamente 'cool'. Tem Brian Eno no synth da faixa de abertura, participação da Rosalía e um dueto do Bono com a Dolly Parton em 'Torn'.",
+   "ouvir": "The Greatest Show on Earth (U2)",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Riff Magazine",
+     "url": "https://riffmagazine.com/album-reviews/u2-carnaval-de-luz/"
+    },
+    {
+     "nome": "Ultimate Classic Rock",
+     "url": "https://ultimateclassicrock.com/u2-carnaval-de-luz-album/"
+    },
+    {
+     "nome": "NPR (via KUOW)",
+     "url": "https://www.kuow.org/npr-news/2026-11-14/men-on-a-mission-u2-is-back-again-are-they-cool-this-time"
+    }
+   ]
+  },
+  {
+   "id": "gta6-radio-metal",
+   "categoria": "rock",
+   "data": "2026-11-19",
+   "simbolo": "Rd",
+   "titulo": "GTA VI chegou com rádio de metal comandada pelo Slayer",
+   "resumo": "Junto com o lançamento de GTA VI veio a The Chamber 106.6, a primeira rádio só de metal da série, com Tom Araya e Kerry King (Slayer) de locutores. Na playlist tem 'Master of Puppets', 'Raining Blood', 'Sober' (Tool), 'Sugar' (System of a Down) e até 'Territory', do Sepultura. O Power Trip lançou uma faixa nova, 'Mutual Death Warrant', que por enquanto só dá pra ouvir dentro do jogo. A V-Rock completa com Van Halen, Mötley Crüe e KISS.",
+   "ouvir": "Mutual Death Warrant (Power Trip), só dentro do jogo na The Chamber 106.6",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/culture/gaming/grand-theft-auto-vi-soundtrack"
+    },
+    {
+     "nome": "Louder / Metal Hammer",
+     "url": "https://www.loudersound.com/music/tracks-singles/power-trip-new-track-mutual-death-warrant-grand-theft-auto-vi"
+    }
+   ]
+  },
+  {
+   "id": "mcr-black-parade-numero-um",
+   "categoria": "rock",
+   "data": "2026-11-09",
+   "simbolo": "Mc",
+   "titulo": "20 anos depois, 'The Black Parade' vira o 1º número 1 do MCR nos EUA",
+   "resumo": "A reedição de 20 anos de 'The Black Parade', com seis faixas extras, pulou do 139º para o 1º lugar da Billboard 200 com 78 mil unidades, desbancando a Olivia Rodrigo. Em 2006 o disco tinha parado no 2º lugar, então esse é o primeiro número 1 da história do My Chemical Romance nos EUA. A banda também confirmou que trabalha em 2027 num sucessor de 'Danger Days'.",
+   "ouvir": "Welcome to the Black Parade (My Chemical Romance)",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/my-chemical-romance-score-first-us-number-one-album"
+    },
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/my-chemical-romance-to-work-on-album-2027"
+    }
+   ]
+  },
+  {
+   "id": "slipknot-eloy-casagrande",
+   "categoria": "rock",
+   "data": "2026-10-29",
+   "simbolo": "Sk",
+   "titulo": "Brasileiro Eloy Casagrande termina a bateria do novo disco do Slipknot",
+   "resumo": "Eloy Casagrande, ex-Sepultura, terminou de gravar a bateria do 8º álbum do Slipknot, o primeiro dele na banda. Depois o Clown contou que tem tanta música pronta que daria um disco duplo. Já a turnê de 2027 virou polêmica: uma petição para tirar o Marilyn Manson da abertura em Wembley passou de 20 mil assinaturas.",
+   "ouvir": "Arsenal (Slipknot)",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/news/eloy-casagrande-finished-recording-slipknot-drums-2026"
+    },
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/weve-written-so-many-songs-we-could-have-a-double-album-slipknots-clown-gives-an-update-on-their-new-music"
+    },
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/news/marilyn-manson-petition-drop-from-slipknot-wembley-concert-launched-2026"
+    }
+   ]
+  },
+  {
+   "id": "faith-no-more-brasil-2027",
+   "categoria": "rock",
+   "data": "2026-11-17",
+   "simbolo": "Fm",
+   "titulo": "Faith No More volta ao Brasil com Alice in Chains e Mastodon",
+   "resumo": "O Faith No More anunciou dois shows próprios no Brasil em 2027: 29/10 no Nubank Parque (SP) e 31/10 na Arena da Baixada (Curitiba), com Alice in Chains e Mastodon na abertura. A venda geral abriu em 19/11 pela Eventim. Isso fora o show já marcado com o System of a Down no Maracanã em 15/01/2027. A última vinda da banda tinha sido em 2015, e o guitarrista Trey Spruance volta à formação.",
+   "ouvir": "Epic (Faith No More)",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Rolling Stone Brasil",
+     "url": "https://rollingstone.com.br/?p=329228"
+    },
+    {
+     "nome": "Tribuna PR",
+     "url": "https://www.tribunapr.com.br/viva/faith-no-more-anuncia-show-em-curitiba-com-alice-in-chains-mastodon-em-2027/"
+    },
+    {
+     "nome": "Billboard Brasil",
+     "url": "https://billboard.com.br/system-of-a-down-anuncia-show-unico-no-maracana/"
+    }
+   ]
+  },
+  {
+   "id": "sp-vedder-ronnie-wood",
+   "categoria": "rock",
+   "data": "2026-11-20",
+   "simbolo": "Ev",
+   "titulo": "Eddie Vedder, Roger Daltrey e Ronnie Wood passaram por SP",
+   "resumo": "O Best of Blues and Rock ocupou o Parque Ibirapuera de 20 a 22/11, com Eddie Vedder em duas noites esgotadas (20/11 e hoje, 22/11) e Roger Daltrey, do The Who, no dia 21. Antes disso, em 1º/11, o Ronnie Wood, dos Rolling Stones, fez um show solo único no Brasil, no Espaço Unimed, com a Imelda May no palco.",
+   "ouvir": "Society (Eddie Vedder)",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "The Rio Times",
+     "url": "https://www.riotimesonline.com/best-of-blues-and-rock-2026-sao-paulo-brazil-ibirapuera-november-20-22-eddie-vedder-roger-daltrey/"
+    },
+    {
+     "nome": "Folha de Pernambuco",
+     "url": "https://www.folhape.com.br/cultura/ronnie-wood-rolling-stones-show-brasil/502887/"
+    }
+   ]
+  },
+  {
+   "id": "bruce-dickinson-psychogod",
+   "categoria": "rock",
+   "data": "2026-11-18",
+   "simbolo": "Bd",
+   "titulo": "Bruce Dickinson anuncia 'Psychogod', disco inspirado em Blake e Crowley",
+   "resumo": "O vocalista do Iron Maiden confirmou o novo solo, 'Psychogod', para 12 de março de 2027, e soltou o primeiro single, 'Speaking In Tongues'. O álbum mistura William Blake, o ocultista Aleister Crowley e mitologia em cinco histórias interligadas. Foi gravado ao vivo no Studio 606, do Dave Grohl, e teria participação de membros do Sepultura e do Devin Townsend.",
+   "ouvir": "Speaking In Tongues (Bruce Dickinson)",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/news/iron-maiden-bruce-dickinson-details-psychogod-solo-album-2026"
+    }
+   ]
+  },
+  {
+   "id": "sphere-metallica-rush",
+   "categoria": "rock",
+   "data": "2026-11-22",
+   "simbolo": "Mt",
+   "titulo": "A Sphere de Vegas virou templo do rock: Metallica doa US$ 200 mil e Rush chega",
+   "resumo": "O Metallica, primeira banda de metal a tocar na Sphere de Las Vegas, fechou a primeira leva da residência 'Life Burns Faster' e doou US$ 200 mil para duas ONGs locais, uma de apoio a vítimas de violência doméstica e outra de alimentação. Na mesma onda, o Rush anunciou cinco datas na Sphere e, dias depois, acrescentou mais cinco.",
+   "ouvir": "Battery (Metallica)",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/metallica-give-200000-dollars-to-charities-following-las-vegas-residency"
+    },
+    {
+     "nome": "Guitar World",
+     "url": "https://www.guitarworld.com/artists/bands/metallica-las-vegas-sphere-opening-night"
+    },
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/rush-las-vegas-sphere"
+    }
+   ]
+  },
+  {
+   "id": "ghost-mary-bilhao",
+   "categoria": "rock",
+   "data": "2026-11-05",
+   "simbolo": "Gh",
+   "titulo": "'Mary On A Cross', do Ghost, passa de 1 bilhão de plays no Spotify",
+   "resumo": "A música que era só um lado B de 2019, sem clipe nem lançamento próprio, bateu 1 bilhão de streams no Spotify depois de viralizar no TikTok. Pra ter ideia, a segunda do Ghost mais ouvida lá, 'Square Hammer', está em 299 milhões.",
+   "ouvir": "Mary On A Cross (Ghost)",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Louder / Metal Hammer",
+     "url": "https://www.loudersound.com/news/ghost-mary-on-a-cross-streamed-one-billion-times-2026"
+    }
+   ]
+  },
+  {
+   "id": "beatles-mccartney-ringo",
+   "categoria": "rock",
+   "data": "2026-11-10",
+   "simbolo": "Be",
+   "titulo": "McCartney vira bilionário e marca reencontro com Ringo",
+   "resumo": "Segundo a Forbes, Paul McCartney vale US$ 1,4 bilhão e é o terceiro músico mais rico do mundo, atrás só de Jay-Z e Taylor Swift. Boa parte disso vem da MPL, empresa que ele fundou em 1969 e que controla os direitos das músicas dele. Ele também confirmou que vai tocar com o Ringo Starr em 29 de janeiro, no VetsAid, um show beneficente em Las Vegas que também tem The Killers e St. Vincent.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/news/paul-mccartney-details-ringo-starr-reunion-plans-becomes-third-billionaire-musician-2026"
+    }
+   ]
+  },
+  {
+   "id": "despedidas-novembro",
+   "categoria": "rock",
+   "data": "2026-11-17",
+   "simbolo": "Ad",
+   "titulo": "Despedidas: John Christ (Danzig), Richard Lloyd (Television) e mais",
+   "resumo": "O guitarrista fundador do Danzig, John Christ, morreu em 15/11, aos 61 anos. Richard Lloyd, guitarrista do Television e do clássico 'Marquee Moon', morreu aos 75, e Tony Richards, primeiro baterista do W.A.S.P., aos 69. Teve também um susto que acabou bem: o Ian Gillan foi parar no hospital na Alemanha, o Deep Purple adiou o resto da turnê europeia, mas ele já está se recuperando de um procedimento bem-sucedido.",
+   "ouvir": "Mother (Danzig)",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "News Tribune (AP)",
+     "url": "https://www.newstribune.com/news/2026/nov/19/john-christ-danzigs-founding-guitarist-dies-at-61/"
+    },
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/television-guitarist-richard-lloyd-dead-at-75"
+    },
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/news/founding-wasp-drummer-tony-richards-dead-2026"
+    },
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/ian-gillan-recovering-from-successful-procedure-following-medical-emergency-that-led-deep-purple-to-postpone-uk-and-european-tour-dates"
+    }
+   ]
+  },
+  {
+   "id": "midterms-eua-democratas",
+   "categoria": "mundo",
+   "data": "2026-11-03",
+   "simbolo": "Md",
+   "titulo": "Midterms nos EUA: democratas tomam a Câmara e o Senado",
+   "resumo": "Nas eleições de meio de mandato de 3/11, os democratas viraram o jogo nas duas Casas do Congresso: na manhã seguinte já somavam pelo menos 228 cadeiras na Câmara (+19) e 54 a 44 no Senado, com sete cadeiras tomadas dos republicanos e Alasca e Mississippi ainda em contagem. Teve zebra histórica: James Talarico derrotou Ken Paxton no Texas, primeira vitória democrata estadual por lá em mais de 30 anos. Na prática, Trump passa os dois últimos anos de mandato com o Congresso nas mãos da oposição.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "WSB-TV (Cox Media)",
+     "url": "https://www.wsbtv.com/news/trending/election-2026-democrats-capture-both-houses-congress/5ILOWTVABVDPZFYP7VBBCX4EWE/?outputType=amp"
+    },
+    {
+     "nome": "Live 5 News",
+     "url": "https://www.live5news.com/2026/11/04/midterm-election-results-three-things-know/?outputType=amp"
+    }
+   ],
+   "nome": "Midterms EUA"
+  },
+  {
+   "id": "copom-selic-1375",
+   "categoria": "brasil",
+   "data": "2026-11-04",
+   "simbolo": "Se",
+   "titulo": "Copom segura a Selic em 13,75% e surpreende o mercado",
+   "resumo": "Em 4/11, o Banco Central manteve os juros em 13,75% ao ano, por unanimidade, interrompendo a sequência de cinco cortes iniciada em abril; boa parte do mercado apostava em mais 0,25 ponto de queda. O BC citou a instabilidade no câmbio, o El Niño e o agravamento da guerra no Oriente Médio, com a inflação em 12 meses subindo para 4,62%, acima do teto da meta (4,5%). Tradução: crédito caro por mais tempo.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Folha de Pernambuco / Agência Brasil",
+     "url": "https://www.folhape.com.br/economia/banco-central-surpreende-e-mantem-juros-basicos-em-1375-ao-ano/522444/"
+    },
+    {
+     "nome": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/copom-mantem-taxa-selic-e-juros-ficam-em-1375-ao-ano"
+    }
+   ],
+   "nome": "Selic 13,75%"
+  },
+  {
+   "id": "paraguai-impeachment-pena",
+   "categoria": "mundo",
+   "data": "2026-11-06",
+   "simbolo": "Pa",
+   "titulo": "Paraguai derruba o presidente Santiago Peña por escândalo bancário",
+   "resumo": "Em 6/11, o Senado paraguaio destituiu Santiago Peña por 'mau desempenho' no cargo, após o colapso do Ueno Bank, que sofreu intervenção em 3/11 e congelou depósitos de quase metade da população. Peña é acusado de ter favorecido o banco, do qual já teve participação, com decisões regulatórias e dinheiro público; ele tentou renunciar na véspera, mas o Congresso seguiu com o processo. O vice Pedro Alliana assumiu até 2028, e Peña foi levado para prisão domiciliar, segundo a imprensa.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Anchorage Daily News (AP)",
+     "url": "https://www.adn.com/nation-world/2026/11/06/paraguay-senate-removes-president-santiago-pena-from-office-following-ueno-bank-collapse/"
+    },
+    {
+     "nome": "O Povo",
+     "url": "https://mais.opovo.com.br/jornal/mundo/2026/11/07/paraguai-tem-novo-presidente-apos-santiago-pena-sofrer-impeachment.html"
+    }
+   ]
+  },
+  {
+   "id": "f1-antonelli-interlagos",
+   "categoria": "brasil",
+   "data": "2026-11-08",
+   "simbolo": "In",
+   "titulo": "F1: Antonelli é o campeão mais jovem da história; Norris vence em Interlagos",
+   "resumo": "Kimi Antonelli, da Mercedes, fechou o título no GP do México em 1/11, aos 20 anos e 68 dias: quebrou o recorde de Vettel e encerrou um jejum italiano de 73 anos. Uma semana depois, em Interlagos (8/11), Lando Norris venceu uma corrida bagunçada pela chuva no fim, com Verstappen em 2º depois de largar em 21º e Hadjar em 3º; os pontos de Russell e Antonelli deram à Mercedes também o título de construtores. Bortoleto terminou em 16º e Rafael Câmara em 20º.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Latin Times",
+     "url": "https://www.latintimes.com/kimi-antonelli-2026-f1-youngest-champion-600772"
+    },
+    {
+     "nome": "PlanetF1",
+     "url": "https://www.planetf1.com/news/f1-results-sao-paulo-grand-prix-2026-race-brazil"
+    },
+    {
+     "nome": "O Povo",
+     "url": "https://mais.opovo.com.br/jornal/farol/2026/11/09/lando-norris-vence-gp-de-sao-paulo-e-mercedes-e-campea-de-construtores.html"
+    }
+   ]
+  },
+  {
+   "id": "ucrania-negociacoes-abu-dhabi",
+   "categoria": "mundo",
+   "data": "2026-11-12",
+   "simbolo": "Uc",
+   "titulo": "Ucrânia: negociação volta depois de 9 meses, mas sem acordo",
+   "resumo": "Rússia e Ucrânia voltaram a sentar à mesa em Abu Dhabi (10 e 11/11), com mediação dos EUA, pela primeira vez em nove meses; saiu a promessa de uma nova troca de prisioneiros, mas nada de acordo. Em 12/11, os enviados de Trump, Witkoff e Kushner, foram a Moscou, onde Putin manteve as exigências: todo o Donbas e nenhuma tropa europeia na Ucrânia. Kiev se recusa a entregar território, e os ataques com mísseis e drones continuaram durante as conversas.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin"
+    },
+    {
+     "nome": "PRIO",
+     "url": "https://www.prio.org/comments/1933"
+    }
+   ]
+  },
+  {
+   "id": "ajuste-fiscal-dolar",
+   "categoria": "brasil",
+   "data": "2026-11-13",
+   "simbolo": "Fi",
+   "titulo": "Ajuste fiscal passa no Senado, mas o dólar sobe a R$ 5,65",
+   "resumo": "Em 12/11, o Senado aprovou por 45 a 31 o texto-base do PLP 299/2026, pacote do governo que junta corte de gastos e aumento de receita para garantir a meta fiscal de 2027. O impacto estimado fica entre R$ 50 bi e R$ 60 bi (o relator, Eduardo Braga, fala em R$ 56,1 bi), e o texto agora vai para a Câmara. O mercado ficou desconfiado de que isso baste para segurar a dívida, e o dólar fechou 13/11 a R$ 5,65, maior patamar desde junho de 2025, com alta de 2,66% na semana.",
+   "angulo_quimico": "Tem combustível na conta: até R$ 10,5 bi gastos em 2026 com a subvenção ao diesel podem ficar fora do cálculo da meta de 2027, ou seja, o preço do diesel virou variável fiscal.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Folha de Pernambuco",
+     "url": "https://www.folhape.com.br/economia/por-45-a-31-senado-aprova-texto-base-do-plp-de-ajuste-fiscal/524008/"
+    },
+    {
+     "nome": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/dolar-ibovespa-bolsa-13-novembro"
+    }
+   ]
+  },
+  {
+   "id": "petroleo-brent-despenca",
+   "categoria": "mundo",
+   "data": "2026-11-13",
+   "simbolo": "Oi",
+   "titulo": "Petróleo despenca: Brent sai de mais de US$ 100 para perto de US$ 91",
+   "resumo": "O barril, que chegou a subir mais de 50% no ano por causa da guerra de EUA e Israel contra o Irã, desabou em novembro: fechou a US$ 103,60 em 3/11 e rondava US$ 91 em 12/11, com queda de cerca de 16% numa única semana. Os motivos: Trump dizendo que a guerra está 'efetivamente encerrada', a produção saudita disparando (+26% em outubro), o fluxo pelo Estreito de Ormuz quase no nível de antes da guerra e a AIE prevendo excesso de oferta no 4º trimestre. Mas o conflito não acabou no papel: o bloqueio naval americano continua e as negociações seguem travadas.",
+   "angulo_quimico": "O petróleo do Golfo está saindo graças a desvios de engenharia, como o oleoduto saudita Leste-Oeste, que contorna Ormuz até o Mar Vermelho. E drones ucranianos atingiram pelo menos sete refinarias russas desde o fim de outubro, o que apertou a oferta global de diesel.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Energy Connects (Bloomberg)",
+     "url": "https://www.energyconnects.com/news/oil/2026/november/oil-falls-toward-two-month-low-as-middle-east-production-rises/"
+    },
+    {
+     "nome": "BOE Report (Reuters)",
+     "url": "https://boereport.com/2026/11/15/oil-prices-fall-on-expectations-of-coming-supply-surplus/amp/"
+    },
+    {
+     "nome": "Nation Thailand",
+     "url": "https://www.nationthailand.com/news/world/40073076"
+    },
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq?update=5136239"
+    }
+   ]
+  },
+  {
+   "id": "lula-4-montagem-governo",
+   "categoria": "brasil",
+   "data": "2026-11-17",
+   "simbolo": "Lu",
+   "titulo": "Lula 4: presidente reeleito começa a montar o novo governo",
+   "resumo": "Reeleito em 25/10 com 51,79% contra 48,21% de Flávio Bolsonaro, depois de virar no 2º turno e se tornar o primeiro a ganhar quatro eleições presidenciais diretas, Lula voltou em 16/11 de um giro por COP31, Filipinas e Espanha e começou as conversas sobre o ministério. Já se reuniu com Rui Costa, Camilo Santana, Rafael Fonteles e Edinho Silva para discutir a formação do governo, e a ideia é anunciar parte da equipe antes do G20, em meados de dezembro. Ele avisou que 'ninguém vai indicar por mim'. A posse é em 5 de janeiro de 2027.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Folha de Pernambuco",
+     "url": "https://www.folhape.com.br/politica/lula-retorna-ao-brasil-e-inicia-articulacoes-para-definir-novo/524612/"
+    },
+    {
+     "nome": "Folha de Pernambuco",
+     "url": "https://www.folhape.com.br/politica/lula-se-reune-com-rui-camilo-fonteles-e-edinho-para-discutir/524858/"
+    },
+    {
+     "nome": "Congresso em Foco",
+     "url": "https://www.congressoemfoco.com.br/noticia/131738/lula-critica-rumores-sobre-ministros--ninguem-vai-indicar-por-mim"
+    },
+    {
+     "nome": "Agência Senado",
+     "url": "https://www12.senado.leg.br/noticias/materias/2026/10/25/lula-2018vira2019-e-e-reeleito-para-quarto-mandato-de-presidente"
+    }
+   ],
+   "nome": "Lula 4"
+  },
+  {
+   "id": "cupula-trump-xi-putin-shenzhen",
+   "categoria": "mundo",
+   "data": "2026-11-19",
+   "simbolo": "Sz",
+   "titulo": "Trump, Xi e Putin juntos em Shenzhen: 'maior que Yalta', diz Trump",
+   "resumo": "Em 19/11, os líderes de EUA, China e Rússia fizeram uma cúpula a três em Shenzhen e divulgaram uma 'declaração de paz' reafirmando que uma guerra nuclear 'não pode ser vencida e nunca deve ser travada'. Na prática, o texto é simbólico: não tem compromisso vinculante, não abre negociação de controle de armas e nem cita Ucrânia ou Irã. Trump deu nota '12 de 10' e comparou com Yalta; a Europa torceu o nariz, e o chanceler alemão Merz chamou o encontro de 'oportunidade de foto'.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Reuters (via Investing.com)",
+     "url": "https://www.investing.com/news/world-news/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit-5040365"
+    }
+   ],
+   "nome": "Cúpula Shenzhen"
+  },
+  {
+   "id": "flamengo-campeao-brasileiro",
+   "categoria": "brasil",
+   "data": "2026-11-21",
+   "simbolo": "Fl",
+   "titulo": "Flamengo é campeão brasileiro de 2026 com duas rodadas de folga",
+   "resumo": "No 1 a 1 contra o Palmeiras no Nubank Parque, em 21/11, o Flamengo garantiu o título: Jhon Arias abriu o placar para o Palmeiras e Samuel Lino empatou no 2º tempo. O Fla chegou a 80 pontos contra 74 do rival, vantagem que não pode mais ser alcançada nas duas rodadas restantes. É o 9º Brasileirão oficial do clube, que conta 10 incluindo 1987. E o Palmeiras ainda tem a final da Libertadores pela frente.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Diario de Pernambuco",
+     "url": "https://www.diariodepernambuco.com.br/esportes-dp/nacional/2026/11/11729660-flamengo-empata-com-palmeiras-e-e-campeao-brasileiro-de-2026.html"
+    },
+    {
+     "nome": "O Tempo",
+     "url": "https://www.otempo.com.br/sports/futebol-nacional/2026/11/21/com-titulo-do-flamengo-em-2026-confira-a-lista-de-todos-os-campeoes-brasileiros"
+    }
+   ],
+   "nome": "Fla campeão"
+  },
+  {
+   "id": "cop31-sem-acordo",
+   "categoria": "mundo",
+   "data": "2026-11-22",
+   "simbolo": "Co",
+   "titulo": "COP31 termina sem acordo, algo que não acontecia desde Copenhague",
+   "resumo": "A conferência do clima em Antália, na Turquia, que deveria acabar em 20/11, foi para a prorrogação e fechou em 22/11 sem decisão final. A UE e o Panamá barraram o texto porque ele não citava carvão, petróleo nem gás, depois que a Arábia Saudita e outros produtores derrubaram a linguagem sobre combustíveis fósseis. É a primeira COP sem acordo adotado por todos desde 2009. No dia 11, o discurso de Lula, lido pelo ministro Capobianco porque o presidente estava rouco, já avisava que o impulso de Belém tinha esfriado e cobrava dinheiro dos países ricos.",
+   "angulo_quimico": "Um dos pontos de briga foi o incentivo à captura e armazenamento de carbono (CCS) e se a expansão da geração elétrica deveria ser só renovável ou também incluir gás e carvão. Engenharia química no centro da diplomacia.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+    },
+    {
+     "nome": "Agência Gov",
+     "url": "https://agenciagov.ebc.com.br/noticias/202611/201ca-crise-climatica-e-tambem-uma-crise-de-injusticas201d-afirma-lula-na-abertura-da-cupula-de-lideres-da-cop31-na-turquia"
+    }
+   ],
+   "nome": "COP31"
+  }
+ ],
+ "agenda": [
+  {
+   "data": "2026-11-23",
+   "titulo": "Godspeed You! Black Emperor em São Paulo",
+   "descricao": "Show único do grupo canadense de pós-rock no Audio, na Água Branca, às 21h30.",
+   "categoria": "rock",
+   "fonte": {
+    "nome": "Rolling Stone Brasil",
+    "url": "https://rollingstone.com.br/musica/godspeed-you-black-emperor-anuncia-show-no-brasil-em-2026-data-ingressos-e-mais/"
+   }
+  },
+  {
+   "data": "2026-11-24",
+   "titulo": "Superlua cheia",
+   "descricao": "A Lua cheia do dia 24 é uma superlua, a primeira de uma sequência de três seguidas (a próxima vem em dezembro).",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "ScienceDaily",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm"
+   }
+  },
+  {
+   "data": "2026-11-24",
+   "titulo": "Johnny Marr (ex-The Smiths) no Tokio Marine Hall, SP",
+   "descricao": "Show do guitarrista ex-Smiths em São Paulo, com ingressos a partir de R$ 200.",
+   "categoria": "rock",
+   "fonte": {
+    "nome": "Folha de Pernambuco",
+    "url": "https://www.folhape.com.br/cultura/ronnie-wood-rolling-stones-show-brasil/502887/"
+   }
+  },
+  {
+   "data": "2026-11-25",
+   "titulo": "Hera: primeiras imagens detalhadas de Dimorphos",
+   "descricao": "A ESA prometeu para o dia 25 a revelação das primeiras imagens detalhadas do asteroide atingido pela DART.",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "Space.com",
+    "url": "https://www.space.com/space-exploration/asteroid-comet-missions/dimorphos-in-sight-europes-hera-probe-gets-its-1st-look-at-battered-space-rock-photo"
+   }
+  },
+  {
+   "data": "2026-11-25",
+   "titulo": "Urano em oposição",
+   "descricao": "Urano fica visível do anoitecer ao amanhecer na constelação de Touro, com magnitude 5,6 — melhor época do ano para observá-lo.",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "Astronomy",
+    "url": "https://www.astronomy.com/observing/sky-this-month-november-2026/"
+   }
+  },
+  {
+   "data": "2026-11-27",
+   "titulo": "Peter Gabriel lança o álbum 'o\\i'",
+   "descricao": "Disco novo do ex-Genesis, que sai no mesmo dia da Black Friday do Record Store Day.",
+   "categoria": "rock",
+   "fonte": {
+    "nome": "Ultimate Classic Rock",
+    "url": "https://ultimateclassicrock.com/november-2026-new-music-releases/"
+   }
+  },
+  {
+   "data": "2026-11-28",
+   "titulo": "Babymetal no Espaço Unimed, SP",
+   "descricao": "Show único do trio japonês de kawaii metal no Brasil, já com ingressos esgotados.",
+   "categoria": "rock",
+   "fonte": {
+    "nome": "Rolling Stone Brasil",
+    "url": "https://rollingstone.com.br/musica/show-unico-do-babymetal-no-brasil-tem-ingressos-esgotados/"
+   }
+  },
+  {
+   "data": "2026-11-28",
+   "titulo": "Final da Libertadores: Palmeiras x Estudiantes",
+   "descricao": "Em Montevidéu, o Palmeiras tenta o tetra contra os argentinos, que não chegavam a uma final desde 2009.",
+   "categoria": "brasil",
+   "fonte": {
+    "nome": "Primicias",
+    "url": "https://www.primicias.ec/deportes/futbol/final-copa-libertadores-palmeiras-estudiantes-plata-fecha-lugar-estadio-partido-135556/"
+   }
+  },
+  {
+   "data": "2026-11-30",
+   "titulo": "Prazo para a portaria do MME que regulamenta os testes de gasolina E35",
+   "descricao": "O MME previa publicar até o fim de novembro a portaria dos testes com 35% de etanol na gasolina, que devem começar em janeiro de 2027 e acabar em meados do ano.",
+   "categoria": "quimica",
+   "fonte": {
+    "nome": "Movimento Econômico",
+    "url": "https://movimentoeconomico.com.br/economia/combustivel/2026/10/27/testes-da-gasolina-com-35-de-etanol-ficam-para-2027-e-portaria-sai-ate-novembro/"
+   }
+  },
+  {
+   "data": "2026-12-01",
+   "titulo": "Câmara dos EUA quer ouvir Jensen Huang",
+   "descricao": "Presidentes republicanos de comitês da Câmara pediram uma entrevista a portas fechadas com o ex-CEO da Nvidia nessa data, sob ameaça de intimação; o Comitê Bancário do Senado quer ouvi-lo em 3/12.",
+   "categoria": "tecnologia",
+   "fonte": {
+    "nome": "The Next Web",
+    "url": "https://thenextweb.com/news/jensen-huang-nvidia-investigation-senate-lutnick-testify"
+   }
+  },
+  {
+   "data": "2026-12-03",
+   "titulo": "Europa Clipper passa raspando pela Terra",
+   "descricao": "Segundo e último estilingue gravitacional da sonda, que aproveita a Terra para ganhar o impulso final rumo a Júpiter e sua lua Europa.",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "Wikipedia (Europa Clipper)",
+    "url": "https://en.wikipedia.org/wiki/Europa_Clipper"
+   }
+  },
+  {
+   "data": "2026-12-04",
+   "titulo": "Monster Hunter Wilds chega ao Switch 2",
+   "descricao": "A versão de Switch 2 sai com todas as atualizações gratuitas, jogo local sem fio e cross-play, e a expansão fica para 2027.",
+   "categoria": "games",
+   "fonte": {
+    "nome": "Gematsu",
+    "url": "https://www.gematsu.com/2026/09/monster-hunter-wilds-for-switch-2-launches-december-4"
+   }
+  },
+  {
+   "data": "2026-12-09",
+   "titulo": "BepiColombo: MPO e Mio se separam em Mercúrio",
+   "descricao": "Entre 9 e 10 de dezembro os orbitadores europeu e japonês se desacoplam e seguem para suas próprias órbitas polares.",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "Eos",
+    "url": "https://eos.org/research-and-developments/bepicolombo-arrives-at-mercury"
+   }
+  },
+  {
+   "data": "2026-12-10",
+   "titulo": "The Game Awards 2026",
+   "descricao": "Cerimônia no Peacock Theater, em Los Angeles, onde se decide se GTA VI leva o Jogo do Ano.",
+   "categoria": "games",
+   "fonte": {
+    "nome": "Gematsu",
+    "url": "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced"
+   }
+  },
+  {
+   "data": "2026-12-13",
+   "titulo": "Final do PGL Major Singapore (CS2)",
+   "descricao": "O Major começa em 24/11, com MIBR no Stage 2 e FURIA no Stage 3, e os playoffs vão de 10 a 13/12 no Singapore Indoor Stadium.",
+   "categoria": "games",
+   "fonte": {
+    "nome": "Strafe",
+    "url": "https://www.strafe.com/news/read/cs2-singapore-major-2026-format-teams-schedule-and-opening-matches/"
+   }
+  },
+  {
+   "data": "2026-12-14",
+   "titulo": "Pico das Geminídeas",
+   "descricao": "A chuva de meteoros mais forte do ano costuma ter pico entre 13 e 14 de dezembro. Detalhe químico-astronômico: a fonte é o asteroide 3200 Phaethon, não um cometa.",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "NASA",
+    "url": "https://science.nasa.gov/solar-system/meteors-meteorites/geminids/"
+   }
+  },
+  {
+   "data": "2026-12-15",
+   "titulo": "Cúpula do G20 nos EUA",
+   "descricao": "Encontro do G20 em 15 e 16/12, e Lula pretende anunciar parte do novo ministério antes dele.",
+   "categoria": "mundo",
+   "fonte": {
+    "nome": "Folha de Pernambuco",
+    "url": "https://www.folhape.com.br/politica/lula-retorna-ao-brasil-e-inicia-articulacoes-para-definir-novo/524612/"
+   }
+  },
+  {
+   "data": "2026-12-17",
+   "titulo": "Começa a Steam Winter Sale",
+   "descricao": "A próxima grande promoção da Steam começa em 17/12, já que a de outono rolou em outubro.",
+   "categoria": "games",
+   "fonte": {
+    "nome": "Digital Citizen",
+    "url": "https://www.digitalcitizen.life/steam-autumn-sale-2026-over-winter-sale-december-17-black-friday/"
+   }
+  }
+ ]
+}
