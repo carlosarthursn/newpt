@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-22",
+ "atualizado_em": "2026-11-23",
  "periodo": {
   "inicio": "2026-10-28",
   "fim": "2026-11-22"
@@ -8,10 +8,10 @@
  "mensagem": "Montado pelo seu irmão pra você não ficar por fora de nada. Força aí: tem GTA VI, sonda nova em Mercúrio e muito rock te esperando aqui fora.",
  "metodo": "Como foi feito: cada notícia foi pesquisada na web e tem pelo menos uma fonte com link. Os resumos são em português e simplificam; se algo parecer estranho, clica na fonte e confere. A gente vai atualizando.",
  "resumo_ids": [
+  "riemann-prova-claude-lean",
   "membrana-pan-fraciona-petroleo",
   "bepicolombo-orbita-mercurio",
   "gta-vi-chegou",
-  "huang-renuncia-nvidia",
   "pentagono-ufo-lote-8",
   "sepultura-ultimo-show"
  ],
@@ -2143,6 +2143,458 @@
     }
    ],
    "nome": "COP31"
+  },
+  {
+   "id": "bepicolombo-falha-software",
+   "categoria": "espaco",
+   "data": "2026-11-22",
+   "simbolo": "Bp",
+   "nome": "Bug na Bepi",
+   "corpo": "Mercúrio",
+   "titulo": "BepiColombo entrou em Mercúrio, mas a queima acabou antes da hora",
+   "resumo": "No domingo (22), um dia depois da chegada, a equipe da missão contou que, durante a manobra de captura do dia 21, a queima dos propulsores foi mais curta que o planejado por causa de um problema de software. A captura na órbita de Mercúrio está confirmada e a sonda está segura. O centro de operações ESOC, da ESA, está investigando o que houve e prometeu novidades na segunda (23). Ainda não se sabe quanto da mudança de órbita ficou faltando, nem se isso mexe na separação dos orbitadores MPO e Mio, marcada para 9–10 de dezembro.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Starlust",
+     "url": "https://starlust.org/bepicolombo-ran-into-trouble-during-mercury-orbital-insertion-reveals-esa-a-day-after-milestone/"
+    },
+    {
+     "nome": "The Tribune",
+     "url": "https://www.tribuneindia.com/news/science-technology/spacecraft-begins-orbit-of-mercury-with-glitch-reported"
+    },
+    {
+     "nome": "SpacePolicyOnline",
+     "url": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-november-22-29-2026/"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "spacex-recorde-pad-32h",
+   "categoria": "espaco",
+   "data": "2026-11-22",
+   "simbolo": "Rc",
+   "nome": "Recorde no pad",
+   "titulo": "Falcon 9 sai duas vezes do mesmo pad em 32 horas e quebra recorde",
+   "resumo": "No domingo (22), às 9h23 de Brasília, um Falcon 9 lançou a missão NROL-136, de satélites de reconhecimento do NRO, do complexo SLC-4E da base de Vandenberg, na Califórnia. Foi só 32 h 3 min 21 s depois da missão USSF-317, que saiu do mesmo pad. O recorde anterior era de 45 h, no Pad 40 de Cabo Canaveral. O booster B1097, no 14º voo, pousou de volta em Vandenberg uns 7,5 minutos após a decolagem.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture"
+    },
+    {
+     "nome": "Spaceflight Now",
+     "url": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "ship42-aposentada",
+   "categoria": "espaco",
+   "data": "2026-11-21",
+   "simbolo": "Sx",
+   "nome": "Ship 42",
+   "titulo": "A primeira Starship agarrada pela torre não voa mais: vai ficar em exposição",
+   "resumo": "Elon Musk disse que a Ship 42, a nave do voo 15 que foi agarrada pelos 'chopsticks' da torre em 14/11, 'provavelmente poderia voar de novo com algumas semanas de reforma', mas a SpaceX não vai correr riscos com ela: vai ficar em exposição pública pelo papel histórico. O local ainda não foi divulgado. Na mesma fala, no TomorrowX Summit (18/11), ele repetiu a meta de cerca de 10 mil missões da Starship por ano até 2030.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-retire-1st-starship-upper-stage-ever-caught-by-chopsticks-elon-musk-says"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "hidrogel-acucar-fica-mais-forte",
+   "categoria": "quimica",
+   "data": "2026-11-21",
+   "simbolo": "Cy",
+   "nome": "Hidrogel de açúcar",
+   "titulo": "Hidrogel de açúcar fica mais forte quanto mais é dobrado",
+   "resumo": "Químicos da Washington University em St. Louis, do grupo de Chenfeng Ke, publicaram na Nature Materials um hidrogel biodegradável de ciclodextrina (anéis de açúcar) e polietilenoglicol (PEG) que, em vez de se desgastar com o uso, se reforça justamente nas regiões que sofrem tensão. Num modelo de articulação tipo joelho, foi dobrado 10 mil vezes e se comportou como previsto. Dá pra imprimir em 3D, já foi patenteado e por enquanto sai em lotes de dezenas de gramas. A ideia é usar como suporte de articulações artificiais e no reparo de tecidos.",
+   "angulo_quimico": "É química supramolecular (os autores chamam de rede 'adapt-ring'). Ao esticar, os aglomerados grandes de anéis de ciclodextrina se desfazem, os anéis deslizam ao longo das cadeias de PEG e, quando o material relaxa, se reorganizam em domínios cristalinos menores bem onde houve deformação. A parte sem tensão continua macia.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-sugar-based-hydrogel.html"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "amonia-verde-aqaba",
+   "categoria": "quimica",
+   "data": "2026-11-21",
+   "simbolo": "Av",
+   "nome": "Amônia verde",
+   "titulo": "Jordânia garante terreno por 45 anos para fábrica de amônia verde em Aqaba",
+   "resumo": "A Jordan Green Ammonia, projeto da Hynfra com o Fidelity Group, assinou um arrendamento de 45 anos com a Aqaba Development Corporation por cerca de 30 hectares na zona industrial sul de Aqaba. A planta, fora da rede elétrica, deve produzir cerca de 120 mil toneladas por ano de amônia renovável, com investimento estimado em US$ 1,1 bilhão. O projeto está na fase de FEED e licenciamento, com decisão final de investimento prevista para 2027 e operação em 2030. A produção vai para o mercado jordaniano e para exportação pelo porto de Aqaba.",
+   "angulo_quimico": "É o bom e velho Haber-Bosch alimentado com hidrogênio verde: a Topsoe fechou o FEED da síntese que converte o H2 em NH3, e a energia vem de um parque solar próprio. A meta é atender o padrão europeu de combustível renovável de origem não biológica (RFNBO). O ministério de energia jordaniano estima evitar cerca de 200 mil t de CO2 por ano.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "chemXplore",
+     "url": "https://chemxplore.com/news/jordan-green-ammonia-aqaba-plant-lease"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "curiosidade-tripla-carbono-bismuto",
+   "categoria": "quimica",
+   "data": "2026-11-21",
+   "simbolo": "Bi",
+   "nome": "Tripla relativística",
+   "titulo": "Curiosidade: a relatividade 'borra' a ligação tripla carbono–bismuto",
+   "resumo": "Um estudo da Brown University com a Washington State, publicado na Science em julho, voltou a circular no dia 21 pelo ScienceDaily. A equipe resfriou o íon CBi⁻ até perto do zero absoluto e mediu com espectroscopia de fotoelétrons. Em vez do 1 σ + 2 π dos livros, a tripla carbono–bismuto se comporta como uma ligação π mais duas híbridas σ-π. Nas palavras de Lai-Sheng Wang, continuam sendo três ligações, mas não dá mais pra chamá-las estritamente de σ ou π.",
+   "angulo_quimico": "O responsável é o acoplamento spin-órbita, que em átomos pesados como o bismuto (vizinho do chumbo na tabela) fica forte o bastante para misturar os orbitais. A parte teórica, de Kirk Peterson, usou cálculos relativísticos de quatro componentes (coupled-cluster Dirac-Coulomb). O próximo passo é testar elementos mais leves do mesmo grupo pra ver onde o efeito some.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261120075602.htm"
+    },
+    {
+     "nome": "Brown University",
+     "url": "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity"
+    },
+    {
+     "nome": "Chemistry World",
+     "url": "https://www.chemistryworld.com/news/relativity-rewrites-the-textbook-take-on-triple-bonds-experiments-on-carbon-bismuth-ion-prove/4023845.article"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "gta-vi-review-bomb",
+   "categoria": "games",
+   "data": "2026-11-21",
+   "simbolo": "Rb",
+   "nome": "Review bomb",
+   "titulo": "GTA VI leva 99 da crítica e 5,6 do público no Metacritic",
+   "resumo": "No sábado (21/11), a nota dos usuários do GTA VI no Metacritic estava em 5,6 (versão de PS5), enquanto a da crítica segue em 99, com 152 análises. Tem muito zero vindo de conta recém-criada, de gente que nem jogou e até comentário feito por IA; parte parece querer proteger o recorde de 99 do Ocarina of Time original, e fã de GTA revidou dando zero para Zelda (não há prova de campanha organizada). Onde só quem comprou pode avaliar, o quadro é outro: 4,84 de 5 na PlayStation Store, com cerca de 170 mil avaliações. E o dinheiro nem liga: na sexta (20/11) a Take-Two informou à SEC US$ 3,79 bilhões em vendas no varejo só no primeiro dia e 32,5 milhões de cópias vendidas antes do lançamento (estimativa da própria empresa, e venda no varejo não é receita dela).",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "GTABase",
+     "url": "https://www.gtabase.com/gta-6/articles/gta-6-review-bombed-on-metacritic"
+    },
+    {
+     "nome": "Ynetnews",
+     "url": "https://www.ynetnews.com/tech-and-digital/article/b142ougj7l"
+    },
+    {
+     "nome": "Take-Two (formulário 8-K na SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026075217/exhibit9918k.htm"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "riemann-prova-claude-lean",
+   "categoria": "tecnologia",
+   "data": "2026-11-21",
+   "simbolo": "Rh",
+   "nome": "Hipótese de Riemann",
+   "titulo": "Hipótese de Riemann: prova feita com o Claude passa na checagem do Lean",
+   "resumo": "Em 20/11, Levent Alpöge, matemático da Anthropic, publicou o que diz ser uma prova da Hipótese de Riemann (o problema de 1859 sobre os zeros da função zeta, ligado à distribuição dos números primos), encontrada junto com o Claude. A prova saiu como código formal no assistente de provas Lean: cerca de 17 milhões de linhas em 175.187 módulos, e cobriria também a versão generalizada para as funções L de Dirichlet. Em 21/11, as comunidades do Lean e do Mathlib declararam 'total confiança': o teorema provado bate com a definição padrão do Mathlib e verificadores independentes aceitaram tudo. Falta a parte humana: o texto que explica as ideias ainda está em andamento, e o Clay Institute, que oferece US$ 1 milhão, segue listando o problema como aberto, porque exige publicação e pelo menos dois anos de aceitação pela comunidade.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Lean Community Blog",
+     "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+    },
+    {
+     "nome": "CryptoSlate",
+     "url": "https://cryptoslate.com/claude-assisted-proof-of-riemann-hypothesis-validated-by-independent-checkers/"
+    },
+    {
+     "nome": "Michael Rubinstein (Univ. de Waterloo)",
+     "url": "https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "openai-limites-perplexidade",
+   "categoria": "tecnologia",
+   "data": "2026-11-22",
+   "simbolo": "Px",
+   "nome": "Freio na IA",
+   "titulo": "OpenAI propõe 'limite de velocidade' comum para a IA, medido em perplexidade",
+   "resumo": "No domingo (22/11), o cientista-chefe da OpenAI, Jakub Pachocki, propôs que os laboratórios de ponta combinem limites comuns baseados na perplexidade (o quanto o modelo se 'surpreende' com o próximo pedaço de texto; quanto menor, melhor ele comprime e prevê) e se comprometam a não passar deles até que as ferramentas de monitorar o comportamento da IA atinjam um marco concreto. Como primeiro passo, a OpenAI abriu números internos: o GPT-3.5 tinha log-perplexidade de cerca de 0,99, o GPT-4 de 0,91, e abaixo de 0,8 surgiram capacidades transformadoras em cibersegurança e matemática. O motivo do alerta: segundo ele, já em 2027 pode vir uma 'avalanche' de avanços em pré-treinamento, parecida com a que se viu na matemática. Valor de limite ainda não tem.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "OpenAI",
+     "url": "https://openai.com/index/perplexity-and-intelligence"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "tesla-fsd-v15-gta",
+   "categoria": "tecnologia",
+   "data": "2026-11-21",
+   "simbolo": "Ts",
+   "nome": "FSD v15",
+   "titulo": "'É tipo GTA': Tesla solta o FSD v15 com visão fotorrealista do entorno",
+   "resumo": "No sábado (21/11), a Tesla começou a liberar a versão 15 do FSD, o sistema de direção autônoma dela, para parte dos carros. A novidade que mais chamou atenção é o Reality View: uma visão fotorrealista e em movimento do entorno, como se fosse uma câmera virtual acima e atrás do carro, que segundo a Tesla deixa o motorista ver e controlar o que o FSD planeja fazer. O Musk resumiu no X: 'It's like GTA', bem na semana em que o GTA VI fatura bilhões. A Tesla também promete melhora de 25 vezes em situações críticas de segurança, mas o Electrek lembra que a lista de correções parece a lista das maiores fraquezas do sistema e que o FSD nunca melhorou em linha reta.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Gizmodo",
+     "url": "https://gizmodo.com/its-like-gta-musk-touts-video-game-like-update-to-tesla-fsd-2000843584"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "cheap-trick-ultimo-show",
+   "categoria": "rock",
+   "data": "2026-11-22",
+   "simbolo": "Ct",
+   "nome": "Cheap Trick",
+   "titulo": "Cheap Trick faz o último show antes de uma pausa sem data para acabar",
+   "resumo": "No domingo (22/11), o Cheap Trick tocou no Sound Board, do MotorCity Casino, em Detroit, o último show marcado da banda: as datas de 2027 foram canceladas e não há previsão de volta. É a primeira pausa em uns 50 anos de turnê, e a banda explicou só que 'precisamos de uma pausa', fazendo questão de avisar que não é por saúde. O set abriu com 'Dream Police', teve 'Ain't That a Shame' com a introdução estendida do 'At Budokan' e fechou com 'Surrender', antes da qual Robin Zander agradeceu ao público 'por tudo o que vocês nos deram'. O filho dele, Robin Taylor Zander, cantou 'Don't Be Cruel'.",
+   "ouvir": "Surrender (Cheap Trick), de preferência na versão do At Budokan",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Ultimate Classic Rock",
+     "url": "https://ultimateclassicrock.com/cheap-trick-final-show-touring-hiatus-set-list/"
+    },
+    {
+     "nome": "Guitar Player",
+     "url": "https://www.guitarplayer.com/guitarists/cheap-trick-cancel-2027-dates-to-put-50-years-of-touring-on-hold-we-need-a-break"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "igor-cavalera-fim-sepultura",
+   "categoria": "rock",
+   "data": "2026-11-22",
+   "simbolo": "Cv",
+   "nome": "Igor Cavalera",
+   "titulo": "Igor Cavalera: o fim do Sepultura é só o fim 'daquela versão'",
+   "resumo": "Numa sessão de perguntas no festival Transmissions, em Ravenna, na Itália, o Igor Cavalera comentou a despedida do Sepultura, que fez o último show em 7/11, em SP: 'Não acho que seja o fim. Acho que é o fim daquela versão do Sepultura.' Disse também que o que aconteceu lá não o afetou em nada e que 'nós seguimos nosso caminho, e eles seguem o deles, e está tudo bem'. Enquanto isso, ele e o Max tocam o repertório clássico como Cavalera e já marcaram show único em SP em 10/03/2027, no Audio, tocando o 'Chaos A.D.' inteiro.",
+   "ouvir": "Refuse/Resist (Sepultura, Chaos A.D.)",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Mundo Metal",
+     "url": "https://www.mundometalbr.com/igor-cavalera-considera-que-fim-do-sepultura-representa-apenas-o-encerramento-de-uma-formacao/"
+    },
+    {
+     "nome": "Rolling Stone Brasil",
+     "url": "https://rollingstone.com.br/?p=328118"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "trump-ira-acordo-permanente",
+   "categoria": "mundo",
+   "data": "2026-11-21",
+   "simbolo": "Ir",
+   "nome": "Irã",
+   "titulo": "Trump quer acordo 'permanente' com o Irã; Ormuz segue fechado",
+   "resumo": "Numa entrevista por telefone à Fox News no sábado (21), Trump disse que quer um acordo 'permanente' com o Irã, que nenhum presidente futuro consiga desfazer para deixar Teerã chegar à bomba. 'A gente faz um acordo e no dia seguinte eles quebram', justificou, e chamou a atual liderança iraniana de 'terceiro grupo', o que seria 'a mudança de regime definitiva'. Do outro lado, o chanceler Abbas Araghchi diz que reabrir o Estreito de Ormuz é fácil se os EUA aceitarem as condições do Irã. Até lá, o estreito continua fechado.",
+   "angulo_quimico": "Pelo Estreito de Ormuz sai boa parte do petróleo e do gás natural do Golfo, que são matéria-prima da petroquímica. Com ele fechado, quem sente não é só o preço do combustível, mas a cadeia inteira de plásticos e solventes.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Free Malaysia Today (Bernama/Anadolu)",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/22/trump-vows-to-make-permanent-deal-with-iran-prevent-future-nuclear-ambitions"
+    },
+    {
+     "nome": "Anadolu Agency",
+     "url": "https://aa.com.tr/en/anadolu-post/morning-briefing-nov-22-2026/4133301"
+    },
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "fbi-ncic-invadido",
+   "categoria": "mundo",
+   "data": "2026-11-21",
+   "simbolo": "Nc",
+   "nome": "FBI hackeado",
+   "titulo": "Hackers invadem o banco de dados criminal do FBI, o segundo ataque em meses",
+   "resumo": "O FBI investiga uma invasão aparente do NCIC, o sistema nacional que as polícias dos EUA usam para consultar mandados, pessoas desaparecidas, carros e armas roubados. A CNN deu a notícia na sexta à noite. Ainda não se sabe quando nem como os invasores entraram, nem se levaram dados, e o medo maior é que tenham adulterado informações que os policiais usam na rua. Trump disse à Fox que 'não é bom', mas que 'talvez a gente aprenda coisas que nunca saberia de outro jeito'. O caso vem depois da série de panes que atingiu bancos, a NSA e o controle de tráfego aéreo da FAA, sem ligação comprovada entre uma coisa e outra.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "CNN (via WCVB)",
+     "url": "https://www.wcvb.com/article/fbi-ncic-database-breach-investigation/74497434"
+    },
+    {
+     "nome": "ABC News (AP)",
+     "url": "https://abcnews.com/US/wireStory/fbi-investigating-apparent-hack-key-criminal-justice-information-138345950"
+    },
+    {
+     "nome": "Forbes",
+     "url": "https://www.forbes.com/sites/larsdaniel/2026/11/21/fbi-reportedly-hacked-again-apparent-breach-hits-ncic-crime-database/"
+    },
+    {
+     "nome": "BleepingComputer",
+     "url": "https://bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "sparta-ii-golfo-finlandia",
+   "categoria": "mundo",
+   "data": "2026-11-21",
+   "simbolo": "Sp",
+   "nome": "Báltico",
+   "titulo": "Drones atingem cargueiro russo no Golfo da Finlândia",
+   "resumo": "No sábado (21), dois drones atingiram o Sparta II, um cargueiro russo que ia para Kaliningrado, a oeste da ilha russa de Gogland. O navio pegou fogo, a tripulação foi retirada e ele ficou à deriva até entrar em águas finlandesas. Não houve relato de feridos. Ninguém assumiu o ataque: o premiê finlandês, Petteri Orpo, disse que a Ucrânia tem o direito de lutar contra o agressor, sem apontar autoria. A Finlândia reativou restrições aéreas e marítimas no leste do golfo, e no domingo a Rússia começou a rebocar o navio.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "The Moscow Times",
+     "url": "https://www.themoscowtimes.com/2026/11/21/russia-says-cargo-vessel-struck-by-drones-in-gulf-of-finland-a94342"
+    },
+    {
+     "nome": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-21/russia-says-cargo-ship-attacked-by-drones-in-gulf-of-finland"
+    },
+    {
+     "nome": "NBC News",
+     "url": "https://www.nbcnews.com/world/russia/cargo-ship-bound-russias-kaliningrad-hit-drones-finland-tightens-secur-rcna610567"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "atletico-vice-sul-americana",
+   "categoria": "brasil",
+   "data": "2026-11-21",
+   "simbolo": "Ga",
+   "nome": "Sul-Americana",
+   "titulo": "Boca vence o Atlético-MG por 2 a 0 e é tri da Sul-Americana",
+   "resumo": "O Galo perdeu a final da Sul-Americana para o Boca Juniors por 2 a 0 no sábado (21), em Barranquilla, na Colômbia, com gols de Ascacíbar e Merentiel. O Boca vira o único tricampeão do torneio, que já tinha vencido em 2004 e 2005. Para o Atlético é mais uma final perdida em sequência, depois da Libertadores de 2024 para o Botafogo e da Sul-Americana de 2025 para o Lanús. Sem a vaga direta na Libertadores de 2027, o time, que está em sétimo no Brasileirão, vai ter que buscá-la pela liga.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/sulamericana/atletico-mg-perde-para-o-boca-e-amarga-mais-um-vice-da-sul-americana/"
+    },
+    {
+     "nome": "O Povo",
+     "url": "https://www.opovo.com.br/esportes/2026/11/22/boca-juniors-vence-sul-americana-sobre-o-atletico-mg.html"
+    },
+    {
+     "nome": "VAVEL Brasil",
+     "url": "https://www.vavel.com/br/futebol/2026/11/22/atletico-mg/1280231-boca-juniors-vence-o-atletico-mg-e-conquista-o-titulo-da-copa-sul-americana-de-2026.html"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "tcu-el-nino-preparo",
+   "categoria": "brasil",
+   "data": "2026-11-22",
+   "simbolo": "En",
+   "nome": "El Niño",
+   "titulo": "TCU diz que o governo não está preparado para o El Niño",
+   "resumo": "Uma auditoria preliminar do TCU, revelada pela Folha e manchete do jornal no domingo (22), aponta falhas de planejamento e coordenação do governo federal contra secas e enchentes. O tribunal viu metas de segurança hídrica atualizadas com atraso, responsabilidades mal divididas entre ministérios e um planejamento que privilegia obras em vez de eficiência no uso da água. Os ministérios dizem que esperam a conclusão do trabalho, e a Casa Civil afirma ter garantido R$ 1,7 bilhão extra de emergência em novembro. A previsão é de chuva acima da média no Sul e de tempo mais seco em partes do Norte e do Nordeste até janeiro.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "NC News",
+     "url": "https://ncnews.com.br/2026/11/21/tcu-aponta-que-governo-nao-esta-preparado/"
+    },
+    {
+     "nome": "Paraíba Online (capas dos jornais)",
+     "url": "https://paraibaonline.com.br/brasil/2026/11/22/o-que-tem-nas-capas-dos-jornais-do-brasil-neste-domingo-22-11/"
+    },
+    {
+     "nome": "Blog do BG",
+     "url": "https://www.blogdobg.com.br/governo-federal-nao-esta-preparado-para-efeitos-do-el-nino-e-mudancas-climaticas-aponta-auditoria-do-tcu/"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "ufms-corantes-pantanal",
+   "categoria": "brasil",
+   "data": "2026-11-22",
+   "simbolo": "Cr",
+   "nome": "Corantes",
+   "titulo": "Cientista da UFMS é premiada por corantes feitos por micróbios do Pantanal",
+   "resumo": "A professora Denise Brentan da Silva, da UFMS, ficou em terceiro lugar no 5º Prêmio Confap de Ciência, Tecnologia e Inovação, na categoria Pesquisadora Inovadora. O prêmio foi entregue na quarta (18) em Curitiba e noticiado no domingo (22). A pesquisa dela usa microrganismos do Pantanal para produzir corantes naturais, como alternativa sustentável aos pigmentos sintéticos. Ela também é sócia-fundadora da Arandu Biotecnologia, startup apoiada pelo Programa Centelha.",
+   "angulo_quimico": "É um bioprocesso: o micróbio fabrica o pigmento no próprio metabolismo, e o trabalho da química passa a ser extrair, purificar e estabilizar a molécula. Muitos pigmentos sintéticos, ao contrário, partem de derivados do petróleo.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "A Onça",
+     "url": "https://www.aonca.com.br/pesquisadora-de-ms-conquista-premio-nacional-com-tecnologia-sustentavel-desenvolvida-a-partir-do-pantanal/"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "arquivos-pe-grande-forest-service",
+   "categoria": "misterios",
+   "data": "2026-11-21",
+   "simbolo": "Sq",
+   "nome": "Pé-Grande",
+   "titulo": "Governo dos EUA solta os 'arquivos do Pé-Grande', e o laudo de 1982 fala em fraude",
+   "resumo": "O Serviço Florestal dos EUA publicou sem alarde uma coleção chamada 'Bigfoot/Sasquatch Records', com relatos de caçadores dos anos 1940 e uma investigação de 1982 sobre pegadas de uns 38 cm na Floresta Nacional de Umatilla. A história viralizou agora, na carona dos arquivos de OVNI do Pentágono.",
+   "teoria": "Pra quem acredita, o governo soltar arquivos de Pé-Grande no meio da onda de documentos de OVNI não é coincidência e seria sinal de que tem mais coisa guardada. Um relato de 1941 fala de caçadores que viram um bicho não identificado levar embora o alce que tinham acabado de abater, e o próprio investigador de 1982 escreveu que, se as pegadas eram falsas, alguém teve um trabalhão com os detalhes.",
+   "fatos": "O biólogo Rodney L. Johnson concluiu em 1982 que as pegadas eram 'uma tentativa inteligente de fraude', provavelmente feitas com um pé revestido de borracha macia: o passo não mudava nem na ladeira. O Serviço Florestal não explicou por que publicou os arquivos, que estão no ar desde 15 de outubro. Até hoje ninguém achou corpo, esqueleto ou DNA do bicho.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "UNILAD",
+     "url": "https://www.unilad.com/news/us-news/us-government-quitely-releases-bigfoot-files-what-officials-found-424383-20261121"
+    },
+    {
+     "nome": "UnHerd",
+     "url": "https://unherd.com/newsroom/bigfoot-is-not-the-only-mystery-worth-investigating/"
+    },
+    {
+     "nome": "NewsNation",
+     "url": "https://www.newsnationnow.com/us-news/strange/forest-service-bigfoot-files/"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "tuneis-hagia-sophia",
+   "categoria": "misterios",
+   "data": "2026-11-21",
+   "simbolo": "Tn",
+   "nome": "Túneis",
+   "titulo": "Túneis sob a Hagia Sophia: 420 metros limpos e água que ainda corre",
+   "resumo": "Equipes de restauração já limparam uns 420 metros de túneis sob a Hagia Sophia, em Istambul: são seis espaços subterrâneos ligados por nove túneis, e cerca de 3 mil toneladas de terra e entulho já saíram de lá. Um dos túneis desce rumo à Cisterna da Basílica com inclinação de uns 3%, e ainda corre água dentro dele.",
+   "teoria": "Desde setembro circulam manchetes sobre '9 km de túneis' sob o monumento, e mapas históricos descrevem uma rota da época romana que ia da região até Sarayburnu, a ponta da península. A ideia de uma rede escondida ligando tudo isso é o que alimenta a imaginação.",
+   "fatos": "O que está confirmado são os 420 metros. Os pesquisadores ainda não sabem se os túneis fazem parte da tal rota romana nem de onde vem a água, que pode ser do lençol freático ou de trechos do antigo aqueduto, segundo o professor Ahmet Gulec, do comitê científico do monumento. Por enquanto, a explicação é infraestrutura de água e drenagem, com partes possivelmente romanas que foram reaproveitadas por séculos.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Anadolu Agency",
+     "url": "https://aa.com.tr/en/culture/beneath-hagia-sophia-grand-mosque-centuries-old-tunnels-begin-to-reveal-istanbul-s-hidden-water-network/4133181"
+    },
+    {
+     "nome": "Greek City Times",
+     "url": "https://greekcitytimes.com/2026/11/22/hagia-sophia-restoration-uncovers-420-metres-of-underground-tunnels-beneath-the-great-church/"
+    }
+   ],
+   "adicionado_em": "2026-11-23"
   }
  ],
  "agenda": [
@@ -2197,6 +2649,16 @@
    }
   },
   {
+   "data": "2026-11-26",
+   "titulo": "Termina a votação do sindicato da Rockstar no Reino Unido",
+   "descricao": "Mais de 1.600 funcionários da Rockstar no Reino Unido votam até 26/11 se reconhecem o sindicato IWGB, que quer voz sobre salário, hora extra, demissões e uso de IA generativa.",
+   "categoria": "games",
+   "fonte": {
+    "nome": "Insider Gaming",
+    "url": "https://insider-gaming.com/rockstar-uk-union-vote-1600-workers/"
+   }
+  },
+  {
    "data": "2026-11-27",
    "titulo": "Peter Gabriel lança o álbum 'o\\i'",
    "descricao": "Disco novo do ex-Genesis, que sai no mesmo dia da Black Friday do Record Store Day.",
@@ -2204,6 +2666,16 @@
    "fonte": {
     "nome": "Ultimate Classic Rock",
     "url": "https://ultimateclassicrock.com/november-2026-new-music-releases/"
+   }
+  },
+  {
+   "data": "2026-11-27",
+   "titulo": "Black Friday 2026",
+   "descricao": "A CNC projeta R$ 11,52 bilhões em vendas, o maior valor desde 2014, mas com crescimento real de só 1,8%, abaixo dos 3,2% do ano passado.",
+   "categoria": "brasil",
+   "fonte": {
+    "nome": "CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/black-friday-pode-ter-melhor-faturamento-desde-2014-projeta-cnc/"
    }
   },
   {
@@ -2224,6 +2696,16 @@
    "fonte": {
     "nome": "Primicias",
     "url": "https://www.primicias.ec/deportes/futbol/final-copa-libertadores-palmeiras-estudiantes-plata-fecha-lugar-estadio-partido-135556/"
+   }
+  },
+  {
+   "data": "2026-11-29",
+   "titulo": "Cygnus NG-25 decola rumo à ISS",
+   "descricao": "Cargueiro da Northrop Grumman, batizado em homenagem a Jim Lovell, sobe num Falcon 9 de Cabo Canaveral às 10h49 (horário da costa leste dos EUA).",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "SpacePolicyOnline",
+    "url": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-november-22-29-2026/"
    }
   },
   {
@@ -2325,6 +2807,16 @@
     "nome": "Digital Citizen",
     "url": "https://www.digitalcitizen.life/steam-autumn-sale-2026-over-winter-sale-december-17-black-friday/"
    }
+  },
+  {
+   "data": "2026-12-31",
+   "titulo": "Fim do mandato da UNIFIL no Líbano",
+   "descricao": "A força de paz da ONU já começou a entregar posições no sul do Líbano ao exército libanês antes de encerrar a missão.",
+   "categoria": "mundo",
+   "fonte": {
+    "nome": "Anadolu Agency",
+    "url": "https://aa.com.tr/en/anadolu-post/morning-briefing-nov-22-2026/4133301"
+   }
   }
  ],
  "quiz": [
@@ -2415,6 +2907,39 @@
    ],
    "certa": 1,
    "id": "voyager1-um-dia-luz"
+  },
+  {
+   "pergunta": "O hidrogel da WashU que fica mais forte com o uso combina PEG com qual molécula em forma de anel?",
+   "opcoes": [
+    "Fulereno",
+    "Éter coroa",
+    "Ciclodextrina",
+    "Porfirina"
+   ],
+   "certa": 2,
+   "id": "hidrogel-acucar-fica-mais-forte"
+  },
+  {
+   "pergunta": "Em qual assistente de provas foi verificada a prova da Hipótese de Riemann feita com o Claude?",
+   "opcoes": [
+    "Coq",
+    "Lean",
+    "Isabelle",
+    "Mathematica"
+   ],
+   "certa": 1,
+   "id": "riemann-prova-claude-lean"
+  },
+  {
+   "pergunta": "Quantos metros de túneis as equipes de restauração já limparam sob a Hagia Sophia, em Istambul?",
+   "opcoes": [
+    "Cerca de 420 metros",
+    "Cerca de 9 quilômetros",
+    "Cerca de 50 metros",
+    "Cerca de 3 quilômetros"
+   ],
+   "certa": 0,
+   "id": "tuneis-hagia-sophia"
   }
  ]
 }
