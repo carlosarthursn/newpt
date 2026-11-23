@@ -453,7 +453,8 @@ a { color: inherit; }
   function pic(it, eager) {
     var im = it.imagem;
     if (im && im.arquivo) {
-      return '<div class="ph"><img src="' + esc(im.arquivo) + '" alt="' + esc(im.legenda || it.titulo) + '"' + (im.largura ? ' width="' + im.largura + '" height="' + im.altura + '"' : "") + (eager ? "" : ' loading="lazy"') + ' decoding="async"></div>';
+      var tall = im.altura && im.largura && im.altura > im.largura * 0.9;
+      return '<div class="ph"><img src="' + esc(im.arquivo) + '" alt="' + esc(im.legenda || it.titulo) + '"' + (im.largura ? ' width="' + im.largura + '" height="' + im.altura + '"' : "") + (tall ? ' style="object-position:50% 22%"' : "") + (eager ? "" : ' loading="lazy"') + ' decoding="async"></div>';
     }
     return '<div class="ph">' + art(it) + "</div>";
   }
