@@ -2326,5 +2326,95 @@
     "url": "https://www.digitalcitizen.life/steam-autumn-sale-2026-over-winter-sale-december-17-black-friday/"
    }
   }
+ ],
+ "quiz": [
+  {
+   "pergunta": "Qual sonda entrou em órbita de Mercúrio em 21/11?",
+   "opcoes": [
+    "BepiColombo",
+    "Juno",
+    "Hera",
+    "Psyche"
+   ],
+   "certa": 0,
+   "id": "bepicolombo-orbita-mercurio"
+  },
+  {
+   "pergunta": "O tecido molecular resolveu qual separação chata da indústria?",
+   "opcoes": [
+    "Etanol e água",
+    "Benzeno e ciclohexano",
+    "O₂ e N₂",
+    "Xilenos"
+   ],
+   "certa": 1,
+   "id": "tecido-molecular-benzeno-ciclohexano"
+  },
+  {
+   "pergunta": "A membrana da KAIST fraciona petróleo cru em que temperatura?",
+   "opcoes": [
+    "Ambiente",
+    "150 °C",
+    "350 °C",
+    "500 °C"
+   ],
+   "certa": 0,
+   "id": "membrana-pan-fraciona-petroleo"
+  },
+  {
+   "pergunta": "Quantas indicações o GTA VI recebeu no The Game Awards 2026?",
+   "opcoes": [
+    "5",
+    "6",
+    "8",
+    "10"
+   ],
+   "certa": 2,
+   "id": "tga-2026-indicados"
+  },
+  {
+   "pergunta": "Que gás o vulcão marciano Alba Mons ainda solta?",
+   "opcoes": [
+    "Metano",
+    "Dióxido de enxofre",
+    "Cloreto de hidrogênio",
+    "Amônia"
+   ],
+   "certa": 2,
+   "id": "marte-vulcao-alba-mons"
+  },
+  {
+   "pergunta": "Quem assumiu a Nvidia interinamente depois da saída de Jensen Huang?",
+   "opcoes": [
+    "Colette Kress",
+    "Lisa Su",
+    "Satya Nadella",
+    "Pat Gelsinger"
+   ],
+   "certa": 0,
+   "id": "huang-renuncia-nvidia"
+  },
+  {
+   "pergunta": "Onde o Sepultura fez seu último show, em 7/11?",
+   "opcoes": [
+    "Pacaembu",
+    "Allianz Parque",
+    "Suhai Music Hall",
+    "Espaço Unimed"
+   ],
+   "certa": 2,
+   "id": "sepultura-ultimo-show"
+  },
+  {
+   "pergunta": "A Voyager 1 chegou a que distância da Terra?",
+   "opcoes": [
+    "1 hora-luz",
+    "1 dia-luz",
+    "1 semana-luz",
+    "1 ano-luz"
+   ],
+   "certa": 1,
+   "id": "voyager1-um-dia-luz"
+  }
  ]
 }

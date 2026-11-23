@@ -14,6 +14,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent
 DATA = ROOT / "data" / "noticias.json"
 TEMPLATE = ROOT / "src" / "template.html"
+IMGDIR = ROOT / "img"
 CAMPOS = ("id", "categoria", "data", "simbolo", "titulo", "resumo", "fontes")
 
 
@@ -43,7 +44,29 @@ def validar(d):
     for rid in d.get("resumo_ids", []):
         if rid not in vistos:
             erros.append(f"resumo_ids: '{rid}' não existe")
+    for q in d.get("quiz", []):
+        if not (0 <= q.get("certa", -1) < len(q.get("opcoes", []))):
+            erros.append(f"quiz '{q.get('pergunta')}': índice 'certa' inválido")
+        if q.get("id") and q["id"] not in vistos:
+            erros.append(f"quiz '{q.get('pergunta')}': item '{q['id']}' não existe")
     return erros, avisos
+
+
+def anexar_imagens(d):
+    """Junta img/<id>.json (gerado pelo img.py) em cada item. Devolve a lista de arquivos usados."""
+    usados = []
+    for it in d["itens"]:
+        it.pop("imagem", None)
+        side = IMGDIR / f"{it['id']}.json"
+        if not side.exists():
+            continue
+        meta = json.loads(side.read_text(encoding="utf-8"))
+        if (ROOT / meta["arquivo"]).exists():
+            it["imagem"] = meta
+            usados.append(meta["arquivo"])
+        else:
+            print(f"aviso: {it['id']}: arquivo de imagem sumiu ({meta['arquivo']})")
+    return usados
 
 
 def main():
@@ -56,12 +79,14 @@ def main():
             print("ERRO:", e)
         sys.exit(1)
 
+    usados = anexar_imagens(d)
     payload = json.dumps(d, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = TEMPLATE.read_text(encoding="utf-8")
     fragmento = tpl.replace("__DADOS__", payload)
 
     (ROOT / "dist").mkdir(exist_ok=True)
     (ROOT / "dist" / "artifact.html").write_text(fragmento, encoding="utf-8")
+    (ROOT / "dist" / "imagens.json").write_text(json.dumps(sorted(usados), indent=0) + "\n", encoding="utf-8")
 
     head, body = fragmento.split("<!--/HEAD-->", 1)
     completo = (
@@ -74,7 +99,7 @@ def main():
     por_cat = {}
     for it in d["itens"]:
         por_cat[it["categoria"]] = por_cat.get(it["categoria"], 0) + 1
-    print(f"ok: {len(d['itens'])} notícias, {len(d.get('agenda', []))} na agenda")
+    print(f"ok: {len(d['itens'])} notícias, {len(usados)} com imagem, {len(d.get('quiz', []))} no quiz, {len(d.get('agenda', []))} na agenda")
     for c in d["categorias"]:
         print(f"  {c['nome']:<12} {por_cat.get(c['id'], 0)}")
 
