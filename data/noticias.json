@@ -1,19 +1,19 @@
 {
- "atualizado_em": "2026-11-23",
+ "atualizado_em": "2026-11-24",
  "periodo": {
   "inicio": "2026-10-28",
-  "fim": "2026-11-22"
+  "fim": "2026-11-23"
  },
  "lead": "Tudo que rolou desde 28 de outubro, separado por família: química, espaço, games, tecnologia, mistérios, rock, Brasil e mundo. Cada notícia tem link pra fonte original, pra você conferir.",
  "mensagem": "Montado pelo seu irmão pra você não ficar por fora de nada. Força aí: tem GTA VI, sonda nova em Mercúrio e muito rock te esperando aqui fora.",
  "metodo": "Como foi feito: cada notícia foi pesquisada na web e tem pelo menos uma fonte com link. Os resumos são em português e simplificam; se algo parecer estranho, clica na fonte e confere. A gente vai atualizando.",
  "resumo_ids": [
   "riemann-prova-claude-lean",
+  "huang-volta-nvidia",
   "membrana-pan-fraciona-petroleo",
   "bepicolombo-orbita-mercurio",
   "gta-vi-chegou",
-  "pentagono-ufo-lote-8",
-  "sepultura-ultimo-show"
+  "pentagono-ufo-lote-8"
  ],
  "categorias": [
   {
@@ -1053,7 +1053,7 @@
    "data": "2026-11-12",
    "simbolo": "Hu",
    "titulo": "Jensen Huang cai: CEO da Nvidia renuncia em meio a suspeita de espionagem",
-   "resumo": "O cara da jaqueta de couro saiu. O New York Times noticiou que a inteligência americana suspeitava que Alice Huang, executiva da Megaspeed com quem ele tinha um caso, teria sido recrutada pelo serviço secreto chinês para espioná-lo; depois apareceu um segundo relacionamento, com uma diretora da própria Nvidia, e ele admitiu a infidelidade num memorando aos funcionários. O conselho abriu investigação em 8/11 e Huang renunciou em 12/11, após 33 anos no comando: a CFO Colette Kress virou CEO interina e a empresa perdeu cerca de US$ 600 bilhões em valor desde o início da investigação. A China chamou as acusações de infundadas, e o comunicado do conselho nem cita o caso. Teoria da conspiração da vida real, com documento na SEC e tudo.",
+   "resumo": "O cara da jaqueta de couro saiu. O New York Times noticiou que a inteligência americana suspeitava que Alice Huang, executiva da Megaspeed com quem ele tinha um caso, teria sido recrutada pelo serviço secreto chinês para espioná-lo; depois apareceu um segundo relacionamento, com uma diretora da própria Nvidia, e ele admitiu a infidelidade num memorando aos funcionários. O conselho abriu investigação em 8/11 e Huang renunciou em 12/11, após 33 anos no comando: a CFO Colette Kress virou CEO interina e a empresa perdeu cerca de US$ 600 bilhões em valor desde o início da investigação. A China chamou as acusações de infundadas, e o comunicado do conselho nem cita o caso. Teoria da conspiração da vida real, com documento na SEC e tudo. Atualização: em 23/11 o conselho voltou atrás e reconduziu o Huang ao cargo (veja a notícia nova).",
    "relevancia": 5,
    "fontes": [
     {
@@ -2595,19 +2595,469 @@
     }
    ],
    "adicionado_em": "2026-11-23"
+  },
+  {
+   "id": "bepicolombo-orbita-75h",
+   "categoria": "espaco",
+   "data": "2026-11-23",
+   "simbolo": "Bo",
+   "nome": "Bepi estável",
+   "corpo": "Mercúrio",
+   "titulo": "BepiColombo: queima entregou só 77% do previsto, mas a sonda está estável",
+   "resumo": "Saiu a explicação que a ESA tinha prometido. Na captura do dia 21, um problema de software no controle de orientação e dos propulsores encurtou a queima (que estava prevista para 37 minutos), e ela entregou só 77% da mudança de velocidade planejada. Resultado: a sonda ficou numa órbita de 75 horas em vez das 58 previstas, e estava em modo de segurança quando o contato voltou. Na segunda (23), a ESA disse que ela está 'segura e numa órbita estável', que as manobras seguintes foram recalculadas sem precisar de queimas extras e que a separação do MPO e do Mio continua marcada para 9 de dezembro.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "European Spaceflight",
+     "url": "https://europeanspaceflight.com/bepicolombo-enters-orbit-around-mercury-despite-software-glitch"
+    },
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "planeta-x2-alem-netuno",
+   "categoria": "espaco",
+   "data": "2026-11-23",
+   "simbolo": "Px",
+   "nome": "Planeta X2",
+   "corpo": "Sistema solar externo",
+   "titulo": "Um planeta tipo Terra escondido além de Netuno? Novo modelo diz que pode ser",
+   "resumo": "Patryk Sofia Lykawka (Universidade Kindai, Japão) e Jonti Horner (Universidade do Sul de Queensland, Austrália) publicaram na MNRAS simulações de 4,5 bilhões de anos de evolução do sistema solar que apontam para um 'Planeta X2' (PX2) com 1,5 a 2 massas terrestres. Ele orbitaria a uns 350–500 UA do Sol, sem nunca chegar a menos de 200 UA (pra comparar, o Cinturão de Kuiper fica mais ou menos entre 38 e 50 UA). O modelo reproduz várias órbitas esquisitas de objetos gelados distantes, mas ainda não bate em tudo com o que se observa. Ninguém viu o planeta: a ideia é que o levantamento LSST do Observatório Vera C. Rubin consiga testar a previsão. (E não, não é Nibiru: é dinâmica orbital e estatística.)",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org (Royal Astronomical Society)",
+     "url": "https://phys.org/news/2026-11-astronomers-hidden-planet-neptune.html"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "ibex-cauda-heliosfera",
+   "categoria": "espaco",
+   "data": "2026-11-23",
+   "simbolo": "Hl",
+   "nome": "Cauda do Sol",
+   "corpo": "Heliosfera",
+   "titulo": "A 'cauda' do sistema solar tem quatro lobos que mudam com o ciclo do Sol",
+   "resumo": "Uma equipe liderada por Maher Dayeh, do Southwest Research Institute (SwRI), usou 14 anos (2009–2022) de dados do IBEX, da NASA, para acompanhar a heliocauda, o rastro que a bolha do vento solar deixa no meio interestelar, ao longo de um ciclo solar inteiro de 11 anos. A cauda tem quatro lobos, num arranjo de trevo de quatro folhas: duas regiões com mais emissão de átomos neutros energéticos (ENAs) e duas com menos. Segundo Dayeh, essas emissões 'crescem, enfraquecem e mudam de posição' conforme o ciclo avança, com alguns anos de atraso. O estudo saiu na Astrophysical Journal Supplement Series e vira referência para interpretar os dados do IMAP, sucessor do IBEX lançado em setembro de 2025.",
+   "angulo_quimico": "Os ENAs nascem de troca de carga: um íon rápido do vento solar 'rouba' um elétron de um átomo neutro vindo do meio interestelar e vira átomo neutro. Sem carga, ele para de sentir o campo magnético e viaja em linha reta até a sonda, levando a informação de onde veio.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-nasa-spacecraft-reveal-solar-tail.html"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "braskem-acordo-credores",
+   "categoria": "quimica",
+   "data": "2026-11-23",
+   "simbolo": "Bk",
+   "nome": "Braskem respira",
+   "titulo": "Braskem fecha acordo com credores, dizem jornais: US$ 4,9 bi, US$ 1,3 bi da Petrobras",
+   "resumo": "Segundo reportagens do Valor e do Estadão/Broadcast, com fontes que pediram anonimato (a empresa ainda não detalhou em fato relevante): na segunda (23), no fim do prazo de 90 dias da recuperação extrajudicial, a Braskem conseguiu o apoio de mais de 50% dos credores, principalmente os bondholders, para reestruturar uma dívida de pouco mais de US$ 11 bilhões, e protocolou o plano na Justiça. A capitalização soma US$ 4,9 bi: US$ 1,3 bi de aporte da Petrobras e US$ 3,6 bi de dívida convertida em ações. A dívida restante fica em torno de US$ 7 bi, com juros e principal adiados até 2028. O controle continua com a IG4 (via FIP Shine) e a Petrobras: os credores entram no acordo de acionistas, mas sem voto nas ações ordinárias e sem participar da gestão, e os detalhes da conversão ainda devem levar uns 30 dias.",
+   "angulo_quimico": "A Braskem é a maior petroquímica do país: transforma nafta e etano em eteno e propeno e daí em resinas como polietileno, polipropileno e PVC. As margens foram espremidas pelo excesso global de resinas, puxado pela expansão chinesa de PE e PP.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Terra (Estadão/Broadcast)",
+     "url": "https://www.terra.com.br/economia/braskem-fecha-acordo-com-credores-envolvendo-capitalizacao-de-us-49-bilhoes,ec1950cf19c02bfec0f31d1755860dcfad53ijj3.html"
+    },
+    {
+     "nome": "TNH1 (Valor Econômico)",
+     "url": "https://www.tnh1.com.br/noticia/nid/braskem-fecha-acordo-com-credores-de-us-49-bilhoes-com-aporte-de-us-13-bi-da-petrobras-dizem-fontes/"
+    },
+    {
+     "nome": "Painel Político",
+     "url": "https://painelpolitico.com/braskem-fecha-acordo-de-us-49-bi-e-evita-recuperacao-judicial"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "petrobras-plano-2027-2031",
+   "categoria": "quimica",
+   "data": "2026-11-23",
+   "simbolo": "Pb",
+   "nome": "Plano Petrobras",
+   "titulo": "Petrobras aprova plano de US$ 122 bi e põe data na fábrica de ureia de MS",
+   "resumo": "O plano de negócios 2027–2031, aprovado na segunda (23), prevê US$ 122 bilhões, dos quais US$ 86 bi vão para exploração e produção. A fatia de refino, transporte, comercialização, petroquímica e fertilizantes leva US$ 24 bi: a capacidade de refino pode subir de 1,813 para 2,173 milhões de barris por dia até 2031 (contando projetos ainda em avaliação), sem refinaria nova, e a de diesel S-10 cresce 405 mil barris por dia. Na química pesada, a UFN-III, em Três Lagoas (MS), parada desde 2014 e com obras retomadas este ano, deve começar a operar em 2029 com 2,2 mil t/dia de amônia e 3,6 mil t/dia de ureia, o bastante para uns 15% da demanda nacional de ureia.",
+   "angulo_quimico": "A UFN-III usa gás natural como matéria-prima, na rota clássica: reforma a vapor para gerar H2, Haber-Bosch com o N2 do ar para fazer amônia e amônia com CO2 para fazer ureia. Já a expansão do S-10 é hidrotratamento na veia, como a nova unidade da Repar (partida em 2031) que vai converter 23 mil barris/dia de diesel S-500 em S-10.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "InfoMoney",
+     "url": "https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-aprova-investimentos-de-us-122-bi-em-plano-de-negocios-2027-2031/"
+    },
+    {
+     "nome": "Correio do Estado",
+     "url": "https://correiodoestado.com.br/economia/2026/11/23/petrobras-preve-fabrica-bilionaria-de-fertilizantes-em-ms-operando-em-2029.html"
+    },
+    {
+     "nome": "eixos",
+     "url": "https://eixos.com.br/petroleo-e-gas/o-que-tem-de-novo-no-plano-de-us-122-bilhoes-da-petrobras/"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "basf-baterias-foco-catodo",
+   "categoria": "quimica",
+   "data": "2026-11-23",
+   "simbolo": "Ni",
+   "nome": "BASF cátodos",
+   "titulo": "BASF vende a reciclagem de baterias e aposta só em material de cátodo",
+   "resumo": "A divisão de baterias da BASF anunciou na segunda (23) que vai se concentrar só em materiais ativos de cátodo (CAM), onde vê mais potencial de diferenciação e lucro. Para isso, vende para a cylib a reciclagem de baterias na Europa e na América do Norte, com propriedade intelectual, contratos, a planta de 'black mass' e a planta-protótipo de reciclagem de Schwarzheide, na Alemanha. O acordo foi assinado em 20/11, sem valores divulgados, e deve fechar entre o 2º e o 3º trimestre de 2027. A empresa também procura parceiros para duas fábricas paradas: Battle Creek (Michigan, EUA) e a de precursores de cátodo (PCAM) em Harjavalta, na Finlândia.",
+   "angulo_quimico": "'Black mass' é o pó escuro que sai da trituração de baterias usadas e de sucata de produção, uma mistura de grafite com os metais do cátodo, que depois vai para a hidrometalurgia recuperar níquel, cobalto e lítio. A planta de Schwarzheide foi projetada para 15 mil t/ano, e o foco da BASF agora é o CAM à base de níquel.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "BASF",
+     "url": "https://www.basf.com/global/en/media/news-releases/2026/11/p-26-192"
+    },
+    {
+     "nome": "electrive (2025, sobre a planta de black mass)",
+     "url": "https://www.electrive.com/2025/06/03/basf-begins-production-of-black-mass-in-germany/"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "huang-volta-nvidia",
+   "categoria": "tecnologia",
+   "data": "2026-11-23",
+   "simbolo": "Nv",
+   "nome": "Huang volta",
+   "titulo": "Reviravolta: Jensen Huang volta a ser CEO da Nvidia 11 dias depois de sair",
+   "resumo": "Onze dias depois de renunciar, o Jensen Huang foi reconduzido por unanimidade nesta segunda (23/11) como presidente, CEO e membro do conselho da Nvidia, com efeito imediato, segundo comunicado da própria empresa; a Colette Kress deixa o cargo de CEO interina e segue como CFO. Seis dias antes, o conselho tinha dito que não pretendia trazê-lo de volta. O Trump contou que falou com o conselho e com o próprio Huang e que ele 'não fez nada de errado'. A ação disparou com a notícia. A investigação dos conselheiros independentes sobre a suspeita de espionagem continua, e ele ainda tem depoimentos marcados no Congresso no começo de dezembro.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+    },
+    {
+     "nome": "Nvidia Newsroom",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    },
+    {
+     "nome": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+    },
+    {
+     "nome": "Axios",
+     "url": "https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "amazon-decart-trainium",
+   "categoria": "tecnologia",
+   "data": "2026-11-23",
+   "simbolo": "Tr",
+   "nome": "Amazon-Decart",
+   "titulo": "Amazon paga US$ 7,5 bi em tecnologia da Decart para encarar a Nvidia",
+   "resumo": "A Amazon anunciou nesta segunda (23/11) que vai ficar com a tecnologia do DOS (Decart Optimization Stack), software que faz modelos de IA rodarem de forma eficiente em chips da Nvidia, da Amazon e do Google, e vai contratar os fundadores e os pesquisadores da Decart, startup israelense de modelos de mundo interativos em tempo real. A Amazon não falou em valor, mas a Bloomberg cravou cerca de US$ 7,5 bilhões. O pano de fundo é chip: a Amazon, que até agora usava os Trainium só nos próprios data centers, se prepara para vendê-los a clientes, e o software da Decart pode facilitar a vida de quem hoje roda tudo em Nvidia. Detalhe: em agosto, segundo a Bloomberg, a Decart tinha negociado se vender para a Anthropic por uns US$ 6 bilhões.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+    },
+    {
+     "nome": "GeekWire",
+     "url": "https://www.geekwire.com/2026/amazon-is-buying-decarts-ai-chip-software-for-a-reported-7-5b-and-bringing-its-founders-aboard/"
+    },
+    {
+     "nome": "The Spokesman-Review (Bloomberg)",
+     "url": "https://www.spokesman.com/stories/2026/nov/23/amazon-is-said-to-pay-75-billion-for-ai-startup-de/"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "riemann-prova-humana-trava",
+   "categoria": "tecnologia",
+   "data": "2026-11-23",
+   "simbolo": "Zt",
+   "nome": "Riemann",
+   "titulo": "Riemann: a prova rival 'sem IA' já tem problemas; a do Claude segue em pé",
+   "resumo": "No mesmo dia em que Levent Alpöge publicou a prova feita com o Claude, o presidente da Sociedade Americana de Matemática, Ravi Vakil, divulgou uma prova rival de 940 páginas da versão generalizada, escrita por Alessandro Maria Masullo, 'toda humana, sem IA'; em poucas horas apareceram relatos de problemas (achados com ajuda de modelos de IA, ironia pouca é bobagem), e o Vakil atualizou o post dizendo que não garante que ela esteja correta. Sobre a do Alpöge, o matemático Daniel Litt diz que o código Lean muito provavelmente está certo, mas que nenhum humano entende a prova ainda. O próprio Alpöge contou que a tentativa de versão legível em inglês passou de 250 mil páginas e que vai trabalhar para simplificar. E o medalhista Fields Ngô Bảo Châu endossou a prova, segundo o 36Kr, dizendo que a IA vai fazer a matemática prosperar, não acabar.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org / The Conversation",
+     "url": "https://phys.org/news/2026-11-sacred-mathematics-riemann-hypothesis-ai.html"
+    },
+    {
+     "nome": "36Kr",
+     "url": "https://eu.36kr.com/en/p/4080372197282948"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "gta-vi-recorde-playstation",
+   "categoria": "games",
+   "data": "2026-11-23",
+   "simbolo": "Ps",
+   "nome": "Recorde PS",
+   "titulo": "Sony crava: GTA VI é o maior lançamento da história do PlayStation",
+   "resumo": "Segundo o blog oficial do PlayStation, mais de 39 milhões de pessoas jogaram GTA VI no PS5 entre o lançamento (19/11) e domingo (22/11), somando 683 milhões de horas, e em 70% dos PS5 novos ele foi o primeiro jogo aberto. A Sony também fala em recorde de jogadores simultâneos num único jogo na plataforma, mas sem dar o número. Nas vendas, o analista Rhys Elliott, da Alinea Analytics, estima 44,9 milhões de cópias (33,7 milhões no PS5 e 11,2 milhões no Xbox), uns 12 milhões a mais em quatro dias. É estimativa, não número oficial, e a versão de PC nem saiu ainda.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "VGC",
+     "url": "https://www.videogameschronicle.com/news/gta-6-was-the-biggest-launch-in-playstation-history-with-over-39-million-players/"
+    },
+    {
+     "nome": "Push Square",
+     "url": "https://www.pushsquare.com/news/2026/11/gta-6-officially-the-biggest-launch-in-playstation-history-with-over-39-million-players"
+    },
+    {
+     "nome": "ComicBook.com",
+     "url": "https://comicbook.com/gaming/news/gta-6-grand-theft-auto-vi-sales-45-million/"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "gta-vi-easter-egg-vice-city",
+   "categoria": "games",
+   "data": "2026-11-23",
+   "simbolo": "Vc",
+   "nome": "Easter egg",
+   "titulo": "Resolvido o easter egg do GTA VI que abre um portal para a Vice City de PS2",
+   "resumo": "Quatro dias depois do lançamento, o YouTuber Memeio matou um dos segredos mais elaborados do GTA VI. Tudo começa com um toque musical do GTA: Vice City e uma charada; para resolver, é preciso saber os códigos de trapaça do Vice City e acionar chaves e botões em subestações espalhadas por Leonida, que ele achou seguindo as linhas de energia do jogo por três dias. No fim abre um portal para uma versão estilizada do jogo com cara de PS2, com participação do Danny Dyer como Kent Paul, e de prêmio vêm a camisa e a moto do Tommy Vercetti.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "VGC",
+     "url": "https://www.videogameschronicle.com/news/one-of-gta-6s-most-elaborate-easter-eggs-has-been-solved/"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "steam-awards-hall-da-fama",
+   "categoria": "games",
+   "data": "2026-11-23",
+   "simbolo": "St",
+   "nome": "Steam Awards",
+   "titulo": "Steam Awards fazem 10 anos e vão eleger o melhor jogo da década",
+   "resumo": "Abriram nesta segunda (23/11) as indicações do Steam Awards 2026, a 10ª edição do prêmio votado pelos usuários, e elas vão até 30/11 (às 15h de Brasília). A novidade é a categoria Hall da Fama: os vencedores de Jogo do Ano das edições anteriores disputam uma vaga só, e GTA V e The Witcher 3 entram representando os dois primeiros anos, quando a categoria ainda não existia. Ou seja, o GTA V pode virar o rei da década no Steam justo na semana em que o GTA VI sai sem versão de PC. A votação final começa em 17/12, junto com a Winter Sale, e termina no começo de janeiro.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Inven Global",
+     "url": "https://www.invenglobal.com/articles/29034/2026-steam-awards-celebrates-10th-anniversary-open-for-nominations-until-december-1"
+    },
+    {
+     "nome": "PC Gamer",
+     "url": "https://www.pcgamer.com/games/2026-steam-awards-pit-the-goty-winners-of-the-past-10-years-against-each-other-in-an-all-out-battle-for-supremacy/"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "the-warning-intervalo-nfl",
+   "categoria": "rock",
+   "data": "2026-11-22",
+   "simbolo": "Tw",
+   "nome": "The Warning",
+   "titulo": "The Warning leva o rock para o intervalo da NFL na Cidade do México",
+   "resumo": "No domingo (22/11), as irmãs Daniela, Paulina e Alejandra Villarreal, o trio mexicano The Warning, tocaram no intervalo de 49ers x Vikings no Estádio Banorte (o antigo Azteca), primeiro jogo da NFL no México desde 2022. Foi um medley enxuto de 'Ritual', 'Ego' e 'Kerosene', todas do disco 'Everything's Falling', de 2026, dez dias depois de a banda ganhar o primeiro Grammy Latino, de Melhor Canção de Rock, justamente com 'Ego'. Em 5/2/2027 elas abrem a turnê mundial com o primeiro show como atração principal num estádio, o Estadio GNP Seguros, também na Cidade do México.",
+   "ouvir": "'Ego', do The Warning (álbum 'Everything's Falling', 2026)",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Consequence",
+     "url": "https://consequence.net/2026/11/the-warning-peform-nfl-mexico-halftime-show/"
+    },
+    {
+     "nome": "Metal Never Die",
+     "url": "https://metalneverdie.com.br/the-warning-show-intervalo-nfl-mexico-2026"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "roger-dean-fragile-recuperado",
+   "categoria": "rock",
+   "data": "2026-11-23",
+   "simbolo": "Fr",
+   "nome": "Fragile",
+   "titulo": "Capa original de 'Fragile', do Yes, sumida desde os anos 70, reaparece",
+   "resumo": "O Roger Dean, o artista das capas fantásticas do Yes, achava que a pintura original da capa de 'Fragile' (1971), um quadro de uns 44 cm de lado, estava perdida no próprio estúdio, até um colecionador contar que a tinha comprado de um conhecido marchand de Londres; a suspeita é que ela tenha sido roubada nos anos 1970. Ele acionou a polícia e a Art Recovery International e, depois de duas semanas de negociação e um acordo confidencial, a obra chegou à Heritage Auctions em setembro e foi apresentada num evento em Londres com o Rick Wakeman. 'Será que eu reconheceria na hora? Claro que reconheci!', disse o Dean. O leilão é em 2/12, e o lance estava em US$ 55 mil.",
+   "ouvir": "'Roundabout', do Yes (álbum 'Fragile', 1971)",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/roger-dean-yes-stolen-fragile-artwork-returned"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "gnr-jakarta-junior-eyes",
+   "categoria": "rock",
+   "data": "2026-11-23",
+   "simbolo": "Gn",
+   "nome": "GN'R",
+   "titulo": "Guns N' Roses volta depois de 'Paradise City' e toca Sabbath para o Ozzy",
+   "resumo": "No sábado (21/11), em Jacarta, na Indonésia, o público não parou de pedir mais depois de 'Paradise City', o encerramento de sempre; o Axl perguntou se queriam outra, e a banda voltou para tocar 'Junior's Eyes', do Black Sabbath, dedicada ao Ozzy, e 'Patience'. Segundo a Loudwire, que deu a notícia na segunda (23/11), é a primeira vez documentada em quase 20 anos que o GN'R volta ao palco depois do bis planejado: a anterior foi em Chiba, no Japão, em 14/7/2007, com 'Don't Cry'.",
+   "ouvir": "'Junior's Eyes', do Black Sabbath (álbum 'Never Say Die!', 1978)",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "Loudwire",
+     "url": "https://loudwire.com/guns-n-roses-two-encores-indonesia-show/"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "ucrania-afunda-corveta-russa-libia",
+   "categoria": "mundo",
+   "data": "2026-11-22",
+   "simbolo": "Mk",
+   "nome": "Benghazi",
+   "titulo": "Ucrânia afunda corveta russa num porto da Líbia, bem longe do front",
+   "resumo": "No domingo (22), drones navais atingiram a corveta russa Merkury, atracada numa base em Benghazi, no leste da Líbia; imagens de satélite mostram o navio quase todo tombado e submerso no porto. Na segunda (23), Zelensky confirmou a autoria: segundo ele, foram usados vários drones navais, e um cargueiro suspeito de levar armas russas também foi atingido. Os dois governos rivais da Líbia condenaram o ataque, a missão da ONU pediu uma investigação independente e o Kremlin disse que o Ministério da Defesa daria informações. É o segundo navio russo atingido no fim de semana, depois do cargueiro no Golfo da Finlândia no sábado.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "RFE/RL",
+     "url": "https://www.rferl.org/a/benghazi-libya-russian-ship-sunk-drone-ukraine/33903623.html"
+    },
+    {
+     "nome": "NPR",
+     "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya"
+    },
+    {
+     "nome": "The Moscow Times",
+     "url": "https://www.themoscowtimes.com/2026/11/23/zelensky-confirms-attack-against-russian-warship-in-libya-a94346"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "otan-russia-satelite-nuclear",
+   "categoria": "mundo",
+   "data": "2026-11-23",
+   "simbolo": "Su",
+   "nome": "Sputnik-S",
+   "titulo": "OTAN acha que a Rússia está pronta para pôr uma arma nuclear em órbita",
+   "resumo": "Segundo reportagem de NDR, WDR e Süddeutsche Zeitung publicada na segunda (23), serviços de inteligência de países da OTAN, incluindo o BND alemão, concluíram que a Rússia planeja lançar ainda este ano um satélite com arma nuclear, o 'Sputnik-S', montado há alguns anos e guardado na região de Moscou; há avaliações de que o lançamento pode sair já em dezembro. Um relatório da inteligência de defesa dos EUA, de outubro, já falava num satélite russo feito para carregar arma nuclear contra outros satélites, e o chefe do Comando Espacial americano estima que cerca de um terço dos satélites em órbita baixa poderia falhar em horas ou dias depois de uma explosão dessas. A embaixada russa em Berlim chamou as reportagens de infundadas e o Kremlin também negou, enquanto o chanceler Friedrich Merz as classificou de 'chocantes'. Colocar arma nuclear em órbita violaria o Tratado do Espaço Exterior, de 1967.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Reuters (via U.S. News)",
+     "url": "https://www.usnews.com/news/world/articles/2026-11-23/nato-believes-russia-is-ready-to-launch-nuclear-armed-satellite-german-media-say"
+    },
+    {
+     "nome": "AeroTime",
+     "url": "https://www.aerotime.aero/articles/russia-nuclear-armed-satellite-launch-warning"
+    },
+    {
+     "nome": "Hromadske",
+     "url": "https://hromadske.ua/en/war/274835-russia-could-launch-nuclear-armed-satellite-by-december-western-intelligence-warns-german-media"
+    },
+    {
+     "nome": "The Moscow Times",
+     "url": "https://www.themoscowtimes.com/2026/11/23/kremlin-dismisses-reports-about-alleged-nuclear-armed-satellite-launch-a94349"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "camara-aprova-ajuste-fiscal",
+   "categoria": "brasil",
+   "data": "2026-11-23",
+   "simbolo": "Aj",
+   "nome": "Ajuste fiscal",
+   "titulo": "Câmara aprova o ajuste fiscal sem mudanças, e o pacote vai à sanção de Lula",
+   "resumo": "Na noite de segunda (23), a Câmara aprovou o texto-base do PLP 299/2026 por 353 votos a 128 e, na mesma sessão, derrubou todos os destaques que tentavam mudar o projeto. Como o texto é idêntico ao que passou no Senado, segue direto para a sanção. O pacote reduz de 2,5% para 2% o teto de crescimento real das despesas quando houver contingenciamento e corta benefícios fiscais; o governo espera alívio de até R$ 50 bi em 2027. Para garantir o placar, Lula exonerou temporariamente o ministro José Guimarães (Relações Institucionais), que reassumiu a cadeira de deputado para votar e depois volta ao ministério.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Diario de Pernambuco",
+     "url": "https://www.diariodepernambuco.com.br/economia/2026/11/11729787-por-353-votos-contra-128-camara-aprova-texto-base-do-ajuste-fiscal.html"
+    },
+    {
+     "nome": "Jovem Pan",
+     "url": "https://jovempan.com.br/politica/camara-rejeita-destaques-de-texto-base-do-ajuste-fiscal-e-projeto-sera-sancionado-por-lula/"
+    },
+    {
+     "nome": "CartaCapital",
+     "url": "https://www.cartacapital.com.br/politica/lula-exonera-ministro-para-participar-da-votacao-do-ajuste-fiscal-na-camara/"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "rayssa-leal-ouro-utsunomiya",
+   "categoria": "brasil",
+   "data": "2026-11-23",
+   "simbolo": "Rl",
+   "nome": "Rayssa",
+   "titulo": "Rayssa Leal ganha a etapa do Japão da Copa do Mundo de skate street",
+   "resumo": "Na madrugada de segunda (23, horário de Brasília), Rayssa Leal venceu a etapa de Utsunomiya da Copa do Mundo de skate street com 176,03 pontos, só 0,90 à frente da australiana Chloe Covell. A japonesa Coco Yoshizawa, campeã olímpica em Paris 2024, ficou com o bronze (175,11) depois de errar a última manobra. A volta de 89,11 da Rayssa foi a maior nota de volta da final. É a resposta depois do 7º lugar no Mundial de Assunção, em outubro, e a vitória soma pontos no ranking rumo a Los Angeles 2028.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Lance!",
+     "url": "https://www.lance.com.br/mais-esportes/rayssa-leal-supera-campea-olimpica-e-conquista-ouro-na-copa.html"
+    },
+    {
+     "nome": "Atleta Pro",
+     "url": "https://www.atletapro.com.br/rayssa-leal-ouro-copa-do-mundo-skate-utsunomiya-2026/"
+    },
+    {
+     "nome": "Jornal Pequeno",
+     "url": "https://jornalpequeno.com.br/2026/11/23/rayssa-leal-conquista-ouro-em-utsunomiya-com-a-melhor-volta-da-final"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "ovni-agua-viva-alasca",
+   "categoria": "misterios",
+   "data": "2026-11-23",
+   "simbolo": "Me",
+   "nome": "Água-viva",
+   "titulo": "A 'água-viva voadora' do Alasca: o Snopes checou a onda de vídeos de OVNI",
+   "resumo": "Vídeos de um objeto escuro com 'tentáculos' flutuando no céu perto da base militar Elmendorf-Richardson, em Anchorage, viralizaram em novembro como prova de OVNI. Na segunda (23), o Snopes publicou uma checagem sobre a onda de vídeos.",
+   "teoria": "Pra quem acredita, é um UAP da mesma família da famosa 'água-viva' filmada sobre uma base dos EUA no Iraque em 2018, vídeo divulgado em 2024 pelo cineasta Jeremy Corbell: um objeto estranho, perto de instalação militar, que some do céu em poucos minutos. A base só disse que sabe do vídeo e que não tem 'informações adicionais', o que pra muita gente soa como silêncio suspeito.",
+   "fatos": "O vídeo original foi gravado em 15 de junho de 2026 pela fotógrafa Sara Jane Osborn e postado no Facebook no dia seguinte. Segundo o Snopes, esse clipe é real, mas parte dos vídeos que vieram depois foi feita com IA, e um deles mostrava pipas num festival em Lincoln City, no Oregon. O ex-investigador de UAPs do Pentágono Sean Kirkpatrick diz que o movimento lembra uma pipa com fitas (ventava bastante em Anchorage naquela hora), e a ex-analista Sarah Gamm acha mais provável um balão de alta altitude; oficialmente, segue 'não identificado', e Kirkpatrick lembra que vídeo comprimido de rede social não serve para análise.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Snopes",
+     "url": "https://www.snopes.com/news/2026/11/23/jellyfish-ufo-aliens/"
+    },
+    {
+     "nome": "Fox News",
+     "url": "https://www.foxnews.com/us/pentagons-former-ufo-investigator-offers-simple-theory-mysterious-jellyfish-shaped-object-video"
+    },
+    {
+     "nome": "East Idaho News",
+     "url": "https://www.eastidahonews.com/2026/11/you-have-to-see-this-high-altitude-balloon-or-tentacled-ufo-viral-video-shows-strange-floating-object-in-sky/"
+    }
+   ],
+   "adicionado_em": "2026-11-24"
   }
  ],
  "agenda": [
-  {
-   "data": "2026-11-23",
-   "titulo": "Godspeed You! Black Emperor em São Paulo",
-   "descricao": "Show único do grupo canadense de pós-rock no Audio, na Água Branca, às 21h30.",
-   "categoria": "rock",
-   "fonte": {
-    "nome": "Rolling Stone Brasil",
-    "url": "https://rollingstone.com.br/musica/godspeed-you-black-emperor-anuncia-show-no-brasil-em-2026-data-ingressos-e-mais/"
-   }
-  },
   {
    "data": "2026-11-24",
    "titulo": "Superlua cheia",
@@ -2626,6 +3076,16 @@
    "fonte": {
     "nome": "Folha de Pernambuco",
     "url": "https://www.folhape.com.br/cultura/ronnie-wood-rolling-stones-show-brasil/502887/"
+   }
+  },
+  {
+   "data": "2026-11-24",
+   "titulo": "Semana Nacional de Ciência e Tecnologia em Brasília",
+   "descricao": "A 23ª SNCT ocupa a Esplanada dos Ministérios de 24 a 29 de novembro com o tema 'Ciência Delas', com experimentos, exposições e jogos de institutos do MCTI.",
+   "categoria": "brasil",
+   "fonte": {
+    "nome": "Momento MT",
+    "url": "https://momentomt.com.br/ciencia-para-descobrir-snct-2026-tera-minerais-microscopia-biocombustiveis-e-jogos-contra-a-desinformacao/"
    }
   },
   {
@@ -2721,11 +3181,21 @@
   {
    "data": "2026-12-01",
    "titulo": "Câmara dos EUA quer ouvir Jensen Huang",
-   "descricao": "Presidentes republicanos de comitês da Câmara pediram uma entrevista a portas fechadas com o ex-CEO da Nvidia nessa data, sob ameaça de intimação; o Comitê Bancário do Senado quer ouvi-lo em 3/12.",
+   "descricao": "Presidentes republicanos de comitês da Câmara pediram uma entrevista a portas fechadas com o CEO da Nvidia (reconduzido em 23/11) nessa data, sob ameaça de intimação; o Comitê Bancário do Senado quer ouvi-lo em 3/12.",
    "categoria": "tecnologia",
    "fonte": {
     "nome": "The Next Web",
     "url": "https://thenextweb.com/news/jensen-huang-nvidia-investigation-senate-lutnick-testify"
+   }
+  },
+  {
+   "data": "2026-12-02",
+   "titulo": "Leilão da capa original de 'Fragile', do Yes",
+   "descricao": "A pintura de Roger Dean, recuperada depois de décadas sumida, vai a leilão na Heritage Auctions.",
+   "categoria": "rock",
+   "fonte": {
+    "nome": "Louder",
+    "url": "https://www.loudersound.com/bands-artists/roger-dean-yes-stolen-fragile-artwork-returned"
    }
   },
   {
@@ -2940,6 +3410,39 @@
    ],
    "certa": 0,
    "id": "tuneis-hagia-sophia"
+  },
+  {
+   "pergunta": "Quantas massas terrestres teria o 'Planeta X2' proposto no novo estudo sobre o sistema solar externo?",
+   "opcoes": [
+    "De 1,5 a 2",
+    "De 5 a 10",
+    "Cerca de 0,1",
+    "Umas 300, como Júpiter"
+   ],
+   "certa": 0,
+   "id": "planeta-x2-alem-netuno"
+  },
+  {
+   "pergunta": "Quantos dias depois de renunciar o Jensen Huang foi reconduzido como CEO da Nvidia?",
+   "opcoes": [
+    "5",
+    "11",
+    "30",
+    "60"
+   ],
+   "certa": 1,
+   "id": "huang-volta-nvidia"
+  },
+  {
+   "pergunta": "Na vitória de Rayssa Leal em Utsunomiya, quem ficou em segundo, a só 0,90 ponto da brasileira?",
+   "opcoes": [
+    "Coco Yoshizawa",
+    "Chloe Covell",
+    "Momiji Nishiya",
+    "Liz Akama"
+   ],
+   "certa": 1,
+   "id": "rayssa-leal-ouro-utsunomiya"
   }
  ]
 }
