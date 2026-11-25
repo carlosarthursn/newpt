@@ -1,8 +1,8 @@
 {
- "atualizado_em": "2026-11-24",
+ "atualizado_em": "2026-11-25",
  "periodo": {
   "inicio": "2026-10-28",
-  "fim": "2026-11-23"
+  "fim": "2026-11-24"
  },
  "lead": "Tudo que rolou desde 28 de outubro, separado por família: química, espaço, games, tecnologia, mistérios, rock, Brasil e mundo. Cada notícia tem link pra fonte original, pra você conferir.",
  "mensagem": "Montado pelo seu irmão pra você não ficar por fora de nada. Força aí: tem GTA VI, sonda nova em Mercúrio e muito rock te esperando aqui fora.",
@@ -10,10 +10,10 @@
  "resumo_ids": [
   "riemann-prova-claude-lean",
   "huang-volta-nvidia",
-  "membrana-pan-fraciona-petroleo",
+  "luz-visivel-quebra-co2",
+  "ibm-vantagem-quantica-70-qubits-logicos",
   "bepicolombo-orbita-mercurio",
-  "gta-vi-chegou",
-  "pentagono-ufo-lote-8"
+  "gta-vi-chegou"
  ],
  "categorias": [
   {
@@ -3055,39 +3055,582 @@
     }
    ],
    "adicionado_em": "2026-11-24"
+  },
+  {
+   "id": "luz-visivel-quebra-co2",
+   "categoria": "quimica",
+   "data": "2026-11-24",
+   "simbolo": "Ce",
+   "nome": "CO₂ com luz",
+   "titulo": "Luz azul e uma 'esponja de oxigênio' quebram CO₂ em CO sem forno",
+   "resumo": "O grupo de Naomi Halas, na Universidade Rice, montou um catalisador 'antena-reator': nanopartículas de cobre captam luz visível e mandam elétrons energéticos para sítios de rutênio, onde o CO₂ é quebrado em CO. O pulo do gato é o óxido de cério (céria) do suporte, que prende o oxigênio liberado na própria rede cristalina e impede a recombinação — sem ele, sai quase três vezes menos CO. Sob luz azul de 475 nm, o pico foi de 15.000 µmol de CO por hora por grama, com produção estável por 238 minutos, quase sete vezes mais que os controles aquecidos, que degradaram em 35 minutos. Saiu na PNAS, e o sistema está licenciado para a Syzygy Plasmonics, spin-off de Houston.",
+   "angulo_quimico": "A conversão térmica de CO₂ costuma pedir 700 a 1.500 °C; aqui a superfície chegou a 300–386 °C só com a iluminação, e a céria carregada de oxigênio pode ser regenerada com N₂ sob luz para novos ciclos.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Phys.org (Rice University)",
+     "url": "https://phys.org/news/2026-11-visible-powers-catalyst-carbon-dioxide.html"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "grafite-flash-coque",
+   "categoria": "quimica",
+   "data": "2026-11-23",
+   "simbolo": "Gr",
+   "nome": "Grafite flash",
+   "titulo": "Coque de petróleo vira grafite de carga rápida em 0,2 segundo",
+   "resumo": "O laboratório de James Tour, na Universidade Rice, mistura coque de petróleo (resíduo barato do refino) com uma pitada de composto de níquel e dá um único pulso elétrico que esquenta tudo a cerca de 2.500 °C por dois décimos de segundo. As partículas de níquel ajudam os átomos de carbono a se organizarem nas camadas do grafite. Usado como ânodo, esse grafite aguentou uma taxa equivalente a carregar em quatro minutos e manteve 80% da capacidade depois de 1.000 ciclos. A equipe estima que o método corta mais de 80% da energia e das emissões da produção convencional de grafite (estudo na Advanced Materials).",
+   "angulo_quimico": "O níquel funciona como catalisador de grafitização: o ganho se manteve mesmo depois de remover mais de 99% do metal residual. Com temperatura alta demais o níquel se perdia; baixa demais, o grafite saía desordenado.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Tech Xplore (Rice University)",
+     "url": "https://techxplore.com/news/2026-11-synthetic-graphite-paves-rapid-ev.html"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "glicina-numero-magico",
+   "categoria": "quimica",
+   "data": "2026-11-24",
+   "simbolo": "Gl",
+   "nome": "Glicina ×6",
+   "titulo": "Por que seis glicinas juntas são tão estáveis? Viram zwitteríons de uma vez",
+   "resumo": "Pesquisadores da Universidade Bar-Ilan, em Israel, atacaram um mistério da espectrometria de massas: por que aglomerados de seis moléculas de glicina são um 'número mágico'. Juntando experimentos com simulações de dinâmica molecular, viram que até cinco moléculas a glicina fica na forma neutra, mas no hexâmero todas viram zwitteríons (uma ponta positiva, outra negativa) de forma abrupta, o que permite ligações bem mais fortes entre elas. Nas simulações, o aglomerado de seis só se desfaz por volta de 1.200 K, contra uns 450 K para o de cinco e 480 K para o de sete. O trabalho saiu no Journal of Chemical Physics.",
+   "angulo_quimico": "Uma glicina sozinha 'não gosta' de ser zwitteríon; quem paga a conta é a interação entre as moléculas, uma explicação diferente da clássica, que atribui os números mágicos à simetria do arranjo. Como a glicina já foi achada em meteoritos, asteroides e cometas, o grupo vê ligação com a química da origem da vida.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org (Bar-Ilan University)",
+     "url": "https://phys.org/news/2026-11-magic-scientists-secret-unusually-stable.html"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "eusi-magnetismo-onda-p",
+   "categoria": "quimica",
+   "data": "2026-11-24",
+   "simbolo": "Eu",
+   "nome": "Magnetismo p",
+   "titulo": "Um metal simples, o EuSi, mostra sinais de magnetismo de 'onda p'",
+   "resumo": "Uma colaboração de 38 cientistas de 19 instituições, puxada pelo Instituto Max Planck de Química Física dos Sólidos, em Dresden, publicou na Nature evidências de magnetismo de onda p no siliceto de európio (EuSi). Entre cerca de 33 e 62 K, os momentos magnéticos do európio formam uma espiral sem magnetização líquida, e elétrons que andam em sentidos opostos têm spins opostos. O efeito foi grande, com separações de energia acima de 100 meV, medidas com fotoemissão resolvida em spin, difração de nêutrons e outras técnicas. Aplicações como correntes de spin sem dissipação ainda não foram demonstradas no material.",
+   "angulo_quimico": "O charme é a simplicidade química: um composto estequiométrico de dois elementos, com cristais crescidos no próprio instituto, em que a textura de spin vem da simetria da espiral magnética, e não do acoplamento spin-órbita.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "ScienceDaily (Max Planck CPfS)",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261123005341.htm"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "shenzhou24-paquistanes-tiangong",
+   "categoria": "espaco",
+   "data": "2026-11-24",
+   "simbolo": "Sz",
+   "nome": "Shenzhou-24",
+   "corpo": "Terra",
+   "titulo": "Shenzhou-24 decola e leva o primeiro estrangeiro à estação chinesa",
+   "resumo": "Um Longa Marcha 2F decolou de Jiuquan às 8h18 de quarta no horário de Pequim (21h18 de terça, 24, em Brasília) com o comandante Tang Hongbo, o engenheiro de voo Wu Yi e o paquistanês Zeeshan Ali, piloto de 40 anos e primeiro astronauta estrangeiro a embarcar na Tiangong. Cerca de seis horas depois, a tripulação já estava dentro da estação, segundo a RTÉ. Ali, que treinou sete meses em Pequim (com direito a aulas de chinês e pingue-pongue), fica de 5 a 10 dias e volta com o resto da tripulação da Shenzhou-23. Já o comandante da Shenzhou-23, Zhu Yangzhu, fica cerca de um ano e vai bater o recorde chinês de permanência em órbita.",
+   "angulo_quimico": "Um dos experimentos de Ali, segundo a RTÉ, testa compósitos de fibra de carbono autorreparáveis, que fecham sozinhos pequenas trincas na estrutura de naves.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "The Korea Herald",
+     "url": "https://www.koreaherald.com/article/10948946"
+    },
+    {
+     "nome": "RTÉ",
+     "url": "https://www.rte.ie/news/world/2026/1125/1600554-china-space-world/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "dragonfly-ganha-cameras",
+   "categoria": "espaco",
+   "data": "2026-11-24",
+   "simbolo": "Df",
+   "nome": "Dragonfly",
+   "corpo": "Titã",
+   "titulo": "O helicóptero da NASA para Titã ganha suas sete câmeras científicas",
+   "resumo": "No laboratório APL, da Johns Hopkins, a equipe do Dragonfly instalou e testou as sete câmeras científicas do conjunto DragonCam, feitas pela Malin Space Science Systems, que se somam a duas câmeras de navegação. Na frente vão uma grande-angular de 90° e uma de ângulo médio, que juntas dão visão estéreo; dos lados, câmeras para panoramas; embaixo, câmeras para checar se o pouso é seguro; e um imageador microscópico mira a broca DrACO, capaz de distinguir grãos de areia milimétricos. Outros instrumentos ainda chegam nos próximos meses, e o lançamento está marcado para julho de 2028, com chegada a Titã no fim de 2034.",
+   "angulo_quimico": "Um painel de LEDs do infravermelho ao ultravioleta vai iluminar o chão nas noites de quase oito dias terrestres de Titã: a cor ajuda a inferir a composição, e moléculas orgânicas que fluorescem no UV podem se entregar.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "NASA Science",
+     "url": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "bepicolombo-teste-cego-mercurio",
+   "categoria": "espaco",
+   "data": "2026-11-24",
+   "simbolo": "Hg",
+   "nome": "Mercury Y",
+   "corpo": "Mercúrio",
+   "titulo": "Teste às cegas: a BepiColombo vai precisar de três instrumentos para ler Mercúrio",
+   "resumo": "Enquanto a BepiColombo se acomoda em Mercúrio, um estudo liderado por Océane Barraud, do DLR alemão, mandou para laboratórios de vários países uma amostra que imita a superfície do planeta, a 'Mercury Y', sem revelar a receita. As medidas do tipo MIXS (raios X) acertaram a composição elementar, inclusive o pouco ferro; as do SIMBIO-SYS (visível e infravermelho próximo) não deram assinaturas definitivas, mas a refletância e a inclinação do espectro estreitaram as opções; e as do MERTIS (infravermelho médio) identificaram os minerais principais. Conclusão do trabalho, publicado na Planetary and Space Science: nenhum instrumento sozinho resolve a química da superfície de Mercúrio.",
+   "angulo_quimico": "A mistura, desenhada a partir dos dados da MESSENGER, tinha cinco componentes: plagioclásio, piroxênio, olivina, vidro vulcânico e grafite. É a velha prova de 'identifique a amostra desconhecida', só que com espectroscopia planetária.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org (Planetary Science Institute)",
+     "url": "https://phys.org/news/2026-11-sample-reveals-bepicolombo-decode-mercury.html"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "cinturoes-radiacao-quatro",
+   "categoria": "espaco",
+   "data": "2026-11-24",
+   "simbolo": "Va",
+   "nome": "Cinturões",
+   "corpo": "Terra",
+   "titulo": "Supertempestade de 2024 deu à Terra quatro cinturões de radiação por semanas",
+   "resumo": "A Terra costuma ter dois cinturões de Van Allen, mas um estudo liderado por Viviane Pierrard, do Instituto Real Belga de Aeronomia Espacial, mostra que depois da tempestade geomagnética de 11 de maio de 2024, a mais forte em uns 20 anos, os elétrons energéticos se reorganizaram em quatro cinturões. Eles se formaram em junho, duraram mais de quatro semanas, e o arranjo normal só voltou em agosto; estruturas com três cinturões reapareceram depois de outras tempestades até 2026. Os dados vêm do telescópio de partículas do satélite PROBA-V, da ESA, a 820 km de altitude. A hipótese é que a tempestade encheu a lacuna habitual e ondas eletromagnéticas abriram novas ao jogar elétrons na atmosfera, mas a causa exata ainda está em aberto (estudo na npj Space Exploration).",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-belts-earth-weeks-solar-superstorm.html"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "reator-lunar-lr1",
+   "categoria": "espaco",
+   "data": "2026-11-23",
+   "simbolo": "Lr",
+   "nome": "LR-1",
+   "corpo": "Lua",
+   "titulo": "NASA abre concorrência para o primeiro reator nuclear que vai gerar energia na Lua",
+   "resumo": "A NASA publicou o pedido de propostas para o Lunar Reactor-1 (LR-1), que deve fornecer 20 kW elétricos na superfície lunar, o suficiente, segundo a agência, para cerca de 16 casas americanas. A meta é ter um sistema pronto para lançamento até 2030 e operá-lo por pelo menos cinco anos, cumprindo as normas de segurança nuclear do Departamento de Energia, parceiro do programa. A vantagem sobre painéis solares é atravessar as noites lunares de cerca de duas semanas. As propostas vão até 21 de dezembro.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "NASA",
+     "url": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "major-cs2-singapura-imperial-dia1",
+   "categoria": "games",
+   "data": "2026-11-24",
+   "simbolo": "Mj",
+   "nome": "Major CS2",
+   "titulo": "Major de CS2 começa com a Imperial 2-0 e o time do s1mple no chão",
+   "resumo": "O PGL Major de Singapura começou na terça (24) e a brasileira Imperial fechou o primeiro dia invicta: 13-6 na HEROIC (Mirage) e 13-11 na 100 Thieves (Nuke), com saadzin puxando o time. Hoje (25), às 5h de Brasília, ela pega a FlyQuest numa MD3 valendo vaga no Stage 2. Já o time do s1mple, que joga como GOSH por restrições locais, levou 13-1 da Liquid e 13-3 da FaZe e venceu só 4 de 30 rounds. MIBR e FUT só entram no Stage 2, a partir de sábado, e a FURIA, no último Major da carreira do FalleN, só no Stage 3, em 2 de dezembro.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Strafe",
+     "url": "https://www.strafe.com/br/news/read/major-de-singapura-2026-dia-1-tem-surpresas-e-time-de-s1mple-vence-apenas-quatro-rounds/"
+    },
+    {
+     "nome": "Pichau Arena",
+     "url": "https://www.pichauarena.com.br/csgo/cs2/imperial-stage-2-pgl-major/"
+    },
+    {
+     "nome": "Yardbarker",
+     "url": "https://www.yardbarker.com/entertainment/articles/action_underway_at_125m_pgl_major_singapore_2026/s1_17061_44612225"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "gta6-port-pc-leonida-some",
+   "categoria": "games",
+   "data": "2026-11-24",
+   "simbolo": "Ln",
+   "nome": "Port Leonida",
+   "titulo": "Maior port não oficial do GTA VI para PC some da noite para o dia",
+   "resumo": "O Leonida, maior projeto para rodar o GTA VI no PC por conta própria (recompilação estática com Vulkan), sumiu na madrugada de 23 para 24/11: repositório, Discord com uns 179 mil membros, tudo. O fundador, NotRexed, diz que a Rockstar derrubou os servidores dele, mas a PC Games Hardware não achou sinal de DMCA, e o 404 do GitHub aponta mais para exclusão pelos próprios donos; Rockstar e Take-Two seguem caladas. Mais de 3 mil forks e backups continuam por aí, e os rivais VIctory e XCL já chegam perto do mundo do jogo, mas nenhum é jogável, e a versão oficial para PC segue sem data.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "PC Games Hardware",
+     "url": "https://www.pcgameshardware.de/GTA-6-Spiel-55239/News/GTA-6-PC-ports-Leonida-offline-VIctory-leads-XCL-1560947/"
+    },
+    {
+     "nome": "GamesRadar+",
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/unofficial-gta-6-pc-port-scrapped-as-rockstar-allegedly-takes-down-discord-server-hours-after-devs-managed-to-get-the-game-booting/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "hacker-gta6-condenado-solto",
+   "categoria": "games",
+   "data": "2026-11-23",
+   "simbolo": "Hk",
+   "nome": "Hacker do GTA",
+   "titulo": "Hacker que vazou o GTA VI pega 7 anos e sai livre no mesmo dia",
+   "resumo": "Arion Kurtaj, do grupo Lapsus$, que vazou 90 vídeos do GTA VI em 2022, foi condenado na segunda (23) a sete anos de prisão, depois de se declarar culpado na semana anterior no Woolwich Crown Court, em Londres. Como já tinha passado tempo detido num hospital psiquiátrico (antes ele havia sido considerado inapto para ser julgado), saiu no mesmo dia em liberdade condicional. Segundo a BBC, citada pelo The Record, uma ordem de cinco anos o proíbe de usar Telegram e Discord; além da Rockstar, ele invadiu sistemas da Uber e da Revolut em 2022, quando estava em liberdade sob fiança.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "The Record",
+     "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license"
+    },
+    {
+     "nome": "Anadolu",
+     "url": "https://aa.com.tr/en/world/gta-vi-hacker-released-despite-being-sentenced-to-7-years-in-uk-prison/4135205"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "gta6-missao-secreta-diabo",
+   "categoria": "games",
+   "data": "2026-11-24",
+   "simbolo": "Dv",
+   "nome": "Missão do Diabo",
+   "titulo": "GTA VI esconde uma missão em que você encara o Diabo no Inferno",
+   "resumo": "No capítulo 2, à meia-noite, no norte de Port Gellhorn, tem uma casa chamada Circles of Hell com dois NPCs ouvindo heavy metal na garagem. Responda 'Having fun?' e depois 'It's good', entre na van e encare a fogueira no acampamento, que a viagem acaba numa briga contra o Diabo e seu exército de demônios. Dá para fazer com Jason ou Lucia, e a recompensa inclui a escopeta Hellspawn Comshot 12 (ao lado do trono de Satã), uma tatuagem nova e aumento permanente de vida, segundo o ComicBook.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "ComicBook",
+     "url": "https://comicbook.com/gaming/news/gta-6-players-find-a-new-mission-that-lets-you-fight-the-devil-heres-how-its-unlocked/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "deepmind-agentes-algoritmos-quanticos",
+   "categoria": "tecnologia",
+   "data": "2026-11-23",
+   "simbolo": "Dm",
+   "nome": "Agentes quânticos",
+   "titulo": "Times de agentes do Gemini turbinam algoritmos quânticos, com prova em Lean",
+   "resumo": "A DeepMind pôs equipes independentes de agentes Gemini 4 para otimizar algoritmos quânticos, com uma 'conferência virtual' a cada quatro horas para trocar ideias e cada resultado provado no Lean. No circuito para simular fusão por confinamento inercial, o custo caiu 11,8 vezes (a memória foi de 5.650 para 4.338 qubits com correção de erro). Na química, o ganho foi de cerca de 8x para uma molécula fotossensível e de 2,5x para a enzima citocromo P450 (de 481 para 333 qubits), e a biblioteca em Lean saiu em código aberto no GitHub.",
+   "angulo_quimico": "Simular moléculas como a citocromo P450 e reações fotoquímicas é uma das grandes promessas do computador quântico; cada qubit a menos que o algoritmo exige aproxima o dia em que isso roda numa máquina real.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Google DeepMind",
+     "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+    },
+    {
+     "nome": "The Neuron",
+     "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-24-2026/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "ibm-vantagem-quantica-70-qubits-logicos",
+   "categoria": "tecnologia",
+   "data": "2026-11-23",
+   "simbolo": "Qb",
+   "nome": "Vantagem quântica",
+   "titulo": "IBM e UChicago rodam 70 qubits lógicos e falam em 'era da vantagem quântica'",
+   "resumo": "Pesquisadores da IBM e da Universidade de Chicago rodaram em cerca de 15 minutos uma versão estruturada da amostragem de circuitos aleatórios, com 70 qubits lógicos protegidos, 2.415 operações de dois qubits e erro lógico uns 10 vezes menor que o físico. Segundo eles, os melhores métodos clássicos levariam um tempo impraticável para repetir a conta, e o formato permite verificar o resultado, o grande calcanhar de aquiles dessas demonstrações; mas é um teste de força, não um problema útil. 'Estamos firmemente na era da vantagem quântica', disse Jay Gambetta, da IBM. No mesmo dia, a Rotonium apresentou um processador fotônico de 4 qubits efetivos que funciona em temperatura ambiente, num chip de 18 x 4 mm.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "ScienceDaily",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261123231244.htm"
+    },
+    {
+     "nome": "The Quantum Insider",
+     "url": "https://thequantuminsider.com/2026/11/23/rotonium-unveils-a-quantum-computer-that-operates-at-room-temperature"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "shirudo-openai-cisco-escudo-linux",
+   "categoria": "tecnologia",
+   "data": "2026-11-23",
+   "simbolo": "Sh",
+   "nome": "Shirudo",
+   "titulo": "OpenAI e Cisco lançam 'escudos' que tapam falhas no Linux sem reiniciar",
+   "resumo": "O Shirudo é um runtime de código aberto (licença BSD) que usa eBPF para bloquear o trecho vulnerável de um Linux em produção enquanto o patch de verdade não chega, sem reiniciar nada. Os 'escudos' podem ser escritos e testados por agentes de IA, mas quem decide colocá-los no ar é o time de segurança, e cada um é assinado e registrado com TPM. No teste da OpenAI, um escudo gerado pelo Codex barrou um exploit Java4Shell num Elasticsearch em funcionamento, que seguiu rodando normalmente.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "OpenAI",
+     "url": "https://openai.com/index/introducing-shirudo/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "foo-fighters-pausa-2027",
+   "categoria": "rock",
+   "data": "2026-11-24",
+   "simbolo": "Ff",
+   "nome": "Foo Fighters",
+   "titulo": "Dave Grohl diz que o Foo Fighters vai dar um tempo depois da turnê de 2027",
+   "resumo": "'Não sei por quanto tempo será, mas podemos dar um tempo', disse Grohl ao canal Quoteable, em fala transcrita pela Consequence, completando que parece 'a coisa certa a fazer'. À Mojo, ele contou que precisou 'reavaliar ambições e intenções'. Antes da pausa vem a Take Cover Tour, com cerca de 28 shows até setembro de 2027, incluindo o Brasil: 18 de fevereiro na Arena MRV, em BH, e 20 no MorumBIS, em SP, com abertura de Karen Dió e Deb and The Mentals.",
+   "ouvir": "Your Favorite Toy (2026), o disco mais recente",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Igor Miranda",
+     "url": "https://igormiranda.com.br/2026/11/foo-fighters-dara-um-tempo-apos-turne-de-2027-segundo-dave-grohl/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "arch-enemy-architects-epica-brasil",
+   "categoria": "rock",
+   "data": "2026-11-24",
+   "simbolo": "Ae",
+   "nome": "Metal no Brasil",
+   "titulo": "Arch Enemy, Architects e Epica marcam shows no Brasil",
+   "resumo": "A Arch Enemy, agora com Lauren Hart nos vocais, traz a turnê 'Back for More' a cinco cidades em março de 2027: Curitiba (11), Porto Alegre (12), São Paulo (14, no Audio), Brasília (16) e BH (18), com ingressos à venda a partir de hoje (25), às 10h. O Architects toca com os franceses do Novelists em Curitiba (16/4) e São Paulo (18/4, no Vibra), ainda divulgando 'The Sky, The Earth & All Between'. E o Epica esgotou a noite com orquestra e coral no Vibra em 20/11/2027 e abriu uma segunda data, no dia 21, dentro da festa de 25 anos da banda.",
+   "ouvir": "The Sky, The Earth & All Between, do Architects (2025)",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Igor Miranda",
+     "url": "https://igormiranda.com.br/2026/11/arch-enemy-shows-brasil-marco-2027/"
+    },
+    {
+     "nome": "Igor Miranda",
+     "url": "https://igormiranda.com.br/2026/11/architects-anuncia-2-shows-no-brasil-junto-do-novelists/"
+    },
+    {
+     "nome": "Igor Miranda",
+     "url": "https://igormiranda.com.br/2026/11/epica-anuncia-show-extra-com-orquestra-e-coral-em-sao-paulo/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "sex-pistols-frank-carter-fim",
+   "categoria": "rock",
+   "data": "2026-11-24",
+   "simbolo": "Sp",
+   "nome": "Sex Pistols",
+   "titulo": "Sex Pistols encerram a fase com Frank Carter numa 'volta olímpica'",
+   "resumo": "Steve Jones, Paul Cook e Glen Matlock anunciaram as últimas 11 datas com Frank Carter no microfone, uma 'Lap of Honour' por Reino Unido e Irlanda em dezembro, fechando em 20/12 no Eventim Apollo, em Londres. A parceria nasceu em 2024 com três shows beneficentes para salvar o Bush Hall e rendeu boas críticas, enquanto John Lydon chamava tudo de 'karaokê'. 'Todas as coisas boas chegam ao fim', disse Carter; Jones avisou que 'isso não é o fim dos Pistols… mas vamos ver o que acontece'. Pelo Brasil, nada.",
+   "ouvir": "Never Mind the Bollocks, Here's the Sex Pistols (1977)",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Blabbermouth",
+     "url": "https://blabbermouth.net/news/sex-pistols-and-frank-carter-to-end-collaboration-after-final-run-of-shows-in-december-2026"
+    },
+    {
+     "nome": "Igor Miranda",
+     "url": "https://igormiranda.com.br/2026/11/sex-pistols-anuncia-shows-finais-com-frank-carter-sem-vir-ao-brasil/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "paradise-lost-final-ascension",
+   "categoria": "rock",
+   "data": "2026-11-24",
+   "simbolo": "Pl",
+   "nome": "Paradise Lost",
+   "titulo": "Paradise Lost faz 40 anos com a turnê 'The Final Ascension'",
+   "resumo": "A banda de Nick Holmes e Gregor Mackintosh vai comemorar quatro décadas com 11 datas na Europa em novembro de 2027 (uma ainda a anunciar), de Dublin (4/11) a Munique (28/11), com Voivod e Dool abrindo. O anúncio fala em 'fechar um capítulo' e subir 'uma última vez', mas não diz com todas as letras que é despedida. O repertório mistura clássicos com faixas de 'Ascension', o 17º disco, de 2025.",
+   "ouvir": "Ascension (2025)",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Blabbermouth",
+     "url": "https://blabbermouth.net/news/paradise-lost-to-celebrate-40th-anniversary-on-the-final-ascension-november-2027-european-tour"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "huawei-condenada-eua",
+   "categoria": "mundo",
+   "data": "2026-11-24",
+   "simbolo": "Hw",
+   "nome": "Huawei condenada",
+   "titulo": "Júri em Nova York condena a Huawei em 10 de 12 acusações",
+   "resumo": "Depois de mais de dois meses de julgamento no Brooklyn, um júri federal considerou a Huawei e três afiliadas culpadas de 10 das 12 acusações, entre elas conspiração para roubar segredos comerciais, lavagem de dinheiro e fraude bancária para esconder negócios no Irã e na Coreia do Norte. A gigante chinesa escapou das duas mais pesadas: conspiração de crime organizado (a lei RICO) e obstrução de justiça. Segundo a Bloomberg, a pena (multas, confisco e restituição) só sai em setembro de 2027; a empresa diz que vai avaliar recursos, e Pequim acusou Washington de 'reprimir e conter' empresas chinesas.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Bloomberg",
+     "url": "https://bloomberg.com/news/articles/2026-11-24/huawei-found-guilty-of-us-criminal-charges-in-landmark-case"
+    },
+    {
+     "nome": "ThePrint (Bloomberg)",
+     "url": "https://theprint.in/tech/huawei-found-guilty-of-multiple-us-criminal-charges-includes-conspiracy-to-steal-trade-secrets/3108351/"
+    },
+    {
+     "nome": "A News",
+     "url": "https://www.anews.com.tr/world/2026/11/25/beijing-accuses-us-of-suppressing-chinese-firms-after-huawei-convicted-of-fraud"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "ira-ormuz-sete-condicoes",
+   "categoria": "mundo",
+   "data": "2026-11-24",
+   "simbolo": "Hz",
+   "nome": "Ormuz",
+   "titulo": "Irã manda fechar Ormuz 'mais a cada dia' e só negocia com 7 condições",
+   "resumo": "O comandante do Exército iraniano, Amir Hatami, mandou a Marinha apertar o fechamento do Estreito de Ormuz até os EUA aceitarem as sete condições de Teerã, e o negociador-chefe Mohammad Bagher Qalibaf repetiu que sem isso não há conversa. A lista nunca foi publicada, mas a mídia estatal fala em fim das sanções, fim do bloqueio naval americano e devolução de ativos congelados. Do outro lado, o premiê do Catar foi a Washington falar com Marco Rubio e JD Vance para tentar reabrir o diálogo. No mercado, segundo o Nation Thailand, o Brent chegou a US$ 88,10 durante a terça e fechou em US$ 91,40, alta de US$ 2,03, depois de relatos de ataques a navios na região.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Euronews",
+     "url": "https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks"
+    },
+    {
+     "nome": "AP (via WTOP)",
+     "url": "https://wtop.com/national/2026/11/iran-insists-no-talks-with-the-us-until-its-7-conditions-are-met-and-other-mideast-news"
+    },
+    {
+     "nome": "Nation Thailand",
+     "url": "https://www.nationthailand.com/news/world/40073886"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "lula-sanciona-ajuste-carta-pt",
+   "categoria": "brasil",
+   "data": "2026-11-24",
+   "simbolo": "Lc",
+   "nome": "Lula 4",
+   "titulo": "Lula sanciona o ajuste fiscal sem vetos e o PT lança nova 'Carta ao Povo'",
+   "resumo": "Um dia depois da votação final na Câmara, Lula sancionou sem vetos a Lei Complementar 239, publicada em edição extra do Diário Oficial na terça (24). Ela baixa de 2,5% para 2% o limite de crescimento real dos gastos, dobra o corte linear de benefícios tributários e aperta a compensação de créditos de PIS/Cofins; segundo O Liberal, o impacto estimado caiu para R$ 50 bilhões em 2027 depois das mudanças no Senado. Na mesma noite, o PT soltou uma nova 'Carta ao Povo Brasileiro', eco da de 2002, dizendo que 'nenhum interesse econômico' pode ficar acima da vontade das urnas e citando bandeiras como a isenção do IR até R$ 5 mil e o fim da escala 6x1. Como notou o Metrópoles, o texto não traz nenhuma meta fiscal para o novo mandato.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "O Liberal",
+     "url": "https://www.oliberal.com/economia/lula-sanciona-integralmente-projeto-de-lei-complementar-do-ajuste-fiscal-1.1197822"
+    },
+    {
+     "nome": "Metrópoles",
+     "url": "https://www.metropoles.com/brasil/pt-lanca-nova-carta-ao-povo-e-diz-que-urnas-valem-mais-que-poder-economico"
+    },
+    {
+     "nome": "CartaCapital",
+     "url": "https://www.cartacapital.com.br/politica/em-nova-carta-ao-povo-brasileiro-pt-diz-que-interesses-economicos-urnas/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "cvm-suspende-brb",
+   "categoria": "brasil",
+   "data": "2026-11-23",
+   "simbolo": "Bb",
+   "nome": "BRB suspenso",
+   "titulo": "CVM suspende o registro do BRB, e as ações do banco saem da bolsa",
+   "resumo": "A CVM suspendeu na segunda (23) o registro de companhia aberta do BRB, que está há mais de 12 meses sem entregar balanços trimestrais; enquanto durar a suspensão, as ações BSLI3 e BSLI4 não podem ser negociadas. O sumiço dos balanços está ligado à crise com o Banco Master, em liquidação: segundo a Gazeta do Povo, o BRB pôs R$ 16,7 bilhões no Master entre 2024 e 2025, e a Polícia Federal vê indícios de irregularidade em pelo menos R$ 12,2 bilhões. A mesma medida pegou Ambipar, Refit (a Refinaria de Manguinhos) e outras duas empresas. A suspensão vale para o mercado de capitais, não para a operação do banco: conta e serviços seguem normais.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Exame",
+     "url": "https://exame.com/invest/mercados/brb-tem-registro-suspenso-pela-cvm-e-acoes-ficam-impedidas-de-ser-negociadas-na-bolsa/"
+    },
+    {
+     "nome": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/economia/cvm-suspende-registro-brb-impede-negociacao-acoes-bolsa/"
+    },
+    {
+     "nome": "ClicRDC",
+     "url": "https://clicrdc.com.br/fique-bem-informado/cafe-com-noticias-de-terca-feira-24-de-novembro-de-2026/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "chape-vence-palmeiras-reserva",
+   "categoria": "brasil",
+   "data": "2026-11-24",
+   "simbolo": "Ch",
+   "nome": "Chape x Verdão",
+   "titulo": "Palmeiras poupa titulares e leva 3 a 0 da Chape antes da final",
+   "resumo": "Com a cabeça na final da Libertadores de sábado (28) contra o Estudiantes, em Montevidéu, Abel Ferreira deixou os titulares em São Paulo e mandou reservas e garotos do sub-20 para Chapecó. A Chapecoense, já rebaixada, aproveitou: Camilo, Max Alves e Miguel Carvalho fizeram 3 a 0 na Arena Condá, pela 37ª rodada do Brasileirão, e a Chape encerrou uma sequência de quatro derrotas.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "A Crítica",
+     "url": "https://acritica.net/noticias/chapecoense-faz-3-a-0-no-palmeiras-reserva-antes-da-final-da-libertadores/"
+    },
+    {
+     "nome": "Gazeta Esportiva",
+     "url": "https://gazetaesportiva.com/times/palmeiras/veja-os-melhores-momentos-de-chapecoense-3-x-0-palmeiras-pelo-brasileirao"
+    },
+    {
+     "nome": "Lance!",
+     "url": "https://www.lance.com.br/videos/chapecoense-3-x-0-palmeiras-melhores-momentos-campeonato-brasileiro-37a-rodada"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "erupcao-explosiva-challenger-deep",
+   "categoria": "misterios",
+   "data": "2026-11-23",
+   "simbolo": "Cd",
+   "nome": "Erupção abissal",
+   "titulo": "Erupção 'impossível': rochas explosivas a 6 km de fundo na Challenger Deep",
+   "resumo": "O robô submarino Jason/Medea achou, a cerca de 6.150 metros de profundidade perto da Challenger Deep (o ponto mais fundo do oceano), as rochas piroclásticas mais profundas já documentadas, sinal de erupções explosivas num lugar onde a pressão deveria impedir isso. O estudo, liderado por Robert Stern (Universidade do Texas em Dallas), saiu na segunda (23) na Frontiers in Earth Science.",
+   "teoria": "Pelo manual, isso não deveria existir: a mais de 600 bar, os gases do magma não teriam como se expandir e explodir, e a lava só escorreria. Por isso o achado foi tratado como 'impossível' e 'surpresa completa', e a equipe sugere que esse vulcanismo pode até ajudar a explicar por que a Challenger Deep é tão funda.",
+   "fatos": "As amostras saíram de sete mergulhos ao longo de cerca de 300 km do antearco da fossa. A explicação proposta: a água liberada pelo magma estaria em estado supercrítico e, ao virar vapor de repente, fragmentaria a lava, numa explosão bem mais fraca que as de terra firme. Os pontos de erupção ainda não foram achados ('ainda não identificamos onde foram as erupções', diz Stern) e falta datação radiométrica para saber quando aconteceram.",
+   "angulo_quimico": "Acima de cerca de 374 °C e 221 bar, a água vira fluido supercrítico, nem líquido nem gás. Segundo a Physics World, esse fluido ocupa só 3% do volume da mesma massa de água em forma de vapor, e é por isso que a 'explosão' lá embaixo é tão contida.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-robot-submarine-exploring-world-deepest.html"
+    },
+    {
+     "nome": "Physics World",
+     "url": "https://physicsworld.com/a/traces-of-deepest-known-explosive-volcanism-found-near-the-challenger-deep/"
+    },
+    {
+     "nome": "Live Science",
+     "url": "https://www.livescience.com/planet-earth/impossible-volcanic-eruption-spotted-in-deepest-part-of-the-ocean-perplexing-scientists"
+    },
+    {
+     "nome": "National Geographic",
+     "url": "https://www.nationalgeographic.com/science/article/challenger-deep-explosive-volcanic-eruption-discovery"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "deputado-lagarto-video-viral",
+   "categoria": "misterios",
+   "data": "2026-11-24",
+   "simbolo": "Rp",
+   "nome": "Olho de réptil",
+   "titulo": "O deputado 'reptiliano' de Nova York: o vídeo é real, a teoria não",
+   "resumo": "Um vídeo do deputado estadual Jordan Wright revirando os olhos (só o branco aparece) atrás do prefeito Zohran Mamdani, numa coletiva em 20/11, viralizou como 'prova' de reptilianos. O Snopes checou na terça (24): o vídeo é autêntico, e o deputado diz que é 'obviamente' humano.",
+   "teoria": "Para quem compra a ideia, o revirar de olhos seria uma 'falha no disfarce' de um reptiliano, a velha teoria de que lagartos metamorfos ocupam cargos de poder, popularizada pelo britânico David Icke.",
+   "fatos": "O momento aparece em várias transmissões ao vivo da coletiva, inclusive a do próprio gabinete do prefeito e a do USA Today, sem sinal de edição por IA. Wright disse ao New York Post que não faz ideia do que houve no vídeo e brincou: 'não posso falar por répteis ou alienígenas'. Não existe nenhuma evidência de uma raça secreta de reptilianos, e o grupo antifascista britânico HOPE not hate aponta que a narrativa de Icke promove velhos estereótipos antissemitas.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Snopes",
+     "url": "https://www.snopes.com/fact-check/nyc-assemblyman-eye-roll-lizard/"
+    }
+   ],
+   "adicionado_em": "2026-11-25"
   }
  ],
  "agenda": [
-  {
-   "data": "2026-11-24",
-   "titulo": "Superlua cheia",
-   "descricao": "A Lua cheia do dia 24 é uma superlua, a primeira de uma sequência de três seguidas (a próxima vem em dezembro).",
-   "categoria": "espaco",
-   "fonte": {
-    "nome": "ScienceDaily",
-    "url": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm"
-   }
-  },
-  {
-   "data": "2026-11-24",
-   "titulo": "Johnny Marr (ex-The Smiths) no Tokio Marine Hall, SP",
-   "descricao": "Show do guitarrista ex-Smiths em São Paulo, com ingressos a partir de R$ 200.",
-   "categoria": "rock",
-   "fonte": {
-    "nome": "Folha de Pernambuco",
-    "url": "https://www.folhape.com.br/cultura/ronnie-wood-rolling-stones-show-brasil/502887/"
-   }
-  },
-  {
-   "data": "2026-11-24",
-   "titulo": "Semana Nacional de Ciência e Tecnologia em Brasília",
-   "descricao": "A 23ª SNCT ocupa a Esplanada dos Ministérios de 24 a 29 de novembro com o tema 'Ciência Delas', com experimentos, exposições e jogos de institutos do MCTI.",
-   "categoria": "brasil",
-   "fonte": {
-    "nome": "Momento MT",
-    "url": "https://momentomt.com.br/ciencia-para-descobrir-snct-2026-tera-minerais-microscopia-biocombustiveis-e-jogos-contra-a-desinformacao/"
-   }
-  },
   {
    "data": "2026-11-25",
    "titulo": "Hera: primeiras imagens detalhadas de Dimorphos",
@@ -3156,6 +3699,16 @@
    "fonte": {
     "nome": "Primicias",
     "url": "https://www.primicias.ec/deportes/futbol/final-copa-libertadores-palmeiras-estudiantes-plata-fecha-lugar-estadio-partido-135556/"
+   }
+  },
+  {
+   "data": "2026-11-28",
+   "titulo": "MIBR e FUT estreiam no Major de CS2 (Stage 2)",
+   "descricao": "O Stage 2 do PGL Major Singapore vai de sábado (28) a 1º de dezembro, com MIBR e FUT entrando direto nessa fase.",
+   "categoria": "games",
+   "fonte": {
+    "nome": "Yardbarker",
+    "url": "https://www.yardbarker.com/entertainment/articles/action_underway_at_125m_pgl_major_singapore_2026/s1_17061_44612225"
    }
   },
   {
@@ -3279,6 +3832,16 @@
    }
   },
   {
+   "data": "2026-12-21",
+   "titulo": "Fecha o prazo do reator lunar LR-1",
+   "descricao": "Último dia para empresas mandarem à NASA propostas para projetar e testar o reator de 20 kW que deve ir para a Lua.",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "NASA",
+    "url": "https://www.nasa.gov/directorates/rtmd/nasa-seeks-partners-to-design-first-nuclear-reactor-for-the-moon/"
+   }
+  },
+  {
    "data": "2026-12-31",
    "titulo": "Fim do mandato da UNIFIL no Líbano",
    "descricao": "A força de paz da ONU já começou a entregar posições no sul do Líbano ao exército libanês antes de encerrar a missão.",
@@ -3286,6 +3849,26 @@
    "fonte": {
     "nome": "Anadolu Agency",
     "url": "https://aa.com.tr/en/anadolu-post/morning-briefing-nov-22-2026/4133301"
+   }
+  },
+  {
+   "data": "2027-01-05",
+   "titulo": "Posse de Lula para o quarto mandato",
+   "descricao": "A posse do presidente reeleito está marcada para 5 de janeiro de 2027.",
+   "categoria": "brasil",
+   "fonte": {
+    "nome": "CartaCapital",
+    "url": "https://www.cartacapital.com.br/politica/em-nova-carta-ao-povo-brasileiro-pt-diz-que-interesses-economicos-urnas/"
+   }
+  },
+  {
+   "data": "2027-02-20",
+   "titulo": "Foo Fighters no MorumBIS, em São Paulo",
+   "descricao": "Show da Take Cover Tour com abertura de Karen Dió e Deb and The Mentals; dois dias antes, a banda toca na Arena MRV, em BH.",
+   "categoria": "rock",
+   "fonte": {
+    "nome": "Igor Miranda",
+    "url": "https://igormiranda.com.br/2026/11/foo-fighters-dara-um-tempo-apos-turne-de-2027-segundo-dave-grohl/"
    }
   }
  ],
@@ -3443,6 +4026,39 @@
    ],
    "certa": 1,
    "id": "rayssa-leal-ouro-utsunomiya"
+  },
+  {
+   "pergunta": "No catalisador de Rice que quebra CO₂ com luz visível, quem faz o papel de 'esponja de oxigênio'?",
+   "opcoes": [
+    "Óxido de cério",
+    "Óxido de zinco",
+    "Alumina",
+    "Sílica"
+   ],
+   "certa": 0,
+   "id": "luz-visivel-quebra-co2"
+  },
+  {
+   "pergunta": "Que provador de teoremas a DeepMind usou para checar os algoritmos quânticos achados pelos agentes do Gemini?",
+   "opcoes": [
+    "Lean",
+    "Coq",
+    "Isabelle",
+    "Mathematica"
+   ],
+   "certa": 0,
+   "id": "deepmind-agentes-algoritmos-quanticos"
+  },
+  {
+   "pergunta": "A que profundidade, mais ou menos, o robô achou as rochas de erupção explosiva perto da Challenger Deep?",
+   "opcoes": [
+    "Cerca de 6.150 metros",
+    "Cerca de 300 metros",
+    "Cerca de 11.000 metros",
+    "Cerca de 1.500 metros"
+   ],
+   "certa": 0,
+   "id": "erupcao-explosiva-challenger-deep"
   }
  ]
 }
