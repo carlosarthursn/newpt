@@ -321,7 +321,7 @@ def montar_html(d, n, inicio, data_iso, itens, licoes, quiz, pg=None, extra_nota
                     continue
                 nivel = t.split("-")[1]
                 linhas.append(f'<tr class="fx-h"><td colspan="3">{NIVEL_CURTO[nivel]} · Lição {k}</td></tr>')
-                linhas.extend(f'<tr><td><b>{e(w)}</b><br><span class="pr">{e(pr)}</span></td><td class="dob"></td><td>{e(pt)}</td></tr>' for w, pr, pt in vocab)
+                linhas.extend(f'<tr><td><b>{e(w)}</b> <span class="pr">{e(pr)}</span></td><td class="dob"></td><td>{e(pt)}</td></tr>' for w, pr, pt in vocab)
             if linhas:
                 blocos.append(f'<h3 class="fx-t" data-cat="{lang}">{IDIOMA[lang]}</h3><table class="fichas"><thead><tr><th>{IDIOMA[lang]}</th><th class="dob">✂ dobre aqui</th><th>Português</th></tr></thead><tbody>{"".join(linhas)}</tbody></table>')
         out.append(f'<section class="fichas-sec sec break"><header class="sec-h"><div class="el"><small>voc.</small><b>Fx</b></div><div><h2>Fichas de vocabulário</h2>'

@@ -105,33 +105,33 @@ h1, h2, h3, h4 { margin: 0; }
 .quiz .opts li::before { content: "☐  "; }
 
 /* ---------- Lições ---------- */
-.licao { break-before: page; font-size: 10.5pt; line-height: 1.5; }
-.l-head { display: grid; grid-template-columns: 17mm 1fr; column-gap: 4mm; align-items: center; padding-bottom: 3mm; margin-bottom: 5mm; border-bottom: 1.6pt solid var(--c); break-after: avoid; }
+.licao { break-before: page; font-size: 10pt; line-height: 1.4; }
+.l-head { display: grid; grid-template-columns: 17mm 1fr; column-gap: 4mm; align-items: center; padding-bottom: 2.5mm; margin-bottom: 4mm; border-bottom: 1.6pt solid var(--c); break-after: avoid; }
 .l-head .el { grid-row: span 3; width: 17mm; height: 18mm; }
 .l-nivel { margin: 0; font-family: var(--f-mono); font-size: 8pt; letter-spacing: .06em; text-transform: uppercase; color: var(--c); }
 .l-head h2 { font-family: var(--f-display); font-weight: 700; font-size: 18pt; line-height: 1.1; }
 .l-obj { margin: 1mm 0 0; font-family: var(--f-sans); font-size: 9pt; color: var(--muted); }
-.licao h3 { font-family: var(--f-display); font-weight: 700; font-size: 11pt; letter-spacing: .08em; text-transform: uppercase; margin: 5mm 0 2mm; color: var(--c); break-after: avoid; }
+.licao h3 { font-family: var(--f-display); font-weight: 700; font-size: 10.5pt; letter-spacing: .08em; text-transform: uppercase; margin: 3.5mm 0 1.5mm; color: var(--c); break-after: avoid; }
 .licao section > h3:first-child { margin-top: 0; }
-.licao section { margin-bottom: 4mm; }
+.licao section { margin-bottom: 3mm; }
 .licao table { width: 100%; border-collapse: collapse; font-family: var(--f-sans); font-size: 9pt; break-inside: auto; }
-.licao th { text-align: left; font-weight: 600; background: var(--soft); border-bottom: .8pt solid var(--ink); padding: 1.2mm 2mm; }
-.licao td { border-bottom: .5pt solid var(--line); padding: 1.1mm 2mm; vertical-align: top; }
+.licao th { text-align: left; font-weight: 600; background: var(--soft); border-bottom: .8pt solid var(--ink); padding: .9mm 1.8mm; }
+.licao td { border-bottom: .5pt solid var(--line); padding: .8mm 1.8mm; vertical-align: top; }
 .licao tr { break-inside: avoid; }
 .licao td:first-child { font-weight: 600; }
 .l-vocab td:nth-child(2) { font-family: var(--f-mono); font-size: 8.5pt; color: var(--muted); }
-.l-gram { border: .8pt solid var(--line); padding: 3.5mm 4mm; }
+.l-gram { border: .8pt solid var(--line); padding: 3mm 3.5mm; }
 .l-gram p { margin: 0 0 2mm; }
 .licao .ex { padding-left: 4mm; border-left: 1.4pt solid var(--c); font-style: italic; }
 .licao .nota { background: var(--soft); padding: 2mm 3mm; font-family: var(--f-sans); font-size: 9pt; margin: 2mm 0; }
 .licao table.conj { width: auto; min-width: 60%; margin: 2mm 0; }
-.l-leitura .texto { font-size: 11pt; line-height: 1.65; margin: 0 0 2mm; }
+.l-leitura .texto { font-size: 10.5pt; line-height: 1.55; margin: 0 0 2mm; }
 .glossario { font-family: var(--f-sans); font-size: 8.5pt; color: var(--muted); margin: 0; }
 .l-exerc ol { margin: 0; padding-left: 6mm; }
-.l-exerc li { margin-bottom: 3mm; break-inside: avoid; }
+.l-exerc li { margin-bottom: 2.2mm; break-inside: avoid; }
 .linha { display: inline-block; min-width: 42mm; border-bottom: .6pt solid var(--ink); height: 1.1em; vertical-align: baseline; }
 .linhas { margin-top: 1mm; }
-.linhas .ln { height: 7mm; border-bottom: .5pt solid #9AA2AE; }
+.linhas .ln { height: 6.5mm; border-bottom: .5pt solid #9AA2AE; }
 .l-dica { background: var(--soft); padding: 3mm 4mm; }
 .l-dica p { margin: 0 0 1.5mm; font-family: var(--f-sans); font-size: 9.2pt; }
 
@@ -159,10 +159,10 @@ h1, h2, h3, h4 { margin: 0; }
 
 /* ---------- Fichas ---------- */
 .fx-t { font-family: var(--f-display); font-weight: 700; font-size: 12pt; letter-spacing: .08em; text-transform: uppercase; color: var(--c); margin: 4mm 0 2mm; }
-.fichas { width: 100%; border-collapse: collapse; font-family: var(--f-sans); font-size: 9pt; margin-bottom: 4mm; }
+.fichas { width: 100%; border-collapse: collapse; font-family: var(--f-sans); font-size: 8.3pt; line-height: 1.25; margin-bottom: 3mm; }
 .fichas th { text-align: left; background: var(--soft); padding: 1.4mm 2mm; border-bottom: .8pt solid var(--ink); }
-.fichas td { padding: 1.4mm 2mm; border-bottom: .5pt solid var(--line); vertical-align: top; width: 47%; }
+.fichas td { padding: .55mm 1.6mm; border-bottom: .4pt solid var(--line); vertical-align: top; width: 47%; }
 .fichas tr { break-inside: avoid; }
 .fichas .dob { width: 6%; border-left: 1pt dashed var(--muted); border-right: 1pt dashed var(--muted); text-align: center; font-size: 6.5pt; color: var(--muted); }
-.fichas .pr { font-family: var(--f-mono); font-size: 7.5pt; color: var(--muted); }
+.fichas .pr { font-family: var(--f-mono); font-size: 6.8pt; color: var(--muted); }
 .fichas .fx-h td { background: var(--soft); font-family: var(--f-mono); font-size: 7.5pt; text-transform: uppercase; letter-spacing: .06em; padding: 1mm 2mm; }
