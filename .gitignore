@@ -1,2 +1,3 @@
 livro/build/
 livro/rascunho*.pdf
+__pycache__/
