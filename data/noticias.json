@@ -1,18 +1,18 @@
 {
- "atualizado_em": "2026-11-25",
+ "atualizado_em": "2026-11-26",
  "periodo": {
   "inicio": "2026-10-28",
-  "fim": "2026-11-24"
+  "fim": "2026-11-25"
  },
  "lead": "Tudo que rolou desde 28 de outubro, separado por família: química, espaço, games, tecnologia, mistérios, rock, Brasil e mundo. Cada notícia tem link pra fonte original, pra você conferir.",
  "mensagem": "Montado pelo seu irmão pra você não ficar por fora de nada. Força aí: tem GTA VI, sonda nova em Mercúrio e muito rock te esperando aqui fora.",
  "metodo": "Como foi feito: cada notícia foi pesquisada na web e tem pelo menos uma fonte com link. Os resumos são em português e simplificam; se algo parecer estranho, clica na fonte e confere. A gente vai atualizando.",
  "resumo_ids": [
   "riemann-prova-claude-lean",
+  "hera-dimorphos-cratera-estadio",
+  "fcc-starmind-milhao-satelites",
   "huang-volta-nvidia",
   "luz-visivel-quebra-co2",
-  "ibm-vantagem-quantica-70-qubits-logicos",
-  "bepicolombo-orbita-mercurio",
   "gta-vi-chegou"
  ],
  "categorias": [
@@ -3628,29 +3628,547 @@
     }
    ],
    "adicionado_em": "2026-11-25"
+  },
+  {
+   "id": "hera-dimorphos-cratera-estadio",
+   "categoria": "espaco",
+   "data": "2026-11-25",
+   "simbolo": "Dm",
+   "nome": "Dimorphos",
+   "corpo": "Dimorphos",
+   "titulo": "Hera revela Dimorphos com cratera de estádio e girando sem rumo",
+   "resumo": "A ESA mostrou na quarta (25), em Berlim, as primeiras imagens de perto de Dimorphos, a lua de 151 m que a DART acertou em 2022: a face atingida virou uma cratera do tamanho de um estádio que, segundo o investigador principal Patrick Michel, atravessa toda a largura do asteroide. Entre 'fez cratera', 'mudou de forma' ou 'ficou igual', a resposta foi as três ao mesmo tempo, já que o lado que não levou a pancada continua como em 2022. Dimorphos, que antes mantinha sempre a mesma face virada para Didymos, agora rodopia de forma caótica (a cientista Sabina Raducan comparou a um barril rolando escada abaixo), e centenas de pedregulhos de poucos metros, até então desconhecidos, orbitam a dupla. A Hera, hoje a uns 30 km, deve descer para cerca de 13 km e soltar os cubesats Juventas e Milani no início de 2027.",
+   "angulo_quimico": "O cubesat Milani vai estudar o material e a poeira em volta do sistema, e a Planetary Society diz que os cubesats vão medir a química da superfície. É a parte da perícia que olha a composição.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://space.com/astronomy/asteroids/hera-spacecraft-gets-1st-up-close-look-at-stadium-sized-hole-punched-in-asteroid-by-nasa-dart-mission"
+    },
+    {
+     "nome": "The Planetary Society",
+     "url": "https://www.planetary.org/articles/heras-first-close-up-images-of-didymos-and-dimorphos"
+    },
+    {
+     "nome": "CNN",
+     "url": "https://www.cnn.com/2026/11/25/science/hera-mission-dimorphos-asteroid-arrival-images"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "fcc-starmind-milhao-satelites",
+   "categoria": "espaco",
+   "data": "2026-11-25",
+   "simbolo": "Sx",
+   "nome": "Starmind",
+   "corpo": "Terra",
+   "titulo": "EUA liberam a SpaceX para pôr 1 milhão de satélites-datacenter em órbita",
+   "resumo": "A FCC, a agência de telecomunicações dos EUA, autorizou na quarta (25) a SpaceX a lançar até 1 milhão de satélites, os 'módulos de computação orbital' da constelação Starmind, uma rede de data centers de IA no espaço. Pela decisão, a empresa tem até 2033 para pôr o primeiro no ar e pode completar o resto aos poucos até 2040. A Sociedade Astronômica Americana se disse 'desanimada e consternada', porque os satélites apareceriam como pontos muito brilhantes no céu noturno, e Amazon (Kuiper) e Viasat também se opuseram. O astrofísico Adam Becker chamou o plano de 'fantasia': lembrou que dissipar calor no vácuo é um limite físico básico e alertou para colisões em cascata de lixo espacial.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+    },
+    {
+     "nome": "NBC News",
+     "url": "https://www.nbcnews.com/science/space/spacex-fcc-authorizes-1-million-satellites-data-centers-space-rcna611341"
+    },
+    {
+     "nome": "Phys.org (AP)",
+     "url": "https://phys.org/news/2026-11-fcc-spacex-deploy-million-satellites.html"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "lupex-rover-pernas-jaxa",
+   "categoria": "espaco",
+   "data": "2026-11-25",
+   "simbolo": "Lx",
+   "nome": "LUPEX",
+   "corpo": "Lua",
+   "titulo": "Japão mostra rover com pernas que vai caçar água no polo sul da Lua",
+   "resumo": "A JAXA apresentou na quarta (25), em Tóquio, um modelo de teste de quatro pernas que vai fazer parte do rover da LUPEX, missão conjunta com a Índia (o Japão faz o rover, a Índia o módulo de pouso) prevista para 2028. Segundo o gerente do projeto, Takeshi Hoshino, já foram testadas a subida de rampa usando uma perna só, o deslocamento contínuo com duas e a mobilidade em vácuo. O destino é o polo sul lunar, onde áreas que nunca recebem sol devem guardar água perto da superfície, e o rover vai procurar essas fontes, perfurar e medir quanta água há e de que qualidade.",
+   "angulo_quimico": "A meta declarada é transformar água lunar em combustível de foguete. Na prática isso significa eletrólise da água em H2 e O2, o mesmo par de propelentes de vários foguetes.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Phys.org (AFP)",
+     "url": "https://phys.org/news/2026-11-japan-unveils-rover-prototype-moon.html"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "urano-oposicao-2026",
+   "categoria": "espaco",
+   "data": "2026-11-25",
+   "simbolo": "Ur",
+   "nome": "Urano",
+   "corpo": "Urano",
+   "titulo": "Urano chegou à oposição, mas a Lua cheia roubou a cena",
+   "resumo": "Urano ficou em oposição no dia 25, com a Terra entre ele e o Sol. É a época do ano em que ele aparece mais brilhante: magnitude +5,6, segundo a BBC Sky at Night, no limite do olho nu em céu bem escuro. Ele está em Touro, entre as Híades e as Plêiades, mas a Lua cheia estava a só 6° dele, o que atrapalhou a observação. No telescópio aparece como um disquinho esverdeado de uns 4 segundos de arco, e com 200 mm ou mais dá para tentar ver as luas Titânia e Oberon.",
+   "angulo_quimico": "O tom verde-azulado vem do metano da atmosfera, que absorve a parte vermelha da luz do Sol.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "BBC Sky at Night Magazine",
+     "url": "https://www.skyatnightmagazine.com/news/uranus-november-2026"
+    },
+    {
+     "nome": "Universe Today",
+     "url": "https://universetoday.com/articles/feast-your-eyes-on-uranus-at-opposition-this-thanksgiving-2026"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "fungo-co2-proteina",
+   "categoria": "quimica",
+   "data": "2026-11-25",
+   "simbolo": "Fg",
+   "nome": "Fungo de CO₂",
+   "titulo": "CO₂ vira comida: catalisador de cobre-ouro alimenta fungo rico em proteína",
+   "resumo": "Na Universidade Washington em St. Louis, o grupo de Joshua Yuan usou um catalisador tandem de cobre e ouro para transformar CO₂ por eletrocatálise em moléculas que alimentam o fungo comestível Neurospora intermedia, parecido com o oncom indonésio. Como o fungo cresce bem com etanol e acetato mas é inibido por formato, o catalisador foi desenhado em torno disso. Segundo o estudo, na One Earth, a biomassa fica pronta em 7 dias (a soja leva 122) e tem 48,5% de proteína, contra cerca de 36% da soja e 20,4% da carne bovina. Os autores calculam uns 794 L de água por kg de proteína (5.970 L na soja) e eficiência de luz solar em biomassa de 4,35%, cerca de nove vezes a da soja, e já planejam uma startup.",
+   "angulo_quimico": "O pulo do gato é a seletividade da eletrorredução de CO₂: o par Cu/Au em tandem foi ajustado para entregar o que o fungo metaboliza e evitar o formato, que o envenena.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-artificial-photosynthesis-protein-rich-edible.html"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "bulvaleno-semicondutor-esticavel",
+   "categoria": "quimica",
+   "data": "2026-11-25",
+   "simbolo": "Bv",
+   "nome": "Bulvaleno",
+   "titulo": "Molécula 'cubo mágico' deixa plástico semicondutor esticar o dobro sem rachar",
+   "resumo": "Na Universidade de Toronto, a doutoranda Shine H. Huang, do grupo de Helen Tran, pôs bulvaleno, uma molécula orgânica que muda de forma, num polímero conjugado semicondutor do tipo dicetopirrolopirrol-co-tienotiofeno. O material passou a esticar mais que o dobro antes de trincar e continuou conduzindo 'quase tão bem quanto antes', segundo o estudo na Angewandte Chemie. Análises com luz síncrotron no Canadian Light Source mostraram que os cristalitos continuam lá, só que bem menores, e isso parece deixar o filme deformar sem cortar o caminho das cargas.",
+   "angulo_quimico": "O bulvaleno (C10H10) é o exemplo de livro de molécula fluxional: rearranjos de Cope degenerados embaralham suas ligações o tempo todo, e daí vem o apelido de 'cubo mágico'.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org (Canadian Light Source)",
+     "url": "https://phys.org/news/2026-11-rubik-cube-molecule-gen-semiconductors.html"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "fosfato-nitrato-amonia",
+   "categoria": "quimica",
+   "data": "2026-11-25",
+   "simbolo": "Fs",
+   "nome": "Nitrato a NH₃",
+   "titulo": "Tampão fosfato faz cobre transformar nitrato em amônia 10 vezes mais rápido",
+   "resumo": "Um time internacional liderado pela Universidade de Osaka deixou o catalisador de lado e mexeu no eletrólito: com tampão fosfato neutro (pH 7), a redução de nitrato em cobre ficou cerca de 10 vezes mais rápida e mais de duas vezes mais seletiva para amônia do que em solução alcalina de pH 13, com a mesma força motriz. O gargalo era o nitrito intermediário, difícil de levar até o fim. Medidas de pH local mostraram que o pH na superfície não explicava o ganho, e IR operando com cálculos teóricos apontaram o fosfato adsorvido como 'lançadeira de prótons', que tira H+ da água e entrega aos intermediários (o trabalho saiu no JACS).",
+   "angulo_quimico": "A lição de eletroquímica: o ambiente do eletrodo pode pesar tanto quanto o material do catalisador. Ainda abre caminho para tirar o nitrato de efluentes e transformá-lo em amônia com baixo impacto.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-phosphate-boosts-nitrate-conversion-tenfold.html"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "shaheen-aramco-ulsan",
+   "categoria": "quimica",
+   "data": "2026-11-25",
+   "simbolo": "Sh",
+   "nome": "Shaheen",
+   "titulo": "Aramco inaugura na Coreia complexo de US$ 7 bi que leva cru direto a químicos",
+   "resumo": "A Aramco e a S-OIL, da qual a saudita tem mais de 63%, inauguraram o complexo Shaheen, em Ulsan, na Coreia do Sul. São US$ 7 bilhões, o maior investimento da Aramco no país, e cerca de 3,2 milhões de t/ano de capacidade petroquímica nova. É a primeira aplicação comercial de grande porte da tecnologia TC2C (thermal crude-to-chemicals), desenvolvida com a Lummus, e o complexo inclui o que a Aramco chama de maior steam cracker de trem único do mundo, além de uma fracionadora de propeno e unidades de polímeros. A operação comercial começa em 2027, e a fatia petroquímica do negócio da S-OIL deve subir de 12% para 25%.",
+   "angulo_quimico": "A ideia do crude-to-chemicals é tirar mais química e menos combustível de cada barril, levando o cru mais direto ao craqueamento térmico e às olefinas.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "IndexBox",
+     "url": "https://www.indexbox.io/blog/aramco-and-s-oil-launch-7-billion-shaheen-petrochemical-project-in-ulsan/"
+    },
+    {
+     "nome": "Egypt Oil & Gas",
+     "url": "https://egyptoil-gas.com/news/aramco-inaugurates-7bn-shaheen-petrochemicals-project-in-south-korea/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "neotuberostemonina-sintese",
+   "categoria": "quimica",
+   "data": "2026-11-24",
+   "simbolo": "Nt",
+   "nome": "Neotuberostemonina",
+   "titulo": "Alcaloide de planta com potencial antitosse ganha a 1ª síntese total",
+   "resumo": "Takeo Sakai, Ryu Tadano e Yuji Mori, da Universidade Meijo (Japão), publicaram no JACS a primeira síntese total da neotuberostemonina, alcaloide das raízes de Stemona tuberosa com potencial para suprimir a tosse, cuja estrutura foi descrita em 1994. No caminho saiu também a neostenina, em 13 etapas e 6,4% de rendimento global. A rota passa por um sal de amônio quaternário espirocíclico, um rearranjo 3-aza-Cope seguido de ciclização de Mannich (aminocetona tricíclica com 70% de rendimento e er 95:5), uma expansão de anel radicalar e uma inserção C–H catalisada por ródio que fecha a butirolactona. A neotuberostemonina sai no fim, de uma reação de Polonovski com 2-siloxifurano.",
+   "angulo_quimico": "A sequência aza-Cope/Mannich é um clássico para montar esqueletos de alcaloides. Já a Polonovski ativa o N-óxido e gera o íon imínio que deixa acoplar o furano no final.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-chemical-route-synthesis-compound-suppressing.html"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "major-cs2-singapura-dia2-s1mple-fora",
+   "categoria": "games",
+   "data": "2026-11-25",
+   "simbolo": "Cs",
+   "nome": "Major CS2",
+   "titulo": "Major de CS2: Imperial tropeça e o time do s1mple já está fora",
+   "resumo": "O segundo dia do Major de Singapura não foi gentil com a Imperial: a FlyQuest ganhou por 2-0 (13-11 na Dust2, com um clutch de 1v4 do jks, e 13-9 na Cache, depois de a Imperial ir para o intervalo vencendo por 7-5) e garantiu vaga direta no Stage 2. Os brasileiros caíram para a chave de 2-1 e encaram a Liquid nesta quinta (26), às 8h de Brasília, com a classificação em jogo. Já o time do s1mple, que no torneio aparece como GOSH por causa das restrições a apostas em Singapura, perdeu por 2-1 para a Chinggis Warriors e saiu com 0-3; segundo a Strafe, é a pior campanha dele em 15 Majors.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "HLTV",
+     "url": "https://www.hltv.org/news/46053/chinggis-warriors-condemn-bcgame-to-0-3-exit-in-singapore"
+    },
+    {
+     "nome": "Insider Gaming",
+     "url": "https://insider-gaming.com/pgl-singapore-major-day-2-recap-gosh-what-a-humiliation-for-bc-game/"
+    },
+    {
+     "nome": "Strafe",
+     "url": "https://www.strafe.com/news/read/singapore-major-2026-day-2-recap-s1mple-eliminated-as-flyquest-and-nip-advance/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "gpt-6-2-proteinas-laboratorio",
+   "categoria": "tecnologia",
+   "data": "2026-11-24",
+   "simbolo": "Pr",
+   "nome": "Proteínas",
+   "titulo": "GPT-6.2 desenha proteínas que grudam no alvo de verdade no laboratório",
+   "resumo": "A OpenAI publicou na terça (24) um trabalho em que o GPT-6.2, sem chamar modelos especializados de biologia, projeta formas 3D de proteínas usando raciocínio e código. No laboratório da parceira Onava, 322 'minibinders' foram testados contra cinco alvos e 35 (10,9%) se ligaram ao alvo certo, com pelo menos um acerto em cada um dos cinco. Em outra rodada, 179 de 272 fragmentos derivados de anticorpos (66%) se ligaram ao PD-1 ou PD-L1. A própria OpenAI faz as ressalvas: modelos especializados ainda foram usados para filtrar candidatos, o RFdiffusion já relatou taxas de acerto maiores, prever a estrutura completa continua sendo o ponto fraco (TM-score médio de 0,38 contra 0,93 do ESMFold2) e grudar no alvo é só o primeiro passo.",
+   "angulo_quimico": "É química de proteína na veia: desenhar a geometria que encaixa no alvo e depois escolher a sequência de aminoácidos que dobra naquela forma. O 'hit' aqui é só afinidade de ligação — especificidade, estabilidade e atividade biológica ficam para depois.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "OpenAI",
+     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+    },
+    {
+     "nome": "The Neuron",
+     "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "openai-multiplicacao-matrizes-9-4",
+   "categoria": "tecnologia",
+   "data": "2026-11-24",
+   "simbolo": "Mx",
+   "nome": "Expoente 9/4",
+   "titulo": "OpenAI afirma ter fechado o expoente da multiplicação de matrizes em 9/4",
+   "resumo": "Num preprint posto no repositório público openai/math no dia 24, a OpenAI afirma que o expoente da multiplicação de matrizes (o tal do ômega) é exatamente 9/4, ou seja 2,25, em qualquer corpo — e não só um limite superior, mas também um limite inferior que bate com ele. O melhor limite conhecido até então era de cerca de 2,371, e um preprint da própria OpenAI, de outubro, já tinha proposto o 2,25 por cima nos complexos. O material foi produzido por um modelo interno da OpenAI, e o próprio repositório o chama de 'dados brutos de pesquisa' e avisa que resultados não formalizados podem ter problemas; nada passou por revisão por pares, e a formalização em Lean cobre o modelo de circuitos sem divisão, não o argumento inteiro. E não espere sua GPU ficar mais rápida: o resultado é assintótico e não muda nada na prática hoje.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "openai/math (README do preprint)",
+     "url": "https://github.com/openai/math/tree/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026"
+    },
+    {
+     "nome": "openai/math (preprint)",
+     "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
+    },
+    {
+     "nome": "Let's Data Science",
+     "url": "https://letsdatascience.com/news/openai-preprint-claims-matrix-multiplication-exponent-is-exa-7997d3b1"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "tidal-apaga-musicas-ia",
+   "categoria": "tecnologia",
+   "data": "2026-11-24",
+   "simbolo": "Td",
+   "nome": "Tidal",
+   "titulo": "Tidal vai apagar 29 milhões de músicas feitas 100% por IA",
+   "resumo": "O Tidal anunciou na terça (24) que vai banir e remover faixas inteiramente geradas por IA. A faxina começa em 9 de dezembro e a empresa espera deletar mais de 29 milhões de músicas até o fim do ano, além de rejeitar entre 80 mil e 85 mil faixas novas por dia. Música feita com ajuda de IA continua liberada; o corte é para o que é 100% máquina. Os números que o serviço dá explicam a decisão: nos últimos 90 dias, mais de 43% dos uploads eram gerados por IA, e 27 milhões de faixas do catálogo (6,3%) são totalmente sintéticas — 96% delas sem nenhum play. Desmonetizar isso em junho não resolveu; nas palavras do chefe do Tidal Music, Robert Anderson, 'algo mais drástico precisa ser feito'.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "andy-taylor-duran-duran-morre",
+   "categoria": "rock",
+   "data": "2026-11-25",
+   "simbolo": "At",
+   "nome": "Andy Taylor",
+   "titulo": "Morre Andy Taylor, o guitarrista que deu a garra do Duran Duran",
+   "resumo": "Andy Taylor, guitarrista original do Duran Duran, morreu em casa na segunda (23), aos 65 anos, cercado pela família; a banda e a família anunciaram na quarta (25). Ele vinha lutando contra um câncer de próstata diagnosticado em estágio 4 em 2018 — foi por isso que não subiu ao palco na entrada da banda no Rock and Roll Hall of Fame, em 2022. Taylor chegou a Birmingham em 1980 e tocou nos três primeiros discos, os de 'Girls On Film', 'Rio', 'Hungry Like The Wolf' e 'The Reflex'; em 1985 montou o supergrupo The Power Station com John Taylor, Robert Palmer e Tony Thompson. Saiu em 1986, voltou no começo dos anos 2000 e ainda participou do 'Danse Macabre', de 2023. Em nota, os companheiros de banda disseram que ele estava 'lá no começo da nossa história' e trouxe 'um fogo e uma malandragem que não saem mais'.",
+   "ouvir": "Duran Duran - 'Rio' (1982); e o primeiro disco do The Power Station (1985)",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "RTÉ",
+     "url": "https://www.rte.ie/entertainment/2026/1125/1600695-andy-taylor-former-duran-duran-guitarist-dies-aged-65/"
+    },
+    {
+     "nome": "Stereogum",
+     "url": "https://stereogum.com/2521680/duran-durans-andy-taylor-dead-at-65/news"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "anthrax-turne-europa-kerry-king",
+   "categoria": "rock",
+   "data": "2026-11-25",
+   "simbolo": "Ax",
+   "nome": "Anthrax",
+   "titulo": "Anthrax marca 19 shows na Europa em 2027 com Kerry King de abertura",
+   "resumo": "O Anthrax anunciou na quarta (25) a turnê europeia de 2027 do 'Cursum Perficio', o primeiro disco da banda em mais de uma década. São 19 datas entre 14 de março e 10 de abril, de Dublin a Londres (OVO Arena Wembley), passando por Paris, Madri, Milão, Berlim, Budapeste, Praga e Bruxelas. A abertura fica com Kerry King e o Sacred Reich — o mesmo Kerry King que, mais cedo em 2027, abre para o Megadeth na turnê de despedida. Os ingressos saem nesta sexta (27), às 10h do horário local, pelo site da banda. América do Sul não entrou nessa leva.",
+   "ouvir": "Anthrax - 'Cursum Perficio'",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Loudwire",
+     "url": "https://loudwire.com/anthrax-2027-european-tour-dates/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "slipknot-dr-martens-black-friday",
+   "categoria": "rock",
+   "data": "2026-11-24",
+   "simbolo": "Sk",
+   "nome": "Slipknot",
+   "titulo": "Slipknot e Dr. Martens lançam coleção de coturno na Black Friday",
+   "resumo": "O Slipknot fechou com a Dr. Martens uma coleção limitada de nove peças: as botas 1460 Jungle Zip e Jadon, o sapato 1461 Zip, a 1490 Slipknot 10 Eye Boot em couro cáqui desgastado, mochila, três modelos de meia de algodão orgânico e porta-cartões, tudo com a costura vermelha da banda e a simbologia de sempre. Segundo a SPIN, a coleção chega no dia 27, e a 1490 sai só pela loja da banda. O pano de fundo é a volta grande: o Slipknot soltou 'Arsenal' em setembro, a primeira faixa nova desde 2023, e abre a turnê de estádios em 3 de julho de 2027, no Wembley.",
+   "ouvir": "Slipknot - 'Arsenal' (2026)",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "SPIN (via Yahoo)",
+     "url": "https://yahoo.com/entertainment/music/articles/slipknot-dr-martens-unite-footwear-150300685.html"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "trump-ira-guerra-paga-janeiro",
+   "categoria": "mundo",
+   "data": "2026-11-25",
+   "simbolo": "Ir",
+   "nome": "Guerra do Irã",
+   "titulo": "Trump diz que a guerra com o Irã tem verba até janeiro; Houthis miram Ras Tanura",
+   "resumo": "Numa entrevista ao New York Post na terça (24), Trump disse que os EUA têm dinheiro para manter as operações contra o Irã até mais ou menos o fim de janeiro. É justamente quando os democratas assumem as duas casas do Congresso, e eles já tentam cortar a verba para ataques no orçamento que vence em 11/12. Trump também disse que derrubar o governo iraniano não é objetivo dos EUA. Na quarta (25), os Houthis do Iêmen disseram ter causado incêndios em Ras Tanura, a maior refinaria saudita (550 mil barris por dia); a coalizão saudita afirma ter derrubado quatro drones e não confirmou dano. Para completar, o ministro da Defesa interino de Israel, Israel Katz, acusa o Irã de desenvolver armas químicas, e Teerã nega.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "The National News Desk",
+     "url": "https://thenationaldesk.com/news/politics/trump-says-iran-war-funded-through-january-as-israel-warns-of-chemical-weapons-development-strait-hormuz"
+    },
+    {
+     "nome": "NBC News",
+     "url": "https://www.nbcnews.com/world/saudi-arabia/yemen-houthi-rebels-attack-saudi-arabia-largest-oil-refinery-rcna611319"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "argentina-recessao-tecnica",
+   "categoria": "mundo",
+   "data": "2026-11-24",
+   "simbolo": "Ar",
+   "nome": "Argentina",
+   "titulo": "Argentina entra em recessão técnica, mas o governo Milei diz que é cedo",
+   "resumo": "O Indec soltou na terça (24) o índice de atividade de setembro: alta de 1,1% sobre agosto, mas queda de 1,2% contra setembro de 2025. Com isso a economia fecha dois trimestres seguidos de queda, a definição mais usada de recessão técnica, e consultorias como a Equilibra estimam um tombo de cerca de 1,8% no terceiro trimestre. O porta-voz da Presidência, Adrián Ravier, diz que não dá para confirmar e que é preciso esperar o PIB oficial, em dezembro. Dez dos 15 setores caíram no ano, com a pesca (-48,6%) e a intermediação financeira (-11,5%) puxando para baixo; a mineração subiu 11,1%.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Bloomberg Línea",
+     "url": "https://www.bloomberglinea.com/latinoamerica/argentina/emae-la-economia-argentina-crece-en-septiembre-pero-no-logra-eludir-la-recesion-tecnica-segun-el-indec/"
+    },
+    {
+     "nome": "Noticias Argentinas",
+     "url": "https://noticiasargentinas.com/economia/cayo-la-actividad-economica-en-septiembre-y-se-confirmo-la-recesion-tecnica_a6b05d271f5d9d6250779c5e4"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "cartel-perfumes-multa-ue",
+   "categoria": "mundo",
+   "data": "2026-11-25",
+   "simbolo": "Pf",
+   "nome": "Cartel do perfume",
+   "titulo": "UE multa Givaudan, Firmenich e IFF em € 471,9 milhões por cartel de fragrâncias",
+   "resumo": "A Comissão Europeia multou na quarta (25) três gigantes das fragrâncias por trocarem informações sigilosas de preços e custos entre março de 2019 e março de 2023, inclusive sobre as negociações com a Unilever, a principal cliente. A Givaudan levou a maior multa (€ 252,4 milhões), seguida da Firmenich (€ 137,7 milhões) e da IFF (€ 81,9 milhões), com desconto porque as empresas admitiram a culpa e cooperaram. A investigação teve ajuda das autoridades do Reino Unido e da Suíça e do Departamento de Justiça dos EUA. 'Consumidores em toda a Europa podem ter pago mais', disse a comissária Teresa Ribera.",
+   "angulo_quimico": "As três estão entre as maiores casas de fragrâncias do mundo: criam e fabricam as misturas de moléculas aromáticas que vão em perfume, sabonete e produto de limpeza. Ou seja, o cartel mexia no preço de um insumo químico que está em boa parte do que a Unilever vende.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "FashionUnited",
+     "url": "https://fashionunited.uk/news/business/eu-imposes-nearly-500-million-euros-in-fines-on-three-fragrance-companies/2026112691575"
+    },
+    {
+     "nome": "The Business of Fashion",
+     "url": "https://www.businessoffashion.com/news/beauty/firmenich-givaudan-iff-cartel-unilever/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "salomao-australia-tratado",
+   "categoria": "mundo",
+   "data": "2026-11-25",
+   "simbolo": "Sb",
+   "nome": "Pacífico",
+   "titulo": "Ilhas Salomão assinam tratado com a Austrália e esfriam o pacto com a China",
+   "resumo": "Na quarta (25), em Canberra, o premiê das Ilhas Salomão, Matthew Wale, e o australiano Anthony Albanese assinaram um tratado que faz da Austrália o 'principal parceiro de segurança' do arquipélago e garante que não haverá base militar estrangeira por lá. O acordo também prevê investimento australiano em infraestrutura, educação, energia renovável e esporte. O pacto de segurança que o governo anterior assinou com a China em 2022 vence no início de 2027; há relatos de que não será renovado, mas Wale não confirmou nem negou.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "NBC News",
+     "url": "https://www.nbcnews.com/world/asia/solomon-islands-signs-treaty-australia-checks-chinas-influence-pacific-rcna611254"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "lula-milei-posse-sem-convite",
+   "categoria": "brasil",
+   "data": "2026-11-24",
+   "simbolo": "Mi",
+   "nome": "Brasil x Argentina",
+   "titulo": "Lula deixa Milei fora da posse, e o Brasil segue sem embaixador em Buenos Aires",
+   "resumo": "Segundo reportagens de terça (24) com base em fontes do governo, Milei não será convidado para a posse de 5 de janeiro, e o embaixador Julio Bitelli, chamado de volta em julho, não volta ao posto. O estopim foi o chanceler argentino, Pablo Quirno, dizer na TV que houve 'situações' no processo eleitoral brasileiro que colocavam 'tudo em dúvida', sem apontar nenhuma irregularidade. Não é rompimento formal: o comércio segue normal, e Lula e Milei devem se cruzar na cúpula do Mercosul em Montevidéu, no mês que vem.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Buenos Aires Times",
+     "url": "https://www.batimes.com.ar/news/latin-america/lula-wont-invite-milei-to-inauguration-after-foreign-ministers-remarks.phtml"
+    },
+    {
+     "nome": "CartaCapital",
+     "url": "https://www.cartacapital.com.br/mundo/lula-deixara-milei-fora-da-posse-apos-chanceler-argentino-questionar-eleicao-diz-jornal/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "lula-ministerio-seguranca-reuniao",
+   "categoria": "brasil",
+   "data": "2026-11-25",
+   "simbolo": "Se",
+   "nome": "Lula 4",
+   "titulo": "Lula chama Dino e ex-ministros para desenhar o Ministério da Segurança",
+   "resumo": "Na quarta (25), no Alvorada, Lula ouviu Flávio Dino (hoje no STF), Ricardo Lewandowski e Tarso Genro, junto com Alckmin, o ministro da Justiça e a Casa Civil, sobre a nova pasta da Segurança Pública, que deve herdar PF, PRF, Polícia Penal Federal e Força Nacional. Segundo Tarso, não se falou em nomes nem em prazos; a TV Sim Brasil diz que o anúncio do ministro deve sair na primeira semana de dezembro, e a pasta só vira oficial depois da promulgação da PEC da Segurança, já aprovada no Senado. Na mesma toada, a coluna Aparte relata que Lula sinalizou ao mercado que dirá até 2 de dezembro quem será o novo ministro da Fazenda.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "O Tempo",
+     "url": "https://www.otempo.com.br/politica/governo/2026/11/25/lula-reune-ex-ministros-da-justica-para-tratar-da-criacao-do-ministerio-da-seguranca-publica"
+    },
+    {
+     "nome": "TV Sim Brasil",
+     "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/26/lula-discute-dino-ex-ministros-estrutura-ministerio-seguranca"
+    },
+    {
+     "nome": "ParaibaOnline",
+     "url": "https://paraibaonline.com.br/brasil/2026/11/25/presidente-lula-devera-divulgar-novo-ministro-da-fazenda-na-proxima-semana/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "amazonia-rosa-cagarras",
+   "categoria": "brasil",
+   "data": "2026-11-24",
+   "simbolo": "Ca",
+   "nome": "Amazônia rosa",
+   "titulo": "Biólogo acha uma 'Amazônia rosa' a 4 km da praia de Ipanema",
+   "resumo": "O biólogo Ricardo Gomes, do Instituto Mar Urbano, encontrou em abril dois bancos de rodolitos perto das Ilhas Cagarras, no Rio. O achado foi confirmado por Rodrigo Moura, da UFRJ, e divulgado pela Mongabay em 24/11. Rodolitos são nódulos de algas calcárias com cara de pedra que abrigam muita vida, daí o apelido, e crescem só 1 a 1,5 mm por ano. Os pescadores já conheciam o lugar como 'Cangulândia', e o instituto quer mapear tudo com robô submarino e sonar; 'não conhecemos nem o quintal de casa', resumiu Moura.",
+   "angulo_quimico": "As algas calcárias depositam carbonato camada por camada, e essas camadas guardam um registro de séculos das condições do mar. Esse mesmo calcário é o que faz os bancos serem explorados para fertilizante e corretivo de solo, uma das ameaças citadas.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Mongabay Brasil",
+     "url": "https://brasil.mongabay.com/2026/11/biologo-descobre-uma-amazonia-rosa-no-mar-de-ipanema/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "boato-urnas-destruidas-tse",
+   "categoria": "misterios",
+   "data": "2026-11-24",
+   "simbolo": "Ur",
+   "nome": "Urnas",
+   "titulo": "Não, o TSE não está destruindo as urnas de 2026 para evitar um 'terceiro turno'",
+   "resumo": "Posts nas redes da Meta diziam que a Justiça Eleitoral destruiu todas as urnas usadas em outubro. O TSE e a checagem do Aos Fatos (24/11) mostram que só modelos antigos estão indo para a reciclagem.",
+   "teoria": "Um vídeo viral dizia que o governo e Alexandre de Moraes estavam 'juntando provas contra eles mesmos' ao sumir com as urnas, que a eleição poderia ser anulada até 18 de dezembro e que a destruição serviria para impedir um 'terceiro turno'.",
+   "fatos": "Os aparelhos descartados são dos modelos UE2010 e UE2011, que nem foram usados em 2026; o recolhimento começou em fevereiro e vai até março de 2027, com trituração e reciclagem acompanhadas pelo TSE. As urnas de outubro seguem lacradas por 100 dias depois do 1º turno e, se não houver ação judicial, só podem ser abertas após 12/1/2027. E 18/12 é o prazo da diplomação dos eleitos, não de anulação; segundo o TSE, mesmo uma anulação de votos não criaria terceiro turno.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Aos Fatos",
+     "url": "https://www.aosfatos.org/noticias/tse-urnas-eleicoes-2026/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "atc-baltimore-alienigenas",
+   "categoria": "misterios",
+   "data": "2026-11-24",
+   "simbolo": "Et",
+   "nome": "Rádio da torre",
+   "titulo": "Controlador de voo a piloto: 'já tivemos avistamentos de alienígenas por aqui'",
+   "resumo": "Um áudio de sábado (21) que circula no X mostra um controlador de Baltimore respondendo assim a um piloto da American Eagle, num voo de Washington para a Filadélfia, que estranhou um alerta de tráfego sem identificação. O caso foi noticiado pelo IBTimes UK.",
+   "teoria": "Nas redes, a frase virou sinal de que controladores lidam com OVNIs o tempo todo. O próprio controlador lembrou de outro piloto que teria visto um objeto em zigue-zague perto do aeroporto Martin State, sem aparecer no radar.",
+   "fatos": "O clima da conversa foi de brincadeira: o piloto levou na esportiva e disse que aquilo daria uma boa história para a família. Não se sabe o que disparou o alerta, não há confirmação de relatório formal de UAP e a FAA não comentou o caso. Alerta de tráfego serve para avisar de possível conflito e não quer dizer que a tripulação viu alguma coisa.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "IBTimes UK",
+     "url": "https://ibtimes.co.uk/audio-captures-baltimore-atc-telling-american-airlines-flight-5432-we-have-had-alien-sightings-out-1834383"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "tumulo-romano-rocha-cogumelo",
+   "categoria": "misterios",
+   "data": "2026-11-25",
+   "simbolo": "Tu",
+   "nome": "Túmulo no alto",
+   "titulo": "Túmulo romano escavado no topo de uma rocha-cogumelo de 5 metros na Turquia",
+   "resumo": "Dois pesquisadores locais, Nezir Ötegen e Yılmaz Çelik, acharam em 21/11, perto do reservatório de Gümüşören (Develi, Kayseri), uma cavidade em forma de caixão cavada no alto de uma rocha em formato de cogumelo. A história saiu na Daily Galaxy (25/11), que cita a imprensa turca.",
+   "teoria": "Quem enterraria alguém a 5 metros do chão, em cima de uma pedra? A aposta de Ötegen é que o lugar foi escolhido para ser visto de longe pelos povoados antigos ao redor.",
+   "fatos": "A identificação como túmulo romano de uns 2.000 anos é provisória: a cova já estava aberta e sem tampa, e não foram divulgados ossos, objetos nem inscrições. A formação da rocha também ainda não foi estudada. Ötegen avisou as autoridades e pediu proteção oficial e análise de especialistas.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "The Daily Galaxy",
+     "url": "https://dailygalaxy.com/2026/11/ancient-roman-tomb-16-foot-mushroom-rock/"
+    }
+   ],
+   "adicionado_em": "2026-11-26"
   }
  ],
  "agenda": [
-  {
-   "data": "2026-11-25",
-   "titulo": "Hera: primeiras imagens detalhadas de Dimorphos",
-   "descricao": "A ESA prometeu para o dia 25 a revelação das primeiras imagens detalhadas do asteroide atingido pela DART.",
-   "categoria": "espaco",
-   "fonte": {
-    "nome": "Space.com",
-    "url": "https://www.space.com/space-exploration/asteroid-comet-missions/dimorphos-in-sight-europes-hera-probe-gets-its-1st-look-at-battered-space-rock-photo"
-   }
-  },
-  {
-   "data": "2026-11-25",
-   "titulo": "Urano em oposição",
-   "descricao": "Urano fica visível do anoitecer ao amanhecer na constelação de Touro, com magnitude 5,6 — melhor época do ano para observá-lo.",
-   "categoria": "espaco",
-   "fonte": {
-    "nome": "Astronomy",
-    "url": "https://www.astronomy.com/observing/sky-this-month-november-2026/"
-   }
-  },
   {
    "data": "2026-11-26",
    "titulo": "Termina a votação do sindicato da Rockstar no Reino Unido",
@@ -3659,6 +4177,16 @@
    "fonte": {
     "nome": "Insider Gaming",
     "url": "https://insider-gaming.com/rockstar-uk-union-vote-1600-workers/"
+   }
+  },
+  {
+   "data": "2026-11-26",
+   "titulo": "Imperial x Liquid no Major de CS2",
+   "descricao": "MD3 valendo vaga no Stage 2, às 8h de Brasília (19h em Singapura).",
+   "categoria": "games",
+   "fonte": {
+    "nome": "Strafe",
+    "url": "https://www.strafe.com/news/read/singapore-major-2026-day-2-recap-s1mple-eliminated-as-flyquest-and-nip-advance/"
    }
   },
   {
@@ -3679,6 +4207,16 @@
    "fonte": {
     "nome": "CNN Brasil",
     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/black-friday-pode-ter-melhor-faturamento-desde-2014-projeta-cnc/"
+   }
+  },
+  {
+   "data": "2026-11-27",
+   "titulo": "Abrem as vendas da turnê europeia do Anthrax",
+   "descricao": "Ingressos das 19 datas de 2027, com Kerry King e Sacred Reich, saem às 10h do horário local pelo site da banda.",
+   "categoria": "rock",
+   "fonte": {
+    "nome": "Loudwire",
+    "url": "https://loudwire.com/anthrax-2027-european-tour-dates/"
    }
   },
   {
@@ -3789,6 +4327,16 @@
    "fonte": {
     "nome": "Gematsu",
     "url": "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced"
+   }
+  },
+  {
+   "data": "2026-12-11",
+   "titulo": "Prazo do orçamento nos EUA",
+   "descricao": "Democratas tentam usar a votação do financiamento do governo para limitar o dinheiro de operações ofensivas contra o Irã.",
+   "categoria": "mundo",
+   "fonte": {
+    "nome": "The National News Desk",
+    "url": "https://thenationaldesk.com/news/politics/trump-says-iran-war-funded-through-january-as-israel-warns-of-chemical-weapons-development-strait-hormuz"
    }
   },
   {
@@ -4059,6 +4607,39 @@
    ],
    "certa": 0,
    "id": "erupcao-explosiva-challenger-deep"
+  },
+  {
+   "pergunta": "Segundo a equipe da Hera, como Dimorphos se move hoje depois do impacto da DART?",
+   "opcoes": [
+    "Rodopia de forma caótica",
+    "Mantém sempre a mesma face virada para Didymos",
+    "Escapou da órbita de Didymos",
+    "Partiu-se em dois pedaços"
+   ],
+   "certa": 0,
+   "id": "hera-dimorphos-cratera-estadio"
+  },
+  {
+   "pergunta": "Por que o time do s1mple aparece como 'GOSH' no Major de CS2 em Singapura?",
+   "opcoes": [
+    "Porque trocou de dono na véspera do torneio",
+    "Por causa das restrições a apostas em Singapura",
+    "Porque perdeu o direito ao nome numa disputa com a Valve",
+    "Porque é o nome que a equipe usa só em Majors"
+   ],
+   "certa": 1,
+   "id": "major-cs2-singapura-dia2-s1mple-fora"
+  },
+  {
+   "pergunta": "Quanto cresce por ano um rodolito, as 'pedras' de alga calcária da 'Amazônia rosa' achada perto de Ipanema?",
+   "opcoes": [
+    "De 1 a 1,5 mm",
+    "De 1 a 1,5 cm",
+    "Uns 10 cm",
+    "Quase 1 metro"
+   ],
+   "certa": 0,
+   "id": "amazonia-rosa-cagarras"
   }
  ]
 }
