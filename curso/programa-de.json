@@ -1,53 +1,77 @@
 {
-  "de-a1": {
-    "nome": "Alemão · Iniciante (A1)",
-    "licoes": [
-      "Hallo! Os sons do alemão, cumprimentos e o verbo sein",
-      "Woher kommst du? Pronomes pessoais, du x Sie e perguntas com W (wer, wie, wo, woher)",
-      "Der, die, das: gênero dos substantivos e artigos definidos e indefinidos",
-      "Verbos regulares no presente e números de 0 a 100",
-      "Haben (ter) e o plural dos substantivos",
-      "Ordem V2: o verbo na posição 2, inversão e perguntas de sim ou não",
-      "Negação: nicht e kein",
-      "Acusativo: o objeto direto (den, einen, keinen) e os pronomes mich, dich, ihn",
-      "Verbos irregulares no presente (sprechen, lesen, fahren) e primeiros verbos separáveis (anfangen, aufstehen)",
-      "Possessivos (mein, dein, sein, ihr, unser) e a família",
-      "Verbos modais (können, müssen, wollen, möchten) e a moldura da frase",
-      "Horas, dias e preposições de tempo (um, am, im) + imperativo"
-    ]
-  },
-  "de-b1": {
-    "nome": "Alemão · Intermediário (B1)",
-    "licoes": [
-      "Das letzte Konzert: Perfekt com haben e sein e o verbo no fim com weil e dass",
-      "Perfekt x Präteritum: o passado da conversa e o passado da escrita",
-      "Dativo: objeto indireto, artigos, pronomes e verbos com dativo (helfen, gefallen, gehören)",
-      "Preposições com acusativo, com dativo e as de duas vias (in, auf, an: wo? x wohin?)",
-      "Mais subordinadas: wenn, als, ob, obwohl e finalidade com damit e um ... zu",
-      "Verbos separáveis e inseparáveis em todos os tempos (anfangen, aufhören, verstehen, entdecken)",
-      "Verbos reflexivos e verbos com preposição fixa (sich interessieren für, warten auf, darauf/worauf)",
-      "Adjetivos declinados I: depois de der/die/das e de ein/kein",
-      "Adjetivos declinados II: sem artigo, comparativo e superlativo",
-      "Konjunktiv II: hipóteses, desejos e pedidos educados (würde, hätte, wäre, könnte)",
-      "Orações relativas (der, die, das, dessen) e o genitivo",
-      "Voz passiva com werden: como a química descreve processos (wird erhitzt, wurde entdeckt)"
-    ]
-  },
-  "de-c1": {
-    "nome": "Alemão · Avançado (C1)",
-    "licoes": [
-      "Es wird getrennt: a voz passiva e suas alternativas (Passiversatz)",
-      "Nominalstil x Verbalstil: como a linguagem científica transforma verbos em substantivos",
-      "Genitivo e preposições do registro formal (aufgrund, mittels, infolge, hinsichtlich, bezüglich)",
-      "Particípios como adjetivo: o atributo participial expandido (das bei 80,1 °C siedende Benzol)",
-      "Konjunktiv I: discurso indireto em notícias e artigos científicos",
-      "Conectores e advérbios conjuntivos: folglich, dennoch, indem, wohingegen, sodass",
-      "Expressões com verbo-suporte (Funktionsverbgefüge): zur Verfügung stellen, in Betrieb nehmen, Anwendung finden",
-      "Modalidade subjetiva: sollen, wollen, dürfte e müsste para boatos, alegações e teorias da conspiração",
-      "Konjunktiv II no passado, als ob e condicionais sem wenn",
-      "Formação de palavras: compostos, prefixos e sufixos técnicos (-ung, -heit, -bar, ent-, zer-)",
-      "Registro formal na escrita: e-mail formal, resumo (Zusammenfassung) e apresentação científica",
-      "Argumentar e debater: concessão e contraste (zwar ... aber, wenngleich, so ... auch) e texto de opinião"
-    ]
-  }
+ "de-a1": {
+  "nome": "Alemão · Iniciante (A1→A2)",
+  "licoes": [
+   "Hallo! Os sons do alemão, cumprimentos e o verbo sein",
+   "Woher kommst du? Pronomes pessoais, du x Sie e perguntas com W (wer, wie, wo, woher)",
+   "Der, die, das: gênero dos substantivos e artigos definidos e indefinidos",
+   "Wiederholung 1 · Revisão (lições 1 a 3): leitura, exercícios e desafio",
+   "Verbos regulares no presente e números de 0 a 100",
+   "Haben (ter) e o plural dos substantivos",
+   "Ordem V2: o verbo na posição 2, inversão e perguntas de sim ou não",
+   "Wiederholung 2 · Revisão (lições 5 a 7): leitura, exercícios e desafio",
+   "Negação: nicht e kein",
+   "Acusativo: o objeto direto (den, einen, keinen) e os pronomes mich, dich, ihn",
+   "Verbos irregulares no presente (sprechen, lesen, fahren) e primeiros verbos separáveis (anfangen, aufstehen)",
+   "Wiederholung 3 · Revisão (lições 9 a 11): leitura, exercícios e desafio",
+   "Possessivos (mein, dein, sein, ihr, unser) e a família",
+   "Verbos modais (können, müssen, wollen, möchten) e a moldura da frase",
+   "Horas, dias e preposições de tempo (um, am, im) + imperativo",
+   "Wiederholung 4 · Revisão (lições 13 a 15): leitura, exercícios e desafio",
+   "Perfekt para conversar: o passado com haben e os particípios mais comuns (gemacht, gesehen, gelesen)",
+   "Primeiros passos no dativo: mit, bei, von, zu e os pronomes mir e dir",
+   "Comparativo e superlativo, cores e adjetivos: os planetas do sistema solar",
+   "Wiederholung 5 · Revisão (lições 17 a 19): leitura, exercícios e desafio",
+   "Wo ist das? Preposições de lugar (in, auf, an, unter, neben) no laboratório e no quarto",
+   "Primeiras subordinadas: weil, dass e wenn, e o verbo que vai para o fim",
+   "Präteritum de sein, haben e dos modais (war, hatte, konnte, musste): contando o que aconteceu",
+   "Abschluss · Revisão final do Iniciante: leitura longa, teste e preparação para o B1"
+  ]
+ },
+ "de-b1": {
+  "nome": "Alemão · Intermediário (B1)",
+  "licoes": [
+   "Das letzte Konzert: Perfekt com haben e sein e o verbo no fim com weil e dass",
+   "Perfekt x Präteritum: o passado da conversa e o passado da escrita",
+   "Dativo: objeto indireto, artigos, pronomes e verbos com dativo (helfen, gefallen, gehören)",
+   "Preposições com acusativo, com dativo e as de duas vias (in, auf, an: wo? x wohin?)",
+   "Mais subordinadas: wenn, als, ob, obwohl e finalidade com damit e um ... zu",
+   "Wiederholung 1 · Revisão (lições 1 a 5): leitura longa, exercícios e redação curta",
+   "Verbos separáveis e inseparáveis em todos os tempos (anfangen, aufhören, verstehen, entdecken)",
+   "Verbos reflexivos e verbos com preposição fixa (sich interessieren für, warten auf, darauf/worauf)",
+   "Adjetivos declinados I: depois de der/die/das e de ein/kein",
+   "Adjetivos declinados II: sem artigo, comparativo e superlativo",
+   "Konjunktiv II: hipóteses, desejos e pedidos educados (würde, hätte, wäre, könnte)",
+   "Wiederholung 2 · Revisão (lições 7 a 11): leitura longa, exercícios e redação curta",
+   "Orações relativas (der, die, das, dessen) e o genitivo",
+   "Voz passiva com werden: como a química descreve processos (wird erhitzt, wurde entdeckt)",
+   "Plusquamperfekt com nachdem e bevor: a cronologia de uma descoberta",
+   "Infinitivo com zu e verbos que pedem zu (versuchen, vergessen, anfangen, aufhören)",
+   "Genitivo com trotz, wegen e während, e os conectores deshalb e trotzdem",
+   "Wiederholung 3 · Revisão (lições 13 a 17): leitura longa, exercícios e redação curta",
+   "N-Deklination e substantivos especiais (der Student, des Studenten; der Planet, dem Planeten)",
+   "Futur I e suposições (wird wohl ... sein): previsões sobre a próxima missão",
+   "Konjunktiv II no passado (hätte gemacht, wäre gegangen): e se a história tivesse sido outra?",
+   "Opinião e argumento: meiner Meinung nach, einerseits ... andererseits, zum einen ... zum anderen",
+   "Escrita prática: e-mail, relato e resenha de um álbum ou de um jogo",
+   "Abschluss · Revisão final do Intermediário: leitura longa, teste e redação"
+  ]
+ },
+ "de-c1": {
+  "nome": "Alemão · Avançado (C1)",
+  "licoes": [
+   "Es wird getrennt: a voz passiva e suas alternativas (Passiversatz)",
+   "Nominalstil x Verbalstil: como a linguagem científica transforma verbos em substantivos",
+   "Genitivo e preposições do registro formal (aufgrund, mittels, infolge, hinsichtlich, bezüglich)",
+   "Particípios como adjetivo: o atributo participial expandido (das bei 80,1 °C siedende Benzol)",
+   "Konjunktiv I: discurso indireto em notícias e artigos científicos",
+   "Conectores e advérbios conjuntivos: folglich, dennoch, indem, wohingegen, sodass",
+   "Expressões com verbo-suporte (Funktionsverbgefüge): zur Verfügung stellen, in Betrieb nehmen, Anwendung finden",
+   "Modalidade subjetiva: sollen, wollen, dürfte e müsste para boatos, alegações e teorias da conspiração",
+   "Konjunktiv II no passado, als ob e condicionais sem wenn",
+   "Formação de palavras: compostos, prefixos e sufixos técnicos (-ung, -heit, -bar, ent-, zer-)",
+   "Registro formal na escrita: e-mail formal, resumo (Zusammenfassung) e apresentação científica",
+   "Argumentar e debater: concessão e contraste (zwar ... aber, wenngleich, so ... auch) e texto de opinião"
+  ]
+ }
 }
