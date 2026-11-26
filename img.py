@@ -109,7 +109,13 @@ def salvar(item_id, raw, meta):
     print(f"ok: {arq.relative_to(ROOT)} {im.width}x{im.height} {arq.stat().st_size // 1024} KB | {meta['credito'][:40]} | {meta['licenca']}")
 
 
+def checa_existente(a):
+    if (IMG / f"{a.item}.webp").exists() and not a.forcar:
+        sys.exit(f"img/{a.item}.webp já existe (é de outra notícia?). Use outro id, ou --forcar para substituir de propósito.")
+
+
 def cmd_commons(a):
+    checa_existente(a)
     titulo = a.arquivo if a.arquivo.startswith("File:") else "File:" + a.arquivo
     r = commons_info({"titles": titulo, "iiurlwidth": 960})
     page = next(iter(r["query"]["pages"].values()))
@@ -124,6 +130,7 @@ def cmd_commons(a):
 
 
 def cmd_nasa(a):
+    checa_existente(a)
     r = get("https://images-api.nasa.gov/search?" + urllib.parse.urlencode({"nasa_id": a.nasa_id}))
     items = r.get("collection", {}).get("items", [])
     if not items:
@@ -149,8 +156,8 @@ def main():
     sp = ap.add_subparsers(dest="cmd", required=True)
     b = sp.add_parser("busca"); b.add_argument("termo"); b.add_argument("-n", type=int, default=8); b.set_defaults(f=cmd_busca)
     nb = sp.add_parser("nasa-busca"); nb.add_argument("termo"); nb.add_argument("-n", type=int, default=8); nb.set_defaults(f=cmd_nasa_busca)
-    c = sp.add_parser("commons"); c.add_argument("item"); c.add_argument("arquivo"); c.add_argument("--legenda", required=True); c.set_defaults(f=cmd_commons)
-    n = sp.add_parser("nasa"); n.add_argument("item"); n.add_argument("nasa_id"); n.add_argument("--legenda", required=True); n.set_defaults(f=cmd_nasa)
+    c = sp.add_parser("commons"); c.add_argument("item"); c.add_argument("arquivo"); c.add_argument("--legenda", required=True); c.add_argument("--forcar", action="store_true"); c.set_defaults(f=cmd_commons)
+    n = sp.add_parser("nasa"); n.add_argument("item"); n.add_argument("nasa_id"); n.add_argument("--legenda", required=True); n.add_argument("--forcar", action="store_true"); n.set_defaults(f=cmd_nasa)
     r = sp.add_parser("remover"); r.add_argument("item"); r.set_defaults(f=cmd_remover)
     a = ap.parse_args()
     a.f(a)
