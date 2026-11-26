@@ -1,0 +1,148 @@
+/* Livro impresso: A4, claro, econômico em tinta e legível em preto e branco.
+   Cores de família só como acento; toda informação também vem em texto. */
+:root {
+  --ink: #15191F;
+  --muted: #5A6372;
+  --line: #C9CFD8;
+  --soft: #F1F3F6;
+  --c-quimica: #0B7A6C;
+  --c-espaco: #4B47B8;
+  --c-games: #A02A6F;
+  --c-tecnologia: #1A62B3;
+  --c-misterios: #5C6D10;
+  --c-rock: #B23426;
+  --c-brasil: #8E6200;
+  --c-mundo: #3F5A73;
+  --f-display: "Chakra Petch", "Arial Narrow", sans-serif;
+  --f-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-sans: "IBM Plex Sans", Arial, sans-serif;
+  --f-mono: "IBM Plex Mono", "Courier New", monospace;
+}
+[data-cat="quimica"] { --c: var(--c-quimica); }
+[data-cat="espaco"] { --c: var(--c-espaco); }
+[data-cat="games"] { --c: var(--c-games); }
+[data-cat="tecnologia"] { --c: var(--c-tecnologia); }
+[data-cat="misterios"] { --c: var(--c-misterios); }
+[data-cat="rock"] { --c: var(--c-rock); }
+[data-cat="brasil"] { --c: var(--c-brasil); }
+[data-cat="mundo"] { --c: var(--c-mundo); }
+[data-cat="en"] { --c: #1A62B3; }
+[data-cat="de"] { --c: #B23426; }
+
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; color: var(--ink); background: #fff; font-family: var(--f-body); font-size: 10pt; line-height: 1.42; hyphens: auto; }
+h1, h2, h3, h4 { margin: 0; }
+.mk { position: absolute; left: 0; top: 0; font-size: 4pt; color: #fff; line-height: 1; }
+.sec { position: relative; }
+.break { break-before: page; }
+
+/* ---------- Capa ---------- */
+.capa { position: relative; height: 263mm; display: flex; flex-direction: column; gap: 7mm; }
+.capa-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8mm; }
+.capa h1 { font-family: var(--f-display); font-weight: 700; font-size: 34pt; line-height: 1; letter-spacing: -.01em; max-width: 120mm; }
+.capa .sub { margin-top: 3mm; font-family: var(--f-sans); font-size: 11pt; color: var(--muted); }
+.fasc { flex: none; width: 38mm; height: 42mm; border: 1.6pt solid var(--ink); display: grid; grid-template-rows: auto 1fr auto; padding: 2.5mm 3mm; }
+.fasc .t { font-family: var(--f-mono); font-size: 7.5pt; display: flex; justify-content: space-between; }
+.fasc .n { align-self: center; justify-self: center; font-family: var(--f-display); font-weight: 700; font-size: 40pt; line-height: 1; }
+.fasc .b { font-family: var(--f-display); font-weight: 600; font-size: 8pt; letter-spacing: .12em; text-transform: uppercase; text-align: center; }
+.tiles { display: grid; grid-template-columns: repeat(8, 1fr); gap: 2mm; }
+.tile { border: 1pt solid var(--c); border-top-width: 3pt; padding: 1.6mm 1.8mm; display: grid; gap: .5mm; }
+.tile .z { font-family: var(--f-mono); font-size: 6.5pt; color: var(--muted); display: flex; justify-content: space-between; }
+.tile .s { font-family: var(--f-display); font-weight: 700; font-size: 17pt; line-height: 1.05; color: var(--c); text-align: center; }
+.tile .nm { font-family: var(--f-sans); font-size: 6.8pt; text-align: center; text-transform: uppercase; letter-spacing: .06em; }
+.info { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+.box { border: .8pt solid var(--line); padding: 3.5mm 4mm; }
+.box h3 { font-family: var(--f-display); font-weight: 700; font-size: 10pt; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 1.5mm; }
+.box p, .box li { font-family: var(--f-sans); font-size: 9pt; margin: 0 0 1.2mm; }
+.box ul { margin: 0; padding-left: 4.5mm; }
+.msg { font-family: var(--f-display); font-weight: 600; font-size: 13pt; line-height: 1.3; }
+.toc h3 { font-family: var(--f-display); font-weight: 700; font-size: 10pt; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 2mm; }
+.toc ol { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 8mm; }
+.toc li { display: flex; align-items: baseline; gap: 2mm; font-family: var(--f-sans); font-size: 9.2pt; padding: .9mm 0; break-inside: avoid; }
+.toc li .d { flex: 1; border-bottom: .6pt dotted var(--muted); transform: translateY(-1mm); }
+.toc li .p { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+.toc li .sw { width: 2.6mm; height: 2.6mm; background: var(--c, var(--ink)); flex: none; }
+
+/* ---------- Abertura de seção ---------- */
+.sec-h { display: flex; align-items: center; gap: 4mm; padding-bottom: 2.5mm; margin-bottom: 4mm; border-bottom: 1.6pt solid var(--c, var(--ink)); break-after: avoid; }
+.el { flex: none; width: 15mm; height: 16mm; border: 1.2pt solid var(--c, var(--ink)); display: grid; grid-template-rows: auto 1fr; padding: .8mm 1.2mm; }
+.el small { font-family: var(--f-mono); font-size: 6.5pt; color: var(--muted); }
+.el b { place-self: center; font-family: var(--f-display); font-weight: 700; font-size: 16pt; line-height: 1; color: var(--c, var(--ink)); }
+.sec-h h2 { font-family: var(--f-display); font-weight: 700; font-size: 18pt; letter-spacing: .04em; text-transform: uppercase; line-height: 1.05; }
+.sec-h p { margin: 1mm 0 0; font-family: var(--f-sans); font-size: 8.5pt; color: var(--muted); }
+.fam { margin-bottom: 7mm; }
+
+/* ---------- Notícias ---------- */
+.cols { column-count: 2; column-gap: 7mm; column-rule: .5pt solid var(--line); }
+.it { break-inside: auto; orphans: 3; widows: 3; margin: 0 0 4mm; padding-bottom: 3mm; border-bottom: .5pt solid var(--line); }
+.it h3, .it-meta { break-after: avoid; }
+.it .tf div, .it .chem { break-inside: avoid; }
+.it-img { float: right; width: 28mm; margin: .8mm 0 1.2mm 3mm; break-inside: avoid; }
+.it-img img { display: block; width: 28mm; height: 21mm; object-fit: cover; }
+.it-img .cr { font-family: var(--f-sans); font-size: 5.6pt; line-height: 1.2; color: var(--muted); margin-top: .6mm; overflow-wrap: anywhere; }
+.it-meta { font-family: var(--f-mono); font-size: 7pt; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin: 0 0 .8mm; }
+.it-meta b { color: var(--c); font-weight: 500; }
+.it-meta .nv { color: #fff; background: var(--ink); padding: 0 1mm; }
+.it h3 { font-family: var(--f-sans); font-weight: 600; font-size: 10.5pt; line-height: 1.22; margin: 0 0 1.2mm; }
+.it p { margin: 0 0 1.2mm; }
+.it .sym { font-family: var(--f-display); font-weight: 700; color: var(--c); margin-right: 1.2mm; }
+.tf { clear: both; display: grid; gap: 1.2mm; margin: 1.2mm 0; }
+.tf div { border: .6pt solid var(--line); padding: 1.4mm 2mm; font-size: 9pt; }
+.tf b, .chem b, .listen b { font-family: var(--f-mono); font-size: 6.8pt; letter-spacing: .08em; text-transform: uppercase; font-weight: 500; display: block; }
+.chem { clear: both; border-left: 2.2pt solid var(--c-quimica); background: var(--soft); padding: 1.4mm 2.2mm; font-size: 9pt; margin: 1.2mm 0; }
+.chem b { color: var(--c-quimica); }
+.listen { font-size: 9pt; margin: 1mm 0; }
+.listen b { display: inline; color: var(--c-rock); margin-right: 1.5mm; }
+.src { clear: both; font-family: var(--f-sans); font-size: 7.3pt; color: var(--muted); margin: 0; }
+
+/* ---------- Quiz ---------- */
+.quiz ol.qs { margin: 0; padding-left: 5mm; columns: 2; column-gap: 8mm; }
+.quiz ol.qs > li { break-inside: avoid; margin-bottom: 4mm; font-family: var(--f-sans); font-size: 9.5pt; }
+.quiz ol.qs > li > p { margin: 0 0 1mm; font-weight: 600; }
+.quiz .opts { list-style: none; margin: 0; padding: 0; }
+.quiz .opts li { margin: .6mm 0; }
+.quiz .opts li::before { content: "☐  "; }
+
+/* ---------- Lições ---------- */
+.licao { break-before: page; font-size: 10.5pt; line-height: 1.5; }
+.l-head { display: grid; grid-template-columns: 17mm 1fr; column-gap: 4mm; align-items: center; padding-bottom: 3mm; margin-bottom: 5mm; border-bottom: 1.6pt solid var(--c); break-after: avoid; }
+.l-head .el { grid-row: span 3; width: 17mm; height: 18mm; }
+.l-nivel { margin: 0; font-family: var(--f-mono); font-size: 8pt; letter-spacing: .06em; text-transform: uppercase; color: var(--c); }
+.l-head h2 { font-family: var(--f-display); font-weight: 700; font-size: 18pt; line-height: 1.1; }
+.l-obj { margin: 1mm 0 0; font-family: var(--f-sans); font-size: 9pt; color: var(--muted); }
+.licao h3 { font-family: var(--f-display); font-weight: 700; font-size: 11pt; letter-spacing: .08em; text-transform: uppercase; margin: 5mm 0 2mm; color: var(--c); break-after: avoid; }
+.licao section > h3:first-child { margin-top: 0; }
+.licao section { margin-bottom: 4mm; }
+.licao table { width: 100%; border-collapse: collapse; font-family: var(--f-sans); font-size: 9pt; break-inside: auto; }
+.licao th { text-align: left; font-weight: 600; background: var(--soft); border-bottom: .8pt solid var(--ink); padding: 1.2mm 2mm; }
+.licao td { border-bottom: .5pt solid var(--line); padding: 1.1mm 2mm; vertical-align: top; }
+.licao tr { break-inside: avoid; }
+.licao td:first-child { font-weight: 600; }
+.l-vocab td:nth-child(2) { font-family: var(--f-mono); font-size: 8.5pt; color: var(--muted); }
+.l-gram { border: .8pt solid var(--line); padding: 3.5mm 4mm; }
+.l-gram p { margin: 0 0 2mm; }
+.licao .ex { padding-left: 4mm; border-left: 1.4pt solid var(--c); font-style: italic; }
+.licao .nota { background: var(--soft); padding: 2mm 3mm; font-family: var(--f-sans); font-size: 9pt; margin: 2mm 0; }
+.licao table.conj { width: auto; min-width: 60%; margin: 2mm 0; }
+.l-leitura .texto { font-size: 11pt; line-height: 1.65; margin: 0 0 2mm; }
+.glossario { font-family: var(--f-sans); font-size: 8.5pt; color: var(--muted); margin: 0; }
+.l-exerc ol { margin: 0; padding-left: 6mm; }
+.l-exerc li { margin-bottom: 3mm; break-inside: avoid; }
+.linha { display: inline-block; min-width: 42mm; border-bottom: .6pt solid var(--ink); height: 1.1em; vertical-align: baseline; }
+.linhas { margin-top: 1mm; }
+.linhas .ln { height: 8mm; border-bottom: .5pt solid #9AA2AE; }
+.l-dica { background: var(--soft); padding: 3mm 4mm; }
+.l-dica p { margin: 0 0 1.5mm; font-family: var(--f-sans); font-size: 9.2pt; }
+
+/* ---------- Gabarito ---------- */
+.gab { break-before: page; }
+.gab-cols { column-count: 2; column-gap: 8mm; font-family: var(--f-sans); font-size: 8.6pt; line-height: 1.38; }
+.gab-cols h4 { font-family: var(--f-display); font-weight: 700; font-size: 9.5pt; letter-spacing: .06em; text-transform: uppercase; margin: 3mm 0 1mm; break-after: avoid; }
+.gab-cols ol { margin: 0 0 2mm; padding-left: 5mm; }
+.gab-cols li { margin-bottom: .8mm; }
+
+/* ---------- Fim ---------- */
+.fim { break-before: page; }
+.fim .proximas li { font-family: var(--f-sans); font-size: 9.5pt; margin-bottom: 1.5mm; }
+.notas .ln { height: 9mm; border-bottom: .5pt solid #9AA2AE; }

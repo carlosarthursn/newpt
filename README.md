@@ -43,3 +43,32 @@ dist/artifact.html   versão para publicar no claude.ai (gerada)
 4. Abra `index.html` ou republique `dist/artifact.html` junto com os arquivos listados em `dist/imagens.json`.
 
 Regras: toda notícia precisa de fonte com link real; toda imagem precisa de licença livre e crédito (o img.py cuida disso).
+
+## Livro impresso (fascículos)
+
+Como ele está sem celular, o conteúdo também sai em **fascículos impressos em A4**, com numeração de
+páginas contínua: cada fascículo começa na página seguinte à do anterior, é só encaixar na pasta.
+
+Cada fascículo traz as notícias ainda não impressas (duas colunas), o quiz, a próxima lição de cada
+trilha de idioma e o gabarito no fim.
+
+```
+livro.py                 gera os fascículos
+livro/estilo.css         visual de impressão (claro, econômico em tinta)
+livro/render.js          HTML -> PDF (Chromium) + página de cada seção para o sumário
+livro/estado.json        o que já foi impresso (notícias, lições, quiz, páginas)
+livro/fasciculo-NN.pdf   colorido      | livro/fasciculo-NN-pb.pdf  preto e branco
+curso/programa-*.json    programa de 12 lições por nível
+curso/<trilha>-NN.html   lições (trilhas: en-a1, en-b1, en-c1, de-a1, de-b1, de-c1)
+```
+
+Comandos:
+
+- `python3 livro.py rascunho` — gera `livro/rascunho.pdf` para conferir, sem registrar nada.
+- `python3 livro.py gerar` — gera e registra o próximo fascículo (antes de cada visita).
+- `python3 livro.py status` — lista os fascículos já impressos e as páginas.
+- `python3 livro.py desfazer` — remove o último fascículo do registro (para gerar de novo).
+
+Antes de gerar um fascículo novo, crie a próxima lição de cada trilha em `curso/<trilha>-NN.html`
+seguindo o formato das lições existentes (vocabulário com pronúncia aproximada, gramática, leitura
+baseada em notícias do fascículo, exercícios com linhas e `<section class="gabarito">`).
