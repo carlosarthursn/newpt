@@ -1,0 +1,53 @@
+{
+  "de-a1": {
+    "nome": "Alemão · Iniciante (A1)",
+    "licoes": [
+      "Hallo! Os sons do alemão, cumprimentos e o verbo sein",
+      "Woher kommst du? Pronomes pessoais, du x Sie e perguntas com W (wer, wie, wo, woher)",
+      "Der, die, das: gênero dos substantivos e artigos definidos e indefinidos",
+      "Verbos regulares no presente e números de 0 a 100",
+      "Haben (ter) e o plural dos substantivos",
+      "Ordem V2: o verbo na posição 2, inversão e perguntas de sim ou não",
+      "Negação: nicht e kein",
+      "Acusativo: o objeto direto (den, einen, keinen) e os pronomes mich, dich, ihn",
+      "Verbos irregulares no presente (sprechen, lesen, fahren) e primeiros verbos separáveis (anfangen, aufstehen)",
+      "Possessivos (mein, dein, sein, ihr, unser) e a família",
+      "Verbos modais (können, müssen, wollen, möchten) e a moldura da frase",
+      "Horas, dias e preposições de tempo (um, am, im) + imperativo"
+    ]
+  },
+  "de-b1": {
+    "nome": "Alemão · Intermediário (B1)",
+    "licoes": [
+      "Das letzte Konzert: Perfekt com haben e sein e o verbo no fim com weil e dass",
+      "Perfekt x Präteritum: o passado da conversa e o passado da escrita",
+      "Dativo: objeto indireto, artigos, pronomes e verbos com dativo (helfen, gefallen, gehören)",
+      "Preposições com acusativo, com dativo e as de duas vias (in, auf, an: wo? x wohin?)",
+      "Mais subordinadas: wenn, als, ob, obwohl e finalidade com damit e um ... zu",
+      "Verbos separáveis e inseparáveis em todos os tempos (anfangen, aufhören, verstehen, entdecken)",
+      "Verbos reflexivos e verbos com preposição fixa (sich interessieren für, warten auf, darauf/worauf)",
+      "Adjetivos declinados I: depois de der/die/das e de ein/kein",
+      "Adjetivos declinados II: sem artigo, comparativo e superlativo",
+      "Konjunktiv II: hipóteses, desejos e pedidos educados (würde, hätte, wäre, könnte)",
+      "Orações relativas (der, die, das, dessen) e o genitivo",
+      "Voz passiva com werden: como a química descreve processos (wird erhitzt, wurde entdeckt)"
+    ]
+  },
+  "de-c1": {
+    "nome": "Alemão · Avançado (C1)",
+    "licoes": [
+      "Es wird getrennt: a voz passiva e suas alternativas (Passiversatz)",
+      "Nominalstil x Verbalstil: como a linguagem científica transforma verbos em substantivos",
+      "Genitivo e preposições do registro formal (aufgrund, mittels, infolge, hinsichtlich, bezüglich)",
+      "Particípios como adjetivo: o atributo participial expandido (das bei 80,1 °C siedende Benzol)",
+      "Konjunktiv I: discurso indireto em notícias e artigos científicos",
+      "Conectores e advérbios conjuntivos: folglich, dennoch, indem, wohingegen, sodass",
+      "Expressões com verbo-suporte (Funktionsverbgefüge): zur Verfügung stellen, in Betrieb nehmen, Anwendung finden",
+      "Modalidade subjetiva: sollen, wollen, dürfte e müsste para boatos, alegações e teorias da conspiração",
+      "Konjunktiv II no passado, als ob e condicionais sem wenn",
+      "Formação de palavras: compostos, prefixos e sufixos técnicos (-ung, -heit, -bar, ent-, zer-)",
+      "Registro formal na escrita: e-mail formal, resumo (Zusammenfassung) e apresentação científica",
+      "Argumentar e debater: concessão e contraste (zwar ... aber, wenngleich, so ... auch) e texto de opinião"
+    ]
+  }
+}

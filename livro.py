@@ -234,7 +234,8 @@ def montar_html(d, n, inicio, data_iso, itens, licoes, quiz, ultima, paginas_toc
         tit = prog.get(t, {}).get("licoes", [])
         if nxt <= len(tit):
             lang, nivel = t.split("-")
-            prox.append(f"<li><b>{IDIOMA[lang]} {nivel.upper()}, lição {nxt}:</b> {e(tit[nxt - 1])}</li>")
+            nome = re.sub(r"^\s*Li[çc][ãa]o\s*\d+\s*[:.\-–—]\s*", "", tit[nxt - 1])
+            prox.append(f"<li><b>{IDIOMA[lang]} {nivel.upper()}, lição {nxt}:</b> {e(nome)}</li>")
     out.append(f'<section class="fim sec"><header class="sec-h"><div class="el"><small>→</small><b>Px</b></div><div><h2>No próximo fascículo</h2><p>Mais notícias desde {data_br(d["periodo"]["fim"], False)} e as próximas lições.</p></div><span class="mk">@@fim@@</span></header>'
                f'<ul class="proximas">{"".join(prox)}</ul><h3 style="font-family:var(--f-display);margin:8mm 0 2mm;letter-spacing:.08em;text-transform:uppercase;font-size:11pt">Anotações</h3>'
                f'<div class="notas">{"<div class=ln></div>" * 18}</div></section>')

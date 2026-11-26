@@ -1,0 +1,53 @@
+{
+  "en-a1": {
+    "nome": "Inglês · Iniciante (A1)",
+    "licoes": [
+      "Lição 1: Verbo to be e pronomes pessoais, com a BepiColombo em Mercúrio",
+      "Lição 2: Artigos (a, an, the), plural e números, na tabela periódica",
+      "Lição 3: There is / there are e preposições de lugar, no laboratório",
+      "Lição 4: This, that, these, those e adjetivos, no inventário do seu personagem",
+      "Lição 5: Possessivos (my, your, his...) e o 's, montando a sua banda",
+      "Lição 6: Presente simples (afirmativa) e o -s da 3ª pessoa, a rotina de um estudante de engenharia",
+      "Lição 7: Presente simples: negativa, perguntas com do / does e question words, gostos musicais",
+      "Lição 8: Advérbios de frequência, horas e dias da semana, a agenda de um astronauta",
+      "Lição 9: Imperativo e can / can't, regras de segurança no laboratório",
+      "Lição 10: Presente contínuo, o que está acontecendo agora numa partida online",
+      "Lição 11: Contáveis e incontáveis, some / any, how much / how many, reagentes e receitas",
+      "Lição 12: Passado do to be (was / were) e passado simples regular, cientistas que fizeram história"
+    ]
+  },
+  "en-b1": {
+    "nome": "Inglês · Intermediário (B1)",
+    "licoes": [
+      "Lição 1: Present perfect x past simple, o vaivém do CEO da Nvidia (e a chegada do GTA VI)",
+      "Lição 2: Past simple, past continuous e used to, histórias do rock",
+      "Lição 3: Present perfect com ever, never, just, already e yet, conquistas nos games",
+      "Lição 4: For, since e present perfect continuous, há quanto tempo a sonda está viajando?",
+      "Lição 5: Futuro com will, going to e presente contínuo, a agenda das próximas missões espaciais",
+      "Lição 6: Gerúndio x infinitivo (enjoy doing, decide to do), hobbies, planos e manias",
+      "Lição 7: Zero e primeira condicionais (if, when, unless), o que acontece no laboratório",
+      "Lição 8: Segunda condicional e wish, se você pudesse visitar qualquer planeta",
+      "Lição 9: Voz passiva (presente e passado), como se produz ácido sulfúrico",
+      "Lição 10: Orações relativas (who, which, that, where, whose), elementos e seus descobridores",
+      "Lição 11: Discurso indireto (reported speech), o que disseram os cientistas",
+      "Lição 12: Modais de dedução (must, might, can't), teorias da conspiração: prova ou palpite?"
+    ]
+  },
+  "en-c1": {
+    "nome": "Inglês · Avançado (C1)",
+    "licoes": [
+      "Lição 1: Hedging e linguagem científica, afirmações x evidências (Riemann e matrizes)",
+      "Lição 2: Verbos de relato e posição do autor (claim, argue, concede, dispute), ciência x teoria da conspiração",
+      "Lição 3: Nominalização e densidade lexical, escrevendo como num paper",
+      "Lição 4: Passiva avançada e estruturas impessoais (is thought to have, it has been suggested that), o jornalismo científico",
+      "Lição 5: Inversão para ênfase (not only, rarely, only after, no sooner), grandes descobertas contadas com drama",
+      "Lição 6: Condicionais mistas e inversão condicional (had we known, should you need, were it not for), e se a história tivesse sido outra?",
+      "Lição 7: Modais no passado (must have, might have, should have, needn't have), investigando falhas em missões espaciais",
+      "Lição 8: Frases clivadas (it-cleft, wh-cleft) e foco, o que realmente importa num argumento",
+      "Lição 9: Phrasal verbs avançados na pesquisa (carry out, rule out, account for, bring about), do laboratório ao relatório",
+      "Lição 10: Conectivos e coesão (whereas, nonetheless, insofar as, given that), construindo um argumento",
+      "Lição 11: Registro formal x informal e collocations acadêmicas, do e-mail ao orientador à mensagem para o amigo",
+      "Lição 12: Escrevendo um abstract: estrutura, tempos verbais e concisão (projeto final)"
+    ]
+  }
+}

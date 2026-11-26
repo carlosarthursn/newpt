@@ -131,7 +131,7 @@ h1, h2, h3, h4 { margin: 0; }
 .l-exerc li { margin-bottom: 3mm; break-inside: avoid; }
 .linha { display: inline-block; min-width: 42mm; border-bottom: .6pt solid var(--ink); height: 1.1em; vertical-align: baseline; }
 .linhas { margin-top: 1mm; }
-.linhas .ln { height: 8mm; border-bottom: .5pt solid #9AA2AE; }
+.linhas .ln { height: 7mm; border-bottom: .5pt solid #9AA2AE; }
 .l-dica { background: var(--soft); padding: 3mm 4mm; }
 .l-dica p { margin: 0 0 1.5mm; font-family: var(--f-sans); font-size: 9.2pt; }
 
