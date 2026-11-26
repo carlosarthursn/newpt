@@ -144,7 +144,7 @@ def preparar_licao(t, n, raw):
     return corpo, (titulo, gab.group(1) if gab else ""), nome
 
 
-def montar_html(d, n, inicio, data_iso, itens, licoes, quiz, ultima, paginas_toc=None):
+def montar_html(d, n, inicio, data_iso, itens, licoes, quiz, ultima, paginas_toc=None, extra_notas=False):
     cats = {c["id"]: c for c in d["categorias"]}
     ordem = [c["id"] for c in d["categorias"]]
     porcat = {c: [it for it in itens if it["categoria"] == c] for c in ordem}
@@ -239,6 +239,9 @@ def montar_html(d, n, inicio, data_iso, itens, licoes, quiz, ultima, paginas_toc
     out.append(f'<section class="fim sec"><header class="sec-h"><div class="el"><small>→</small><b>Px</b></div><div><h2>No próximo fascículo</h2><p>Mais notícias desde {data_br(d["periodo"]["fim"], False)} e as próximas lições.</p></div><span class="mk">@@fim@@</span></header>'
                f'<ul class="proximas">{"".join(prox)}</ul><h3 style="font-family:var(--f-display);margin:8mm 0 2mm;letter-spacing:.08em;text-transform:uppercase;font-size:11pt">Anotações</h3>'
                f'<div class="notas">{"<div class=ln></div>" * 18}</div></section>')
+    if extra_notas:
+        out.append('<section class="fim sec"><h3 style="font-family:var(--f-display);margin:0 0 2mm;letter-spacing:.08em;text-transform:uppercase;font-size:11pt">Mais anotações</h3>'
+                   f'<div class="notas">{"<div class=ln></div>" * 27}</div></section>')
     out.append("</body></html>")
     return "".join(out), [m for m, _, _ in toc]
 
@@ -262,7 +265,8 @@ def construir(n, inicio, data_iso, destino_base, registrar):
     hp.write_text(html1, encoding="utf-8")
     r1 = render(hp, tmp)
     pag = {m: inicio + r1["marks"][m] - 1 for m in marcadores if m in r1["marks"]}
-    html2, _ = montar_html(d, n, inicio, data_iso, itens, licoes, quiz, ultima, pag)
+    extra = r1["pages"] % 2 == 1  # fecha o fascículo em número par de páginas (frente e verso)
+    html2, _ = montar_html(d, n, inicio, data_iso, itens, licoes, quiz, ultima, pag, extra)
     hp.write_text(html2, encoding="utf-8")
     cor = destino_base.with_suffix(".pdf")
     pb = destino_base.parent / (destino_base.name + "-pb.pdf")
@@ -271,7 +275,7 @@ def construir(n, inicio, data_iso, destino_base, registrar):
     tmp.unlink(missing_ok=True)
     total = r2["pages"]
     fim = inicio + total - 1
-    print(f"fascículo {n:02d}: páginas {inicio}–{fim} ({total} folhas de impressão)")
+    print(f"fascículo {n:02d}: páginas {inicio}–{fim} ({total} páginas = {total // 2} folhas em frente e verso)")
     print(f"  notícias: {len(itens)} | lições: {', '.join(f'{t} nº{k}' for t, k, _ in licoes) or 'nenhuma'} | quiz: {len(quiz)}")
     print(f"  arquivos: {cor.relative_to(ROOT)} (colorido) e {pb.relative_to(ROOT)} (preto e branco)")
     faltando = [t for t in TRILHAS if not any(x[0] == t for x in licoes)]
