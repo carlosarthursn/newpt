@@ -125,7 +125,9 @@ def cmd_commons(a):
     m = meta_commons(ii)
     if not licenca_livre(m["licenca"]):
         sys.exit(f"licença não aceita: {m['licenca']!r}")
-    raw = get(ii.get("thumburl") or ii["url"], binary=True)
+    # arquivo pequeno (<= 960 px): baixa o original, porque o Wikimedia recusa miniatura maior que o original
+    pequeno = ii.get("width", 10**6) <= 960 and ii.get("mime") != "image/svg+xml"
+    raw = get(ii["url"] if pequeno else (ii.get("thumburl") or ii["url"]), binary=True)
     salvar(a.item, raw, {"credito": m["credito"] or "Wikimedia Commons", "licenca": m["licenca"], "fonte": ii["descriptionurl"], "legenda": a.legenda})
 
 

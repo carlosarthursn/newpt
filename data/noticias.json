@@ -1,8 +1,8 @@
 {
- "atualizado_em": "2026-11-26",
+ "atualizado_em": "2026-11-27",
  "periodo": {
   "inicio": "2026-10-28",
-  "fim": "2026-11-25"
+  "fim": "2026-11-26"
  },
  "lead": "Tudo que rolou desde 28 de outubro, separado por família: química, espaço, games, tecnologia, mistérios, rock, Brasil e mundo. Cada notícia tem link pra fonte original, pra você conferir.",
  "mensagem": "Montado pelo seu irmão pra você não ficar por fora de nada. Força aí: tem GTA VI, sonda nova em Mercúrio e muito rock te esperando aqui fora.",
@@ -10,10 +10,10 @@
  "resumo_ids": [
   "riemann-prova-claude-lean",
   "hera-dimorphos-cratera-estadio",
-  "fcc-starmind-milhao-satelites",
-  "huang-volta-nvidia",
-  "luz-visivel-quebra-co2",
-  "gta-vi-chegou"
+  "clima-2c-seis-dias",
+  "trabuco-fazenda-lula-4",
+  "iowa-azida-chumbo-detonacao",
+  "fcc-starmind-milhao-satelites"
  ],
  "categorias": [
   {
@@ -4166,29 +4166,582 @@
     }
    ],
    "adicionado_em": "2026-11-26"
+  },
+  {
+   "id": "gaiolas-paladio-ml",
+   "categoria": "quimica",
+   "data": "2026-11-26",
+   "simbolo": "Pd",
+   "nome": "Gaiolas de Pd",
+   "titulo": "Gaiolas moleculares de paládio: a melhor catalisa 10 mil vezes mais que a pior",
+   "resumo": "Grupos de Birmingham, Edimburgo e Oxford testaram, num único estudo no JACS, 30 gaiolas moleculares à base de paládio, aquelas estruturas ocas que prendem moléculas por dentro e funcionam como mini-reatores. A diferença foi absurda: as melhores ficaram mais de 10 mil vezes mais ativas que as piores. Um modelo de aprendizado de máquina, alimentado com forma, tamanho, volume e eletrostática da cavidade, conseguiu prever o desempenho a partir da estrutura. A receita que saiu: gaiolas compactas e rígidas ganham, o arranjo dos metais pesa mais que o tamanho da cavidade, e pequenas diferenças de ângulo dentro da gaiola estão entre os melhores preditores.",
+   "angulo_quimico": "É catálise supramolecular no espírito das enzimas: confinamento e ambiente elétrico interno da cavidade ajudam a reação. A matéria não diz qual reação foi testada; o paper é o DOI 10.1021/jacs.6c11940.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org (Universidade de Birmingham)",
+     "url": "https://phys.org/news/2026-11-molecular-cage-catalysts-enormous-differences.html"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "gelo-submerso-camada-agua",
+   "categoria": "quimica",
+   "data": "2026-11-25",
+   "simbolo": "Gs",
+   "nome": "Gelo submerso",
+   "titulo": "Gelo mergulhado em alcano tem 'pele' de água; em água salgada, não",
+   "resumo": "Pesquisadores dos Institutos Nacionais de Ciências Naturais do Japão usaram um microscópio de força atômica resfriado a −10 °C para cutucar gelo mergulhado em diferentes líquidos. Quando a ponta dá um 'pulo' antes de tocar o sólido, é sinal de uma camada de água desordenada na superfície: em decano, a −6 °C, ela tinha uns 4 nm; em octano, a −7 °C, uns 2 nm. Em octanol e em água salgada não houve pulo nenhum, e bastou 1% em massa de octanol no decano para a camada sumir. O trabalho saiu no Journal of Chemical Physics.",
+   "angulo_quimico": "A explicação proposta é ligação de hidrogênio: octanol e água salgada 'ocupam' os OH livres da superfície do gelo, e sem OH livre não se forma a camada. É a pré-fusão, já conhecida no gelo exposto ao vapor, agora medida numa interface sólido-líquido.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-liquids-layer-formation-submerged-ice.html"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "ren-gas-e-metano-tampere",
+   "categoria": "quimica",
+   "data": "2026-11-25",
+   "simbolo": "Em",
+   "nome": "e-metano",
+   "titulo": "Maior fábrica de e-metano do mundo sai do papel na Finlândia",
+   "resumo": "A Nordic Ren-Gas tomou a decisão final de investimento na fábrica de Tampere, na Finlândia, que a Hydrocarbon Processing descreve como a maior de e-metano do mundo a chegar a essa fase. São mais de € 300 milhões, com obra começando já e conclusão prevista para 2029. A planta vai usar cerca de 40 mil toneladas por ano de CO₂ biogênico capturado numa usina de lixo-energia local para produzir uns 190 GWh/ano de metano sintético, que segue pela rede de gás europeia até a Alemanha, principalmente para caminhões. De quebra, até 200 GWh/ano de calor de processo vão para o aquecimento distrital da cidade.",
+   "angulo_quimico": "No balanço, e-metano é a metanação do CO₂ com hidrogênio verde (CO₂ + 4 H₂ → CH₄ + 2 H₂O), reação bem exotérmica, e é por isso que sobra calor para aquecer a cidade. A matéria não diz qual tecnologia de metanação nem qual eletrolisador vão ser usados.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Hydrocarbon Processing",
+     "url": "https://www.hydrocarbonprocessing.com/news/2026/11/nordic-ren-gas-tampere-project-becomes-world-s-largest-e-methane-facility-to-reach-fid/"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "petrobras-neomille-etanol-milho",
+   "categoria": "quimica",
+   "data": "2026-11-25",
+   "simbolo": "Et",
+   "nome": "Etanol de milho",
+   "titulo": "Petrobras compra 42% da Neomille e quer mais usinas de etanol de milho",
+   "resumo": "A Petrobras fechou a compra de 42% da Neomille, braço de etanol de milho da CerradinhoBio (que segue majoritária) e terceira maior produtora do tipo no Brasil; o valor não foi divulgado. As duas usinas fazem cerca de 800 milhões de litros por ano, e a CEO Magda Chambriard fala em chegar a 1,5 bilhão de litros no curto prazo. Segundo a imprensa, a estatal vai atrás de outras participações, de olho no Centro-Oeste e no Matopiba. O pacote inclui um duto de etanol do Centro-Oeste até a refinaria Replan e uma unidade alcohol-to-jet na própria Replan até 2031, para combustível de aviação sustentável.",
+   "angulo_quimico": "William França, da Petrobras, explicou a preferência pelo milho: dele saem etanol e óleo de milho técnico. A rota alcohol-to-jet, em geral, desidrata o etanol a eteno, oligomeriza e hidrogena até a faixa do querosene.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Hydrocarbon Processing",
+     "url": "https://www.hydrocarbonprocessing.com/news/2026/11/petrobras-seeks-new-corn-ethanol-opportunities-after-buying-stake-in-producer/"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "sasol-fecha-pvc-sasolburg",
+   "categoria": "quimica",
+   "data": "2026-11-25",
+   "simbolo": "Cl",
+   "nome": "Sasol PVC",
+   "titulo": "Sasol vai fechar suas fábricas de MVC e PVC na África do Sul em 2027",
+   "resumo": "A Sasol anunciou que vai encerrar as unidades de monocloreto de vinila (MVC) e de PVC do complexo Sasol Midland, em Sasolburg, no fim de junho de 2027, e mantém os contratos de PVC até lá. Segundo a empresa, uma revisão da cadeia de cloro-vinílicos concluiu que os ativos, já velhos, deixaram de ser economicamente viáveis e estavam pesando no fluxo de caixa. Depois do fechamento, a Sasol para de vender soda cáustica para clientes externos e quer montar um esquema de PVC importado para abastecer o mercado sul-africano.",
+   "angulo_quimico": "Mostra como a cadeia cloro-soda é amarrada: a eletrólise de salmoura dá cloro e soda juntos, e sem o MVC (feito via dicloroetano) o cloro precisa de outro destino. A Sasol diz que vai direcionar cloro e ácido clorídrico para outros mercados.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "Hydrocarbon Processing",
+     "url": "https://www.hydrocarbonprocessing.com/news/2026/11/sasol-to-close-vcm-and-pvc-facilities/"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "europa-clipper-flyby-terra",
+   "categoria": "espaco",
+   "data": "2026-11-25",
+   "simbolo": "Ec",
+   "nome": "Europa Clipper",
+   "corpo": "Terra",
+   "titulo": "Europa Clipper passa a uns 3 mil km da Terra em 3/12 com os 9 instrumentos ligados",
+   "resumo": "O JPL detalhou o estilingue: a Europa Clipper, com 6 toneladas a maior sonda que a NASA já mandou para o espaço profundo, passa a cerca de 3.140 a 3.450 km da Terra na quinta, 3 de dezembro, às 17h14 de Brasília, a oeste da África. O empurrão gravitacional economiza propelente e vem depois de um sobrevoo de Marte em março de 2025; a entrada em órbita de Júpiter está prevista para abril de 2030. Os nove instrumentos vão estar ligados: o magnetômetro vai ser calibrado contra o campo magnético da Terra, a câmera térmica E-THEMIS vai fotografar o planeta a cada oito horas e o espectrógrafo Europa-UVS vai ter os dados comparados com os da sonda lunar LRO. Telescópios amadores grandes, sobretudo no sul da Europa e na África, podem conseguir pegar a passagem.",
+   "angulo_quimico": "Enquanto o Europa-UVS observa a Terra, o instrumento LAMP da LRO vai mirar a geocorona, a parte mais externa da atmosfera terrestre. É ensaio para depois medir a composição da atmosfera tênue de Europa.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Phys.org (NASA JPL)",
+     "url": "https://phys.org/news/2026-11-nasa-europa-clipper-earth-jupiter.html"
+    },
+    {
+     "nome": "Universe Today",
+     "url": "https://www.universetoday.com/articles/slingshot-earth-nasas-europa-clipper-will-gain-speed-and-tests-its-instruments-during-its-earth-flyb"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "change6-bacia-aitken-cadeia",
+   "categoria": "espaco",
+   "data": "2026-11-26",
+   "simbolo": "Ce",
+   "nome": "Chang'e-6",
+   "corpo": "Lua",
+   "titulo": "Chang'e-6 reconstrói a reação em cadeia que formou a maior cratera da Lua",
+   "resumo": "Um estudo na Science Advances, divulgado pela Universidade de Hong Kong, juntou cerca de 1 grama dos quase 2 kg trazidos do lado oculto pela Chang'e-6, dados do rover Chang'e-4 e simulações para contar a história da bacia Polo Sul–Aitken, com uns 2.200 km de diâmetro e até 10 km de profundidade. Segundo o trabalho, o impacto que a abriu, há cerca de 4,34 bilhões de anos, gerou um mar de rocha derretida que se separou em camadas ao esfriar e também rachou a crosta, deixando magma cristalizar por baixo. Impactos posteriores, como o da bacia Apollo (há ~4,2 bilhões de anos) e as crateras Finsen e Chaffee S, foram desenterrando e espalhando esses pedaços até onde a Chang'e-4 os viu e a Chang'e-6 os coletou. A idade ainda é disputa: outra equipe, datando norito da mesma missão, tinha chegado a 4,25 bilhões de anos.",
+   "angulo_quimico": "O fio da meada é petrologia: norito moderadamente rico em magnésio cristalizou direto do mar de magma do impacto, enquanto as rochas ainda mais magnesianas vêm do magmatismo da 'suíte Mg', que esfriou sob a crosta rompida.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Universe Today",
+     "url": "https://www.universetoday.com/articles/change-6-samples-reveal-the-violent-chain-reaction-that-built-the-moons-largest-crater"
+    },
+    {
+     "nome": "PMC (estudo de 2025 que datou a bacia em 4,25 bi de anos)",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12086667/"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "tornado-magnetico-jato-solar",
+   "categoria": "espaco",
+   "data": "2026-11-25",
+   "simbolo": "So",
+   "nome": "Jatos solares",
+   "corpo": "Sol",
+   "titulo": "Simulação mostra 'tornado magnético' no Sol disparando jato de plasma",
+   "resumo": "Pesquisadores do Observatório de Yunnan (Academia Chinesa de Ciências), da Universidade de Ciência e Tecnologia da China e da Universidade de Sheffield rodaram simulações 3D de magneto-hidrodinâmica radiativa (código MURaM) e rastrearam um jato tipo espícula até um vórtice na fotosfera. O redemoinho torce o campo magnético num 'tornado magnético' e, junto com a reconexão magnética em pequena escala que provoca, dispara o jato; o evento acompanhado durou uns 10 minutos. A 4.000 km de altura, o fluxo médio de energia para cima foi de cerca de 525 W/m², levado principalmente pelo cisalhamento e torção do campo. Embaixo quem empurra é o gradiente de pressão; mais acima, a força de Lorentz assume. Na Astronomy & Astrophysics, os autores dizem que isso ajuda a entender o aquecimento da coroa e de onde vem parte da massa do vento solar.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-simulations-reveal-solar-vortex-reconnecting.html"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "destiny-astroquimica-graos-gelo",
+   "categoria": "espaco",
+   "data": "2026-11-26",
+   "simbolo": "Ds",
+   "nome": "DESTINY",
+   "titulo": "Novo modelo simula a química no gelo dos grãos interestelares, sítio por sítio",
+   "resumo": "Na Universidade de Liège, a equipe de Maria Groyne apresentou na Astronomy & Astrophysics o DESTINY, um modelo astroquímico determinístico baseado em cadeias de Markov com estados absorventes, ferramenta que, segundo os autores, ainda não tinha sido usada na área. Em vez de dar uma única energia de ligação para cada espécie na superfície dos grãos gelados, ele separa os sítios por energia, e ainda conta encontros que não viram reação: duas moléculas de H₂ que se esbarram podem pôr uma delas em movimento ou até jogá-la de volta para o gás. Os primeiros resultados mostram a mesma espécie espalhada por sítios de energias diferentes, e as tendências para o metano foram encorajadoras, mas ainda pedem mais estudo.",
+   "angulo_quimico": "É cinética de superfície pura: a distribuição de energias de adsorção muda quem difunde, quem reage e quem dessorve no manto de gelo. Os autores acham que a abordagem pode servir até para aerossóis nas atmosferas da Terra e de Marte.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "Phys.org (Universidade de Liège)",
+     "url": "https://phys.org/news/2026-11-destiny-tracks-molecular-chemistry-uneven.html"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "major-cs2-singapura-dia3-faze-fora",
+   "categoria": "games",
+   "data": "2026-11-26",
+   "simbolo": "Cs",
+   "nome": "Major CS2",
+   "titulo": "Major de CS2: FaZe cai fora, e a Imperial perde da Liquid na prorrogação",
+   "resumo": "O terceiro dia do Major de Singapura, na quinta (26), foi pesado. A Liquid passou pela Imperial por 2 a 0 (13-7 na Anubis e 16-13 na Cache, na primeira prorrogação do torneio, depois de a Imperial reagir de um 1-6 no começo do mapa) e garantiu vaga no Stage 2, junto com Eternal Fire e PARIVISION. A FaZe perdeu de 2 a 1 para a HEROIC e saiu com 1-3, assim como 9z e Chinggis Warriors. A Imperial ficou em 2-2 e joga a vida contra a Wildcard nesta sexta (27), numa melhor de três: quem ganha vai ao Stage 2, quem perde volta pra casa.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Strafe",
+     "url": "https://www.strafe.com/news/read/singapore-major-2026-day-3-faze-clan-eliminated-as-liquid-advance/"
+    },
+    {
+     "nome": "Pley.gg",
+     "url": "https://pley.gg/cs2/pgl-major-singapore-2026-live-stage-1-day-3/"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "gta-vi-japao-famitsu-200-mil",
+   "categoria": "games",
+   "data": "2026-11-26",
+   "simbolo": "Gj",
+   "nome": "GTA no Japão",
+   "titulo": "GTA VI estreia no Japão com 200 mil cópias e tira o Zelda do topo",
+   "resumo": "Na semana de 16 a 22 de novembro, o GTA VI de PS5 vendeu 200.759 cópias físicas no Japão, segundo a Famitsu, quase seis vezes o segundo colocado, o Ocarina of Time do Switch 2 (35.295). Detalhe: a edição física por lá é 'code-in-a-box', uma caixa com código e sem disco. O efeito apareceu no hardware também: o PS5 Digital Edition (40.362) passou o Switch 2 (36.817) e foi o console mais vendido da semana. Os três modelos de Xbox somaram 715 unidades.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Nintendo Life",
+     "url": "https://www.nintendolife.com/news/2026/11/japanese-charts-no-prizes-for-guessing-what-has-overtaken-zelda-and-switch-2-this-week"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "hitman-lenny-kravitz-bawma",
+   "categoria": "games",
+   "data": "2026-11-26",
+   "simbolo": "Hk",
+   "nome": "Hitman",
+   "titulo": "Lenny Kravitz vira alvo do Agente 47 em missão temporária do Hitman",
+   "resumo": "Desde quinta (26) e até 24 de dezembro, o HITMAN World of Assassination tem o Elusive Target 'The Mutiny': o alvo é Bawma, o Rei Pirata de Aleph do 007 First Light, com rosto e voz do Lenny Kravitz, que estreia na série. O 47 precisa achar o Bawma na Ilha Ambrose e dar conta de três tenentes rebeldes, e dá até para usar os bonecos de vodu da Madame Serafine para eliminar os três. A missão é grátis para quem tem o jogo e também na demo gratuita, e quem terminar com conta IOI enquanto ela está no ar leva o 'Rock Royalty Duck'. O anúncio saiu no Xbox Wire, que lista Xbox Series X|S, Xbox One, ROG Xbox Ally e PC.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Xbox Wire",
+     "url": "https://news.xbox.com/en-us/2026/11/26/hitman-bawma-elusive-target/"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "ps-plus-dezembro-2026-tony-hawk",
+   "categoria": "games",
+   "data": "2026-11-25",
+   "simbolo": "Ps",
+   "nome": "PS Plus",
+   "titulo": "PS Plus de dezembro: Tony Hawk 3+4, Dragon Ball Xenoverse 2 e Amnesia",
+   "resumo": "A Sony revelou na quarta (25) os jogos mensais de dezembro, que valem para todos os planos da PS Plus, inclusive o Essential: Tony Hawk's Pro Skater 3+4 (PS5 e PS4), Dragon Ball Xenoverse 2 (PS5 e PS4) e Amnesia: The Bunker (PS4), um terror em primeira pessoa dentro de um bunker da Primeira Guerra. Dá para pôr na biblioteca de 1º de dezembro até 4 de janeiro, e eles ficam jogáveis enquanto a assinatura estiver ativa.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Kotaku",
+     "url": "https://kotaku.com/playstation-plus-free-games-for-december-2026-include-one-of-the-best-horror-games-in-years-2001000406"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "anthropic-api-rust-claude-agentes",
+   "categoria": "tecnologia",
+   "data": "2026-11-25",
+   "simbolo": "Rs",
+   "nome": "Python → Rust",
+   "titulo": "Agentes do Claude reescrevem a API da Anthropic em Rust e cortam 70% da CPU",
+   "resumo": "A Anthropic contou na quarta (25) como trocou Python por Rust na Messages API, a porta por onde passam os pedidos ao Claude, inclusive os do Claude Code. O Claude escreveu a primeira versão do caminho principal em cerca de uma semana; o trabalho pesado foi provar que as duas versões davam o mesmo resultado, com agentes coordenados caçando cada tipo de divergência contra tráfego real espelhado e engenheiros revisando as correções (a revisão barrou um 'atalho' que só fazia a checagem passar). A concordância subiu de uns 24% em abril para 99,6% em agosto, e o tráfego público foi para o Rust em setembro. Segundo a empresa, o consumo caiu cerca de 70% em CPU e mais de 80% em memória por requisição, e o tempo mediano até o primeiro token ficou uns 20% menor.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Anthropic",
+     "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "microsoft-artex-hackers-ia",
+   "categoria": "tecnologia",
+   "data": "2026-11-25",
+   "simbolo": "Ax",
+   "nome": "ARTEX",
+   "titulo": "Hackers estatais adotam o ARTEX, kit de ataque movido a agentes de IA",
+   "resumo": "A Microsoft publicou na quarta (25) um alerta sobre o ARTEX, um framework de testes de invasão lançado em julho que põe agentes de IA para rodar ferramentas como Nmap, Sqlmap e Metasploit quase sem supervisão, trocando de modelo ou de chave de API quando bate em limite. Segundo a empresa, grupos ligados à China e à Coreia do Norte, como Salt Typhoon e Onyx Sleet, já usam a ferramenta, que não inventa técnicas novas, mas automatiza tudo em velocidade de máquina: num caso, um agente foi de procurar senhas expostas no GitHub a tirar dados do Azure Key Vault em cinco minutos. A defesa sugerida é enganar o robô, com iscas, 'tarpits' que gastam o tempo e o orçamento do agente e 'vitórias falsas' que o convencem de que a missão já foi cumprida.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Microsoft Security Blog",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/"
+    },
+    {
+     "nome": "The Decoder",
+     "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "nvidia-corta-gpu-sudeste-asiatico",
+   "categoria": "tecnologia",
+   "data": "2026-11-26",
+   "simbolo": "Nv",
+   "nome": "Nvidia",
+   "titulo": "Nvidia trava servidores para o Sudeste Asiático, e a GPU gamer pode encolher",
+   "resumo": "Segundo o Financial Times, citado pelo The Decoder, a Nvidia mandou parceiros como Dell e Supermicro pararem de enviar servidores para Malásia, Singapura, Tailândia e Indonésia, depois das novas regras dos EUA contra empresas chinesas que alugam poder de computação em nuvens de outros países. Bancos já congelaram cerca de US$ 500 milhões em empréstimos a uma nuvem de Singapura que ia atender a ByteDance, e milhares de chips B300 foram parar no mercado secundário. Do lado gamer, um relato de um fórum chinês de distribuidores, repercutido pelo VideoCardz e pelo Shacknews, diz que a Nvidia vai cortar de 20% a 30% das GPUs de jogo entregues às fabricantes de placas entre novembro e janeiro. A empresa não confirmou, e não se sabe quais modelos entram nem se o corte é global.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "The Decoder",
+     "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+    },
+    {
+     "nome": "Shacknews",
+     "url": "https://www.shacknews.com/article/151489/nvidia-nvda-gaming-gpu-supply-reduction-30-percent"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "metallica-sucessor-72-seasons",
+   "categoria": "rock",
+   "data": "2026-11-25",
+   "simbolo": "Mt",
+   "nome": "Metallica",
+   "titulo": "Metallica começa a mexer no sucessor de '72 Seasons', diz Trujillo",
+   "resumo": "Em entrevista ao radialista Mike Zara, o baixista Robert Trujillo disse que a banda 'vai começar a trabalhar em material novo' e que já ouviu o James Hetfield aparecer com umas ideias: 'Parece a hora certa, é hora de botar a mão na massa.' O que atrapalha, segundo ele, é a agenda, que não para de ganhar shows, a começar pela residência 'Life Burns Faster' na Sphere de Las Vegas, que vai até 13 de março de 2027. Ainda não há data de gravação nem de lançamento do 12º disco. E um bastidor da Sphere: ele contou que não dá para olhar os telões enquanto toca, porque dá tontura.",
+   "ouvir": "72 Seasons (2023)",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Blabbermouth",
+     "url": "https://blabbermouth.net/news/robert-trujillo-says-metallica-will-start-working-on-new-material-at-some-point-pretty-soon"
+    },
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/metallica-studio-72-seasons-follow-up"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "krisiun-napalm-records",
+   "categoria": "rock",
+   "data": "2026-11-26",
+   "simbolo": "Kr",
+   "nome": "Krisiun",
+   "titulo": "Krisiun deixa a Century Media após 25 anos e assina com a Napalm",
+   "resumo": "O Krisiun, trio brasileiro de death metal formado por Alex Camargo e pelos irmãos Max e Moyses Kolesne, trocou a Century Media, onde estava desde 2000, pela Napalm Records, que vai lançar o próximo disco em 2027. O guitarrista Moyses disse que a banda entra em estúdio no fim de dezembro atrás de algo mais rápido e brutal: 'Queremos trazer de volta o death metal de verdade, mas num contexto moderno.' Ele também admitiu que não curtiu a produção do último álbum, 'Mortem Solis' (2022), que achou magra e comprimida demais.",
+   "ouvir": "Mortem Solis (2022), para comparar quando o novo sair",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Blabbermouth",
+     "url": "https://blabbermouth.net/news/krisiun-signs-with-napalm-records-we-wanna-bring-back-the-real-death-metal-but-with-a-modern-context"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "hellfest-2027-line-up",
+   "categoria": "rock",
+   "data": "2026-11-26",
+   "simbolo": "Hf",
+   "nome": "Hellfest 2027",
+   "titulo": "Hellfest faz 20 anos com Faith No More, Judas Priest, Gojira e +300 bandas",
+   "resumo": "O festival francês anunciou na quinta (26) a escalação da 20ª edição, de 17 a 20 de junho de 2027, em Clisson: mais de 300 bandas em dez palcos, recorde da casa. Os headliners ficaram assim: Blink-182 e Mötley Crüe (dia 17), Parkway Drive e Marilyn Manson (18), Faith No More e Judas Priest (19) e, no dia 20, Gojira, fechando um dia só de franceses no palco principal, e Evanescence. Também estão lá Bruce Dickinson, The Prodigy e Turnstile, além do INSIDIAS, banda nova que junta Chris Adler (ex-Lamb of God) e Johny Chow (Stone Sour) e ainda está gravando o disco de estreia. O Faith No More, aliás, é o mesmo que vem ao Brasil em 2027 com Alice in Chains e Mastodon.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/evanescence-judas-priest-parkway-drive-faith-no-more-bruce-dickinson-the-prodigy-blink-182-gojira-turnstile-for-hellfest-2027"
+    },
+    {
+     "nome": "Blabbermouth",
+     "url": "https://blabbermouth.net/news/more-than-300-bands-announced-for-2027-edition-of-frances-hellfest"
+    },
+    {
+     "nome": "Blabbermouth (INSIDIAS)",
+     "url": "https://blabbermouth.net/news/former-lamb-of-god-drummer-chris-adler-and-stone-sour-bassist-johny-chow-join-forces-in-new-band-insidias"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "iowa-azida-chumbo-detonacao",
+   "categoria": "mundo",
+   "data": "2026-11-25",
+   "simbolo": "Pb",
+   "nome": "Azida em Iowa",
+   "titulo": "Exército dos EUA explode quase 5 toneladas de azida de chumbo instável em Iowa",
+   "resumo": "Na quarta (25), o Exército americano fez uma detonação controlada de 68 barris de azida de chumbo degradada e cristalizada, quase 5 toneladas, que estavam na usina de munições de Middletown, em Iowa. O problema foi descoberto numa inspeção de rotina e comunicado à EPA em março, e a conclusão foi que mover ou neutralizar o material no lugar seria perigoso demais, então a saída era explodir. O Exército usou espuma para segurar a poeira, e a EPA diz que seus monitores em tempo real não detectaram chumbo no ar depois da explosão; as análises de laboratório de solo, poeira e água ainda vão sair. Segundo a CBS, a Casa Branca foi pega de surpresa pelo tamanho do problema e agora procura culpados no comando do Exército.",
+   "angulo_quimico": "A azida de chumbo, Pb(N₃)₂, é um explosivo primário usado em detonadores: basta pouca energia para o íon azida se decompor em N₂, uma das moléculas mais estáveis que existem, e essa queda brusca de energia é o estouro. Segundo as autoridades, a cristalização com o tempo deixou o estoque mais sujeito a uma explosão acidental.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "CBS News",
+     "url": "https://www.cbsnews.com/news/iowa-detonation-lead-white-house-blindsided-accountability/"
+    },
+    {
+     "nome": "EPA",
+     "url": "https://www.epa.gov/newsreleases/initial-air-monitoring-shows-zero-detection-airborne-lead-following-controlled"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "clima-2c-seis-dias",
+   "categoria": "mundo",
+   "data": "2026-11-26",
+   "simbolo": "Cl",
+   "nome": "Planeta a 2 °C",
+   "titulo": "Terra fica 2 °C acima da era pré-industrial por seis dias seguidos, pela 1ª vez",
+   "resumo": "Dados do Copernicus, o serviço climático europeu, mostram que a temperatura média da superfície do planeta ficou mais de 2 °C acima da média de 1850–1900 todos os dias de 18 a 23 de novembro. É a primeira sequência assim no registro, com pico de 2,24 °C no dia 23, recorde diário. Os cientistas lembram que isso não quer dizer que o limite do Acordo de Paris foi rompido, porque ele vale para médias de longo prazo, que o Copernicus estima hoje em 1,44 °C. O empurrão vem do aquecimento causado pelos combustíveis fósseis somado a um El Niño fortíssimo, que deve atingir o pico no próximo mês; por isso, segundo o The Independent, 2027 já é apontado como provável ano mais quente da história.",
+   "angulo_quimico": "O El Niño não cria calor: ele devolve para a atmosfera calor guardado no Pacífico tropical, por cima do efeito de fundo dos gases de efeito estufa, que o Copernicus aponta como o motor principal da tendência.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "The Independent (via Yahoo)",
+     "url": "https://www.yahoo.com/news/science/articles/world-breaches-2c-temperature-limit-102456339.html"
+    },
+    {
+     "nome": "Nature World News",
+     "url": "https://www.natureworldnews.com/articles/74096/20261126/earth-stays-above-2c-warming-six-days-row-first-time-copernicus-data-show.htm"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "eua-tarifas-14-economias",
+   "categoria": "mundo",
+   "data": "2026-11-25",
+   "simbolo": "Ta",
+   "nome": "Tarifas 301",
+   "titulo": "EUA propõem novas tarifas para 14 economias, da China à União Europeia",
+   "resumo": "Na quarta (25), o escritório comercial dos EUA (USTR) fechou investigações sobre 'excesso de capacidade' industrial e propôs tarifas para 14 economias, quase todas entre 15% e 20%: até 15% para União Europeia e Japão, até 25% para a Índia, até 35% para o Vietnã e 20% para a China, o que, somado às tarifas antigas, deixa muitos produtos chineses perto de 45%, segundo um funcionário ouvido pela CNBC. Nada vale ainda: os comentários vão até 5 de janeiro, e o representante comercial Jamieson Greer disse que a cobrança deve demorar meses e funcionar como um 'complemento' de alguns pontos percentuais. O governo vem recorrendo à Seção 301 desde que a Suprema Corte derrubou as tarifas do 'Dia da Libertação', e a China responde que o tal excesso de capacidade 'não existe'.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
+    },
+    {
+     "nome": "Holland & Knight",
+     "url": "https://www.hklaw.com/en/insights/publications/2026/11/ustr-proposes-tariffs-following-14-section-301"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "netanyahu-juizes-caso-4000",
+   "categoria": "mundo",
+   "data": "2026-11-25",
+   "simbolo": "Ne",
+   "nome": "Netanyahu",
+   "titulo": "Juízes sugerem que a promotoria largue a acusação mais grave contra Netanyahu",
+   "resumo": "Na quarta (25), os juízes do julgamento por corrupção de Benjamin Netanyahu recomendaram que a promotoria desista do Caso 4000, o mais grave, por verem pouca chance de condenação por suborno; também pediram que o Caso 2000 seja reconsiderado, por duvidarem que a conduta seja crime, e sugeriram um acordo para encerrar o Caso 1000, o dos presentes. Um jurista ouvido pela Al Jazeera chamou a intervenção de 'sem precedentes', mas ela não decide nada: só a procuradora-geral Gali Baharav-Miara pode retirar acusações, e ela disse estar aberta a examinar tudo. Netanyahu, premiê interino desde a eleição de outubro, pediu o fim do julgamento enquanto Gadi Eisenkot tenta montar uma coalizão.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://aljazeera.com/news/2026/11/26/netanyahus-corruption-trial-is-it-really-all-over"
+    },
+    {
+     "nome": "CNN",
+     "url": "https://www.cnn.com/2026/11/25/middleeast/netanyahu-corruption-charges-legal-boost-intl"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "trabuco-fazenda-lula-4",
+   "categoria": "brasil",
+   "data": "2026-11-26",
+   "simbolo": "Tr",
+   "nome": "Trabuco",
+   "titulo": "Trabuco, do Bradesco, aceita a Fazenda de Lula, diz a imprensa; Ibovespa sobe 6%",
+   "resumo": "Segundo o InfoMoney e o SBT News, Luiz Carlos Trabuco Cappi, 75 anos, presidente do conselho do Bradesco, aceitou na noite de quinta (26), numa reunião no Palácio da Alvorada, o convite de Lula para comandar a Fazenda a partir de 2027; mais cedo no mesmo dia, a CNN Brasil ainda falava só numa sondagem, sem convite formal. Trabuco entrou no banco como escriturário em 1969, chegou a presidente executivo e, em 2014, tinha recusado o mesmo convite feito por Dilma. O mercado comemorou: o Ibovespa fechou em alta de 6,07%, aos 176.799 pontos, e o dólar caiu quase 1,4%, a R$ 5,74, com ajuda de uma prévia da inflação (IPCA-15) abaixo do esperado. Uma ala do PT torce o nariz para um banqueiro no comando da economia.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "InfoMoney",
+     "url": "https://www.infomoney.com.br/politica/governo-lula-anuncia-luiz-carlos-trabuco-para-ministerio-da-fazenda/"
+    },
+    {
+     "nome": "SBT News",
+     "url": "https://sbtnews.sbt.com.br/noticia/politica/trabuco-aceita-convite-e-sera-ministro-da-fazenda-de-lula"
+    },
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-novembro-2026/"
+    },
+    {
+     "nome": "Agência IBGE",
+     "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/48750-ipca15novrelease"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "embraer-tarifa-10-eua",
+   "categoria": "brasil",
+   "data": "2026-11-26",
+   "simbolo": "Em",
+   "nome": "Embraer",
+   "titulo": "EUA querem taxar em 10% os aviões da Embraer, e Alckmin chama de 'descabido'",
+   "resumo": "No mesmo pacote de quarta (25), o USTR propôs acabar com a isenção que os aviões brasileiros prontos tinham na tarifa de 25% cobrada do Brasil desde julho e aplicar 10% sobre eles, além de trocar a tarifa do açúcar fora da cota por valores fixos por quilo. Na quinta (26), o CEO da Embraer, Francisco Gomes Neto, disse que a empresa foi pega de surpresa, que não há impacto neste ano e que 'mais de 40%' do E175, 'o avião mais voado' dos EUA, é americano. Alckmin chamou a medida de 'coisa totalmente descabida', e a Secom falou em 'ação inaceitável' no meio da negociação. A consulta pública vai até 30 de dezembro, com audiência marcada para 14 de janeiro.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Forbes Brasil",
+     "url": "https://forbes.com.br/forbes-money/2026/11/embraer-tarifa-eua-francisco-gomes-neto/"
+    },
+    {
+     "nome": "Tribuna do Paraná",
+     "url": "https://www.tribunapr.com.br/noticias/economia/estados-unidos-propoem-tarifa-de-10-sobre-aeronaves-brasileiras/"
+    },
+    {
+     "nome": "Holland & Knight",
+     "url": "https://www.hklaw.com/en/insights/publications/2026/11/ustr-proposes-tariffs-following-14-section-301"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "serra-araca-especies-novas",
+   "categoria": "brasil",
+   "data": "2026-11-26",
+   "simbolo": "Ar",
+   "nome": "Serra do Aracá",
+   "titulo": "Expedição da USP na Serra do Aracá traz dezenas de possíveis espécies novas",
+   "resumo": "Uma equipe de 16 pesquisadores liderada pelo herpetólogo Miguel Trefaut Rodrigues, da USP, passou 19 dias acampada a 1.260 m de altitude na Serra do Aracá, no extremo norte do Amazonas, entre agosto e setembro, com apoio da Fapesp e do Exército. Pelo balanço publicado pelo Olhar Digital (26/11), saíram de lá 18 espécies de anfíbios, 10 delas possivelmente novas, 9 de lagartos (5 provavelmente novas), milhares de insetos e amostras de DNA ambiental de água e solo. A confirmação depende de análises que, segundo Rodrigues, podem levar décadas; a hipótese da equipe é que a região era um grande planalto que a erosão foi separando em picos isolados.",
+   "angulo_quimico": "Um fungo coletado em expedições anteriores a essas montanhas talvez produza enzimas capazes de quebrar o glúten, pista que ainda precisa ser estudada antes de virar qualquer aplicação.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "Olhar Digital",
+     "url": "https://olhardigital.com.br/2026/11/26/ciencia-e-espaco/montanhas-da-amazonia-escondem-especies-que-a-ciencia-ainda-nao-conhece"
+    },
+    {
+     "nome": "Agência FAPESP",
+     "url": "https://agencia.fapesp.br/do-araca-ao-aracazinho-expedicao-cientifica-coleta-dezenas-de-especies-possivelmente-novas-na-amazonia/59177"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "buto-estrutura-radar-egito",
+   "categoria": "misterios",
+   "data": "2026-11-26",
+   "simbolo": "Bu",
+   "nome": "Prédio de Buto",
+   "titulo": "Radar de satélite acha prédio de 2.600 anos enterrado no delta do Nilo",
+   "resumo": "Combinando radar de satélite com tomografia de resistividade elétrica, pesquisadores acharam em Buto, antiga cidade da deusa-cobra Wadjet, uma estrutura de tijolo de barro de uns 25 por 20 metros, enterrada a 3–6 m de profundidade e datada da 26ª dinastia (séculos VII e VI a.C.). O estudo saiu na Acta Geophysica, segundo a CNN (26/11).",
+   "teoria": "Para que servia o prédio? A aposta é numa função religiosa (túmulo, santuário ou casa de sacerdotes), já que escavações ali acharam amuletos e um altar. E os dados sugerem que pode haver outra construção escondida embaixo de uma grossa camada de argila.",
+   "fatos": "A finalidade continua um mistério, e a segunda estrutura é por enquanto só uma suspeita que a equipe ainda vai investigar. O que os dados mostram com mais clareza é engenharia: uma camada de areia a 6–7 m de profundidade que os autores acreditam ter sido colocada de propósito para dar uma fundação nivelada e estável. O egiptólogo Hussein Bassir, que não participou, lembra que a tecnologia não substitui o arqueólogo: confirmar exige escavar.",
+   "angulo_quimico": "O solo do delta é rico em argila, que incha quando molhada e encolhe quando seca, e uma base de areia contorna isso. A tomografia de resistividade 'enxerga' o subsolo medindo com que facilidade uma corrente elétrica fraca passa por ele, o que muda conforme o material.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "CNN (via KEYT)",
+     "url": "https://keyt.com/news/national-world/cnn-other/2026/11/26/discovery-of-an-egyptian-structure-hidden-for-2600-years-offers-clues-to-ancient-engineering/"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "boato-trump-nvidia-3-milhoes",
+   "categoria": "misterios",
+   "data": "2026-11-25",
+   "simbolo": "In",
+   "nome": "Boato Nvidia",
+   "titulo": "Trump comprou US$ 3 milhões em Nvidia antes da volta de Huang? Não há prova",
+   "resumo": "Depois que Jensen Huang voltou ao comando da Nvidia (23/11) e Trump contou que tinha falado com o conselho, viralizou no X, Facebook e Threads que o presidente teria comprado US$ 3 milhões em ações dias antes e lucrado US$ 300 milhões. O Snopes checou a história em 25/11.",
+   "teoria": "A suspeita é de informação privilegiada: Trump teria apostado na volta de Huang sabendo que ia ajudar a empurrá-la e embolsado uma fortuna com a disparada da ação.",
+   "fatos": "O Snopes não achou nenhuma evidência da compra e diz que ainda não dá para dar veredito porque as declarações financeiras de outubro e novembro não saíram. A conta também não fecha: a ação subiu pouco mais de 30%, não 9.000%, então US$ 3 milhões viraram no máximo uns US$ 900 mil. O número parece vir de outro boato, sobre um investidor anônimo que teria comprado US$ 3,4 milhões em opções, e três empresas que rastreiam opções não acharam sinal dessa operação, segundo o New York Times. O que é real: Trump tem ações da Nvidia, e o Financial Times estimou que ele ganhou entre US$ 1,3 milhão e US$ 15 milhões com a volta de Huang, com base nos dados até setembro.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Snopes",
+     "url": "https://www.snopes.com/news/2026/11/25/trump-nvidia-jensen-huang/"
+    },
+    {
+     "nome": "NPR",
+     "url": "https://www.npr.org/2026/11/23/nx-s1-6050910/nvidias-jensen-huang-trump"
+    }
+   ],
+   "adicionado_em": "2026-11-27"
   }
  ],
  "agenda": [
-  {
-   "data": "2026-11-26",
-   "titulo": "Termina a votação do sindicato da Rockstar no Reino Unido",
-   "descricao": "Mais de 1.600 funcionários da Rockstar no Reino Unido votam até 26/11 se reconhecem o sindicato IWGB, que quer voz sobre salário, hora extra, demissões e uso de IA generativa.",
-   "categoria": "games",
-   "fonte": {
-    "nome": "Insider Gaming",
-    "url": "https://insider-gaming.com/rockstar-uk-union-vote-1600-workers/"
-   }
-  },
-  {
-   "data": "2026-11-26",
-   "titulo": "Imperial x Liquid no Major de CS2",
-   "descricao": "MD3 valendo vaga no Stage 2, às 8h de Brasília (19h em Singapura).",
-   "categoria": "games",
-   "fonte": {
-    "nome": "Strafe",
-    "url": "https://www.strafe.com/news/read/singapore-major-2026-day-2-recap-s1mple-eliminated-as-flyquest-and-nip-advance/"
-   }
-  },
   {
    "data": "2026-11-27",
    "titulo": "Peter Gabriel lança o álbum 'o\\i'",
@@ -4217,6 +4770,26 @@
    "fonte": {
     "nome": "Loudwire",
     "url": "https://loudwire.com/anthrax-2027-european-tour-dates/"
+   }
+  },
+  {
+   "data": "2026-11-27",
+   "titulo": "Vênus no brilho máximo da temporada",
+   "descricao": "O pico de brilho desta aparição matutina é às 15h37 de Brasília, de dia, então o melhor é olhar antes do amanhecer, com a estrela Spica a menos de 5° de Vênus.",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "Space.com",
+    "url": "https://www.space.com/stargazing/venus-shines-at-its-brightest-in-the-predawn-sky-this-week-heres-where-to-look-nov-27-2026"
+   }
+  },
+  {
+   "data": "2026-11-27",
+   "titulo": "Cherry Time, a transmissão da Team Cherry",
+   "descricao": "Novidades da expansão gratuita Sea of Sorrow, do Hollow Knight: Silksong, e 'vários anúncios', às 12h de Brasília no YouTube.",
+   "categoria": "games",
+   "fonte": {
+    "nome": "Gematsu",
+    "url": "https://www.gematsu.com/2026/11/cherry-time-broadcast-set-for-november-27-featuring-exciting-announcements-and-hollow-knight-silksong-free-expansion-sea-of-sorrow"
    }
   },
   {
@@ -4260,6 +4833,16 @@
    }
   },
   {
+   "data": "2026-11-29",
+   "titulo": "Shenzhou-23 volta à Terra com o primeiro astronauta do Paquistão",
+   "descricao": "A China prepara o retorno de três astronautas da Tiangong, incluindo o primeiro do Paquistão, segundo a SpaceNews.",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "SpaceNews",
+    "url": "https://spacenews.com/china-prepares-for-weekend-shenzhou-23-return-launches-new-yaogan-series/"
+   }
+  },
+  {
    "data": "2026-11-30",
    "titulo": "Prazo para a portaria do MME que regulamenta os testes de gasolina E35",
    "descricao": "O MME previa publicar até o fim de novembro a portaria dos testes com 35% de etanol na gasolina, que devem começar em janeiro de 2027 e acabar em meados do ano.",
@@ -4297,6 +4880,16 @@
    "fonte": {
     "nome": "Wikipedia (Europa Clipper)",
     "url": "https://en.wikipedia.org/wiki/Europa_Clipper"
+   }
+  },
+  {
+   "data": "2026-12-03",
+   "titulo": "Xenoblade Chronicles 3 ganha edição de Switch 2",
+   "descricao": "Versão com 4K na TV, 60 fps, cenas novas dubladas, o herói inédito Shimmer e o modo Heroes' Vault.",
+   "categoria": "games",
+   "fonte": {
+    "nome": "Gematsu",
+    "url": "https://www.gematsu.com/2026/11/xenoblade-chronicles-3-nintendo-switch-2-edition-overview-trailer"
    }
   },
   {
@@ -4407,6 +5000,16 @@
    "fonte": {
     "nome": "CartaCapital",
     "url": "https://www.cartacapital.com.br/politica/em-nova-carta-ao-povo-brasileiro-pt-diz-que-interesses-economicos-urnas/"
+   }
+  },
+  {
+   "data": "2027-01-14",
+   "titulo": "Audiência do USTR sobre as tarifas ao Brasil",
+   "descricao": "Audiência pública nos EUA sobre a proposta de taxar em 10% os aviões brasileiros e mudar a tarifa do açúcar; os comentários escritos vão até 30/12.",
+   "categoria": "brasil",
+   "fonte": {
+    "nome": "Holland & Knight",
+    "url": "https://www.hklaw.com/en/insights/publications/2026/11/ustr-proposes-tariffs-following-14-section-301"
    }
   },
   {
@@ -4640,6 +5243,39 @@
    ],
    "certa": 0,
    "id": "amazonia-rosa-cagarras"
+  },
+  {
+   "pergunta": "No estudo com 30 gaiolas moleculares de paládio, quanto a melhor foi mais ativa que a pior?",
+   "opcoes": [
+    "Cerca de 10 vezes",
+    "Cerca de 100 vezes",
+    "Mais de 10 mil vezes",
+    "Exatamente 1 milhão de vezes"
+   ],
+   "certa": 2,
+   "id": "gaiolas-paladio-ml"
+  },
+  {
+   "pergunta": "Quantas cópias físicas o GTA VI vendeu na semana de estreia no Japão, segundo a Famitsu?",
+   "opcoes": [
+    "200.759",
+    "35.295",
+    "40.362",
+    "1,2 milhão"
+   ],
+   "certa": 0,
+   "id": "gta-vi-japao-famitsu-200-mil"
+  },
+  {
+   "pergunta": "Quanto de azida de chumbo o Exército dos EUA detonou de forma controlada em Iowa?",
+   "opcoes": [
+    "Quase 5 toneladas",
+    "Cerca de 50 quilos",
+    "500 toneladas",
+    "Meia tonelada"
+   ],
+   "certa": 0,
+   "id": "iowa-azida-chumbo-detonacao"
   }
  ]
 }
