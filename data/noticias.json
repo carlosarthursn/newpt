@@ -1,8 +1,8 @@
 {
- "atualizado_em": "2026-11-27",
+ "atualizado_em": "2026-11-28",
  "periodo": {
   "inicio": "2026-10-28",
-  "fim": "2026-11-26"
+  "fim": "2026-11-27"
  },
  "lead": "Tudo que rolou desde 28 de outubro, separado por família: química, espaço, games, tecnologia, mistérios, rock, Brasil e mundo. Cada notícia tem link pra fonte original, pra você conferir.",
  "mensagem": "Montado pelo seu irmão pra você não ficar por fora de nada. Força aí: tem GTA VI, sonda nova em Mercúrio e muito rock te esperando aqui fora.",
@@ -4739,59 +4739,580 @@
     }
    ],
    "adicionado_em": "2026-11-27"
+  },
+  {
+   "id": "venus-cicatrizes-meteoros",
+   "categoria": "espaco",
+   "data": "2026-11-27",
+   "simbolo": "Ve",
+   "nome": "Vênus",
+   "corpo": "Vênus",
+   "titulo": "Explosões de meteoros no céu de Vênus revelam um chão repavimentado aos poucos",
+   "resumo": "Um time liderado por T. J. Austin, da Universidade Estadual do Arizona, catalogou 592 prováveis cicatrizes de 'airburst' (meteoros que explodiram no ar, sem fazer cratera) nos dados de radar da sonda Magellan, cobrindo pelo menos 2,7% da superfície de Vênus. A típica é uma mancha escura de uns 20 km dentro de halos claros, com o halo externo chegando a ~180 km. O pulo do gato: as cerca de 1.000 crateras do planeta parecem espalhadas ao acaso, mas as cicatrizes se aglomeram; comparando 359 delas com 10 mil simulações aleatórias, os autores dizem que a distribuição é 'incompatível com uma idade uniforme da superfície'. Simulações em que lava cobre manchas de 2.000 a 6.000 km reproduzem o padrão, porque a lava apaga fácil uma cicatriz fina mas só enche parte de uma cratera, cuja borda continua aparecendo (o estudo saiu na AGU Advances, e os autores avisam que vento e erosão desigual também podem sumir com cicatrizes).",
+   "angulo_quimico": "Repavimentação aos pedaços quer dizer vulcanismo que nunca parou de vez, e isso conversa com a química da atmosfera: um estudo de novembro com minerais em condições venusianas (UTSA/NASA) concluiu que SO₂ e HF reagem com rocha fresca e precisam ser repostos, possivelmente por gás vulcânico.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-meteor-blast-scars-hint-venus.html"
+    },
+    {
+     "nome": "Phys.org (estudo dos minerais, 20/11)",
+     "url": "https://phys.org/news/2026-11-venus-conditions-reveal-minerals-ancient.html"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "electron-recorde-22-lancamentos",
+   "categoria": "espaco",
+   "data": "2026-11-26",
+   "simbolo": "El",
+   "nome": "Electron",
+   "titulo": "Rocket Lab faz o 22º voo do Electron no ano e bate o próprio recorde",
+   "resumo": "Em pleno feriado de Ação de Graças nos EUA (a janela abriu às 21h de quinta, 26, no horário de Brasília), o Electron decolou da Nova Zelândia com a missão 'Night Owls Never Sleep' e deixou a 569 km de altitude um satélite-radar da japonesa Synspective, da constelação Strix, que enxerga de dia, de noite e através de nuvens. Foi o 22º lançamento do Electron em 2026, novo recorde anual do foguete, e o 101º da Rocket Lab no total (92 orbitais e 9 suborbitais HASTE). Também foi o 14º voo para a Synspective, que tem 47 lançamentos do Electron contratados até 2031.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "Space.com",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-sending-japanese-satellite-to-orbit-on-thanksgiving-day-launch-watch-it-live"
+    },
+    {
+     "nome": "SpaceNews",
+     "url": "https://spacenews.com/rocket-lab-sets-electron-launch-record-with-synspective-mission/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "crateras-lunares-relogio-change6",
+   "categoria": "espaco",
+   "data": "2026-11-27",
+   "simbolo": "Lu",
+   "nome": "Lua",
+   "corpo": "Lua",
+   "titulo": "Fórmula data crateras lunares pelo desgaste, calibrada com rochas da Chang'e-6",
+   "resumo": "Pesquisadores do Instituto de Pesquisa em Informação Aeroespacial da Academia Chinesa de Ciências (AIRCAS), liderados por Chenxu Zhao, juntaram simulações de erosão do relevo por difusão com regressão simbólica e chegaram a uma equação compacta que estima o quanto uma cratera já se desgastou só pelo diâmetro atual e pela razão profundidade/diâmetro. O modelo foi derivado de crateras simples de 0,4 a 5 km e aplicado a 140 crateras maiores que 480 m na região de pouso da Chang'e-6. Cruzando o desgaste máximo com a idade de 2,83 bilhões de anos dos basaltos trazidos do lado oculto, saiu uma taxa de degradação de 5,24 ± 0,22 m² por milhão de anos, coerente com estimativas anteriores para os mares lunares (artigo na Icarus).",
+   "angulo_quimico": "A âncora do relógio vem do laboratório: sem a idade medida nas amostras de basalto da Chang'e-6, a equação daria só um desgaste relativo, não uma taxa.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-mathematical-age-degradation-lunar-impact.html"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "bateria-zinco-agua-salgada-50c",
+   "categoria": "quimica",
+   "data": "2026-11-27",
+   "simbolo": "Zn",
+   "nome": "Zinco a -50 °C",
+   "titulo": "Bateria de zinco feita com água de lago salgado funciona a -50 °C",
+   "resumo": "Pesquisadores da Universidade de Energia Elétrica do Norte da China, da Universidade Minzu de Qinghai e da Universidade de Tecnologia Química de Pequim montaram o eletrólito com água de lago salino (só coletada e filtrada, sem deionizar) misturada em volumes iguais com propilenoglicol, mais um sal de zinco. O ânodo de zinco ganhou um revestimento de liga índio-estanho-zinco com microestrutura tipo coral, que deixa a deposição uniforme: o zinco nu forma depósitos ramificados e solta hidrogênio. A -50 °C, o teste de zinco contra zinco passou de 3.200 horas, e uma célula pouch com cátodo de polianilina manteve 80% da capacidade depois de 900 ciclos (o trabalho saiu no JACS).",
+   "angulo_quimico": "O preço de usar água 'de verdade': alguns íons do lago competem com o Zn²⁺ pelos sítios da polianilina e reduzem a carga armazenada. Para escalar, ainda falta pôr na conta o custo do anticongelante e da liga.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Tech Xplore",
+     "url": "https://techxplore.com/news/2026-11-salty-lake-zinc-battery-50c.html"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "bateria-solida-baixa-pressao-postech",
+   "categoria": "quimica",
+   "data": "2026-11-26",
+   "simbolo": "Li",
+   "nome": "Bateria sólida",
+   "titulo": "Bateria sólida de lítio metálico dispensa prensa e roda em temperatura ambiente",
+   "resumo": "Uma equipe liderada por Park Soo-jin, da POSTECH (com Chung-Ang, KBSI e a Southern Methodist University, nos EUA), atacou o ponto fraco do eletrólito sólido de sulfeto, que é quebradiço. Adicionou ácido tióctico, que forma uma rede polimérica densa que segura o eletrólito e barra rachaduras e dendritos de lítio, e trocou o coletor do ânodo por carbono poroso com um espaço de folga embaixo para absorver a expansão do lítio na carga. Segundo o Seoul Economic Daily, a célula completa com cátodo NCM811 funcionou a 0,3 MPa ou menos, sem curto nem deformação na interface, e imagens 3D em tempo real no acelerador PLS-II mostraram os poros enchendo e esvaziando de lítio (Nature Communications). A reportagem não traz número de ciclos nem retenção de capacidade.",
+   "angulo_quimico": "As abordagens atuais com sulfeto dependem de equipamento pesado de prensagem para manter tudo em contato; tirar essa ferragem, disse o coautor Lee Hyung-seok, encolhe volume e peso do pack.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/business/2026/11/26/postech-team-builds-solid-state-battery-that-works-at-room"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "buraco-ozonio-2026-grande",
+   "categoria": "quimica",
+   "data": "2026-11-26",
+   "simbolo": "Oz",
+   "nome": "Ozônio",
+   "corpo": "Terra",
+   "titulo": "Buraco de ozônio de 2026 foi um dos maiores em 48 anos, mas a recuperação segue",
+   "resumo": "Dados do satélite Copernicus Sentinel-5P divulgados pela ESA mostram que o buraco sobre a Antártida chegou a 27,3 milhões de km² em 20 de setembro, uns 6,5 milhões de km² (31%) acima da média de 20 anos para a época, entre os maiores em 48 anos de observação; em 2025 ele tinha sido o quinto menor desde 1992. A profundidade, porém, ficou perto da média: cobriu mais área sem ser tão 'fundo' quanto outros buracos grandes. O motivo foi um vórtice polar forte e persistente, que manteve a estratosfera antártica fria e favorável à destruição do ozônio por mais tempo. A ESA diz que a recuperação de longo prazo, garantida pelo Protocolo de Montreal, continua nos trilhos, e que variação de um ano para outro é natural; o buraco costuma fechar até o fim de dezembro.",
+   "angulo_quimico": "O frio é o gatilho químico: nas nuvens estratosféricas polares, o cloro herdado dos CFCs passa para formas ativas que, com a volta do Sol, destroem o O₃ em ciclos catalíticos, em que um mesmo átomo de Cl derruba muitas moléculas. Por isso um vórtice frio e duradouro aumenta a área mesmo com cada vez menos CFC no ar.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "ESA",
+     "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/copernicus/sentinel-5p/ozone-hole-one-of-the-largest-in-decades"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "mxene-co2-boreto-amonia-simulacao",
+   "categoria": "quimica",
+   "data": "2026-11-27",
+   "simbolo": "Ti",
+   "nome": "Catálise in silico",
+   "titulo": "No computador: MXene se remodela com CO₂ e boretos de tungstênio quebram amônia",
+   "resumo": "Dois estudos só de simulação. Na Universidade de Duisburg-Essen, Pablo Lozano-Reis e Kai S. Exner mostraram que pulsos de tensão podem esculpir o MXene Ti₃C₂Tₓ: um pulso positivo, com água, faz átomos de titânio saltarem um pouco da superfície, criando sítios onde o CO₂ reage e o H₂ não se forma; um segundo pulso, de polaridade inversa, só reestrutura a superfície se houver CO₂, o CO sai e deixa uma vacância na camada de oxigênio, e o resultado é a configuração mais indicada para fazer ácido fórmico (pulso forte demais desestabiliza tudo e volta a favorecer H₂; Advanced Functional Materials). No Skoltech, o grupo de Alexander Kvashnin usou o algoritmo evolutivo USPEX e DFT em nanoclusters de boreto de tungstênio de até 43 átomos e achou, em alguns, barreiras para quebrar a primeira ligação N–H da amônia comparáveis às de certos catalisadores de metal nobre (International Journal of Hydrogen Energy).",
+   "angulo_quimico": "Nenhum dos dois traz ainda seletividade ou corrente medidas: são mapas para o laboratório. A amônia interessa como 'garrafa' de hidrogênio porque liquefaz a cerca de -33 °C (o H₂ só a -253 °C) e, líquida, carrega cerca de 1,7 vez mais hidrogênio por volume que o H₂ líquido.",
+   "relevancia": 2,
+   "fontes": [
+    {
+     "nome": "Phys.org",
+     "url": "https://phys.org/news/2026-11-conversion-carbon-dioxide-chemical-feedstocks.html"
+    },
+    {
+     "nome": "Tech Xplore",
+     "url": "https://techxplore.com/news/2026-11-catalyst-key-hampering-hydrogen-fuel.html"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "major-cs2-singapura-imperial-stage2",
+   "categoria": "games",
+   "data": "2026-11-27",
+   "simbolo": "Cs",
+   "nome": "Major CS2",
+   "titulo": "Major de CS2: Imperial vence a Wildcard no sufoco e vai ao Stage 2",
+   "resumo": "Deu Imperial. No jogo da vida da sexta (27), último dia do Stage 1 do Major de Singapura, o time brasileiro bateu a Wildcard por 2 a 1 (13-11 na Dust2, 11-13 na Mirage e 13-8 na Cache) e fechou a fase em 3-2. Também avançaram FlyQuest e NIP (as duas com 3-0, sem perder um mapa sequer), Liquid, Eternal Fire, PARIVISION, 100 Thieves e Lynn Vision, que despachou a HEROIC por 2 a 0 no último dia. No Stage 2, que começa neste sábado (28), entram os convidados diretos, entre eles o MIBR, a NAVI, a G2, a Astralis e a The MongolZ; os playoffs serão no Singapore Indoor Stadium, e o torneio vai até 13 de dezembro.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "KeenGamer",
+     "url": "https://www.keengamer.com/articles/features/reportages/pgl-major-singapore-2026-stage-1-results-flyquest-and-nip-lead-eight-teams-into-stage-2/"
+    },
+    {
+     "nome": "GosuGamers",
+     "url": "https://www.gosugamers.net/counterstrike/news/79537-cs2-flyquest-ninjas-in-pyjamas-lead-the-eight-teams-qualified-for-singapore-major-stage-2"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "silksong-sea-of-sorrow-dezembro",
+   "categoria": "games",
+   "data": "2026-11-27",
+   "simbolo": "Sk",
+   "nome": "Silksong",
+   "titulo": "Silksong ganha expansão grátis, Sea of Sorrow, em 11 de dezembro",
+   "resumo": "A Team Cherry confirmou na sexta (27) que Sea of Sorrow, a primeira expansão de Hollow Knight: Silksong, sai em 11 de dezembro, e de graça. A aventura agora vai acima e abaixo do oceano de Pharloom: ilhas, fortes e cavernas submarinas profundas, com áreas e chefes novos e mais trilha de Christopher Larkin. O estúdio disse que passou o ano enchendo a DLC do tipo de personagem, aventura e chefe épico que a galera espera de Silksong, e que está 'pra lá de animado' para entregar.",
+   "angulo_quimico": "Curiosidade para as cavernas do fundo do mar: a cada 10 metros de água, a pressão sobe cerca de 1 atmosfera.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "VGC",
+     "url": "https://www.videogameschronicle.com/news/hollow-knight-silksongs-first-expansion-sea-of-sorrow-is-officially-out-next-month/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "rockstar-sindicato-votacao-reino-unido",
+   "categoria": "games",
+   "data": "2026-11-26",
+   "simbolo": "Rs",
+   "nome": "Rockstar",
+   "titulo": "Em plena semana de GTA VI, 75% da Rockstar no Reino Unido vota contra sindicato",
+   "resumo": "Os funcionários da Rockstar no Reino Unido votaram contra o reconhecimento formal do Rockstar Game Workers Union: cerca de 75% disseram não e 25% sim, numa votação de duas semanas (de 12 a 26 de novembro, colada no lançamento do GTA VI) da qual participou a grande maioria dos cerca de 1.600 funcionários, segundo o sindicato IWGB. O reconhecimento criaria uma mesa formal de negociação sobre salário, hora extra, bônus, aposentadoria, IA e demissões. O pano de fundo pesa: em 2025 a Rockstar demitiu 34 pessoas ativas na campanha sindical, alegando vazamento de informação confidencial, e um tribunal trabalhista ainda julga a acusação de perseguição; o IWGB diz que não é hora de recuar, e a Rockstar falou em 'construir sobre tudo o que conquistamos juntos'.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "VGC",
+     "url": "https://www.videogameschronicle.com/news/75-of-rockstars-workers-have-voted-against-unionizing/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "kutaragi-xbox-intencao-secreta",
+   "categoria": "games",
+   "data": "2026-11-26",
+   "simbolo": "Ps",
+   "nome": "Kutaragi",
+   "titulo": "Pai do PlayStation diz que empurrou a Microsoft, de propósito, a criar o Xbox",
+   "resumo": "Ken Kutaragi, o pai do PlayStation, contou ao site The Game Business, num evento em Middlesbrough, no Reino Unido, que recusou uma proposta da Microsoft (HDs de graça e algumas licenças) sabendo que, com o não da Sony, a empresa acabaria lançando a própria plataforma de games. 'Era a minha intenção secreta', disse ele, que afirma que queria a Microsoft no mercado e descreve como arrogante o chefão da empresa com quem se reuniu a sós. O Xbox saiu em novembro de 2001, e a versão conhecida da história é outra: a Microsoft temia que o PlayStation virasse mais que um console e ameaçasse o Windows na sala de estar.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "VGC",
+     "url": "https://www.videogameschronicle.com/news/playstation-father-ken-kutaragi-claims-he-secretly-intended-to-convince-microsoft-to-make-xbox/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "openai-contraprocessa-apple",
+   "categoria": "tecnologia",
+   "data": "2026-11-27",
+   "simbolo": "Oa",
+   "nome": "OpenAI x Apple",
+   "titulo": "OpenAI contra-ataca e acusa a Apple de roubar segredos e pressionar fornecedores",
+   "resumo": "A briga mudou de lado: na sexta (27), a OpenAI entrou com uma contrarreclamação na Justiça federal da Califórnia acusando a Apple de roubar seus segredos industriais e de 'coagir e ameaçar' fornecedores que trabalham no hardware da OpenAI, que comprou a io, de Jony Ive, e prepara aparelhos próprios. Segundo o Financial Times, citado pelo 9to5Mac, a OpenAI também diz que um ex-funcionário que voltou para a Apple levou seus planos de produto e que a Apple incentivava funcionários a guardar arquivos da empresa em aparelhos e nuvens pessoais. A Apple, que processou primeiro, em julho, chamou as acusações de distração; o julgamento do caso original está marcado para 19 de julho de 2027.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "9to5Mac",
+     "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/"
+    },
+    {
+     "nome": "Gizmodo",
+     "url": "https://gizmodo.com/openai-files-counterclaim-against-apple-in-ongoing-trade-secrets-fight-2000846263"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "suica-ataques-agentes-ia",
+   "categoria": "tecnologia",
+   "data": "2026-11-26",
+   "simbolo": "Sw",
+   "nome": "Suíça",
+   "titulo": "Suíça confirma ataques feitos por agentes de IA; a entrada foi por senha fraca",
+   "resumo": "O diretor do centro nacional de cibersegurança da Suíça (NCSC), Florian Schütz, disse à emissora SRF na quinta (26) que o país já tem cinco casos confirmados de ataques conduzidos por agentes de IA, que procuram falhas, escolhem ferramentas e decidem o próximo passo quase sem humano no meio. Três miraram operadoras de infraestrutura (energia, água e telecom), os invasores entraram em quatro dos cinco alvos, e não houve grandes apagões. O detalhe que importa é que não teve mágica: eles entraram por senhas padrão ou fáceis de adivinhar e falhas conhecidas em sistemas expostos na internet, e 'se não há vulnerabilidade, um agente de IA também não entra', resumiu Schütz. O NCSC cita frameworks como o ARTEX como exemplo desse tipo de ferramenta e pede correções críticas em até 24 horas e login com dois fatores.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "The Next Web",
+     "url": "https://thenextweb.com/news/switzerland-ai-agent-cyberattacks-critical-infrastructure"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "sap-ataque-github-codigo",
+   "categoria": "tecnologia",
+   "data": "2026-11-27",
+   "simbolo": "Sp",
+   "nome": "SAP",
+   "titulo": "SAP investiga invasão; hackers teriam alterado código da empresa no GitHub",
+   "resumo": "A SAP, gigante alemã de software corporativo, confirmou que investiga um incidente depois de detectar atividade suspeita na sua infraestrutura de desenvolvimento e disse que, até agora, não achou sinal de acesso a dados de negócio dos clientes. Segundo a Der Spiegel, os invasores usaram tokens de autenticação roubados de funcionários para copiar e alterar código-fonte no GitHub; o Handelsblatt diz que a empresa trocou chaves de assinatura, restringiu o acesso ao GitHub e suspendeu automações de desenvolvimento em várias equipes. Fontes da Spiegel sugerem que IA pode ter ajudado no ataque, mas isso não está confirmado, e nenhum relato indica que código adulterado tenha chegado ao software entregue a clientes.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "SecurityWeek",
+     "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "black-friday-agentes-ia-flop",
+   "categoria": "tecnologia",
+   "data": "2026-11-27",
+   "simbolo": "Bf",
+   "nome": "Black Friday",
+   "titulo": "Na Black Friday, o robô de compras com IA ainda não convenceu",
+   "resumo": "A promessa era a IA fazer as compras da Black Friday por você, mas a Fortune mostra que a coisa ainda engatinha: segundo a Bain, com dados da Similarweb, assistentes de IA respondem por menos de 1% do tráfego dos sites de varejo. Num teste da Visa, 22 agentes de IA fizeram 15 rodadas de compras cada (uma TV, um notebook e um aparelho de cabelo), e só 57% terminaram numa compra ou sugestão que batia com o que a pessoa precisava; muitos nem sabiam perguntar, por exemplo, se a TV era boa para games. E a confiança é baixa: só 23% dos adultos americanos aceitam que uma IA pague em nome deles, segundo pesquisa da Morning Consult para a Visa.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Fortune",
+     "url": "https://fortune.com/2026/11/27/black-friday-ai-agentic-shopping-consumer-trust/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "within-temptation-brasil-2027",
+   "categoria": "rock",
+   "data": "2026-11-27",
+   "simbolo": "Wt",
+   "nome": "Within Temptation",
+   "titulo": "Within Temptation anuncia shows no Rio e em São Paulo em junho de 2027",
+   "resumo": "O Within Temptation, de Sharon den Adel, volta ao Brasil com a turnê 'Through Fire & Ashes – The 2027 Tour': Rio de Janeiro no dia 6 de junho, no Vivo Rio, e São Paulo no dia 8, na Vibra São Paulo, abrindo a perna latino-americana antes de Chile e Argentina. A pré-venda para fãs já está rolando no site oficial da banda, e a venda geral começa na quarta (2 de dezembro). A turnê acompanha o próximo disco de estúdio dos holandeses, previsto para o primeiro semestre de 2027, cuja faixa-título também se chama 'Through Fire & Ashes'.",
+   "ouvir": "Within Temptation - 'Ice Queen', do disco 'Mother Earth' (2000)",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Billboard Brasil",
+     "url": "https://billboard.com.br/within-temptation-shows-no-brasil-junho-de-2027/"
+    },
+    {
+     "nome": "Wikimetal",
+     "url": "https://www.wikimetal.com.br/within-temptation-anuncia-show-brasil-junho-2027/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "michael-giles-king-crimson-morre",
+   "categoria": "rock",
+   "data": "2026-11-26",
+   "simbolo": "Kc",
+   "nome": "Michael Giles",
+   "titulo": "Morre Michael Giles, o baterista do primeiro disco do King Crimson",
+   "resumo": "Michael Giles, cofundador e baterista original do King Crimson, morreu na segunda (23), aos 84 anos; a banda anunciou no seu site na quarta (25), e a notícia se espalhou na quinta (26). Foi dele a bateria de 'In the Court of the Crimson King' (1969), disco tido por muita gente como o marco zero do rock progressivo; antes, em 1967, ele tinha montado o Giles, Giles and Fripp com o irmão Peter e com Robert Fripp. Saiu da banda em 1970, mas ainda gravou como músico de estúdio em 'In the Wake of Poseidon', tocou no 21st Century Schizoid Band nos anos 2000 e lançou neste ano 'Shadows/Solo', seu primeiro disco solo em 25 anos. O King Crimson o chamou de 'baterista, compositor e cofundador visionário' que 'inspirou gerações de músicos'.",
+   "ouvir": "King Crimson - 'In the Court of the Crimson King' (1969), começando por '21st Century Schizoid Man'",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Yahoo (al.com)",
+     "url": "https://www.yahoo.com/entertainment/celebrity/deaths-obituaries/articles/rock-music-legend-dies-84-100108591.html"
+    },
+    {
+     "nome": "DGM Live",
+     "url": "https://www.dgmlive.com/news/michael-giles-1942-2026"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "record-store-day-black-friday-2026",
+   "categoria": "rock",
+   "data": "2026-11-27",
+   "simbolo": "Vn",
+   "nome": "Black Friday do vinil",
+   "titulo": "Black Friday do vinil: Maiden, Motörhead, King Crimson e Kreator nas lojas",
+   "resumo": "A sexta (27) também foi dia de Record Store Day Black Friday, a edição de fim de ano da festa das lojas de disco, e a Louder separou os 85 melhores lançamentos. No lado pesado tem um boneco do Eddie para 'The Number of the Beast', do Iron Maiden, o volume 8 das 'Lost Tapes' do Motörhead (ao vivo em Margate), 'Pleasure to Kill' do Kreator em edição de 40 anos, 'Swansong' do Carcass e 'Rarities 75-76' do Rainbow. E, por coincidência triste, o King Crimson aparece com o ao vivo '1974 Massey Hall, Toronto' na mesma semana da morte de Michael Giles; as tiragens são limitadas e nem tudo chega a todas as lojas e países.",
+   "ouvir": "Kreator - 'Pleasure to Kill' (1986)",
+   "angulo_quimico": "O nome do formato vem do material: o disco de vinil é feito de PVC, o policloreto de vinila.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Louder",
+     "url": "https://www.loudersound.com/music/albums/record-store-day-black-friday-2026-85-best-releases"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "ue-bce-de-cos-emprestimo-ucrania",
+   "categoria": "mundo",
+   "data": "2026-11-27",
+   "simbolo": "UE",
+   "nome": "BCE e Ucrânia",
+   "titulo": "UE escolhe um espanhol para o BCE, mas empaca nos € 45 bi para a Ucrânia",
+   "resumo": "Na cúpula de Bruxelas, os países do euro escolheram na quinta (26) Pablo Hernández de Cos, 55 anos, ex-presidente do Banco da Espanha e hoje chefe do BIS, para suceder Christine Lagarde, que sai em 7 de fevereiro; ele bateu o holandês Klaas Knot e, para analistas do Commerzbank citados pela AP, é mais 'pomba', ou seja, inclinado a juros baixos. O resto da cúpula foi um fiasco: depois de cerca de 14 horas, acabou na madrugada de sexta (27) sem acordo sobre o orçamento europeu de 2028 a 2034 nem sobre o empréstimo de € 45 bilhões para o orçamento ucraniano de 2027. Eslováquia, Hungria e Tchéquia não aceitam entrar, a Bulgária só topa a parte civil (€ 20 bi), e o tema volta na reunião de 17 e 18 de dezembro. Com a inflação da zona do euro em 4%, segundo a AP, o BCE pode até subir os juros no dia 17.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "ABC News (AP)",
+     "url": "https://abcnews.com/International/wireStory/leaders-choose-spains-former-central-bank-head-european-138468703"
+    },
+    {
+     "nome": "UPI",
+     "url": "https://www.upi.com/Top_News/World-News/2026/11/26/europe-spain-ECB/8931795731806/"
+    },
+    {
+     "nome": "bne IntelliNews (via Yahoo)",
+     "url": "https://www.yahoo.com/news/politics/articles/eu-summit-breaks-without-budget-103628690.html"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "zelensky-trump-amigo-hitler",
+   "categoria": "mundo",
+   "data": "2026-11-27",
+   "simbolo": "ZE",
+   "nome": "Zelensky",
+   "titulo": "Zelensky compara Trump chamar Putin de 'amigo' a dizer o mesmo de Hitler",
+   "resumo": "Numa entrevista à BBC em Kiev, noticiada na sexta (27), Zelensky chamou de 'estranha' a relação de Trump com Putin, que Trump chamou de 'amigo' na cúpula da China na semana passada: 'É o mesmo que alguém dizer de Hitler, na Segunda Guerra, que ele é um bom amigo. Não, ele não é amigo.' Ele cobrou mais pressão dos EUA sobre Moscou e avisou que a Rússia prepara um novo ataque grande para cortar luz e água dos civis antes do inverno. Do lado americano, o enviado Jared Kushner, genro de Trump, disse que a negociação chegou a 'um certo impasse' por causa do território ucraniano e ainda elogiou Putin como 'grande mestre da política'.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "ABC News (Austrália)",
+     "url": "https://abc.net.au/news/2026-11-27/zelenskyy-says-trump-putin-relationship-like-being-friend-hitler/107437062"
+    },
+    {
+     "nome": "Devdiscourse (resumo da Reuters)",
+     "url": "https://www.devdiscourse.com/article/international/4013219-reuters-world-news-summary"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "ormuz-minas-brent-semana",
+   "categoria": "mundo",
+   "data": "2026-11-27",
+   "simbolo": "OR",
+   "nome": "Ormuz",
+   "titulo": "Irã diz que petroleiros bateram em minas em Ormuz; Brent sobe 3% na semana",
+   "resumo": "A Guarda Revolucionária afirmou na quinta (26), pela agência Tasnim, que dois petroleiros, um deles um superpetroleiro com mais de 2 milhões de barris, explodiram e pegaram fogo ao bater em minas ao norte de Khasab, em Omã, por usarem uma rota 'não autorizada'; na sexta (27), voltou a falar de um petroleiro que explodiu numa mina e de outro que deu meia-volta, sem deixar claro se são casos novos. Nada disso foi confirmado de forma independente: a agência britânica UKMTO só registrou, na quinta, a explosão de um projétil desconhecido perto de um petroleiro a umas 50 milhas náuticas de Dubai. Segundo a Kpler, citada pelo IBTimes, as travessias semanais do estreito caíram de 217 para 147 entre 1º e 23 de novembro. O Brent fechou a sexta a US$ 95,44 (queda de 1,2% no dia), mas teve alta de cerca de 3% na semana, a primeira de novembro, e a Opep+ se reúne no domingo (29), com a expectativa de manter as cotas de janeiro.",
+   "angulo_quimico": "Dois milhões de barris equivalem a uns 318 milhões de litros de petróleo cru, já que cada barril tem cerca de 159 litros.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Arab News (Reuters)",
+     "url": "https://www.arabnews.com/middle-east/irans-revolutionary-guards-say-two-oil-tankers-hit-sea-mines-near-omans-khasab-3014111"
+    },
+    {
+     "nome": "IBTimes Austrália (Ormuz)",
+     "url": "https://ibtimes.com.au/iran-claims-tankers-hit-mines-strait-hormuz-1879510"
+    },
+    {
+     "nome": "IBTimes Austrália (petróleo)",
+     "url": "https://www.ibtimes.com.au/oil-prices-brent-weekly-gain-middle-east-attacks-opec-1879508"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "espanha-eleicao-domingo-pp-vox",
+   "categoria": "mundo",
+   "data": "2026-11-27",
+   "simbolo": "ES",
+   "nome": "Eleição na Espanha",
+   "titulo": "Espanha vota no domingo, e as pesquisas apontam maioria de PP e Vox",
+   "resumo": "A campanha da eleição antecipada na Espanha terminou na sexta (27), e o país vota no domingo (29), depois de um sábado de 'reflexão' sem comícios. As pesquisas divulgadas antes da proibição legal deram vantagem clara a uma coalizão do conservador PP, de Alberto Núñez Feijóo, com o Vox, de extrema direita: a do instituto 40dB para o El País e a Cadena SER pôs os dois acima de 190 das 350 cadeiras (a maioria é 176), e só a do CIS, que é estatal, mostrou recuperação socialista. Pedro Sánchez diz que não consegue imaginar uma derrota, aposta numa arrancada da esquerda e acusa PP e Vox de copiar a política de Trump e Milei.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/27/spains-pedro-sanchez-bets-on-left-wing-voting-surge-to-defy-election-polls"
+    },
+    {
+     "nome": "MercoPress",
+     "url": "https://en.mercopress.com/2026/11/28/spain-wraps-up-its-campaign-sanchez-appeals-for-a-progressive-majority-feijoo-for-change"
+    },
+    {
+     "nome": "The Irish Times",
+     "url": "https://www.irishtimes.com/world/europe/2026/11/27/spains-sanchez-insists-he-will-defy-polls-as-election-campaign-wraps-up/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "dolar-maior-queda-semanal-2008",
+   "categoria": "brasil",
+   "data": "2026-11-27",
+   "simbolo": "R$",
+   "nome": "Dólar e emprego",
+   "titulo": "Dólar cai 7% na semana, maior tombo desde 2008, e desemprego iguala a mínima",
+   "resumo": "Embalado pela confirmação de Trabuco na Fazenda, o dólar caiu 3,97% na sexta (27), para R$ 5,5156, e fechou a semana com queda de 7,07%, a maior desde outubro de 2008, segundo o Diário do Sudoeste; na segunda (23), lembra a Suno, ele tinha passado de R$ 6. O Ibovespa chegou a 183,6 mil pontos de manhã, mas os investidores embolsaram lucros e ele fechou em leve queda de 0,13%, aos 176.573 pontos, ainda com alta de 6,13% na semana. No mesmo dia, o IBGE mostrou desemprego de 5,1% no trimestre até outubro, igual à menor taxa da série, com o recorde de 103,7 milhões de pessoas ocupadas, e o governo central teve superávit primário de R$ 52,3 bilhões em outubro, o melhor para o mês desde 2016 em valores corrigidos, segundo a Suno.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Suno Notícias",
+     "url": "https://www.suno.com.br/noticias/ibovespa-hoje-27-novembro-trabuco-dolar-queda/"
+    },
+    {
+     "nome": "Diário do Sudoeste",
+     "url": "https://diariodosudoeste.com.br/dolar-cai-397-e-ibovespa-fecha-estavel-com-trabuco/"
+    },
+    {
+     "nome": "CNN Brasil",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/taxa-desemprego-pnad-hoje-27-novembro-2026/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "camilo-santana-casa-civil",
+   "categoria": "brasil",
+   "data": "2026-11-27",
+   "simbolo": "CC",
+   "nome": "Casa Civil",
+   "titulo": "Camilo Santana vai chefiar a Casa Civil de Lula, dizem aliados",
+   "resumo": "Segundo aliados ouvidos pela Folha, Lula escolheu o senador Camilo Santana (PT-CE) para a Casa Civil, o segundo nome do primeiro escalão depois de Trabuco; a nomeação oficial ainda não tinha saído na sexta (27), quando Camilo acompanhava Lula em compromissos no Rio. Engenheiro agrônomo, duas vezes governador do Ceará e ministro da Educação de 2023 a abril de 2026, ele deixou o MEC para ajudar na campanha da reeleição e já despachava todo dia com o presidente. A chance dele cresceu porque Fernando Haddad avisou que não assumiria cargo no governo, e gente próxima ao ex-ministro dizia que ele só aceitaria justamente a Casa Civil.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "Jornal de Brasília (Folhapress)",
+     "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-define-camilo-santana-para-comandar-casa-civil-dizem-aliados/"
+    },
+    {
+     "nome": "ICL Notícias (Folhapress)",
+     "url": "https://iclnoticias.com.br/lula-define-camilo-santana-casa-civil/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "final-libertadores-palmeiras-estudiantes-previa",
+   "categoria": "brasil",
+   "data": "2026-11-27",
+   "simbolo": "PA",
+   "nome": "Final Libertadores",
+   "titulo": "Palmeiras decide a Libertadores contra o tetracampeão Estudiantes",
+   "resumo": "É hoje, sábado (28), às 17h de Brasília, no Estádio Centenário, em Montevidéu, com transmissão de TV Globo, ESPN, Disney+ e Paramount+ e arbitragem do venezuelano Jesús Valenzuela. O Palmeiras, campeão em 1999, 2020 e 2021, pode igualar os quatro títulos do Estudiantes (1968, 1969, 1970 e 2009), que chegou à final eliminando o Flamengo. Murilo e Piquerez se recuperaram de lesão e devem jogar, num provável time com três zagueiros, mas Paulinho (panturrilha) e Jefté (suspensão preventiva por doping) estão fora; do lado argentino, Baltasar Rodríguez foi expulso na semifinal e desfalca o time.",
+   "relevancia": 5,
+   "fontes": [
+    {
+     "nome": "Gazeta Esportiva",
+     "url": "https://www.gazetaesportiva.com/times/palmeiras/palmeiras-x-estudiantes-final-libertadores-2026/"
+    },
+    {
+     "nome": "Terra",
+     "url": "https://www.terra.com.br/esportes/palmeiras/palmeiras-x-estudiantes-arg-onde-assistir-escalacoes-e-arbitragem,199d23335882d1f416301dc54b5be196z6ybxnr0.html"
+    },
+    {
+     "nome": "Itatiaia",
+     "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/futebol-paulista/palmeiras/escalacao-do-palmeiras-abel-tem-reforcos-e-paulinho-e-baixa-na-libertadores/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "wright-patterson-drones-foia",
+   "categoria": "misterios",
+   "data": "2026-11-26",
+   "simbolo": "WP",
+   "nome": "Drones da base",
+   "titulo": "Papéis dos drones de Wright-Patterson: rádio mudo e 'enxame' só no radar",
+   "resumo": "O site The Black Vault publicou na quinta (26) registros da investigação militar (AFOSI), liberados pelo FBI via Lei de Acesso, sobre os drones que fecharam a Base Aérea de Wright-Patterson, em Ohio, entre 11 e 17 de dezembro de 2024. E, na noite de sexta (27), o Financial Times contou que os EUA usaram equipamento antidrone para espantar uns seis drones na base de Lakenheath, na Inglaterra, em 13 de novembro, sem recuperar nenhum.",
+   "teoria": "Para quem acompanha o assunto, formações sincronizadas, rádios que param de funcionar perto dos objetos e alvos que o radar vê mas a torre não fazem desses casos um mistério de verdade, e há quem fale em tecnologia desconhecida.",
+   "fatos": "Os papéis descrevem um drone de quatro rotores sobre o canil da base, quatro em formação de losango e pelo menos seis pairando sobre uma área; um segurança a uns 24 metros deles disse que o rádio só dava som 'abafado e distorcido' e voltou ao normal quando os drones foram embora, mas não há análise técnica, e o próprio Black Vault ressalta que isso é correlação, não prova de causa. O radar da FAA marcou de 7 a 17 alvos, classificados como 'enxame', enquanto a torre não viu nada; uma das observações foi descartada como engano, e a conclusão oficial é só que o operador não foi identificado. Em Lakenheath, fontes do FT suspeitam do Irã, que nega.",
+   "relevancia": 4,
+   "fontes": [
+    {
+     "nome": "The Black Vault",
+     "url": "https://www.theblackvault.com/documentarchive/inside-the-wrightpatterson-drone-mystery-radio-disruptions-synchronized-maneuvers-and-conflicting-accounts/"
+    },
+    {
+     "nome": "Business Recorder (Reuters)",
+     "url": "https://www.brecorder.com/news/40451122/us-military-repelled-drones-at-uk-airbase-this-month-reports"
+    },
+    {
+     "nome": "WNCY (Reuters)",
+     "url": "https://wncy.com/2026/11/27/us-military-repelled-drones-at-raf-base-ft-reports/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
+  },
+  {
+   "id": "tholos-psachna-camara-selada",
+   "categoria": "misterios",
+   "data": "2026-11-26",
+   "simbolo": "TH",
+   "nome": "Tumba micênica",
+   "titulo": "Obra de estrada acha tumba micênica de 3.200 anos com a câmara ainda fechada",
+   "resumo": "A construção de um desvio rodoviário em Psachna, na ilha grega de Eubeia, revelou um tholos (túmulo circular com cúpula em forma de colmeia) do fim da Idade do Bronze, com mais de 3.200 anos. Segundo a ProtoThema, é o 126º tholos micênico achado na Grécia e, pelas primeiras estimativas, um dos 20 maiores.",
+   "teoria": "A pergunta óbvia é quem está lá dentro: alguns veículos já falam em sepultura 'real' ou de um líder dos abantes, o povo que Homero põe na Eubeia, e a câmara intacta alimenta a expectativa de um grande achado.",
+   "fatos": "Até agora foram escavados o dromos (o corredor de acesso) e o stomion (a entrada monumental), mas a câmara funerária ainda não foi aberta, então ninguém sabe quantas pessoas estão ali nem quem eram, segundo a HeritageDaily (27/11). Os indícios iniciais apontam para alguém de prestígio e poder, mas 'real' ainda é interpretação; o traçado da estrada está em revisão, com a opção de passar por uma ponte sobre o sítio.",
+   "angulo_quimico": "Quando a câmara for aberta, restos orgânicos como ossos e carvão poderão ser datados por carbono-14, cuja meia-vida é de cerca de 5.730 anos.",
+   "relevancia": 3,
+   "fontes": [
+    {
+     "nome": "HeritageDaily",
+     "url": "https://www.heritagedaily.com/2026/11/monumental-3200-year-old-mycenaean-tomb-unearthed-on-euboea/160185"
+    },
+    {
+     "nome": "ProtoThema English",
+     "url": "https://en.protothema.gr/2026/11/26/remarkable-discovery-in-euboea-mycenaean-tomb-more-than-3200-years-old-unearthed-in-psachna/"
+    },
+    {
+     "nome": "Greek City Times",
+     "url": "https://greekcitytimes.com/2026/11/26/psachna-mycenaean-tomb/"
+    }
+   ],
+   "adicionado_em": "2026-11-28"
   }
  ],
  "agenda": [
-  {
-   "data": "2026-11-27",
-   "titulo": "Peter Gabriel lança o álbum 'o\\i'",
-   "descricao": "Disco novo do ex-Genesis, que sai no mesmo dia da Black Friday do Record Store Day.",
-   "categoria": "rock",
-   "fonte": {
-    "nome": "Ultimate Classic Rock",
-    "url": "https://ultimateclassicrock.com/november-2026-new-music-releases/"
-   }
-  },
-  {
-   "data": "2026-11-27",
-   "titulo": "Black Friday 2026",
-   "descricao": "A CNC projeta R$ 11,52 bilhões em vendas, o maior valor desde 2014, mas com crescimento real de só 1,8%, abaixo dos 3,2% do ano passado.",
-   "categoria": "brasil",
-   "fonte": {
-    "nome": "CNN Brasil",
-    "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/black-friday-pode-ter-melhor-faturamento-desde-2014-projeta-cnc/"
-   }
-  },
-  {
-   "data": "2026-11-27",
-   "titulo": "Abrem as vendas da turnê europeia do Anthrax",
-   "descricao": "Ingressos das 19 datas de 2027, com Kerry King e Sacred Reich, saem às 10h do horário local pelo site da banda.",
-   "categoria": "rock",
-   "fonte": {
-    "nome": "Loudwire",
-    "url": "https://loudwire.com/anthrax-2027-european-tour-dates/"
-   }
-  },
-  {
-   "data": "2026-11-27",
-   "titulo": "Vênus no brilho máximo da temporada",
-   "descricao": "O pico de brilho desta aparição matutina é às 15h37 de Brasília, de dia, então o melhor é olhar antes do amanhecer, com a estrela Spica a menos de 5° de Vênus.",
-   "categoria": "espaco",
-   "fonte": {
-    "nome": "Space.com",
-    "url": "https://www.space.com/stargazing/venus-shines-at-its-brightest-in-the-predawn-sky-this-week-heres-where-to-look-nov-27-2026"
-   }
-  },
-  {
-   "data": "2026-11-27",
-   "titulo": "Cherry Time, a transmissão da Team Cherry",
-   "descricao": "Novidades da expansão gratuita Sea of Sorrow, do Hollow Knight: Silksong, e 'vários anúncios', às 12h de Brasília no YouTube.",
-   "categoria": "games",
-   "fonte": {
-    "nome": "Gematsu",
-    "url": "https://www.gematsu.com/2026/11/cherry-time-broadcast-set-for-november-27-featuring-exciting-announcements-and-hollow-knight-silksong-free-expansion-sea-of-sorrow"
-   }
-  },
   {
    "data": "2026-11-28",
    "titulo": "Babymetal no Espaço Unimed, SP",
@@ -4824,22 +5345,32 @@
   },
   {
    "data": "2026-11-29",
-   "titulo": "Cygnus NG-25 decola rumo à ISS",
-   "descricao": "Cargueiro da Northrop Grumman, batizado em homenagem a Jim Lovell, sobe num Falcon 9 de Cabo Canaveral às 10h49 (horário da costa leste dos EUA).",
-   "categoria": "espaco",
-   "fonte": {
-    "nome": "SpacePolicyOnline",
-    "url": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-november-22-29-2026/"
-   }
-  },
-  {
-   "data": "2026-11-29",
    "titulo": "Shenzhou-23 volta à Terra com o primeiro astronauta do Paquistão",
    "descricao": "A China prepara o retorno de três astronautas da Tiangong, incluindo o primeiro do Paquistão, segundo a SpaceNews.",
    "categoria": "espaco",
    "fonte": {
     "nome": "SpaceNews",
     "url": "https://spacenews.com/china-prepares-for-weekend-shenzhou-23-return-launches-new-yaogan-series/"
+   }
+  },
+  {
+   "data": "2026-11-29",
+   "titulo": "NG-25: cargueiro Cygnus XL decola para a Estação Espacial",
+   "descricao": "Falcon 9 do SLC-40, em Cabo Canaveral, às 12h47 de Brasília (reserva na segunda, 30), levando cerca de 5 toneladas de carga e experimentos.",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "NASA",
+    "url": "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/"
+   }
+  },
+  {
+   "data": "2026-11-29",
+   "titulo": "Eleição geral antecipada na Espanha",
+   "descricao": "Os espanhóis escolhem os 350 deputados; as pesquisas publicadas antes da proibição davam maioria a PP e Vox.",
+   "categoria": "mundo",
+   "fonte": {
+    "nome": "MercoPress",
+    "url": "https://en.mercopress.com/2026/11/28/spain-wraps-up-its-campaign-sanchez-appeals-for-a-progressive-majority-feijoo-for-change"
    }
   },
   {
@@ -4870,6 +5401,26 @@
    "fonte": {
     "nome": "Louder",
     "url": "https://www.loudersound.com/bands-artists/roger-dean-yes-stolen-fragile-artwork-returned"
+   }
+  },
+  {
+   "data": "2026-12-02",
+   "titulo": "Gaia DR4: o maior pacote de dados da missão Gaia",
+   "descricao": "A ESA revela ao vivo, das 10h45 às 12h30 de Brasília, o 4º catálogo do Gaia, com cerca de metade das observações de 11 anos sobre mais de 2 bilhões de estrelas.",
+   "categoria": "espaco",
+   "fonte": {
+    "nome": "ESA",
+    "url": "https://www.esa.int/articles/about-us/directorates/science/gaia/watch-live-gaia-releases-its-largest-ever-goldmine-of-cosmic-data"
+   }
+  },
+  {
+   "data": "2026-12-02",
+   "titulo": "Venda geral dos shows do Within Temptation no Brasil",
+   "descricao": "Abrem as vendas para Rio (6/6, Vivo Rio) e São Paulo (8/6, Vibra São Paulo) da turnê de 2027.",
+   "categoria": "rock",
+   "fonte": {
+    "nome": "Billboard Brasil",
+    "url": "https://billboard.com.br/within-temptation-shows-no-brasil-junho-de-2027/"
    }
   },
   {
@@ -4933,6 +5484,16 @@
    }
   },
   {
+   "data": "2026-12-11",
+   "titulo": "Sai Sea of Sorrow, expansão grátis de Silksong",
+   "descricao": "A primeira expansão de Hollow Knight: Silksong leva a aventura para o oceano de Pharloom, com áreas e chefes novos.",
+   "categoria": "games",
+   "fonte": {
+    "nome": "VGC",
+    "url": "https://www.videogameschronicle.com/news/hollow-knight-silksongs-first-expansion-sea-of-sorrow-is-officially-out-next-month/"
+   }
+  },
+  {
    "data": "2026-12-13",
    "titulo": "Final do PGL Major Singapore (CS2)",
    "descricao": "O Major começa em 24/11, com MIBR no Stage 2 e FURIA no Stage 3, e os playoffs vão de 10 a 13/12 no Singapore Indoor Stadium.",
@@ -4970,6 +5531,16 @@
    "fonte": {
     "nome": "Digital Citizen",
     "url": "https://www.digitalcitizen.life/steam-autumn-sale-2026-over-winter-sale-december-17-black-friday/"
+   }
+  },
+  {
+   "data": "2026-12-17",
+   "titulo": "UE tenta de novo o empréstimo de € 45 bi à Ucrânia",
+   "descricao": "O Conselho Europeu de 17 e 18 de dezembro volta ao empréstimo e ao orçamento 2028–2034, que travaram na cúpula de novembro.",
+   "categoria": "mundo",
+   "fonte": {
+    "nome": "bne IntelliNews (via Yahoo)",
+    "url": "https://www.yahoo.com/news/politics/articles/eu-summit-breaks-without-budget-103628690.html"
    }
   },
   {
@@ -5276,6 +5847,39 @@
    ],
    "certa": 0,
    "id": "iowa-azida-chumbo-detonacao"
+  },
+  {
+   "pergunta": "Que anticongelante foi misturado à água de lago salgado no eletrólito da bateria de zinco que funciona a -50 °C?",
+   "opcoes": [
+    "Propilenoglicol",
+    "Etilenoglicol",
+    "Glicerol",
+    "Metanol"
+   ],
+   "certa": 0,
+   "id": "bateria-zinco-agua-salgada-50c"
+  },
+  {
+   "pergunta": "Em qual mapa a Imperial fechou a vitória sobre a Wildcard e garantiu vaga no Stage 2 do Major de Singapura?",
+   "opcoes": [
+    "Cache",
+    "Dust2",
+    "Mirage",
+    "Nuke"
+   ],
+   "certa": 0,
+   "id": "major-cs2-singapura-imperial-stage2"
+  },
+  {
+   "pergunta": "Quem os países do euro escolheram para suceder Christine Lagarde no comando do BCE?",
+   "opcoes": [
+    "Klaas Knot",
+    "Pablo Hernández de Cos",
+    "Markus Brunnermeier",
+    "Laurence Boone"
+   ],
+   "certa": 1,
+   "id": "ue-bce-de-cos-emprestimo-ucrania"
   }
  ]
 }
